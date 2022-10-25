@@ -3,4 +3,6 @@ framework module ProtoPieCore {
 
     export *
     module * { export * }
+
+    use Foundation
 }
