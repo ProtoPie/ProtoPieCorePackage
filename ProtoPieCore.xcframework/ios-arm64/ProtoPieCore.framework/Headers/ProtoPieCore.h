@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class PPCKotlinThrowable, PPCKotlinArray<T>, PPCKotlinException, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPSpeechGender, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPDataType, PPCPPExprEvalError, PPCPPPlayEvent, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPMsgChannel, PPCPPPieModel, PPCPPScene, PPCPPClock, PPCPPTouchEvent, PPCPPEventChannel<T>, PPCPPColor, PPCPPIosVibrateType, PPCPPAndroidVibrateType, PPCPPPlayEventCompanion, PPCBinarySearch, PPCPPEngineLogger, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPHorizontalAlign, PPCPPLineCap, PPCPPLineJoin, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPColorCompanion, PPCPPCorners<T>, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPQrVariables, PPCPPLayerProperty, PPCPPProperty<T>, PPCPPRenderEvent, PPCPPLayerType, PPCPPContainerLayer, PPCPPLayerAlias, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPTextAttributes, PPCPPAbstractMediaLayer, PPCPPScannerOption, PPCPPCameraLayerCommand, PPCPPCameraQrStopCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPScanArea, PPCPPTextAttributesCompanion, PPCPPAbstractTextLayer, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCPPVectorShape, PPCPPPathSegmentData, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPVarProxy, PPCPPPlayControlGestureOptions, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCKotlinFloatIterator;
+@class PPCKotlinThrowable, PPCKotlinArray<T>, PPCKotlinException, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPSpeechGender, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPDataType, PPCPPExprEvalError, PPCPPPlayEvent, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPMsgChannel, PPCPPPieModel, PPCPPScene, PPCPPClock, PPCPPTouchEvent, PPCPPEventChannel<T>, PPCPPColor, PPCPPIosVibrateType, PPCPPAndroidVibrateType, PPCPPPlayEventCompanion, PPCBinarySearch, PPCPPEngineLogger, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPHorizontalAlign, PPCPPLineCap, PPCPPLineJoin, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPColorCompanion, PPCPPCorners<T>, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPLayerProperty, PPCPPProperty<T>, PPCPPRenderEvent, PPCPPLayerType, PPCPPContainerLayer, PPCPPLayerAlias, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPTextAttributes, PPCPPAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCPPAbstractTextLayer, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCPPVectorShape, PPCPPPathSegmentData, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPVarProxy, PPCPPPlayControlGestureOptions, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCKotlinFloatIterator;
 
 @protocol PPCPPEventChannelHandler, PPCKotlinComparable, PPCPPJson, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCPPExprLayer, PPCPPClockObserver, PPCPPPiePlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPEngineLoggerListener, PPCPPFloatNormalizer, PPCPPValueProvider, PPCPPPropertyObserver, PPCPPPieRecordListener, PPCPPLayerObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPEngineObserver, PPCPPJsonOverrider, PPCPPPieDecorator, PPCKotlinIterator;
 
@@ -1168,26 +1168,6 @@ __attribute__((swift_name("PPPoint")))
 @property float y __attribute__((swift_name("y")));
 @end
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPQrVariables")))
-@interface PPCPPQrVariables : PPCBase
-- (instancetype)initWithValue:(NSString * _Nullable)value width:(PPCFloat * _Nullable)width height:(PPCFloat * _Nullable)height offsetX:(PPCFloat * _Nullable)offsetX offsetY:(PPCFloat * _Nullable)offsetY __attribute__((swift_name("init(value:width:height:offsetX:offsetY:)"))) __attribute__((objc_designated_initializer));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (PPCFloat * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (PPCFloat * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (PPCFloat * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (PPCFloat * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (PPCPPQrVariables *)doCopyValue:(NSString * _Nullable)value width:(PPCFloat * _Nullable)width height:(PPCFloat * _Nullable)height offsetX:(PPCFloat * _Nullable)offsetX offsetY:(PPCFloat * _Nullable)offsetY __attribute__((swift_name("doCopy(value:width:height:offsetX:offsetY:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property PPCFloat * _Nullable height __attribute__((swift_name("height")));
-@property PPCFloat * _Nullable offsetX __attribute__((swift_name("offsetX")));
-@property PPCFloat * _Nullable offsetY __attribute__((swift_name("offsetY")));
-@property NSString * _Nullable value __attribute__((swift_name("value")));
-@property PPCFloat * _Nullable width __attribute__((swift_name("width")));
-@end
-
 __attribute__((swift_name("PPProperty")))
 @interface PPCPPProperty<T> : PPCBase <PPCPPValueProvider>
 - (instancetype)initWithParentId:(NSString *)parentId name:(NSString *)name key:(PPCPPLayerProperty * _Nullable)key initialValue:(T)initialValue observer:(id<PPCPPPropertyObserver> _Nullable)observer __attribute__((swift_name("init(parentId:name:key:initialValue:observer:)"))) __attribute__((objc_designated_initializer));
@@ -1568,15 +1548,12 @@ __attribute__((swift_name("PPAudioLayer")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPCameraLayer")))
 @interface PPCPPCameraLayer : PPCPPLayer
-- (instancetype)initWithSceneId:(NSString *)sceneId nsId:(NSString *)nsId scannerOption:(PPCPPScannerOption * _Nullable)scannerOption parent:(PPCPPContainerLayer *)parent autoStart:(BOOL)autoStart initialCameraPosition:(PPCPPCameraPosition *)initialCameraPosition __attribute__((swift_name("init(sceneId:nsId:scannerOption:parent:autoStart:initialCameraPosition:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithSceneId:(NSString *)sceneId nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent autoStart:(BOOL)autoStart initialCameraPosition:(PPCPPCameraPosition *)initialCameraPosition __attribute__((swift_name("init(sceneId:nsId:parent:autoStart:initialCameraPosition:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (void)clearCommands __attribute__((swift_name("clearCommands()")));
 - (PPCPPCameraLayerCommand * _Nullable)dequeueCommand __attribute__((swift_name("dequeueCommand()")));
 - (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
-- (void)startQrCameraScannerOptions:(PPCPPScannerOption * _Nullable)scannerOptions __attribute__((swift_name("startQrCamera(scannerOptions:)")));
-- (void)stopQrCamera __attribute__((swift_name("stopQrCamera()")));
 @property (readonly) PPCPPCameraPosition * _Nullable cameraPosition __attribute__((swift_name("cameraPosition")));
-@property PPCPPScannerOption * _Nullable scannerOption __attribute__((swift_name("scannerOption")));
 @property (readonly) BOOL started __attribute__((swift_name("started")));
 @end
 
@@ -1596,22 +1573,6 @@ __attribute__((swift_name("PPCameraLayerStopCommand")))
 @interface PPCPPCameraLayerStopCommand : PPCPPCameraLayerCommand
 - (instancetype)initWithShowBlack:(BOOL)showBlack __attribute__((swift_name("init(showBlack:)"))) __attribute__((objc_designated_initializer));
 @property (readonly) BOOL showBlack __attribute__((swift_name("showBlack")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPCameraQrStartCommand")))
-@interface PPCPPCameraQrStartCommand : PPCPPCameraLayerCommand
-- (instancetype)initWithScannerOption:(PPCPPScannerOption * _Nullable)scannerOption __attribute__((swift_name("init(scannerOption:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) PPCPPScannerOption * _Nullable scannerOption __attribute__((swift_name("scannerOption")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPCameraQrStopCommand")))
-@interface PPCPPCameraQrStopCommand : PPCPPCameraLayerCommand
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)pPCameraQrStopCommand __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCPPCameraQrStopCommand *shared __attribute__((swift_name("shared")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1813,44 +1774,6 @@ __attribute__((swift_name("PPRectLayer")))
 @interface PPCPPRectLayer : PPCPPShapeLayer
 - (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent __attribute__((swift_name("init(namespace:nsId:parent:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent radiusEnabled:(BOOL)radiusEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPScanArea")))
-@interface PPCPPScanArea : PPCBase
-- (instancetype)initWithOffsetX:(NSString * _Nullable)offsetX offsetY:(NSString * _Nullable)offsetY width:(NSString * _Nullable)width height:(NSString * _Nullable)height helpMessage:(NSString * _Nullable)helpMessage __attribute__((swift_name("init(offsetX:offsetY:width:height:helpMessage:)"))) __attribute__((objc_designated_initializer));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (PPCPPScanArea *)doCopyOffsetX:(NSString * _Nullable)offsetX offsetY:(NSString * _Nullable)offsetY width:(NSString * _Nullable)width height:(NSString * _Nullable)height helpMessage:(NSString * _Nullable)helpMessage __attribute__((swift_name("doCopy(offsetX:offsetY:width:height:helpMessage:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString * _Nullable height __attribute__((swift_name("height")));
-@property (readonly) NSString * _Nullable helpMessage __attribute__((swift_name("helpMessage")));
-@property (readonly) NSString * _Nullable offsetX __attribute__((swift_name("offsetX")));
-@property (readonly) NSString * _Nullable offsetY __attribute__((swift_name("offsetY")));
-@property (readonly) NSString * _Nullable width __attribute__((swift_name("width")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPScannerOption")))
-@interface PPCPPScannerOption : PPCBase
-- (instancetype)initWithIsRedirectionEnabled:(BOOL)isRedirectionEnabled scanArea:(PPCPPScanArea * _Nullable)scanArea value:(NSString * _Nullable)value isShowScanner:(PPCBoolean * _Nullable)isShowScanner __attribute__((swift_name("init(isRedirectionEnabled:scanArea:value:isShowScanner:)"))) __attribute__((objc_designated_initializer));
-- (BOOL)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (PPCPPScanArea * _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (PPCBoolean * _Nullable)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (PPCPPScannerOption *)doCopyIsRedirectionEnabled:(BOOL)isRedirectionEnabled scanArea:(PPCPPScanArea * _Nullable)scanArea value:(NSString * _Nullable)value isShowScanner:(PPCBoolean * _Nullable)isShowScanner __attribute__((swift_name("doCopy(isRedirectionEnabled:scanArea:value:isShowScanner:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property BOOL isRedirectionEnabled __attribute__((swift_name("isRedirectionEnabled")));
-@property PPCBoolean * _Nullable isShowScanner __attribute__((swift_name("isShowScanner")));
-@property PPCPPScanArea * _Nullable scanArea __attribute__((swift_name("scanArea")));
-@property NSString * _Nullable value __attribute__((swift_name("value")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2238,7 +2161,6 @@ __attribute__((swift_name("PPScene")))
 - (void)destroy __attribute__((swift_name("destroy()")));
 - (void)forEachLayerFn:(void (^)(PPCPPLayer *))fn __attribute__((swift_name("forEachLayer(fn:)")));
 - (PPCPPLayer * _Nullable)getLayerByIdId:(NSString * _Nullable)id __attribute__((swift_name("getLayerById(id:)")));
-- (PPCPPQrVariables *)getScanditVariablesScannerOption:(PPCPPScannerOption *)scannerOption __attribute__((swift_name("getScanditVariables(scannerOption:)")));
 - (BOOL)handleKeyEventKeyCode:(PPCPPKeyCode *)keyCode now:(int64_t)now __attribute__((swift_name("handleKeyEvent(keyCode:now:)")));
 - (void)handleReceivedMessageChannel:(PPCPPMsgChannel *)channel scope:(NSString * _Nullable)scope messageId:(NSString *)messageId value:(NSString * _Nullable)value now:(int64_t)now __attribute__((swift_name("handleReceivedMessage(channel:scope:messageId:value:now:)")));
 - (void)handleShakeEventNow:(int64_t)now __attribute__((swift_name("handleShakeEvent(now:)")));
@@ -2247,7 +2169,6 @@ __attribute__((swift_name("PPScene")))
 - (void)prepareTransitionNow:(int64_t)now __attribute__((swift_name("prepareTransition(now:)")));
 - (void)progressNow:(int64_t)now __attribute__((swift_name("progress(now:)")));
 - (void)reset __attribute__((swift_name("reset()")));
-- (void)setScanditVariablesPpQrVariables:(PPCPPQrVariables *)ppQrVariables scannerOption:(PPCPPScannerOption *)scannerOption __attribute__((swift_name("setScanditVariables(ppQrVariables:scannerOption:)")));
 - (void)startNow:(int64_t)now includePreTransition:(BOOL)includePreTransition __attribute__((swift_name("start(now:includePreTransition:)")));
 @property (readonly) NSSet<PPCPPChangeTarget *> *changeTargets __attribute__((swift_name("changeTargets")));
 @property (readonly, getter=doCopy) PPCPPScene * _Nullable (^copy)(void) __attribute__((swift_name("copy")));
