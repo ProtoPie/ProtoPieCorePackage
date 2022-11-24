@@ -2316,7 +2316,7 @@ __attribute__((swift_name("PPPieReader")))
  * @note This method converts instances of Exception to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (PPCPPPieModel * _Nullable)readPieJson:(id<PPCPPJson>)json engineObserver:(id<PPCPPEngineObserver> _Nullable)engineObserver gestureOptions:(PPCPPPlayControlGestureOptions *)gestureOptions disableVariableDisplay:(BOOL)disableVariableDisplay disableDeviceFrame:(BOOL)disableDeviceFrame error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("readPie(json:engineObserver:gestureOptions:disableVariableDisplay:disableDeviceFrame:)")));
+- (PPCPPPieModel * _Nullable)readPieJson:(id<PPCPPJson>)json engineObserver:(id<PPCPPEngineObserver> _Nullable)engineObserver gestureOptions:(PPCPPPlayControlGestureOptions *)gestureOptions disableVariableDisplay:(BOOL)disableVariableDisplay disableDeviceFrameDisplay:(BOOL)disableDeviceFrameDisplay error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("readPie(json:engineObserver:gestureOptions:disableVariableDisplay:disableDeviceFrameDisplay:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
