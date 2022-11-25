@@ -2011,7 +2011,7 @@ __attribute__((swift_name("DevicePreset")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)devicePreset __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) PPCDevicePreset *shared __attribute__((swift_name("shared")));
-@property (readonly) NSString *DATA __attribute__((swift_name("DATA")));
+@property (readonly) NSString *DEVICE_PRESETS __attribute__((swift_name("DEVICE_PRESETS")));
 @end
 
 __attribute__((objc_subclassing_restricted))
