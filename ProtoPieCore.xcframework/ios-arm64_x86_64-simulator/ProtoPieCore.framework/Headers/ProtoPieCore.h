@@ -2255,10 +2255,16 @@ __attribute__((swift_name("PPJsonWithOverriding")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("DeviceDesc")))
 @interface PPCDeviceDesc : PPCBase
-- (instancetype)initWithId:(NSString *)id name:(NSString *)name type:(NSString *)type width:(int32_t)width height:(int32_t)height density:(float)density platformType:(NSString *)platformType orientation:(NSString *)orientation framePath:(NSString * _Nullable)framePath framePathLandscape:(NSString * _Nullable)framePathLandscape __attribute__((swift_name("init(id:name:type:width:height:density:platformType:orientation:framePath:framePathLandscape:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString *)id name:(NSString *)name type:(NSString *)type width:(int32_t)width height:(int32_t)height density:(float)density platformType:(NSString *)platformType orientation:(NSString *)orientation framePathOrigin:(NSString * _Nullable)framePathOrigin framePathLandscapeOrigin:(NSString * _Nullable)framePathLandscapeOrigin framePath:(NSString * _Nullable)framePath frameMaskPath:(NSString * _Nullable)frameMaskPath frameBgPath:(NSString * _Nullable)frameBgPath framePathLandscape:(NSString * _Nullable)framePathLandscape frameMaskPathLandscape:(NSString * _Nullable)frameMaskPathLandscape frameBgPathLandscape:(NSString * _Nullable)frameBgPathLandscape __attribute__((swift_name("init(id:name:type:width:height:density:platformType:orientation:framePathOrigin:framePathLandscapeOrigin:framePath:frameMaskPath:frameBgPath:framePathLandscape:frameMaskPathLandscape:frameBgPathLandscape:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) PPCDeviceDescCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString * _Nullable)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString * _Nullable)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString * _Nullable)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString * _Nullable)component15 __attribute__((swift_name("component15()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString * _Nullable)component16 __attribute__((swift_name("component16()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
 - (int32_t)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
@@ -2267,13 +2273,19 @@ __attribute__((swift_name("DeviceDesc")))
 - (NSString *)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString *)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
-- (PPCDeviceDesc *)doCopyId:(NSString *)id name:(NSString *)name type:(NSString *)type width:(int32_t)width height:(int32_t)height density:(float)density platformType:(NSString *)platformType orientation:(NSString *)orientation framePath:(NSString * _Nullable)framePath framePathLandscape:(NSString * _Nullable)framePathLandscape __attribute__((swift_name("doCopy(id:name:type:width:height:density:platformType:orientation:framePath:framePathLandscape:)")));
+- (PPCDeviceDesc *)doCopyId:(NSString *)id name:(NSString *)name type:(NSString *)type width:(int32_t)width height:(int32_t)height density:(float)density platformType:(NSString *)platformType orientation:(NSString *)orientation framePathOrigin:(NSString * _Nullable)framePathOrigin framePathLandscapeOrigin:(NSString * _Nullable)framePathLandscapeOrigin framePath:(NSString * _Nullable)framePath frameMaskPath:(NSString * _Nullable)frameMaskPath frameBgPath:(NSString * _Nullable)frameBgPath framePathLandscape:(NSString * _Nullable)framePathLandscape frameMaskPathLandscape:(NSString * _Nullable)frameMaskPathLandscape frameBgPathLandscape:(NSString * _Nullable)frameBgPathLandscape __attribute__((swift_name("doCopy(id:name:type:width:height:density:platformType:orientation:framePathOrigin:framePathLandscapeOrigin:framePath:frameMaskPath:frameBgPath:framePathLandscape:frameMaskPathLandscape:frameBgPathLandscape:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) float density __attribute__((swift_name("density")));
+@property (readonly) NSString * _Nullable frameBgPath __attribute__((swift_name("frameBgPath")));
+@property (readonly) NSString * _Nullable frameBgPathLandscape __attribute__((swift_name("frameBgPathLandscape")));
+@property (readonly) NSString * _Nullable frameMaskPath __attribute__((swift_name("frameMaskPath")));
+@property (readonly) NSString * _Nullable frameMaskPathLandscape __attribute__((swift_name("frameMaskPathLandscape")));
 @property (readonly) NSString * _Nullable framePath __attribute__((swift_name("framePath")));
 @property (readonly) NSString * _Nullable framePathLandscape __attribute__((swift_name("framePathLandscape")));
+@property (readonly) NSString * _Nullable framePathLandscapeOrigin __attribute__((swift_name("framePathLandscapeOrigin")));
+@property (readonly) NSString * _Nullable framePathOrigin __attribute__((swift_name("framePathOrigin")));
 @property (readonly) int32_t height __attribute__((swift_name("height")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
 @property (readonly) NSString *name __attribute__((swift_name("name")));
