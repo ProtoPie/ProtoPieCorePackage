@@ -2014,6 +2014,7 @@ __attribute__((swift_name("DevicePreset")))
 @property (readonly) NSString *DEVICE_PRESETS __attribute__((swift_name("DEVICE_PRESETS")));
 @property (readonly) NSString *DEVICE_PRESETS_ANDROIDs __attribute__((swift_name("DEVICE_PRESETS_ANDROIDs")));
 @property (readonly) NSString *DEVICE_PRESETS_ETC __attribute__((swift_name("DEVICE_PRESETS_ETC")));
+@property (readonly) NSString *DEVICE_PRESETS_IPHONE13s __attribute__((swift_name("DEVICE_PRESETS_IPHONE13s")));
 @property (readonly) NSString *DEVICE_PRESETS_IPHONE14s __attribute__((swift_name("DEVICE_PRESETS_IPHONE14s")));
 @property (readonly) NSString *DEVICE_PRESETS_IPHONEs __attribute__((swift_name("DEVICE_PRESETS_IPHONEs")));
 @end
