@@ -1263,7 +1263,8 @@ __attribute__((swift_name("PPLayerProperty")))
 @property (class, readonly) PPCPPLayerProperty *w __attribute__((swift_name("w")));
 @property (class, readonly) PPCPPLayerProperty *h __attribute__((swift_name("h")));
 @property (class, readonly) PPCPPLayerProperty *r __attribute__((swift_name("r")));
-@property (class, readonly) PPCPPLayerProperty *r3 __attribute__((swift_name("r3")));
+@property (class, readonly) PPCPPLayerProperty *r3x __attribute__((swift_name("r3x")));
+@property (class, readonly) PPCPPLayerProperty *r3y __attribute__((swift_name("r3y")));
 @property (class, readonly) PPCPPLayerProperty *o __attribute__((swift_name("o")));
 @property (class, readonly) PPCPPLayerProperty *order __attribute__((swift_name("order")));
 @property (class, readonly) PPCPPLayerProperty *fillColor __attribute__((swift_name("fillColor")));
@@ -1501,11 +1502,12 @@ __attribute__((swift_name("PPLayer")))
 @property (readonly) PPCPPPoint *position __attribute__((swift_name("position")));
 @property (readonly) id<PPCPPPropertyObserver> propertyObserver __attribute__((swift_name("propertyObserver")));
 @property (readonly) PPCPPFloatProperty *r __attribute__((swift_name("r")));
-@property (readonly) PPCPPFloatProperty *r3 __attribute__((swift_name("r3")));
 @property PPCPPAxis3D * _Nullable r3Axis __attribute__((swift_name("r3Axis")));
 @property float r3Depth __attribute__((swift_name("r3Depth")));
 @property float r3PivotX __attribute__((swift_name("r3PivotX")));
 @property float r3PivotY __attribute__((swift_name("r3PivotY")));
+@property (readonly) PPCPPFloatProperty *r3X __attribute__((swift_name("r3X")));
+@property (readonly) PPCPPFloatProperty *r3Y __attribute__((swift_name("r3Y")));
 @property (readonly) PPCPPFloatProperty *radius __attribute__((swift_name("radius")));
 @property (readonly) PPCPPFloatProperty *radiusBottomLeft __attribute__((swift_name("radiusBottomLeft")));
 @property (readonly) PPCPPFloatProperty *radiusBottomRight __attribute__((swift_name("radiusBottomRight")));
