@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class PPCScreenInfo, PPCKotlinThrowable, PPCKotlinArray<T>, PPCKotlinException, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPSpeechGender, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPDataType, PPCPPExprEvalError, PPCPPPlayEvent, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPMsgChannel, PPCPPPieModel, PPCPPScene, PPCPPClock, PPCPPTouchEvent, PPCPPEventChannel<T>, PPCPPColor, PPCPPIosVibrateType, PPCPPAndroidVibrateType, PPCPPPlayEventCompanion, PPCBinarySearch, PPCPPEngineLogger, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPHorizontalAlign, PPCPPLineCap, PPCPPLineJoin, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPColorCompanion, PPCPPCorners<T>, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPLayerProperty, PPCPPProperty<T>, PPCPPRenderEvent, PPCPPLayerType, PPCPPContainerLayer, PPCPPLayerAlias, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPTextAttributes, PPCPPAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCPPAbstractTextLayer, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCPPVectorShape, PPCPPPathSegmentData, PPCDevicePreset, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPVarProxy, PPCDeviceDescCompanion, PPCDeviceDesc, PPCPPPlayControlGestureOptions, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCKotlinFloatIterator, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing;
+@class PPCScreenInfo, PPCKotlinThrowable, PPCKotlinArray<T>, PPCKotlinException, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPSpeechGender, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPDataType, PPCPPExprEvalError, PPCPPPlayEvent, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPMsgChannel, PPCPPPieModel, PPCPPScene, PPCPPClock, PPCPPTouchEvent, PPCPPEventChannel<T>, PPCPPColor, PPCPPIosVibrateType, PPCPPAndroidVibrateType, PPCPPPlayEventCompanion, PPCBinarySearch, PPCPPEngineLogger, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPHorizontalAlign, PPCPPLineCap, PPCPPLineJoin, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPColorCompanion, PPCPPCorners<T>, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPLayerProperty, PPCPPProperty<T>, PPCPPRenderEvent, PPCPPLayerType, PPCPPContainerLayer, PPCPPLayerAlias, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPTextAttributes, PPCPPAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCPPAbstractTextLayer, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCPPVectorShape, PPCPPPathSegmentData, PPCDevicePreset, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPVarProxy, PPCKotlinx_serialization_jsonJsonElement, PPCDeviceDescCompanion, PPCDeviceDesc, PPCPPPlayControlGestureOptions, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCKotlinFloatIterator, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing;
 
 @protocol PPCPPEventChannelHandler, PPCKotlinComparable, PPCPPJson, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCPPExprLayer, PPCPPClockObserver, PPCPPPiePlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPEngineLoggerListener, PPCPPFloatNormalizer, PPCPPValueProvider, PPCPPPropertyObserver, PPCPPPieRecordListener, PPCPPLayerObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPEngineObserver, PPCPPJsonOverrider, PPCKotlinx_serialization_coreKSerializer, PPCPPPieDecorator, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
 
@@ -2039,11 +2039,13 @@ __attribute__((swift_name("DevicePreset")))
 + (instancetype)devicePreset __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) PPCDevicePreset *shared __attribute__((swift_name("shared")));
 @property (readonly) NSString *DEVICE_PRESETS __attribute__((swift_name("DEVICE_PRESETS")));
-@property (readonly) NSString *DEVICE_PRESETS_ANDROIDs __attribute__((swift_name("DEVICE_PRESETS_ANDROIDs")));
 @property (readonly) NSString *DEVICE_PRESETS_ETC __attribute__((swift_name("DEVICE_PRESETS_ETC")));
-@property (readonly) NSString *DEVICE_PRESETS_IPHONE13s __attribute__((swift_name("DEVICE_PRESETS_IPHONE13s")));
-@property (readonly) NSString *DEVICE_PRESETS_IPHONE14s __attribute__((swift_name("DEVICE_PRESETS_IPHONE14s")));
-@property (readonly) NSString *DEVICE_PRESETS_IPHONEs __attribute__((swift_name("DEVICE_PRESETS_IPHONEs")));
+@property (readonly) NSString *DEVICE_PRESETS_GALAXY __attribute__((swift_name("DEVICE_PRESETS_GALAXY")));
+@property (readonly) NSString *DEVICE_PRESETS_IPHONE11 __attribute__((swift_name("DEVICE_PRESETS_IPHONE11")));
+@property (readonly) NSString *DEVICE_PRESETS_IPHONE12 __attribute__((swift_name("DEVICE_PRESETS_IPHONE12")));
+@property (readonly) NSString *DEVICE_PRESETS_IPHONE13 __attribute__((swift_name("DEVICE_PRESETS_IPHONE13")));
+@property (readonly) NSString *DEVICE_PRESETS_IPHONE14 __attribute__((swift_name("DEVICE_PRESETS_IPHONE14")));
+@property (readonly) NSString *DEVICE_PRESETS_PIXEL __attribute__((swift_name("DEVICE_PRESETS_PIXEL")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2287,16 +2289,14 @@ __attribute__((swift_name("PPJsonWithOverriding")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("DeviceDesc")))
 @interface PPCDeviceDesc : PPCBase
-- (instancetype)initWithId:(NSString *)id name:(NSString *)name type:(NSString *)type width:(int32_t)width height:(int32_t)height density:(float)density platformType:(NSString *)platformType orientation:(NSString *)orientation framePathOrigin:(NSString * _Nullable)framePathOrigin framePathLandscapeOrigin:(NSString * _Nullable)framePathLandscapeOrigin framePath:(NSString * _Nullable)framePath frameMaskPath:(NSString * _Nullable)frameMaskPath frameBgPath:(NSString * _Nullable)frameBgPath framePathLandscape:(NSString * _Nullable)framePathLandscape frameMaskPathLandscape:(NSString * _Nullable)frameMaskPathLandscape frameBgPathLandscape:(NSString * _Nullable)frameBgPathLandscape __attribute__((swift_name("init(id:name:type:width:height:density:platformType:orientation:framePathOrigin:framePathLandscapeOrigin:framePath:frameMaskPath:frameBgPath:framePathLandscape:frameMaskPathLandscape:frameBgPathLandscape:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString *)id name:(NSString *)name type:(NSString *)type width:(int32_t)width height:(int32_t)height density:(float)density platformType:(NSString *)platformType orientation:(NSString *)orientation framePathOrigin:(NSString * _Nullable)framePathOrigin framePathLandscapeOrigin:(NSString * _Nullable)framePathLandscapeOrigin framePath:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)framePath frameBgPath:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)frameBgPath framePathLandscape:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)framePathLandscape frameBgPathLandscape:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)frameBgPathLandscape __attribute__((swift_name("init(id:name:type:width:height:density:platformType:orientation:framePathOrigin:framePathLandscapeOrigin:framePath:frameBgPath:framePathLandscape:frameBgPathLandscape:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) PPCDeviceDescCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component15 __attribute__((swift_name("component15()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component16 __attribute__((swift_name("component16()"))) __attribute__((deprecated("use corresponding property instead")));
+- (PPCKotlinx_serialization_jsonJsonElement * _Nullable)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
+- (PPCKotlinx_serialization_jsonJsonElement * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
+- (PPCKotlinx_serialization_jsonJsonElement * _Nullable)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
+- (PPCKotlinx_serialization_jsonJsonElement * _Nullable)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
 - (int32_t)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
@@ -2305,17 +2305,15 @@ __attribute__((swift_name("DeviceDesc")))
 - (NSString *)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString *)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
 - (NSString * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
-- (PPCDeviceDesc *)doCopyId:(NSString *)id name:(NSString *)name type:(NSString *)type width:(int32_t)width height:(int32_t)height density:(float)density platformType:(NSString *)platformType orientation:(NSString *)orientation framePathOrigin:(NSString * _Nullable)framePathOrigin framePathLandscapeOrigin:(NSString * _Nullable)framePathLandscapeOrigin framePath:(NSString * _Nullable)framePath frameMaskPath:(NSString * _Nullable)frameMaskPath frameBgPath:(NSString * _Nullable)frameBgPath framePathLandscape:(NSString * _Nullable)framePathLandscape frameMaskPathLandscape:(NSString * _Nullable)frameMaskPathLandscape frameBgPathLandscape:(NSString * _Nullable)frameBgPathLandscape __attribute__((swift_name("doCopy(id:name:type:width:height:density:platformType:orientation:framePathOrigin:framePathLandscapeOrigin:framePath:frameMaskPath:frameBgPath:framePathLandscape:frameMaskPathLandscape:frameBgPathLandscape:)")));
+- (PPCDeviceDesc *)doCopyId:(NSString *)id name:(NSString *)name type:(NSString *)type width:(int32_t)width height:(int32_t)height density:(float)density platformType:(NSString *)platformType orientation:(NSString *)orientation framePathOrigin:(NSString * _Nullable)framePathOrigin framePathLandscapeOrigin:(NSString * _Nullable)framePathLandscapeOrigin framePath:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)framePath frameBgPath:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)frameBgPath framePathLandscape:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)framePathLandscape frameBgPathLandscape:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)frameBgPathLandscape __attribute__((swift_name("doCopy(id:name:type:width:height:density:platformType:orientation:framePathOrigin:framePathLandscapeOrigin:framePath:frameBgPath:framePathLandscape:frameBgPathLandscape:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) float density __attribute__((swift_name("density")));
-@property (readonly) NSString * _Nullable frameBgPath __attribute__((swift_name("frameBgPath")));
-@property (readonly) NSString * _Nullable frameBgPathLandscape __attribute__((swift_name("frameBgPathLandscape")));
-@property (readonly) NSString * _Nullable frameMaskPath __attribute__((swift_name("frameMaskPath")));
-@property (readonly) NSString * _Nullable frameMaskPathLandscape __attribute__((swift_name("frameMaskPathLandscape")));
-@property (readonly) NSString * _Nullable framePath __attribute__((swift_name("framePath")));
-@property (readonly) NSString * _Nullable framePathLandscape __attribute__((swift_name("framePathLandscape")));
+@property (readonly) PPCKotlinx_serialization_jsonJsonElement * _Nullable frameBgPath __attribute__((swift_name("frameBgPath")));
+@property (readonly) PPCKotlinx_serialization_jsonJsonElement * _Nullable frameBgPathLandscape __attribute__((swift_name("frameBgPathLandscape")));
+@property (readonly) PPCKotlinx_serialization_jsonJsonElement * _Nullable framePath __attribute__((swift_name("framePath")));
+@property (readonly) PPCKotlinx_serialization_jsonJsonElement * _Nullable framePathLandscape __attribute__((swift_name("framePathLandscape")));
 @property (readonly) NSString * _Nullable framePathLandscapeOrigin __attribute__((swift_name("framePathLandscapeOrigin")));
 @property (readonly) NSString * _Nullable framePathOrigin __attribute__((swift_name("framePathOrigin")));
 @property (readonly) int32_t height __attribute__((swift_name("height")));
@@ -2432,6 +2430,16 @@ __attribute__((swift_name("KotlinFloatArray")))
 @property (readonly) int32_t size __attribute__((swift_name("size")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/serialization/json/JsonElementSerializer))
+*/
+__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement")))
+@interface PPCKotlinx_serialization_jsonJsonElement : PPCBase
+@property (class, readonly, getter=companion) PPCKotlinx_serialization_jsonJsonElementCompanion *companion __attribute__((swift_name("companion")));
+@end
+
 __attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
 @protocol PPCKotlinx_serialization_coreSerializationStrategy
 @required
@@ -2464,6 +2472,16 @@ __attribute__((swift_name("KotlinFloatIterator")))
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (PPCFloat *)next __attribute__((swift_name("next()")));
 - (float)nextFloat __attribute__((swift_name("nextFloat()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement.Companion")))
+@interface PPCKotlinx_serialization_jsonJsonElementCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCKotlinx_serialization_jsonJsonElementCompanion *shared __attribute__((swift_name("shared")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
