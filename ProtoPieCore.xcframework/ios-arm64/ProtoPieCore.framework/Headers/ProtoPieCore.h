@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPSpeechGender, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPDataType, PPCPPExprEvalError, PPCPPPlayEvent, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPMsgChannel, PPCPPPieModel, PPCPPScene, PPCPPClock, PPCPPTouchEvent, PPCPPEventChannel<T>, PPCPPColor, PPCPPIosVibrateType, PPCPPAndroidVibrateType, PPCPPPlayEventCompanion, PPCBinarySearch, PPCLogger, PPCPlatform, PPCPPEngineLogger, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPHorizontalAlign, PPCPPLineCap, PPCPPLineJoin, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPColorCompanion, PPCPPCorners<T>, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPLayerProperty, PPCPPProperty<T>, PPCPPRenderEvent, PPCReplayer, PPCPPPieRecord, PPCPPSceneChangeEvent, PPCPPLayerType, PPCPPContainerLayer, PPCPPLayerAlias, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPTextAttributes, PPCPPAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCPPAbstractTextLayer, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCPPVectorShape, PPCPPPathSegmentData, PPCKotlinx_serialization_jsonJsonElement, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDevicePreset, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPVarProxy, PPCPPPlayControlGestureOptions, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCKotlinFloatIterator, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing;
+@class PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPSpeechGender, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPDataType, PPCPPExprEvalError, PPCPPPlayEvent, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPMsgChannel, PPCPPPieModel, PPCPPScene, PPCPPClock, PPCPPTouchEvent, PPCPPEventChannel<T>, PPCPPColor, PPCPPIosVibrateType, PPCPPAndroidVibrateType, PPCPPPlayEventCompanion, PPCBinarySearch, PPCLogger, PPCPlatform, PPCPPEngineLogger, PPCKotlinx_serialization_jsonJsonElement, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPHorizontalAlign, PPCPPLineCap, PPCPPLineJoin, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPColorCompanion, PPCPPCorners<T>, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPLayerProperty, PPCPPProperty<T>, PPCArrayHistoryCompanion, PPCPPRenderEvent, PPCReplayer, PPCValueHistory, PPCArrayHistory, PPCReplayDataCompanion, PPCPPPieRecord, PPCValueHistoryCompanion, PPCPPSceneChangeEvent, PPCPPLayerType, PPCPPContainerLayer, PPCPPLayerAlias, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPTextAttributes, PPCPPAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCPPAbstractTextLayer, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCPPVectorShape, PPCPPPathSegmentData, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDevicePreset, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPVarProxy, PPCPPPlayControlGestureOptions, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing;
 
-@protocol PPCKotlinComparable, PPCPPEventChannelHandler, PPCPPJson, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCPPExprLayer, PPCPPClockObserver, PPCPPPiePlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPEngineLoggerListener, PPCPPFloatNormalizer, PPCPPValueProvider, PPCPPPropertyObserver, PPCReplayerDelegate, PPCReplayerInterface, PPCReplayOptions, PPCPPLayerObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCKotlinx_serialization_coreKSerializer, PPCPPEngineObserver, PPCPPJsonOverrider, PPCPPPieDecorator, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
+@protocol PPCKotlinComparable, PPCPPEventChannelHandler, PPCPPJson, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCPPExprLayer, PPCPPClockObserver, PPCPPPiePlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPEngineLoggerListener, PPCPPFloatNormalizer, PPCPPValueProvider, PPCPPPropertyObserver, PPCKotlinx_serialization_coreKSerializer, PPCReplayerDelegate, PPCReplayerInterface, PPCReplayOptions, PPCPPLayerObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPEngineObserver, PPCPPJsonOverrider, PPCPPPieDecorator, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -773,6 +773,45 @@ __attribute__((swift_name("PPEngineLoggerListener")))
 - (void)wMessage:(NSString *)message e:(PPCKotlinException * _Nullable)e __attribute__((swift_name("w(message:e:)")));
 @end
 
+__attribute__((swift_name("PPJson")))
+@protocol PPCPPJson
+@required
+- (BOOL)hasKey:(NSString *)key __attribute__((swift_name("has(key:)")));
+- (NSSet<NSString *> *)keySet __attribute__((swift_name("keySet()")));
+- (id _Nullable)optKey:(NSString *)key __attribute__((swift_name("opt(key:)")));
+- (id<PPCPPJson> _Nullable)optObjectKey:(NSString *)key __attribute__((swift_name("optObject(key:)")));
+- (NSArray<id<PPCPPJson>> * _Nullable)optObjectArrayKey:(NSString *)key __attribute__((swift_name("optObjectArray(key:)")));
+- (NSString * _Nullable)optStringKey:(NSString *)key __attribute__((swift_name("optString(key:)")));
+- (NSArray<NSString *> * _Nullable)optStringArrayKey:(NSString *)key __attribute__((swift_name("optStringArray(key:)")));
+- (void)putBooleanKey:(NSString *)key value:(BOOL)value __attribute__((swift_name("putBoolean(key:value:)")));
+- (void)putNumberKey:(NSString *)key value:(id)value __attribute__((swift_name("putNumber(key:value:)")));
+- (void)putObjectArrayKey:(NSString *)key value:(NSArray<id<PPCPPJson>> *)value __attribute__((swift_name("putObjectArray(key:value:)")));
+- (void)putStringKey:(NSString *)key value:(NSString *)value __attribute__((swift_name("putString(key:value:)")));
+- (void)removeKey:(NSString *)key __attribute__((swift_name("remove(key:)")));
+- (NSString *)toJsonString __attribute__((swift_name("toJsonString()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPJsonImpl")))
+@interface PPCPPJsonImpl : PPCBase <PPCPPJson>
+- (instancetype)initWithJson:(PPCKotlinx_serialization_jsonJsonElement *)json __attribute__((swift_name("init(json:)"))) __attribute__((objc_designated_initializer));
+- (BOOL)hasKey:(NSString *)key __attribute__((swift_name("has(key:)")));
+- (NSSet<NSString *> *)keySet __attribute__((swift_name("keySet()")));
+- (id _Nullable)optKey:(NSString *)key __attribute__((swift_name("opt(key:)")));
+- (id<PPCPPJson> _Nullable)optObjectKey:(NSString *)key __attribute__((swift_name("optObject(key:)")));
+- (NSArray<id<PPCPPJson>> * _Nullable)optObjectArrayKey:(NSString *)key __attribute__((swift_name("optObjectArray(key:)")));
+- (NSString * _Nullable)optStringKey:(NSString *)key __attribute__((swift_name("optString(key:)")));
+- (NSArray<NSString *> * _Nullable)optStringArrayKey:(NSString *)key __attribute__((swift_name("optStringArray(key:)")));
+- (void)putBooleanKey:(NSString *)key value:(BOOL)value __attribute__((swift_name("putBoolean(key:value:)")));
+- (void)putNumberKey:(NSString *)key value:(id)value __attribute__((swift_name("putNumber(key:value:)")));
+- (void)putObjectArrayKey:(NSString *)key value:(NSArray<id<PPCPPJson>> *)value __attribute__((swift_name("putObjectArray(key:value:)")));
+- (void)putStringKey:(NSString *)key value:(NSString *)value __attribute__((swift_name("putString(key:value:)")));
+- (void)removeKey:(NSString *)key __attribute__((swift_name("remove(key:)")));
+- (NSString *)toJsonString __attribute__((swift_name("toJsonString()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) PPCKotlinx_serialization_jsonJsonElement *json __attribute__((swift_name("json")));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPKotlinGC")))
 @interface PPCPPKotlinGC : PPCBase
@@ -1362,6 +1401,30 @@ __attribute__((swift_name("PPStringProperty")))
 @property (readonly) NSString *value __attribute__((swift_name("value")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ArrayHistory")))
+@interface PPCArrayHistory : PPCBase
+- (instancetype)initWithT:(NSString *)t v:(PPCKotlinArray<NSString *> *)v __attribute__((swift_name("init(t:v:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCArrayHistoryCompanion *companion __attribute__((swift_name("companion")));
+@property (readonly) NSString *t __attribute__((swift_name("t")));
+@property (readonly) PPCKotlinArray<NSString *> *v __attribute__((swift_name("v")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ArrayHistory.Companion")))
+@interface PPCArrayHistoryCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCArrayHistoryCompanion *shared __attribute__((swift_name("shared")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
 __attribute__((swift_name("PPRenderEvent")))
 @interface PPCPPRenderEvent : PPCBase
 @end
@@ -1433,6 +1496,70 @@ __attribute__((swift_name("PPSceneChangeEvent")))
 @property (readonly) BOOL top __attribute__((swift_name("top")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ReplayData")))
+@interface PPCReplayData : PPCBase
+- (instancetype)initWithVersion:(int32_t)version endTime:(int32_t)endTime times:(NSString * _Nullable)times mousePositions:(PPCValueHistory * _Nullable)mousePositions mouseActions:(PPCArrayHistory * _Nullable)mouseActions playEvents:(PPCValueHistory * _Nullable)playEvents renderEvents:(PPCValueHistory * _Nullable)renderEvents numberValues:(NSDictionary<NSString *, PPCKotlinx_serialization_jsonJsonElement *> * _Nullable)numberValues colorValues:(NSDictionary<NSString *, PPCKotlinx_serialization_jsonJsonElement *> * _Nullable)colorValues stringValues:(NSDictionary<NSString *, PPCKotlinx_serialization_jsonJsonElement *> * _Nullable)stringValues __attribute__((swift_name("init(version:endTime:times:mousePositions:mouseActions:playEvents:renderEvents:numberValues:colorValues:stringValues:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCReplayDataCompanion *companion __attribute__((swift_name("companion")));
+@property (readonly) NSDictionary<NSString *, PPCKotlinx_serialization_jsonJsonElement *> * _Nullable colorValues __attribute__((swift_name("colorValues")));
+@property (readonly) int32_t endTime __attribute__((swift_name("endTime")));
+@property (readonly) PPCArrayHistory * _Nullable mouseActions __attribute__((swift_name("mouseActions")));
+@property (readonly) PPCValueHistory * _Nullable mousePositions __attribute__((swift_name("mousePositions")));
+@property (readonly) NSDictionary<NSString *, PPCKotlinx_serialization_jsonJsonElement *> * _Nullable numberValues __attribute__((swift_name("numberValues")));
+@property (readonly) PPCValueHistory * _Nullable playEvents __attribute__((swift_name("playEvents")));
+@property (readonly) PPCValueHistory * _Nullable renderEvents __attribute__((swift_name("renderEvents")));
+@property (readonly) NSDictionary<NSString *, PPCKotlinx_serialization_jsonJsonElement *> * _Nullable stringValues __attribute__((swift_name("stringValues")));
+@property (readonly) NSString * _Nullable times __attribute__((swift_name("times")));
+@property (readonly) int32_t version __attribute__((swift_name("version")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ReplayData.Companion")))
+@interface PPCReplayDataCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCReplayDataCompanion *shared __attribute__((swift_name("shared")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ReplayHelper")))
+@interface PPCReplayHelper : PPCBase
+- (instancetype)initWithReplayData:(NSString *)replayData __attribute__((swift_name("init(replayData:)"))) __attribute__((objc_designated_initializer));
+- (PPCPPPieRecord *)deserialize __attribute__((swift_name("deserialize()")));
+@property (readonly) NSString *replayData __attribute__((swift_name("replayData")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ValueHistory")))
+@interface PPCValueHistory : PPCBase
+- (instancetype)initWithT:(NSString *)t v:(NSString *)v __attribute__((swift_name("init(t:v:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCValueHistoryCompanion *companion __attribute__((swift_name("companion")));
+@property (readonly) NSString *t __attribute__((swift_name("t")));
+@property (readonly) NSString *v __attribute__((swift_name("v")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ValueHistory.Companion")))
+@interface PPCValueHistoryCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCValueHistoryCompanion *shared __attribute__((swift_name("shared")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
 __attribute__((swift_name("ListSerializer")))
 @protocol PPCListSerializer
 @required
@@ -1455,7 +1582,7 @@ __attribute__((swift_name("ReplayOptions")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Replayer")))
 @interface PPCReplayer : PPCBase
-- (instancetype)initWithClock:(PPCPPClock *)clock pie:(PPCPPPieModel *)pie initialScene:(PPCPPScene *)initialScene delegate:(id<PPCReplayerDelegate>)delegate record:(PPCPPPieRecord *)record replayerInterface:(id<PPCReplayerInterface> _Nullable)replayerInterface options:(id<PPCReplayOptions> _Nullable)options __attribute__((swift_name("init(clock:pie:initialScene:delegate:record:replayerInterface:options:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPie:(PPCPPPieModel *)pie initialScene:(PPCPPScene *)initialScene clock:(PPCPPClock *)clock delegate:(id<PPCReplayerDelegate>)delegate record:(PPCPPPieRecord *)record replayerInterface:(id<PPCReplayerInterface> _Nullable)replayerInterface options:(id<PPCReplayOptions> _Nullable)options __attribute__((swift_name("init(pie:initialScene:clock:delegate:record:replayerInterface:options:)"))) __attribute__((objc_designated_initializer));
 - (void)buildSceneHistory __attribute__((swift_name("buildSceneHistory()")));
 - (void)dispatchTouchEventTouchEvent:(PPCPPTouchEvent *)touchEvent __attribute__((swift_name("dispatchTouchEvent(touchEvent:)")));
 - (PPCPPScene * _Nullable)getRunningScene __attribute__((swift_name("getRunningScene()")));
@@ -2385,24 +2512,6 @@ __attribute__((swift_name("PPVarProxy")))
 @property (readonly) NSString *type __attribute__((swift_name("type")));
 @end
 
-__attribute__((swift_name("PPJson")))
-@protocol PPCPPJson
-@required
-- (BOOL)hasKey:(NSString *)key __attribute__((swift_name("has(key:)")));
-- (NSSet<NSString *> *)keySet __attribute__((swift_name("keySet()")));
-- (id _Nullable)optKey:(NSString *)key __attribute__((swift_name("opt(key:)")));
-- (id<PPCPPJson> _Nullable)optObjectKey:(NSString *)key __attribute__((swift_name("optObject(key:)")));
-- (NSArray<id<PPCPPJson>> * _Nullable)optObjectArrayKey:(NSString *)key __attribute__((swift_name("optObjectArray(key:)")));
-- (NSString * _Nullable)optStringKey:(NSString *)key __attribute__((swift_name("optString(key:)")));
-- (NSArray<NSString *> * _Nullable)optStringArrayKey:(NSString *)key __attribute__((swift_name("optStringArray(key:)")));
-- (void)putBooleanKey:(NSString *)key value:(BOOL)value __attribute__((swift_name("putBoolean(key:value:)")));
-- (void)putNumberKey:(NSString *)key value:(id)value __attribute__((swift_name("putNumber(key:value:)")));
-- (void)putObjectArrayKey:(NSString *)key value:(NSArray<id<PPCPPJson>> *)value __attribute__((swift_name("putObjectArray(key:value:)")));
-- (void)putStringKey:(NSString *)key value:(NSString *)value __attribute__((swift_name("putString(key:value:)")));
-- (void)removeKey:(NSString *)key __attribute__((swift_name("remove(key:)")));
-- (NSString *)toJsonString __attribute__((swift_name("toJsonString()")));
-@end
-
 __attribute__((swift_name("PPJsonOverrider")))
 @protocol PPCPPJsonOverrider
 @required
@@ -2477,15 +2586,6 @@ __attribute__((swift_name("PPExprParseError.Companion")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinEnumCompanion")))
-@interface PPCKotlinEnumCompanion : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinArray")))
 @interface PPCKotlinArray<T> : PPCBase
 + (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(PPCInt *))init __attribute__((swift_name("init(size:init:)")));
@@ -2495,6 +2595,37 @@ __attribute__((swift_name("KotlinArray")))
 - (id<PPCKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
 - (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
 @property (readonly) int32_t size __attribute__((swift_name("size")));
+@end
+
+@interface PPCKotlinArray (Extensions)
+- (NSArray<PPCKotlinx_serialization_jsonJsonElement *> *)toJsonArray __attribute__((swift_name("toJsonArray()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPJsonImplKt")))
+@interface PPCPPJsonImplKt : PPCBase
++ (NSArray<PPCKotlinx_serialization_jsonJsonElement *> *)toJsonArray:(NSArray<id> *)receiver __attribute__((swift_name("toJsonArray(_:)")));
++ (PPCKotlinx_serialization_jsonJsonElement *)toJsonElement:(id _Nullable)receiver __attribute__((swift_name("toJsonElement(_:)")));
++ (NSDictionary<NSString *, PPCKotlinx_serialization_jsonJsonElement *> *)toJsonObject:(NSDictionary<id, id> *)receiver __attribute__((swift_name("toJsonObject(_:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinEnumCompanion")))
+@interface PPCKotlinEnumCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/serialization/json/JsonElementSerializer))
+*/
+__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement")))
+@interface PPCKotlinx_serialization_jsonJsonElement : PPCBase
+@property (class, readonly, getter=companion) PPCKotlinx_serialization_jsonJsonElementCompanion *companion __attribute__((swift_name("companion")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2524,16 +2655,6 @@ __attribute__((swift_name("KotlinFloatArray")))
 @property (readonly) int32_t size __attribute__((swift_name("size")));
 @end
 
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/serialization/json/JsonElementSerializer))
-*/
-__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement")))
-@interface PPCKotlinx_serialization_jsonJsonElement : PPCBase
-@property (class, readonly, getter=companion) PPCKotlinx_serialization_jsonJsonElementCompanion *companion __attribute__((swift_name("companion")));
-@end
-
 __attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
 @protocol PPCKotlinx_serialization_coreSerializationStrategy
 @required
@@ -2560,14 +2681,6 @@ __attribute__((swift_name("KotlinIterator")))
 - (id _Nullable)next __attribute__((swift_name("next()")));
 @end
 
-__attribute__((swift_name("KotlinFloatIterator")))
-@interface PPCKotlinFloatIterator : PPCBase <PPCKotlinIterator>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (PPCFloat *)next __attribute__((swift_name("next()")));
-- (float)nextFloat __attribute__((swift_name("nextFloat()")));
-@end
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Kotlinx_serialization_jsonJsonElement.Companion")))
 @interface PPCKotlinx_serialization_jsonJsonElementCompanion : PPCBase
@@ -2576,6 +2689,14 @@ __attribute__((swift_name("Kotlinx_serialization_jsonJsonElement.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) PPCKotlinx_serialization_jsonJsonElementCompanion *shared __attribute__((swift_name("shared")));
 - (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((swift_name("KotlinFloatIterator")))
+@interface PPCKotlinFloatIterator : PPCBase <PPCKotlinIterator>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (PPCFloat *)next __attribute__((swift_name("next()")));
+- (float)nextFloat __attribute__((swift_name("nextFloat()")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
