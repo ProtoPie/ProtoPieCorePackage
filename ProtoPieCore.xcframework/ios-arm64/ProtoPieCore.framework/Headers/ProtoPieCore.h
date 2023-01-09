@@ -8,7 +8,7 @@
 
 @class PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPSpeechGender, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPDataType, PPCPPExprEvalError, PPCPPPlayEvent, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPMsgChannel, PPCPPPieModel, PPCPPScene, PPCPPClock, PPCPPTouchEvent, PPCPPEventChannel<T>, PPCPPColor, PPCPPIosVibrateType, PPCPPAndroidVibrateType, PPCPPPlayEventCompanion, PPCBinarySearch, PPCLogger, PPCPlatform, PPCPPEngineLogger, PPCKotlinx_serialization_jsonJsonElement, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPHorizontalAlign, PPCPPLineCap, PPCPPLineJoin, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPColorCompanion, PPCPPCorners<T>, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPLayerProperty, PPCPPProperty<T>, PPCArrayHistoryCompanion, PPCPPRenderEvent, PPCReplayer, PPCValueHistory, PPCArrayHistory, PPCReplayDataCompanion, PPCPPPieRecord, PPCValueHistoryCompanion, PPCPPSceneChangeEvent, PPCPPLayerType, PPCPPContainerLayer, PPCPPLayerAlias, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPTextAttributes, PPCPPAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCPPAbstractTextLayer, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCPPVectorShape, PPCPPPathSegmentData, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDevicePreset, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPVarProxy, PPCPPPlayControlGestureOptions, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing;
 
-@protocol PPCKotlinComparable, PPCPPEventChannelHandler, PPCPPJson, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCPPExprLayer, PPCPPClockObserver, PPCPPPiePlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPEngineLoggerListener, PPCPPFloatNormalizer, PPCPPValueProvider, PPCPPPropertyObserver, PPCKotlinx_serialization_coreKSerializer, PPCReplayerDelegate, PPCReplayerInterface, PPCReplayOptions, PPCPPLayerObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPEngineObserver, PPCPPJsonOverrider, PPCPPPieDecorator, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
+@protocol PPCKotlinComparable, PPCPPJson, PPCPPEventChannelHandler, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCPPExprLayer, PPCPPClockObserver, PPCPPPiePlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPEngineLoggerListener, PPCPPFloatNormalizer, PPCPPValueProvider, PPCPPPropertyObserver, PPCKotlinx_serialization_coreKSerializer, PPCReplayerDelegate, PPCReplayerInterface, PPCReplayOptions, PPCPPLayerObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPEngineObserver, PPCPPJsonOverrider, PPCPPPieDecorator, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -185,8 +185,10 @@ __attribute__((swift_name("Platform")))
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (void)logPriority:(PPCLogLevel *)priority tag:(NSString * _Nullable)tag throwable:(PPCKotlinThrowable * _Nullable)throwable message:(NSString * _Nullable)message __attribute__((swift_name("log(priority:tag:throwable:message:)")));
 - (void)logSystemInfo __attribute__((swift_name("logSystemInfo()")));
+- (id<PPCPPJson>)parseJsonStr:(NSString *)str __attribute__((swift_name("parseJson(str:)")));
 - (void)setDateFormatterStringFormatter:(NSString *)formatter __attribute__((swift_name("setDateFormatterString(formatter:)")));
 - (void)setTagLevel:(PPCLogLevel *)level tag:(NSString *)tag __attribute__((swift_name("setTag(level:tag:)")));
+- (NSString *)toJsonStringStr:(NSString *)str __attribute__((swift_name("toJsonString(str:)")));
 @property (readonly) NSString *cpuType __attribute__((swift_name("cpuType")));
 @property BOOL crashAssert __attribute__((swift_name("crashAssert")));
 @property (readonly) NSString *deviceModel __attribute__((swift_name("deviceModel")));
@@ -1237,6 +1239,7 @@ __attribute__((swift_name("PPDeviceInfo")))
 @interface PPCPPDeviceInfo : PPCBase
 - (instancetype)initWithId:(NSString * _Nullable)id name:(NSString * _Nullable)name density:(float)density width:(float)width height:(float)height platformType:(PPCPPPlatformType *)platformType orientation:(PPCPPOrientation *)orientation __attribute__((swift_name("init(id:name:density:width:height:platformType:orientation:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) PPCPPDeviceInfoCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) float density __attribute__((swift_name("density")));
 @property (readonly) PPCPPDeviceFrameType *frameType __attribute__((swift_name("frameType")));
 @property (readonly) float height __attribute__((swift_name("height")));
@@ -2599,6 +2602,12 @@ __attribute__((swift_name("KotlinArray")))
 
 @interface PPCKotlinArray (Extensions)
 - (NSArray<PPCKotlinx_serialization_jsonJsonElement *> *)toJsonArray __attribute__((swift_name("toJsonArray()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPClockKt")))
+@interface PPCPPClockKt : PPCBase
++ (int64_t)getCurrentTimeMillis __attribute__((swift_name("getCurrentTimeMillis()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
