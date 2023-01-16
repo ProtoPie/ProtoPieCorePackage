@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPSpeechGender, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPDataType, PPCPPExprEvalError, PPCPPPlayEvent, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPMsgChannel, PPCPPPieModel, PPCPPScene, PPCPPClock, PPCPPTouchEvent, PPCPPEventChannel<T>, PPCPPColor, PPCPPIosVibrateType, PPCPPAndroidVibrateType, PPCPPPlayEventCompanion, PPCBinarySearch, PPCLogger, PPCPlatform, PPCPPEngineLogger, PPCKotlinx_serialization_jsonJsonElement, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPHorizontalAlign, PPCPPLineCap, PPCPPLineJoin, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPColorCompanion, PPCPPCorners<T>, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPLayerProperty, PPCPPProperty<T>, PPCArrayHistoryCompanion, PPCPPRenderEvent, PPCReplayer, PPCValueHistory, PPCArrayHistory, PPCReplayDataCompanion, PPCPPPieRecord, PPCValueHistoryCompanion, PPCPPSceneChangeEvent, PPCPPLayerType, PPCPPContainerLayer, PPCPPLayerAlias, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPTextAttributes, PPCPPAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCPPAbstractTextLayer, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCPPVectorShape, PPCPPPathSegmentData, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDevicePreset, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPVarProxy, PPCPPPlayControlGestureOptions, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing;
+@class PPCCommon, PPCProfileOptions, PPCDeviceInfoCompanion, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPSpeechGender, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPDataType, PPCPPExprEvalError, PPCPPPlayEvent, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPMsgChannel, PPCPPPieModel, PPCPPScene, PPCPPClock, PPCPPTouchEvent, PPCPPEventChannel<T>, PPCPPColor, PPCPPIosVibrateType, PPCPPAndroidVibrateType, PPCPPPlayEventCompanion, PPCPPContainerLayer, PPCPPSoftKeyboardCompanion, PPCPPSoftKeyboard, PPCPlayOptions, PPCBinarySearch, PPCLogger, PPCPlatform, PPCPPEngineLogger, PPCKotlinx_serialization_jsonJsonElement, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPHorizontalAlign, PPCPPLineCap, PPCPPLineJoin, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPColorCompanion, PPCPPCorners<T>, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPLayerProperty, PPCPPProperty<T>, PPCArrayHistoryCompanion, PPCPPRenderEvent, PPCReplayer, PPCValueHistory, PPCArrayHistory, PPCReplayDataCompanion, PPCPPPieRecord, PPCValueHistoryCompanion, PPCReplayOptions, PPCPPSceneChangeEvent, PPCPPKeyboardDef, PPCPPKeyboardOptions, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCProfile, PPCProfileEntryType, PPCProfileEntryCompanion, PPCPPLayerType, PPCPPLayerAlias, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPTextAttributes, PPCPPAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCPPAbstractTextLayer, PPCPPVectorShape, PPCPPPathSegmentData, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDevicePreset, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPVarProxy, PPCPPPlayControlGestureOptions, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing;
 
-@protocol PPCKotlinComparable, PPCPPJson, PPCPPEventChannelHandler, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCPPExprLayer, PPCPPClockObserver, PPCPPPiePlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPEngineLoggerListener, PPCPPFloatNormalizer, PPCPPValueProvider, PPCPPPropertyObserver, PPCKotlinx_serialization_coreKSerializer, PPCReplayerDelegate, PPCReplayerInterface, PPCReplayOptions, PPCPPLayerObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPEngineObserver, PPCPPJsonOverrider, PPCPPPieDecorator, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
+@protocol PPCKotlinx_serialization_coreKSerializer, PPCKotlinComparable, PPCPPJson, PPCPPEventChannelHandler, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCPPExprLayer, PPCPPClockObserver, PPCPPPiePlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPKeyboardProvider, PPCPPSoftKeyboardDelegate, PPCPPSoftKeyboardListener, PPCPPEngineLoggerListener, PPCPPFloatNormalizer, PPCPPValueProvider, PPCPPPropertyObserver, PPCReplayerDelegate, PPCReplayerInterface, PPCPPLayerObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPEngineObserver, PPCPPJsonOverrider, PPCPPPieDecorator, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -142,6 +142,49 @@ __attribute__((swift_name("KotlinBoolean")))
 @interface PPCBoolean : PPCNumber
 - (instancetype)initWithBool:(BOOL)value;
 + (instancetype)numberWithBool:(BOOL)value;
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Common")))
+@interface PPCCommon : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)common __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCCommon *shared __attribute__((swift_name("shared")));
+- (NSString *)getDeviceInfo __attribute__((swift_name("getDeviceInfo()")));
+- (NSString *)getEngineVersion __attribute__((swift_name("getEngineVersion()")));
+- (NSString *)getProfileData __attribute__((swift_name("getProfileData()")));
+- (void)markTrigger __attribute__((swift_name("markTrigger()")));
+- (void)setProfileOptionsOptions:(PPCProfileOptions *)options __attribute__((swift_name("setProfileOptions(options:)")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DeviceInfo")))
+@interface PPCDeviceInfo : PPCBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) PPCDeviceInfoCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *cpuType __attribute__((swift_name("cpuType")));
+@property (readonly) NSString *deviceModel __attribute__((swift_name("deviceModel")));
+@property (readonly) NSString *osName __attribute__((swift_name("osName")));
+@property (readonly) NSString *osVersion __attribute__((swift_name("osVersion")));
+@property (readonly) NSString *screenInfo __attribute__((swift_name("screenInfo")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DeviceInfo.Companion")))
+@interface PPCDeviceInfoCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCDeviceInfoCompanion *shared __attribute__((swift_name("shared")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 __attribute__((swift_name("KotlinComparable")))
@@ -715,6 +758,71 @@ __attribute__((swift_name("PPPlayEvent.Companion")))
 @property (class, readonly, getter=shared) PPCPPPlayEventCompanion *shared __attribute__((swift_name("shared")));
 @property (readonly) NSString *TARGET_TYPE_RESPONSE __attribute__((swift_name("TARGET_TYPE_RESPONSE")));
 @property (readonly) NSString *TARGET_TYPE_TRIGGER __attribute__((swift_name("TARGET_TYPE_TRIGGER")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPSoftKeyboard")))
+@interface PPCPPSoftKeyboard : PPCBase
+- (instancetype)initWithRootLayer:(PPCPPContainerLayer *)rootLayer keyboardProvider:(id<PPCPPKeyboardProvider>)keyboardProvider pie:(PPCPPPieModel *)pie __attribute__((swift_name("init(rootLayer:keyboardProvider:pie:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCPPSoftKeyboardCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)getKeyboardHeight __attribute__((swift_name("getKeyboardHeight()")));
+- (void)onFocusStateChangedLayer:(PPCPPTextInputLayer *)layer focused:(BOOL)focused now:(int64_t)now __attribute__((swift_name("onFocusStateChanged(layer:focused:now:)")));
+- (void)setDelegateDelegate:(id<PPCPPSoftKeyboardDelegate>)delegate __attribute__((swift_name("setDelegate(delegate:)")));
+- (void)updateKeyboardImageLayer:(PPCPPTextInputLayer *)layer __attribute__((swift_name("updateKeyboardImage(layer:)")));
+@property id<PPCPPSoftKeyboardListener> _Nullable listener __attribute__((swift_name("listener")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPSoftKeyboard.Companion")))
+@interface PPCPPSoftKeyboardCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPSoftKeyboardCompanion *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((swift_name("PPSoftKeyboardDelegate")))
+@protocol PPCPPSoftKeyboardDelegate
+@required
+- (void)overrideResourceUrlResourceId:(NSString *)resourceId url:(NSString * _Nullable)url __attribute__((swift_name("overrideResourceUrl(resourceId:url:)")));
+@end
+
+__attribute__((swift_name("PPSoftKeyboardListener")))
+@protocol PPCPPSoftKeyboardListener
+@required
+- (void)onKeyboardShowHideShown:(BOOL)shown keyboardHeight:(int32_t)keyboardHeight __attribute__((swift_name("onKeyboardShowHide(shown:keyboardHeight:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PlayOptions")))
+@interface PPCPlayOptions : PPCBase
+- (instancetype)initWithEntrySceneId:(NSString * _Nullable)entrySceneId outlineFixEnabled:(BOOL)outlineFixEnabled keyboardMap:(NSDictionary<NSString *, PPCPPSoftKeyboard *> *)keyboardMap record:(BOOL)record hotspotHintsEnabled:(BOOL)hotspotHintsEnabled onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onSend:(void (^ _Nullable)(NSString *, NSString *, NSString * _Nullable))onSend onOpenUrl:(void (^ _Nullable)(NSString *))onOpenUrl onShowControlRequested:(void (^ _Nullable)(void))onShowControlRequested onStart:(void (^ _Nullable)(void))onStart onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded __attribute__((swift_name("init(entrySceneId:outlineFixEnabled:keyboardMap:record:hotspotHintsEnabled:onFirstFrame:onSend:onOpenUrl:onShowControlRequested:onStart:onInitialSceneResourceLoaded:)"))) __attribute__((objc_designated_initializer));
+- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (void (^ _Nullable)(void))component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
+- (void (^ _Nullable)(PPCInt *, PPCInt *))component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
+- (BOOL)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSDictionary<NSString *, PPCPPSoftKeyboard *> *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (BOOL)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (BOOL)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
+- (void (^ _Nullable)(void))component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
+- (void (^ _Nullable)(NSString *, NSString *, NSString * _Nullable))component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
+- (void (^ _Nullable)(NSString *))component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
+- (void (^ _Nullable)(void))component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
+- (PPCPlayOptions *)doCopyEntrySceneId:(NSString * _Nullable)entrySceneId outlineFixEnabled:(BOOL)outlineFixEnabled keyboardMap:(NSDictionary<NSString *, PPCPPSoftKeyboard *> *)keyboardMap record:(BOOL)record hotspotHintsEnabled:(BOOL)hotspotHintsEnabled onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onSend:(void (^ _Nullable)(NSString *, NSString *, NSString * _Nullable))onSend onOpenUrl:(void (^ _Nullable)(NSString *))onOpenUrl onShowControlRequested:(void (^ _Nullable)(void))onShowControlRequested onStart:(void (^ _Nullable)(void))onStart onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded __attribute__((swift_name("doCopy(entrySceneId:outlineFixEnabled:keyboardMap:record:hotspotHintsEnabled:onFirstFrame:onSend:onOpenUrl:onShowControlRequested:onStart:onInitialSceneResourceLoaded:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString * _Nullable entrySceneId __attribute__((swift_name("entrySceneId")));
+@property (readonly) BOOL hotspotHintsEnabled __attribute__((swift_name("hotspotHintsEnabled")));
+@property (readonly) NSDictionary<NSString *, PPCPPSoftKeyboard *> *keyboardMap __attribute__((swift_name("keyboardMap")));
+@property (readonly) void (^ _Nullable onFirstFrame)(void) __attribute__((swift_name("onFirstFrame")));
+@property (readonly) void (^ _Nullable onInitialSceneResourceLoaded)(PPCInt *, PPCInt *) __attribute__((swift_name("onInitialSceneResourceLoaded")));
+@property (readonly) void (^ _Nullable onOpenUrl)(NSString *) __attribute__((swift_name("onOpenUrl")));
+@property (readonly) void (^ _Nullable onSend)(NSString *, NSString *, NSString * _Nullable) __attribute__((swift_name("onSend")));
+@property (readonly) void (^ _Nullable onShowControlRequested)(void) __attribute__((swift_name("onShowControlRequested")));
+@property (readonly) void (^ _Nullable onStart)(void) __attribute__((swift_name("onStart")));
+@property (readonly) BOOL outlineFixEnabled __attribute__((swift_name("outlineFixEnabled")));
+@property (readonly) BOOL record __attribute__((swift_name("record")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1570,11 +1678,27 @@ __attribute__((swift_name("ListSerializer")))
 - (NSString *)serializeIterable:(id)iterable __attribute__((swift_name("serialize(iterable:)")));
 @end
 
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ReplayOptions")))
-@protocol PPCReplayOptions
-@required
+@interface PPCReplayOptions : PPCBase
+- (instancetype)initWithAutoPlay:(PPCBoolean * _Nullable)autoPlay onProgress:(void (^ _Nullable)(PPCInt *))onProgress onEnd:(void (^ _Nullable)(void))onEnd onPropChange:(void (^ _Nullable)(NSString *, NSString *, NSString *))onPropChange onVarChange:(void (^ _Nullable)(NSString *, NSString *))onVarChange onOneTimeTrigger:(void (^ _Nullable)(PPCInt *))onOneTimeTrigger onSceneChange:(void (^ _Nullable)(NSString *))onSceneChange onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded __attribute__((swift_name("init(autoPlay:onProgress:onEnd:onPropChange:onVarChange:onOneTimeTrigger:onSceneChange:onFirstFrame:onInitialSceneResourceLoaded:)"))) __attribute__((objc_designated_initializer));
+- (PPCBoolean * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (void (^ _Nullable)(PPCInt *))component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (void (^ _Nullable)(void))component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (void (^ _Nullable)(NSString *, NSString *, NSString *))component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
+- (void (^ _Nullable)(NSString *, NSString *))component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
+- (void (^ _Nullable)(PPCInt *))component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
+- (void (^ _Nullable)(NSString *))component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
+- (void (^ _Nullable)(void))component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
+- (void (^ _Nullable)(PPCInt *, PPCInt *))component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
+- (PPCReplayOptions *)doCopyAutoPlay:(PPCBoolean * _Nullable)autoPlay onProgress:(void (^ _Nullable)(PPCInt *))onProgress onEnd:(void (^ _Nullable)(void))onEnd onPropChange:(void (^ _Nullable)(NSString *, NSString *, NSString *))onPropChange onVarChange:(void (^ _Nullable)(NSString *, NSString *))onVarChange onOneTimeTrigger:(void (^ _Nullable)(PPCInt *))onOneTimeTrigger onSceneChange:(void (^ _Nullable)(NSString *))onSceneChange onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded __attribute__((swift_name("doCopy(autoPlay:onProgress:onEnd:onPropChange:onVarChange:onOneTimeTrigger:onSceneChange:onFirstFrame:onInitialSceneResourceLoaded:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) PPCBoolean * _Nullable autoPlay __attribute__((swift_name("autoPlay")));
-@property (readonly, getter=onEnd_) void (^ _Nullable onEnd)(void) __attribute__((swift_name("onEnd")));
+@property (readonly) void (^ _Nullable onEnd)(void) __attribute__((swift_name("onEnd")));
+@property (readonly) void (^ _Nullable onFirstFrame)(void) __attribute__((swift_name("onFirstFrame")));
+@property (readonly) void (^ _Nullable onInitialSceneResourceLoaded)(PPCInt *, PPCInt *) __attribute__((swift_name("onInitialSceneResourceLoaded")));
 @property (readonly) void (^ _Nullable onOneTimeTrigger)(PPCInt *) __attribute__((swift_name("onOneTimeTrigger")));
 @property (readonly) void (^ _Nullable onProgress)(PPCInt *) __attribute__((swift_name("onProgress")));
 @property (readonly) void (^ _Nullable onPropChange)(NSString *, NSString *, NSString *) __attribute__((swift_name("onPropChange")));
@@ -1585,7 +1709,7 @@ __attribute__((swift_name("ReplayOptions")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Replayer")))
 @interface PPCReplayer : PPCBase
-- (instancetype)initWithPie:(PPCPPPieModel *)pie initialScene:(PPCPPScene *)initialScene clock:(PPCPPClock *)clock delegate:(id<PPCReplayerDelegate>)delegate record:(PPCPPPieRecord *)record replayerInterface:(id<PPCReplayerInterface> _Nullable)replayerInterface options:(id<PPCReplayOptions> _Nullable)options __attribute__((swift_name("init(pie:initialScene:clock:delegate:record:replayerInterface:options:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPie:(PPCPPPieModel *)pie initialScene:(PPCPPScene *)initialScene clock:(PPCPPClock *)clock delegate:(id<PPCReplayerDelegate>)delegate record:(PPCPPPieRecord *)record replayerInterface:(id<PPCReplayerInterface> _Nullable)replayerInterface options:(PPCReplayOptions * _Nullable)options __attribute__((swift_name("init(pie:initialScene:clock:delegate:record:replayerInterface:options:)"))) __attribute__((objc_designated_initializer));
 - (void)buildSceneHistory __attribute__((swift_name("buildSceneHistory()")));
 - (void)dispatchTouchEventTouchEvent:(PPCPPTouchEvent *)touchEvent __attribute__((swift_name("dispatchTouchEvent(touchEvent:)")));
 - (PPCPPScene * _Nullable)getRunningScene __attribute__((swift_name("getRunningScene()")));
@@ -1606,6 +1730,8 @@ __attribute__((swift_name("Replayer")))
 - (void)onRenderEventEvent:(PPCPPRenderEvent *)event forward:(BOOL)forward __attribute__((swift_name("onRenderEvent(event:forward:)")));
 - (void)onStringVarChangeSceneId:(NSString *)sceneId varName:(NSString *)varName value:(NSString *)value __attribute__((swift_name("onStringVarChange(sceneId:varName:value:)")));
 - (void)pause __attribute__((swift_name("pause()")));
+- (void)postProgress __attribute__((swift_name("postProgress()")));
+- (void)preProgress __attribute__((swift_name("preProgress()")));
 - (void)progressFromTime:(int32_t)fromTime toTime:(int32_t)toTime __attribute__((swift_name("progress(fromTime:toTime:)")));
 - (void)start __attribute__((swift_name("start()")));
 - (void)stop __attribute__((swift_name("stop()")));
@@ -1626,6 +1752,116 @@ __attribute__((swift_name("ReplayerInterface")))
 - (void)onMouseActionAction:(NSString *)action forward:(BOOL)forward __attribute__((swift_name("onMouseAction(action:forward:)")));
 - (void)onMouseMoveX:(int32_t)x y:(int32_t)y __attribute__((swift_name("onMouseMove(x:y:)")));
 - (void)onRenderEventEvent:(PPCPPRenderEvent *)event forward:(BOOL)forward __attribute__((swift_name("onRenderEvent(event:forward:)")));
+@end
+
+__attribute__((swift_name("PPKeyboardProvider")))
+@protocol PPCPPKeyboardProvider
+@required
+- (PPCPPKeyboardDef * _Nullable)getKeyboardDefKeyboardOptions:(PPCPPKeyboardOptions *)keyboardOptions deviceInfo:(PPCPPDeviceInfo *)deviceInfo __attribute__((swift_name("getKeyboardDef(keyboardOptions:deviceInfo:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DefaultKeyboardProvider")))
+@interface PPCDefaultKeyboardProvider : PPCBase <PPCPPKeyboardProvider>
+- (instancetype)initWithImageUrlBase:(NSString * _Nullable)imageUrlBase __attribute__((swift_name("init(imageUrlBase:)"))) __attribute__((objc_designated_initializer));
+- (PPCPPKeyboardDef * _Nullable)getKeyboardDefKeyboardOptions:(PPCPPKeyboardOptions *)keyboardOptions deviceInfo:(PPCPPDeviceInfo *)deviceInfo __attribute__((swift_name("getKeyboardDef(keyboardOptions:deviceInfo:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPKeyboardDef")))
+@interface PPCPPKeyboardDef : PPCBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property float height __attribute__((swift_name("height")));
+@property NSString *imageUrl __attribute__((swift_name("imageUrl")));
+@property float subImageHeight __attribute__((swift_name("subImageHeight")));
+@property NSString * _Nullable subImageUrl __attribute__((swift_name("subImageUrl")));
+@property float subImageWidth __attribute__((swift_name("subImageWidth")));
+@property float width __attribute__((swift_name("width")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPKeyboardOptions")))
+@interface PPCPPKeyboardOptions : PPCBase
+- (instancetype)initWithLayer:(PPCPPTextInputLayer *)layer __attribute__((swift_name("init(layer:)"))) __attribute__((objc_designated_initializer));
+- (BOOL)isNumberKeyboard __attribute__((swift_name("isNumberKeyboard()")));
+@property PPCPPTextInputLayerKeyboardLook *keyboardLook __attribute__((swift_name("keyboardLook")));
+@property PPCPPTextInputLayerKeyboardType *keyboardType __attribute__((swift_name("keyboardType")));
+@property PPCPPTextInputLayerReturnKeyType *returnKeyType __attribute__((swift_name("returnKeyType")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Profile")))
+@interface PPCProfile : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)profile __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCProfile *shared __attribute__((swift_name("shared")));
+- (NSString *)getStringEntries __attribute__((swift_name("getStringEntries()")));
+- (void)markType:(PPCProfileEntryType *)type __attribute__((swift_name("mark(type:)")));
+- (void)markId:(NSString *)id __attribute__((swift_name("mark(id:)")));
+- (void)setDebugValue:(BOOL)value __attribute__((swift_name("setDebug(value:)")));
+- (void)setEnableValue:(BOOL)value __attribute__((swift_name("setEnable(value:)")));
+- (void)setProfileOptionsValue:(PPCProfileOptions *)value __attribute__((swift_name("setProfileOptions(value:)")));
+- (void)traceFps __attribute__((swift_name("traceFps()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Profile.Entry")))
+@interface PPCProfileEntry : PPCBase
+- (instancetype)initWithId:(NSString *)id numFrames:(int64_t)numFrames fps:(float)fps cpuUsage:(NSString *)cpuUsage memoryUsage:(NSString *)memoryUsage __attribute__((swift_name("init(id:numFrames:fps:cpuUsage:memoryUsage:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCProfileEntryCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *cpuUsage __attribute__((swift_name("cpuUsage")));
+@property (readonly) float fps __attribute__((swift_name("fps")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) NSString *memoryUsage __attribute__((swift_name("memoryUsage")));
+@property (readonly) int64_t numFrames __attribute__((swift_name("numFrames")));
+@property (readonly) int64_t timestamp __attribute__((swift_name("timestamp")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Profile.EntryCompanion")))
+@interface PPCProfileEntryCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCProfileEntryCompanion *shared __attribute__((swift_name("shared")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ProfileEntryType")))
+@interface PPCProfileEntryType : PPCKotlinEnum<PPCProfileEntryType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCProfileEntryType *trigger __attribute__((swift_name("trigger")));
+@property (class, readonly) PPCProfileEntryType *startreplay __attribute__((swift_name("startreplay")));
+@property (class, readonly) PPCProfileEntryType *firstframe __attribute__((swift_name("firstframe")));
+@property (class, readonly) PPCProfileEntryType *end __attribute__((swift_name("end")));
++ (PPCKotlinArray<PPCProfileEntryType *> *)values __attribute__((swift_name("values()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ProfileOptions")))
+@interface PPCProfileOptions : PPCBase
+- (instancetype)initWithIntervalFrames:(int32_t)intervalFrames onCpuUsage:(NSString *(^ _Nullable)(void))onCpuUsage onMemoryUsage:(NSString *(^ _Nullable)(void))onMemoryUsage __attribute__((swift_name("init(intervalFrames:onCpuUsage:onMemoryUsage:)"))) __attribute__((objc_designated_initializer));
+- (int32_t)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *(^ _Nullable)(void))component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
+- (NSString *(^ _Nullable)(void))component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
+- (PPCProfileOptions *)doCopyIntervalFrames:(int32_t)intervalFrames onCpuUsage:(NSString *(^ _Nullable)(void))onCpuUsage onMemoryUsage:(NSString *(^ _Nullable)(void))onMemoryUsage __attribute__((swift_name("doCopy(intervalFrames:onCpuUsage:onMemoryUsage:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t intervalFrames __attribute__((swift_name("intervalFrames")));
+@property (readonly) NSString *(^ _Nullable onCpuUsage)(void) __attribute__((swift_name("onCpuUsage")));
+@property (readonly) NSString *(^ _Nullable onMemoryUsage)(void) __attribute__((swift_name("onMemoryUsage")));
 @end
 
 __attribute__((swift_name("PPLayer")))
@@ -2607,6 +2843,7 @@ __attribute__((swift_name("KotlinArray")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPClockKt")))
 @interface PPCPPClockKt : PPCBase
++ (NSString *)getCurrentLocalTime __attribute__((swift_name("getCurrentLocalTime()")));
 + (int64_t)getCurrentTimeMillis __attribute__((swift_name("getCurrentTimeMillis()")));
 @end
 
@@ -2616,6 +2853,25 @@ __attribute__((swift_name("PPJsonImplKt")))
 + (NSArray<PPCKotlinx_serialization_jsonJsonElement *> *)toJsonArray:(NSArray<id> *)receiver __attribute__((swift_name("toJsonArray(_:)")));
 + (PPCKotlinx_serialization_jsonJsonElement *)toJsonElement:(id _Nullable)receiver __attribute__((swift_name("toJsonElement(_:)")));
 + (NSDictionary<NSString *, PPCKotlinx_serialization_jsonJsonElement *> *)toJsonObject:(NSDictionary<id, id> *)receiver __attribute__((swift_name("toJsonObject(_:)")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
+@protocol PPCKotlinx_serialization_coreSerializationStrategy
+@required
+- (void)serializeEncoder:(id<PPCKotlinx_serialization_coreEncoder>)encoder value:(id _Nullable)value __attribute__((swift_name("serialize(encoder:value:)")));
+@property (readonly) id<PPCKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
+@protocol PPCKotlinx_serialization_coreDeserializationStrategy
+@required
+- (id _Nullable)deserializeDecoder:(id<PPCKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
+@property (readonly) id<PPCKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
+@protocol PPCKotlinx_serialization_coreKSerializer <PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDeserializationStrategy>
+@required
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2664,48 +2920,11 @@ __attribute__((swift_name("KotlinFloatArray")))
 @property (readonly) int32_t size __attribute__((swift_name("size")));
 @end
 
-__attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
-@protocol PPCKotlinx_serialization_coreSerializationStrategy
-@required
-- (void)serializeEncoder:(id<PPCKotlinx_serialization_coreEncoder>)encoder value:(id _Nullable)value __attribute__((swift_name("serialize(encoder:value:)")));
-@property (readonly) id<PPCKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
-@end
-
-__attribute__((swift_name("Kotlinx_serialization_coreDeserializationStrategy")))
-@protocol PPCKotlinx_serialization_coreDeserializationStrategy
-@required
-- (id _Nullable)deserializeDecoder:(id<PPCKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
-@property (readonly) id<PPCKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
-@end
-
-__attribute__((swift_name("Kotlinx_serialization_coreKSerializer")))
-@protocol PPCKotlinx_serialization_coreKSerializer <PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDeserializationStrategy>
-@required
-@end
-
 __attribute__((swift_name("KotlinIterator")))
 @protocol PPCKotlinIterator
 @required
 - (BOOL)hasNext __attribute__((swift_name("hasNext()")));
 - (id _Nullable)next __attribute__((swift_name("next()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement.Companion")))
-@interface PPCKotlinx_serialization_jsonJsonElementCompanion : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCKotlinx_serialization_jsonJsonElementCompanion *shared __attribute__((swift_name("shared")));
-- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-__attribute__((swift_name("KotlinFloatIterator")))
-@interface PPCKotlinFloatIterator : PPCBase <PPCKotlinIterator>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (PPCFloat *)next __attribute__((swift_name("next()")));
-- (float)nextFloat __attribute__((swift_name("nextFloat()")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
@@ -2847,6 +3066,24 @@ __attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
 - (int16_t)decodeShort __attribute__((swift_name("decodeShort()")));
 - (NSString *)decodeString __attribute__((swift_name("decodeString()")));
 @property (readonly) PPCKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement.Companion")))
+@interface PPCKotlinx_serialization_jsonJsonElementCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCKotlinx_serialization_jsonJsonElementCompanion *shared __attribute__((swift_name("shared")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((swift_name("KotlinFloatIterator")))
+@interface PPCKotlinFloatIterator : PPCBase <PPCKotlinIterator>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (PPCFloat *)next __attribute__((swift_name("next()")));
+- (float)nextFloat __attribute__((swift_name("nextFloat()")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
