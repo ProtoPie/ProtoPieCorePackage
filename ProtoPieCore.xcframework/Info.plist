@@ -6,16 +6,29 @@
 	<array>
 		<dict>
 			<key>LibraryIdentifier</key>
-			<string>ios-arm64_x86_64-simulator</string>
+			<string>watchos-arm64-simulator</string>
 			<key>LibraryPath</key>
 			<string>ProtoPieCore.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
 				<string>arm64</string>
-				<string>x86_64</string>
 			</array>
 			<key>SupportedPlatform</key>
-			<string>ios</string>
+			<string>watchos</string>
+			<key>SupportedPlatformVariant</key>
+			<string>simulator</string>
+		</dict>
+		<dict>
+			<key>LibraryIdentifier</key>
+			<string>tvos-arm64-simulator</string>
+			<key>LibraryPath</key>
+			<string>ProtoPieCore.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>tvos</string>
 			<key>SupportedPlatformVariant</key>
 			<string>simulator</string>
 		</dict>
@@ -45,20 +58,6 @@
 		</dict>
 		<dict>
 			<key>LibraryIdentifier</key>
-			<string>tvos-arm64-simulator</string>
-			<key>LibraryPath</key>
-			<string>ProtoPieCore.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>arm64</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>tvos</string>
-			<key>SupportedPlatformVariant</key>
-			<string>simulator</string>
-		</dict>
-		<dict>
-			<key>LibraryIdentifier</key>
 			<string>watchos-arm64_32</string>
 			<key>LibraryPath</key>
 			<string>ProtoPieCore.framework</string>
@@ -71,15 +70,16 @@
 		</dict>
 		<dict>
 			<key>LibraryIdentifier</key>
-			<string>watchos-arm64-simulator</string>
+			<string>ios-arm64_x86_64-simulator</string>
 			<key>LibraryPath</key>
 			<string>ProtoPieCore.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
 				<string>arm64</string>
+				<string>x86_64</string>
 			</array>
 			<key>SupportedPlatform</key>
-			<string>watchos</string>
+			<string>ios</string>
 			<key>SupportedPlatformVariant</key>
 			<string>simulator</string>
 		</dict>
