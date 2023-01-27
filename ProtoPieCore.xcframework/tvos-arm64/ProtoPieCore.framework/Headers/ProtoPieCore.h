@@ -2044,12 +2044,6 @@ __attribute__((swift_name("PPCameraLayer")))
 @property (readonly) PPCPPCameraPosition * _Nullable cameraPosition __attribute__((swift_name("cameraPosition")));
 @property BOOL isQrScanner __attribute__((swift_name("isQrScanner")));
 @property PPCBoolean * _Nullable isRedirectionEnabled __attribute__((swift_name("isRedirectionEnabled")));
-@property NSString * _Nullable qrHeight __attribute__((swift_name("qrHeight")));
-@property NSString * _Nullable qrHelpMessage __attribute__((swift_name("qrHelpMessage")));
-@property NSString * _Nullable qrOffsetX __attribute__((swift_name("qrOffsetX")));
-@property NSString * _Nullable qrOffsetY __attribute__((swift_name("qrOffsetY")));
-@property NSString * _Nullable qrValue __attribute__((swift_name("qrValue")));
-@property NSString * _Nullable qrWidth __attribute__((swift_name("qrWidth")));
 @property (readonly) BOOL started __attribute__((swift_name("started")));
 @end
 
