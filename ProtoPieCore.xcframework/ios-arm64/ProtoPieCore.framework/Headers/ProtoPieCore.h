@@ -154,6 +154,7 @@ __attribute__((swift_name("Common")))
 - (NSString *)getDeviceInfo __attribute__((swift_name("getDeviceInfo()")));
 - (NSString *)getEngineVersion __attribute__((swift_name("getEngineVersion()")));
 - (NSString *)getProfileData __attribute__((swift_name("getProfileData()")));
+- (NSString * _Nullable)getQrScannerLicenseApplicationId:(NSString *)applicationId __attribute__((swift_name("getQrScannerLicense(applicationId:)")));
 - (void)markTrigger __attribute__((swift_name("markTrigger()")));
 - (void)setProfileOptionsOptions:(PPCProfileOptions *)options __attribute__((swift_name("setProfileOptions(options:)")));
 @end
