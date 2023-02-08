@@ -1754,7 +1754,7 @@ __attribute__((swift_name("Replayer")))
 __attribute__((swift_name("ReplayerDelegate")))
 @protocol PPCReplayerDelegate
 @required
-- (void)addSceneViewScene:(PPCPPScene *)scene top:(BOOL)top __attribute__((swift_name("addSceneView(scene:top:)")));
+- (void)addSceneViewScene:(PPCPPScene *)scene top:(BOOL)top fixed:(BOOL)fixed __attribute__((swift_name("addSceneView(scene:top:fixed:)")));
 - (void)removeSceneViewScene:(PPCPPScene *)scene __attribute__((swift_name("removeSceneView(scene:)")));
 - (void)showFixedSceneScene:(PPCPPScene *)scene __attribute__((swift_name("showFixedScene(scene:)")));
 @end
