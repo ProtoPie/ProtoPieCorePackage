@@ -350,6 +350,7 @@ __attribute__((swift_name("PPKeyCode")))
 @property (class, readonly) PPCPPKeyCode *left __attribute__((swift_name("left")));
 @property (class, readonly) PPCPPKeyCode *right __attribute__((swift_name("right")));
 @property (class, readonly) PPCPPKeyCode *down __attribute__((swift_name("down")));
+@property (class, readonly) PPCPPKeyCode *backspace __attribute__((swift_name("backspace")));
 @property (class, readonly) PPCPPKeyCode *esc __attribute__((swift_name("esc")));
 + (PPCKotlinArray<PPCPPKeyCode *> *)values __attribute__((swift_name("values()")));
 @property (readonly) NSString *stringValue __attribute__((swift_name("stringValue")));
@@ -400,7 +401,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPPiePlayerEvent.TextInputFocusedIn")))
 @interface PPCPPPiePlayerEventTextInputFocusedIn : PPCPPPiePlayerEvent
 - (instancetype)initWithLayer:(PPCPPTextInputLayer *)layer __attribute__((swift_name("init(layer:)"))) __attribute__((objc_designated_initializer));
-- (PPCPPTextInputLayer *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (PPCPPPiePlayerEventTextInputFocusedIn *)doCopyLayer:(PPCPPTextInputLayer *)layer __attribute__((swift_name("doCopy(layer:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -413,7 +413,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPPiePlayerEvent.TextInputFocusedOut")))
 @interface PPCPPPiePlayerEventTextInputFocusedOut : PPCPPPiePlayerEvent
 - (instancetype)initWithLayer:(PPCPPTextInputLayer *)layer __attribute__((swift_name("init(layer:)"))) __attribute__((objc_designated_initializer));
-- (PPCPPTextInputLayer *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
 - (PPCPPPiePlayerEventTextInputFocusedOut *)doCopyLayer:(PPCPPTextInputLayer *)layer __attribute__((swift_name("doCopy(layer:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -798,17 +797,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PlayOptions")))
 @interface PPCPlayOptions : PPCBase
 - (instancetype)initWithEntrySceneId:(NSString * _Nullable)entrySceneId outlineFixEnabled:(BOOL)outlineFixEnabled keyboardMap:(NSDictionary<NSString *, PPCPPSoftKeyboard *> *)keyboardMap record:(BOOL)record hotspotHintsEnabled:(BOOL)hotspotHintsEnabled onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onSend:(void (^ _Nullable)(NSString *, NSString *, NSString * _Nullable))onSend onOpenUrl:(void (^ _Nullable)(NSString *))onOpenUrl onShowControlRequested:(void (^ _Nullable)(void))onShowControlRequested onStart:(void (^ _Nullable)(void))onStart onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded __attribute__((swift_name("init(entrySceneId:outlineFixEnabled:keyboardMap:record:hotspotHintsEnabled:onFirstFrame:onSend:onOpenUrl:onShowControlRequested:onStart:onInitialSceneResourceLoaded:)"))) __attribute__((objc_designated_initializer));
-- (NSString * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (void (^ _Nullable)(void))component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
-- (void (^ _Nullable)(PPCInt *, PPCInt *))component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BOOL)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSDictionary<NSString *, PPCPPSoftKeyboard *> *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BOOL)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BOOL)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (void (^ _Nullable)(void))component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (void (^ _Nullable)(NSString *, NSString *, NSString * _Nullable))component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (void (^ _Nullable)(NSString *))component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (void (^ _Nullable)(void))component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
 - (PPCPlayOptions *)doCopyEntrySceneId:(NSString * _Nullable)entrySceneId outlineFixEnabled:(BOOL)outlineFixEnabled keyboardMap:(NSDictionary<NSString *, PPCPPSoftKeyboard *> *)keyboardMap record:(BOOL)record hotspotHintsEnabled:(BOOL)hotspotHintsEnabled onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onSend:(void (^ _Nullable)(NSString *, NSString *, NSString * _Nullable))onSend onOpenUrl:(void (^ _Nullable)(NSString *))onOpenUrl onShowControlRequested:(void (^ _Nullable)(void))onShowControlRequested onStart:(void (^ _Nullable)(void))onStart onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded __attribute__((swift_name("doCopy(entrySceneId:outlineFixEnabled:keyboardMap:record:hotspotHintsEnabled:onFirstFrame:onSend:onOpenUrl:onShowControlRequested:onStart:onInitialSceneResourceLoaded:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1309,9 +1297,6 @@ __attribute__((swift_name("PPColor")))
 @interface PPCPPColor : PPCBase
 - (instancetype)initWithRed:(int32_t)red green:(int32_t)green blue:(int32_t)blue __attribute__((swift_name("init(red:green:blue:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) PPCPPColorCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
 - (PPCPPColor *)doCopyRed:(int32_t)red green:(int32_t)green blue:(int32_t)blue __attribute__((swift_name("doCopy(red:green:blue:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1598,6 +1583,10 @@ __attribute__((swift_name("PPPieRecord")))
 - (PPCFloat * _Nullable)getFloatPropValueSceneId:(NSString *)sceneId layerId:(NSString *)layerId propName:(NSString *)propName time:(int32_t)time __attribute__((swift_name("getFloatPropValue(sceneId:layerId:propName:time:)")));
 - (NSString * _Nullable)getStringPropValueSceneId:(NSString *)sceneId layerId:(NSString *)layerId propName:(NSString *)propName time:(int32_t)time __attribute__((swift_name("getStringPropValue(sceneId:layerId:propName:time:)")));
 @property int32_t endTime __attribute__((swift_name("endTime")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) NSString *idDelimiter __attribute__((swift_name("idDelimiter")));
 @end
 
@@ -1695,15 +1684,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ReplayOptions")))
 @interface PPCReplayOptions : PPCBase
 - (instancetype)initWithAutoPlay:(PPCBoolean * _Nullable)autoPlay onProgress:(void (^ _Nullable)(PPCInt *))onProgress onEnd:(void (^ _Nullable)(void))onEnd onPropChange:(void (^ _Nullable)(NSString *, NSString *, NSString *))onPropChange onVarChange:(void (^ _Nullable)(NSString *, NSString *))onVarChange onOneTimeTrigger:(void (^ _Nullable)(PPCInt *))onOneTimeTrigger onSceneChange:(void (^ _Nullable)(NSString *))onSceneChange onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded __attribute__((swift_name("init(autoPlay:onProgress:onEnd:onPropChange:onVarChange:onOneTimeTrigger:onSceneChange:onFirstFrame:onInitialSceneResourceLoaded:)"))) __attribute__((objc_designated_initializer));
-- (PPCBoolean * _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (void (^ _Nullable)(PPCInt *))component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (void (^ _Nullable)(void))component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (void (^ _Nullable)(NSString *, NSString *, NSString *))component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (void (^ _Nullable)(NSString *, NSString *))component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (void (^ _Nullable)(PPCInt *))component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (void (^ _Nullable)(NSString *))component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (void (^ _Nullable)(void))component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (void (^ _Nullable)(PPCInt *, PPCInt *))component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
 - (PPCReplayOptions *)doCopyAutoPlay:(PPCBoolean * _Nullable)autoPlay onProgress:(void (^ _Nullable)(PPCInt *))onProgress onEnd:(void (^ _Nullable)(void))onEnd onPropChange:(void (^ _Nullable)(NSString *, NSString *, NSString *))onPropChange onVarChange:(void (^ _Nullable)(NSString *, NSString *))onVarChange onOneTimeTrigger:(void (^ _Nullable)(PPCInt *))onOneTimeTrigger onSceneChange:(void (^ _Nullable)(NSString *))onSceneChange onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded __attribute__((swift_name("doCopy(autoPlay:onProgress:onEnd:onPropChange:onVarChange:onOneTimeTrigger:onSceneChange:onFirstFrame:onInitialSceneResourceLoaded:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1865,9 +1845,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ProfileOptions")))
 @interface PPCProfileOptions : PPCBase
 - (instancetype)initWithIntervalFrames:(int32_t)intervalFrames onCpuUsage:(NSString *(^ _Nullable)(void))onCpuUsage onMemoryUsage:(NSString *(^ _Nullable)(void))onMemoryUsage __attribute__((swift_name("init(intervalFrames:onCpuUsage:onMemoryUsage:)"))) __attribute__((objc_designated_initializer));
-- (int32_t)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *(^ _Nullable)(void))component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *(^ _Nullable)(void))component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
 - (PPCProfileOptions *)doCopyIntervalFrames:(int32_t)intervalFrames onCpuUsage:(NSString *(^ _Nullable)(void))onCpuUsage onMemoryUsage:(NSString *(^ _Nullable)(void))onMemoryUsage __attribute__((swift_name("doCopy(intervalFrames:onCpuUsage:onMemoryUsage:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -1973,6 +1950,10 @@ __attribute__((swift_name("PPLayer")))
 @property (readonly) PPCPPFloatProperty *o __attribute__((swift_name("o")));
 @property PPCPPContainerLayer * _Nullable parent __attribute__((swift_name("parent")));
 @property (readonly) PPCPPPoint *position __attribute__((swift_name("position")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) id<PPCPPPropertyObserver> propertyObserver __attribute__((swift_name("propertyObserver")));
 @property (readonly) PPCPPFloatProperty *r __attribute__((swift_name("r")));
 @property PPCPPAxis3D * _Nullable r3Axis __attribute__((swift_name("r3Axis")));
@@ -2083,8 +2064,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPChangeTarget")))
 @interface PPCPPChangeTarget : PPCBase
 - (instancetype)initWithLayerId:(NSString *)layerId property:(PPCPPLayerProperty *)property __attribute__((swift_name("init(layerId:property:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (PPCPPLayerProperty *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (PPCPPChangeTarget *)doCopyLayerId:(NSString *)layerId property:(PPCPPLayerProperty *)property __attribute__((swift_name("doCopy(layerId:property:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2444,9 +2423,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ConstraintOption")))
 @interface PPCConstraintOption : PPCBase
 - (instancetype)initWithIsBeginFixed:(BOOL)isBeginFixed isSizeFixed:(BOOL)isSizeFixed isEndFixed:(BOOL)isEndFixed __attribute__((swift_name("init(isBeginFixed:isSizeFixed:isEndFixed:)"))) __attribute__((objc_designated_initializer));
-- (BOOL)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BOOL)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (BOOL)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
 - (PPCConstraintOption *)doCopyIsBeginFixed:(BOOL)isBeginFixed isSizeFixed:(BOOL)isSizeFixed isEndFixed:(BOOL)isEndFixed __attribute__((swift_name("doCopy(isBeginFixed:isSizeFixed:isEndFixed:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2478,10 +2454,6 @@ __attribute__((swift_name("OneDimensionResizeConstraints")))
 - (float)applyDeltaOldValue:(float)oldValue newFlexSum:(float)newFlexSum oldFlexSum:(float)oldFlexSum __attribute__((swift_name("applyDelta(oldValue:newFlexSum:oldFlexSum:)")));
 - (void)applyParentSizeParentSize:(float)parentSize __attribute__((swift_name("applyParentSize(parentSize:)")));
 - (void)applySelfChangeBegin:(float)begin size:(float)size parentSize:(float)parentSize __attribute__((swift_name("applySelfChange(begin:size:parentSize:)")));
-- (float)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (float)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (float)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (PPCConstraintOption *)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
 - (PPCOneDimensionResizeConstraints *)doCopyInitialBegin:(float)initialBegin initialSize:(float)initialSize initialParentSize:(float)initialParentSize constraintsOption:(PPCConstraintOption *)constraintsOption __attribute__((swift_name("doCopy(initialBegin:initialSize:initialParentSize:constraintsOption:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2579,20 +2551,6 @@ __attribute__((swift_name("DeviceDesc")))
 @interface PPCDeviceDesc : PPCBase
 - (instancetype)initWithId:(NSString *)id name:(NSString *)name type:(NSString *)type width:(int32_t)width height:(int32_t)height density:(float)density platformType:(NSString *)platformType orientation:(NSString *)orientation framePathOrigin:(NSString * _Nullable)framePathOrigin framePathLandscapeOrigin:(NSString * _Nullable)framePathLandscapeOrigin framePath:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)framePath frameBgPath:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)frameBgPath framePathLandscape:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)framePathLandscape frameBgPathLandscape:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)frameBgPathLandscape __attribute__((swift_name("init(id:name:type:width:height:density:platformType:orientation:framePathOrigin:framePathLandscapeOrigin:framePath:frameBgPath:framePathLandscape:frameBgPathLandscape:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) PPCDeviceDescCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component10 __attribute__((swift_name("component10()"))) __attribute__((deprecated("use corresponding property instead")));
-- (PPCKotlinx_serialization_jsonJsonElement * _Nullable)component11 __attribute__((swift_name("component11()"))) __attribute__((deprecated("use corresponding property instead")));
-- (PPCKotlinx_serialization_jsonJsonElement * _Nullable)component12 __attribute__((swift_name("component12()"))) __attribute__((deprecated("use corresponding property instead")));
-- (PPCKotlinx_serialization_jsonJsonElement * _Nullable)component13 __attribute__((swift_name("component13()"))) __attribute__((deprecated("use corresponding property instead")));
-- (PPCKotlinx_serialization_jsonJsonElement * _Nullable)component14 __attribute__((swift_name("component14()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component3 __attribute__((swift_name("component3()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component4 __attribute__((swift_name("component4()"))) __attribute__((deprecated("use corresponding property instead")));
-- (int32_t)component5 __attribute__((swift_name("component5()"))) __attribute__((deprecated("use corresponding property instead")));
-- (float)component6 __attribute__((swift_name("component6()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component7 __attribute__((swift_name("component7()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString *)component8 __attribute__((swift_name("component8()"))) __attribute__((deprecated("use corresponding property instead")));
-- (NSString * _Nullable)component9 __attribute__((swift_name("component9()"))) __attribute__((deprecated("use corresponding property instead")));
 - (PPCDeviceDesc *)doCopyId:(NSString *)id name:(NSString *)name type:(NSString *)type width:(int32_t)width height:(int32_t)height density:(float)density platformType:(NSString *)platformType orientation:(NSString *)orientation framePathOrigin:(NSString * _Nullable)framePathOrigin framePathLandscapeOrigin:(NSString * _Nullable)framePathLandscapeOrigin framePath:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)framePath frameBgPath:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)frameBgPath framePathLandscape:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)framePathLandscape frameBgPathLandscape:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)frameBgPathLandscape __attribute__((swift_name("doCopy(id:name:type:width:height:density:platformType:orientation:framePathOrigin:framePathLandscapeOrigin:framePath:frameBgPath:framePathLandscape:frameBgPathLandscape:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -3018,8 +2976,6 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinPair")))
 @interface PPCKotlinPair<__covariant A, __covariant B> : PPCBase
 - (instancetype)initWithFirst:(A _Nullable)first second:(B _Nullable)second __attribute__((swift_name("init(first:second:)"))) __attribute__((objc_designated_initializer));
-- (A _Nullable)component1 __attribute__((swift_name("component1()"))) __attribute__((deprecated("use corresponding property instead")));
-- (B _Nullable)component2 __attribute__((swift_name("component2()"))) __attribute__((deprecated("use corresponding property instead")));
 - (PPCKotlinPair<A, B> *)doCopyFirst:(A _Nullable)first second:(B _Nullable)second __attribute__((swift_name("doCopy(first:second:)")));
 - (BOOL)equalsOther:(id _Nullable)other __attribute__((swift_name("equals(other:)")));
 - (int32_t)hashCode __attribute__((swift_name("hashCode()")));
@@ -3596,7 +3552,15 @@ __attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.Abstrac
 */
 - (PPCKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(PPCKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
 - (id)updatedNextAffected:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
 @end
 
@@ -3622,8 +3586,16 @@ __attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeAddLastD
 */
 - (PPCKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(PPCKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
 - (id)updatedNextAffected:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
 @property (readonly) T node __attribute__((swift_name("node")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode *originalNext __attribute__((swift_name("originalNext")));
 @property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
 @end
@@ -3655,7 +3627,15 @@ __attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFi
 */
 - (PPCKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(PPCKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
 - (id)updatedNextAffected:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
 @property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
 @property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
 @property (readonly) T _Nullable result __attribute__((swift_name("result")));
