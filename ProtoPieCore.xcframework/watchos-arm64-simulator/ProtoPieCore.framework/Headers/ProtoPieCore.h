@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class PPCCommon, PPCProfileOptions, PPCDeviceInfoCompanion, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPSpeechGender, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPDataType, PPCPPExprEvalError, PPCPPPlayEvent, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPMsgChannel, PPCPPPieModel, PPCPPScene, PPCPPClock, PPCPPTouchEvent, PPCPPEventChannel<T>, PPCPPColor, PPCPPIosVibrateType, PPCPPAndroidVibrateType, PPCPPPlayEventCompanion, PPCPPContainerLayer, PPCPPSoftKeyboardCompanion, PPCPPSoftKeyboard, PPCPlayOptions, PPCBinarySearch, PPCConcurrency, PPCLogger, PPCPlatform, PPCPPEngineLogger, PPCKotlinx_serialization_jsonJsonElement, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPHorizontalAlign, PPCPPLineCap, PPCPPLineJoin, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPColorCompanion, PPCPPCorners<T>, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPLayerProperty, PPCPPProperty<T>, PPCArrayHistoryCompanion, PPCPPRenderEvent, PPCReplayer, PPCValueHistory, PPCArrayHistory, PPCReplayDataCompanion, PPCPPPieRecord, PPCValueHistoryCompanion, PPCReplayOptions, PPCPPSceneChangeEvent, PPCPPKeyboardDef, PPCPPKeyboardOptions, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCProfile, PPCProfileEntryType, PPCProfileEntryCompanion, PPCPPLayerType, PPCPPLayerAlias, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPTextAttributes, PPCAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCAbstractTextLayer, PPCPPVectorShape, PPCConstraintOption, PPCDirection, PPCOneDimensionResizeConstraints, PPCPPPathSegmentData, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDevicePreset, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPVarProxy, PPCPPPlayControlGestureOptions, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCKotlinCancellationException, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing, PPCKotlinRuntimeException, PPCKotlinIllegalStateException, PPCKotlinx_coroutines_coreAtomicDesc, PPCKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, PPCKotlinx_coroutines_coreAtomicOp<__contravariant T>, PPCKotlinx_coroutines_coreOpDescriptor, PPCKotlinx_coroutines_coreLockFreeLinkedListNode, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class PPCCommon, PPCProfileOptions, PPCDeviceInfoCompanion, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPSpeechGender, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPDataType, PPCPPExprEvalError, PPCPPPlayEvent, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPMsgChannel, PPCPPPieModel, PPCPPScene, PPCPPClock, PPCPPTouchEvent, PPCPPPieRecord, PPCPPEventChannel<T>, PPCPPColor, PPCPPIosVibrateType, PPCPPAndroidVibrateType, PPCPPPlayEventCompanion, PPCPPContainerLayer, PPCPPSoftKeyboardCompanion, PPCPPSoftKeyboard, PPCPlayOptions, PPCReplayOptions, PPCPPSceneChangeEvent, PPCPPRenderEvent, PPCBinarySearch, PPCConcurrency, PPCLogger, PPCPlatform, PPCPPEngineLogger, PPCKotlinx_serialization_jsonJsonElement, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPHorizontalAlign, PPCPPLineCap, PPCPPLineJoin, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPColorCompanion, PPCPPCorners<T>, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPPointCompanion, PPCPPLayerProperty, PPCPPProperty<T>, PPCPPRenderEventCompanion, PPCPPFixedSceneChangeEventCompanion, PPCPPInputFocusEventCompanion, PPCPPIosEffectEventCompanion, PPCPPMediaCommandEventCompanion, PPCPPValueHistory<T>, PPCReplayer, PPCPPReorderEventCompanion, PPCPPSceneChangeEventCompanion, PPCPPValueHistoryCompanion, PPCReplayDataCompanion, PPCReplayDataVersionCompanion, PPCPPKeyboardDef, PPCPPKeyboardOptions, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCProfile, PPCProfileEntryType, PPCProfileEntryCompanion, PPCPPLayerType, PPCPPLayerAlias, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPTextAttributes, PPCAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCAbstractTextLayer, PPCPPVectorShape, PPCConstraintOption, PPCDirection, PPCOneDimensionResizeConstraints, PPCPPPathSegmentData, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDevicePreset, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPVarProxy, PPCPPPlayControlGestureOptions, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCKotlinx_serialization_jsonJson, PPCKotlinCancellationException, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_jsonJsonDefault, PPCKotlinx_serialization_jsonJsonConfiguration, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing, PPCKotlinRuntimeException, PPCKotlinIllegalStateException, PPCKotlinx_coroutines_coreAtomicDesc, PPCKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, PPCKotlinx_coroutines_coreAtomicOp<__contravariant T>, PPCKotlinx_coroutines_coreOpDescriptor, PPCKotlinx_coroutines_coreLockFreeLinkedListNode, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
 
-@protocol PPCKotlinx_serialization_coreKSerializer, PPCKotlinComparable, PPCPPJson, PPCPPEventChannelHandler, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCPPExprLayer, PPCPPClockObserver, PPCPPPiePlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPKeyboardProvider, PPCPPSoftKeyboardDelegate, PPCPPSoftKeyboardListener, PPCKotlinx_coroutines_coreJob, PPCPPEngineLoggerListener, PPCPPFloatNormalizer, PPCPPValueProvider, PPCPPPropertyObserver, PPCReplayerDelegate, PPCReplayerInterface, PPCPPLayerObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPEngineObserver, PPCPPJsonOverrider, PPCPPPieDecorator, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_coroutines_coreChildHandle, PPCKotlinx_coroutines_coreChildJob, PPCKotlinx_coroutines_coreDisposableHandle, PPCKotlinSequence, PPCKotlinx_coroutines_coreSelectClause0, PPCKotlinCoroutineContextKey, PPCKotlinCoroutineContextElement, PPCKotlinCoroutineContext, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_coroutines_coreParentJob, PPCKotlinx_coroutines_coreSelectInstance, PPCKotlinSuspendFunction0, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinContinuation, PPCKotlinFunction, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
+@protocol PPCKotlinx_serialization_coreKSerializer, PPCKotlinComparable, PPCPPJson, PPCPPEventChannelHandler, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCPPExprLayer, PPCPPClockObserver, PPCPPPiePlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPKeyboardProvider, PPCPPSoftKeyboardDelegate, PPCPPSoftKeyboardListener, PPCReplayerDelegate, PPCReplayerInterface, PPCKotlinx_coroutines_coreJob, PPCPPEngineLoggerListener, PPCPPFloatNormalizer, PPCPPValueProvider, PPCPPPropertyObserver, PPCPPLayerObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPEngineObserver, PPCPPJsonOverrider, PPCPPPieDecorator, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_coroutines_coreChildHandle, PPCKotlinx_coroutines_coreChildJob, PPCKotlinx_coroutines_coreDisposableHandle, PPCKotlinSequence, PPCKotlinx_coroutines_coreSelectClause0, PPCKotlinCoroutineContextKey, PPCKotlinCoroutineContextElement, PPCKotlinCoroutineContext, PPCKotlinx_serialization_coreSerialFormat, PPCKotlinx_serialization_coreStringFormat, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_coroutines_coreParentJob, PPCKotlinx_coroutines_coreSelectInstance, PPCKotlinSuspendFunction0, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinContinuation, PPCKotlinFunction, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -656,9 +656,9 @@ __attribute__((swift_name("PPClock")))
 - (void)resetTime:(int32_t)time __attribute__((swift_name("reset(time:)")));
 - (void)resetTime_:(int64_t)time __attribute__((swift_name("reset(time_:)")));
 - (void)resume __attribute__((swift_name("resume()")));
-- (int64_t)updateNow __attribute__((swift_name("updateNow()")));
-@property (readonly) int32_t intNow __attribute__((swift_name("intNow")));
+- (int64_t)tick __attribute__((swift_name("tick()")));
 @property (readonly) int64_t now __attribute__((swift_name("now")));
+@property (readonly) int32_t nowToInt __attribute__((swift_name("nowToInt")));
 @property double scale __attribute__((swift_name("scale")));
 @end
 
@@ -687,9 +687,10 @@ __attribute__((swift_name("PPPieContext")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPPiePlayer")))
 @interface PPCPPPiePlayer : PPCBase
-- (instancetype)initWithPie:(PPCPPPieModel *)pie initialScene:(PPCPPScene *)initialScene clock:(PPCPPClock *)clock delegate:(id<PPCPPPiePlayerDelegate>)delegate hotspotHintsEnabled:(BOOL)hotspotHintsEnabled sensorManager:(id<PPCPPSensorManager>)sensorManager voiceInterface:(id<PPCPPVoiceInterface> _Nullable)voiceInterface speechInterface:(id<PPCPPSpeechInterface> _Nullable)speechInterface __attribute__((swift_name("init(pie:initialScene:clock:delegate:hotspotHintsEnabled:sensorManager:voiceInterface:speechInterface:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPie:(PPCPPPieModel *)pie initialScene:(PPCPPScene *)initialScene clock:(PPCPPClock *)clock delegate:(id<PPCPPPiePlayerDelegate>)delegate hotspotHintsEnabled:(BOOL)hotspotHintsEnabled sensorManager:(id<PPCPPSensorManager>)sensorManager voiceInterface:(id<PPCPPVoiceInterface> _Nullable)voiceInterface speechInterface:(id<PPCPPSpeechInterface> _Nullable)speechInterface record:(BOOL)record broadcast:(BOOL)broadcast __attribute__((swift_name("init(pie:initialScene:clock:delegate:hotspotHintsEnabled:sensorManager:voiceInterface:speechInterface:record:broadcast:)"))) __attribute__((objc_designated_initializer));
 - (void)dispatchTouchEventTouchEvent:(PPCPPTouchEvent *)touchEvent __attribute__((swift_name("dispatchTouchEvent(touchEvent:)")));
 - (void)focusOutCurrentNow:(int64_t)now __attribute__((swift_name("focusOutCurrent(now:)")));
+- (PPCPPPieRecord * _Nullable)getRecord __attribute__((swift_name("getRecord()")));
 - (PPCPPScene * _Nullable)getRunningScene __attribute__((swift_name("getRunningScene()")));
 - (BOOL)handleKeyDownKeyCode:(PPCPPKeyCode *)keyCode __attribute__((swift_name("handleKeyDown(keyCode:)")));
 - (void)handleKeyboardShown:(BOOL)shown keyboardHeight:(int32_t)keyboardHeight now:(int64_t)now __attribute__((swift_name("handleKeyboard(shown:keyboardHeight:now:)")));
@@ -698,6 +699,7 @@ __attribute__((swift_name("PPPiePlayer")))
 - (void)handleShake __attribute__((swift_name("handleShake()")));
 - (BOOL)handleWheelEventEvent:(PPCPPWheelEvent *)event __attribute__((swift_name("handleWheelEvent(event:)")));
 - (void)progressNow:(int64_t)now __attribute__((swift_name("progress(now:)")));
+- (void)restoreFromReplayDataData:(NSString *)data __attribute__((swift_name("restoreFromReplayData(data:)")));
 - (void)setHotspotHintsEnabledValue:(BOOL)value __attribute__((swift_name("setHotspotHintsEnabled(value:)")));
 - (void)showHotspotHints __attribute__((swift_name("showHotspotHints()")));
 - (void)start __attribute__((swift_name("start()")));
@@ -711,6 +713,7 @@ __attribute__((swift_name("PPPiePlayerDelegate")))
 @protocol PPCPPPiePlayerDelegate
 @required
 - (void)addSceneViewScene:(PPCPPScene *)scene top:(BOOL)top __attribute__((swift_name("addSceneView(scene:top:)")));
+- (void)broadcastType:(NSString *)type data:(NSString *)data __attribute__((swift_name("broadcast(type:data:)")));
 - (void)changeBackgroundColorColor:(PPCPPColor *)color __attribute__((swift_name("changeBackgroundColor(color:)")));
 - (void)openUrlUrlString:(NSString *)urlString inAppBrowser:(BOOL)inAppBrowser __attribute__((swift_name("openUrl(urlString:inAppBrowser:)")));
 - (void)removeSceneViewScene:(PPCPPScene *)scene __attribute__((swift_name("removeSceneView(scene:)")));
@@ -730,6 +733,11 @@ __attribute__((swift_name("PPPiePlayer.PlayerDelayRunner")))
 - (void)runRunnable:(void (^)(void))runnable delay:(int32_t)delay __attribute__((swift_name("run(runnable:delay:)")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
 __attribute__((swift_name("PPPlayEvent")))
 @interface PPCPPPlayEvent : PPCBase
 - (instancetype)initWithEventId:(int32_t)eventId delay:(int32_t)delay startTime:(int32_t)startTime endTime:(int32_t)endTime sceneId:(NSString *)sceneId namespace:(NSString *)namespace_ targetType:(NSString *)targetType targetId:(NSString *)targetId count:(int32_t)count averageDuration:(int32_t)averageDuration parentEventId:(PPCInt * _Nullable)parentEventId __attribute__((swift_name("init(eventId:delay:startTime:endTime:sceneId:namespace:targetType:targetId:count:averageDuration:parentEventId:)"))) __attribute__((objc_designated_initializer));
@@ -756,6 +764,7 @@ __attribute__((swift_name("PPPlayEvent.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) PPCPPPlayEventCompanion *shared __attribute__((swift_name("shared")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @property (readonly) NSString *TARGET_TYPE_RESPONSE __attribute__((swift_name("TARGET_TYPE_RESPONSE")));
 @property (readonly) NSString *TARGET_TYPE_TRIGGER __attribute__((swift_name("TARGET_TYPE_TRIGGER")));
 @end
@@ -796,14 +805,15 @@ __attribute__((swift_name("PPSoftKeyboardListener")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PlayOptions")))
 @interface PPCPlayOptions : PPCBase
-- (instancetype)initWithEntrySceneId:(NSString * _Nullable)entrySceneId outlineFixEnabled:(BOOL)outlineFixEnabled keyboardMap:(NSDictionary<NSString *, PPCPPSoftKeyboard *> *)keyboardMap record:(BOOL)record hotspotHintsEnabled:(BOOL)hotspotHintsEnabled onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onSend:(void (^ _Nullable)(NSString *, NSString *, NSString * _Nullable))onSend onOpenUrl:(void (^ _Nullable)(NSString *))onOpenUrl onShowControlRequested:(void (^ _Nullable)(void))onShowControlRequested onStart:(void (^ _Nullable)(void))onStart onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded __attribute__((swift_name("init(entrySceneId:outlineFixEnabled:keyboardMap:record:hotspotHintsEnabled:onFirstFrame:onSend:onOpenUrl:onShowControlRequested:onStart:onInitialSceneResourceLoaded:)"))) __attribute__((objc_designated_initializer));
-- (PPCPlayOptions *)doCopyEntrySceneId:(NSString * _Nullable)entrySceneId outlineFixEnabled:(BOOL)outlineFixEnabled keyboardMap:(NSDictionary<NSString *, PPCPPSoftKeyboard *> *)keyboardMap record:(BOOL)record hotspotHintsEnabled:(BOOL)hotspotHintsEnabled onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onSend:(void (^ _Nullable)(NSString *, NSString *, NSString * _Nullable))onSend onOpenUrl:(void (^ _Nullable)(NSString *))onOpenUrl onShowControlRequested:(void (^ _Nullable)(void))onShowControlRequested onStart:(void (^ _Nullable)(void))onStart onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded __attribute__((swift_name("doCopy(entrySceneId:outlineFixEnabled:keyboardMap:record:hotspotHintsEnabled:onFirstFrame:onSend:onOpenUrl:onShowControlRequested:onStart:onInitialSceneResourceLoaded:)")));
+- (instancetype)initWithEntrySceneId:(NSString * _Nullable)entrySceneId outlineFixEnabled:(BOOL)outlineFixEnabled keyboardMap:(NSDictionary<NSString *, PPCPPSoftKeyboard *> *)keyboardMap record:(BOOL)record hotspotHintsEnabled:(BOOL)hotspotHintsEnabled onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onSend:(void (^ _Nullable)(NSString *, NSString *, NSString * _Nullable))onSend onOpenUrl:(void (^ _Nullable)(NSString *))onOpenUrl onShowControlRequested:(void (^ _Nullable)(void))onShowControlRequested onStart:(void (^ _Nullable)(void))onStart onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded onBroadcast:(void (^ _Nullable)(NSString *, NSString *))onBroadcast __attribute__((swift_name("init(entrySceneId:outlineFixEnabled:keyboardMap:record:hotspotHintsEnabled:onFirstFrame:onSend:onOpenUrl:onShowControlRequested:onStart:onInitialSceneResourceLoaded:onBroadcast:)"))) __attribute__((objc_designated_initializer));
+- (PPCPlayOptions *)doCopyEntrySceneId:(NSString * _Nullable)entrySceneId outlineFixEnabled:(BOOL)outlineFixEnabled keyboardMap:(NSDictionary<NSString *, PPCPPSoftKeyboard *> *)keyboardMap record:(BOOL)record hotspotHintsEnabled:(BOOL)hotspotHintsEnabled onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onSend:(void (^ _Nullable)(NSString *, NSString *, NSString * _Nullable))onSend onOpenUrl:(void (^ _Nullable)(NSString *))onOpenUrl onShowControlRequested:(void (^ _Nullable)(void))onShowControlRequested onStart:(void (^ _Nullable)(void))onStart onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded onBroadcast:(void (^ _Nullable)(NSString *, NSString *))onBroadcast __attribute__((swift_name("doCopy(entrySceneId:outlineFixEnabled:keyboardMap:record:hotspotHintsEnabled:onFirstFrame:onSend:onOpenUrl:onShowControlRequested:onStart:onInitialSceneResourceLoaded:onBroadcast:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString * _Nullable entrySceneId __attribute__((swift_name("entrySceneId")));
 @property (readonly) BOOL hotspotHintsEnabled __attribute__((swift_name("hotspotHintsEnabled")));
 @property (readonly) NSDictionary<NSString *, PPCPPSoftKeyboard *> *keyboardMap __attribute__((swift_name("keyboardMap")));
+@property (readonly) void (^ _Nullable onBroadcast)(NSString *, NSString *) __attribute__((swift_name("onBroadcast")));
 @property (readonly) void (^ _Nullable onFirstFrame)(void) __attribute__((swift_name("onFirstFrame")));
 @property (readonly) void (^ _Nullable onInitialSceneResourceLoaded)(PPCInt *, PPCInt *) __attribute__((swift_name("onInitialSceneResourceLoaded")));
 @property (readonly) void (^ _Nullable onOpenUrl)(NSString *) __attribute__((swift_name("onOpenUrl")));
@@ -812,6 +822,66 @@ __attribute__((swift_name("PlayOptions")))
 @property (readonly) void (^ _Nullable onStart)(void) __attribute__((swift_name("onStart")));
 @property (readonly) BOOL outlineFixEnabled __attribute__((swift_name("outlineFixEnabled")));
 @property (readonly) BOOL record __attribute__((swift_name("record")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ReplayOptions")))
+@interface PPCReplayOptions : PPCBase
+- (instancetype)initWithAutoPlay:(PPCBoolean * _Nullable)autoPlay onProgress:(void (^ _Nullable)(PPCInt *))onProgress onEnd:(void (^ _Nullable)(void))onEnd onPropChange:(void (^ _Nullable)(NSString *, NSString *, NSString *))onPropChange onVarChange:(void (^ _Nullable)(NSString *, NSString *))onVarChange onOneTimeTrigger:(void (^ _Nullable)(PPCInt *))onOneTimeTrigger onSceneChange:(void (^ _Nullable)(NSString *))onSceneChange onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded __attribute__((swift_name("init(autoPlay:onProgress:onEnd:onPropChange:onVarChange:onOneTimeTrigger:onSceneChange:onFirstFrame:onInitialSceneResourceLoaded:)"))) __attribute__((objc_designated_initializer));
+- (PPCReplayOptions *)doCopyAutoPlay:(PPCBoolean * _Nullable)autoPlay onProgress:(void (^ _Nullable)(PPCInt *))onProgress onEnd:(void (^ _Nullable)(void))onEnd onPropChange:(void (^ _Nullable)(NSString *, NSString *, NSString *))onPropChange onVarChange:(void (^ _Nullable)(NSString *, NSString *))onVarChange onOneTimeTrigger:(void (^ _Nullable)(PPCInt *))onOneTimeTrigger onSceneChange:(void (^ _Nullable)(NSString *))onSceneChange onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded __attribute__((swift_name("doCopy(autoPlay:onProgress:onEnd:onPropChange:onVarChange:onOneTimeTrigger:onSceneChange:onFirstFrame:onInitialSceneResourceLoaded:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) PPCBoolean * _Nullable autoPlay __attribute__((swift_name("autoPlay")));
+@property (readonly) void (^ _Nullable onEnd)(void) __attribute__((swift_name("onEnd")));
+@property (readonly) void (^ _Nullable onFirstFrame)(void) __attribute__((swift_name("onFirstFrame")));
+@property (readonly) void (^ _Nullable onInitialSceneResourceLoaded)(PPCInt *, PPCInt *) __attribute__((swift_name("onInitialSceneResourceLoaded")));
+@property (readonly) void (^ _Nullable onOneTimeTrigger)(PPCInt *) __attribute__((swift_name("onOneTimeTrigger")));
+@property (readonly) void (^ _Nullable onProgress)(PPCInt *) __attribute__((swift_name("onProgress")));
+@property (readonly) void (^ _Nullable onPropChange)(NSString *, NSString *, NSString *) __attribute__((swift_name("onPropChange")));
+@property (readonly) void (^ _Nullable onSceneChange)(NSString *) __attribute__((swift_name("onSceneChange")));
+@property (readonly) void (^ _Nullable onVarChange)(NSString *, NSString *) __attribute__((swift_name("onVarChange")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Replayer")))
+@interface PPCReplayer : PPCBase
+- (instancetype)initWithPie:(PPCPPPieModel *)pie initialScene:(PPCPPScene *)initialScene clock:(PPCPPClock *)clock delegate:(id<PPCReplayerDelegate>)delegate record:(PPCPPPieRecord * _Nullable)record replayerInterface:(id<PPCReplayerInterface> _Nullable)replayerInterface options:(PPCReplayOptions * _Nullable)options __attribute__((swift_name("init(pie:initialScene:clock:delegate:record:replayerInterface:options:)"))) __attribute__((objc_designated_initializer));
+- (int32_t)getEndTime __attribute__((swift_name("getEndTime()")));
+- (int64_t)getSceneAddedTimeEvent:(PPCPPSceneChangeEvent *)event __attribute__((swift_name("getSceneAddedTime(event:)")));
+- (int32_t)getStartTime __attribute__((swift_name("getStartTime()")));
+- (BOOL)jumpTime:(int32_t)time __attribute__((swift_name("jump(time:)")));
+- (void)onColorPropChangeSceneId:(NSString *)sceneId layerId:(NSString *)layerId propName:(NSString *)propName value:(PPCPPColor *)value __attribute__((swift_name("onColorPropChange(sceneId:layerId:propName:value:)")));
+- (void)onColorVarChangeSceneId:(NSString *)sceneId varName:(NSString *)varName value:(PPCPPColor *)value __attribute__((swift_name("onColorVarChange(sceneId:varName:value:)")));
+- (void)onExtraPropChangeSceneId:(NSString *)sceneId layerId:(NSString *)layerId propName:(NSString *)propName value:(NSString *)value __attribute__((swift_name("onExtraPropChange(sceneId:layerId:propName:value:)")));
+- (void)onInteractionEventIndex:(int32_t)index __attribute__((swift_name("onInteractionEvent(index:)")));
+- (void)onMouseActionAction:(NSString *)action forward:(BOOL)forward __attribute__((swift_name("onMouseAction(action:forward:)")));
+- (void)onMouseMoveX:(int32_t)x y:(int32_t)y __attribute__((swift_name("onMouseMove(x:y:)")));
+- (void)onNumberPropChangeSceneId:(NSString *)sceneId layerId:(NSString *)layerId propName:(NSString *)propName value:(float)value __attribute__((swift_name("onNumberPropChange(sceneId:layerId:propName:value:)")));
+- (void)onNumberVarChangeSceneId:(NSString *)sceneId varName:(NSString *)varName value:(float)value __attribute__((swift_name("onNumberVarChange(sceneId:varName:value:)")));
+- (void)onRenderEventEvent:(PPCPPRenderEvent *)event forward:(BOOL)forward __attribute__((swift_name("onRenderEvent(event:forward:)")));
+- (void)onStringVarChangeSceneId:(NSString *)sceneId varName:(NSString *)varName value:(NSString *)value __attribute__((swift_name("onStringVarChange(sceneId:varName:value:)")));
+- (void)postProgress __attribute__((swift_name("postProgress()")));
+- (void)preProgress __attribute__((swift_name("preProgress()")));
+- (void)progressFromTime:(int32_t)fromTime toTime:(int32_t)toTime __attribute__((swift_name("progress(fromTime:toTime:)")));
+- (void)putData:(NSString *)data __attribute__((swift_name("put(data:)")));
+@property (readonly) id<PPCReplayerInterface> _Nullable replayerInterface __attribute__((swift_name("replayerInterface")));
+@end
+
+__attribute__((swift_name("ReplayerDelegate")))
+@protocol PPCReplayerDelegate
+@required
+- (void)addSceneViewScene:(PPCPPScene *)scene top:(BOOL)top fixed:(BOOL)fixed __attribute__((swift_name("addSceneView(scene:top:fixed:)")));
+- (void)removeSceneViewScene:(PPCPPScene *)scene __attribute__((swift_name("removeSceneView(scene:)")));
+- (void)showFixedSceneScene:(PPCPPScene *)scene __attribute__((swift_name("showFixedScene(scene:)")));
+@end
+
+__attribute__((swift_name("ReplayerInterface")))
+@protocol PPCReplayerInterface
+@required
+- (void)onMouseActionAction:(NSString *)action forward:(BOOL)forward __attribute__((swift_name("onMouseAction(action:forward:)")));
+- (void)onMouseMoveX:(int32_t)x y:(int32_t)y __attribute__((swift_name("onMouseMove(x:y:)")));
+- (void)onRenderEventEvent:(PPCPPRenderEvent *)event forward:(BOOL)forward __attribute__((swift_name("onRenderEvent(event:forward:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1377,16 +1447,32 @@ __attribute__((swift_name("PPFloatCorners")))
 - (PPCKotlinFloatArray *)getCorners __attribute__((swift_name("getCorners()")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPPoint")))
 @interface PPCPPPoint : PPCBase
 - (instancetype)initWithSrc:(PPCPPPoint *)src __attribute__((swift_name("init(src:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithX:(float)x y:(float)y __attribute__((swift_name("init(x:y:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCPPPointCompanion *companion __attribute__((swift_name("companion")));
 - (void)doCopyFromOther:(PPCPPPoint *)other __attribute__((swift_name("doCopyFrom(other:)")));
 - (void)setX:(id)x y:(id)y __attribute__((swift_name("set(x:y:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property float x __attribute__((swift_name("x")));
 @property float y __attribute__((swift_name("y")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPPoint.Companion")))
+@interface PPCPPPointCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPPointCompanion *shared __attribute__((swift_name("shared")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 __attribute__((swift_name("PPProperty")))
@@ -1492,6 +1578,7 @@ __attribute__((swift_name("PPLayerProperty")))
 @property (class, readonly) PPCPPLayerProperty *currentTime __attribute__((swift_name("currentTime")));
 @property (class, readonly) PPCPPLayerProperty *totalTime __attribute__((swift_name("totalTime")));
 @property (class, readonly) PPCPPLayerProperty *highlight __attribute__((swift_name("highlight")));
+@property (class, readonly) PPCPPLayerProperty *volume __attribute__((swift_name("volume")));
 + (PPCKotlinArray<PPCPPLayerProperty *> *)values __attribute__((swift_name("values()")));
 @end
 
@@ -1515,51 +1602,71 @@ __attribute__((swift_name("PPStringProperty")))
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ArrayHistory")))
-@interface PPCArrayHistory : PPCBase
-- (instancetype)initWithT:(NSString *)t v:(PPCKotlinArray<NSString *> *)v __attribute__((swift_name("init(t:v:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) PPCArrayHistoryCompanion *companion __attribute__((swift_name("companion")));
-@property (readonly) NSString *t __attribute__((swift_name("t")));
-@property (readonly) PPCKotlinArray<NSString *> *v __attribute__((swift_name("v")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ArrayHistory.Companion")))
-@interface PPCArrayHistoryCompanion : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCArrayHistoryCompanion *shared __attribute__((swift_name("shared")));
-- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
 __attribute__((swift_name("PPRenderEvent")))
 @interface PPCPPRenderEvent : PPCBase
+@property (class, readonly, getter=companion) PPCPPRenderEventCompanion *companion __attribute__((swift_name("companion")));
 @end
 
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPFixedSceneChangeEvent")))
 @interface PPCPPFixedSceneChangeEvent : PPCPPRenderEvent
 - (instancetype)initWithSceneId:(NSString *)sceneId add:(BOOL)add top:(BOOL)top __attribute__((swift_name("init(sceneId:add:top:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCPPFixedSceneChangeEventCompanion *companion __attribute__((swift_name("companion")));
 @property (readonly) BOOL add __attribute__((swift_name("add")));
 @property (readonly) NSString *sceneId __attribute__((swift_name("sceneId")));
 @property (readonly) BOOL top __attribute__((swift_name("top")));
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPFixedSceneChangeEvent.Companion")))
+@interface PPCPPFixedSceneChangeEventCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPFixedSceneChangeEventCompanion *shared __attribute__((swift_name("shared")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPInputFocusEvent")))
 @interface PPCPPInputFocusEvent : PPCPPRenderEvent
 - (instancetype)initWithSceneId:(NSString *)sceneId layerId:(NSString *)layerId focus:(BOOL)focus __attribute__((swift_name("init(sceneId:layerId:focus:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCPPInputFocusEventCompanion *companion __attribute__((swift_name("companion")));
 @property (readonly) BOOL focus __attribute__((swift_name("focus")));
 @property (readonly) NSString *layerId __attribute__((swift_name("layerId")));
 @property (readonly) NSString *sceneId __attribute__((swift_name("sceneId")));
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPInputFocusEvent.Companion")))
+@interface PPCPPInputFocusEventCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPInputFocusEventCompanion *shared __attribute__((swift_name("shared")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPIosEffectEvent")))
 @interface PPCPPIosEffectEvent : PPCPPRenderEvent
 - (instancetype)initWithSceneId:(NSString *)sceneId layerId:(NSString *)layerId style:(NSString *)style duration:(int32_t)duration __attribute__((swift_name("init(sceneId:layerId:style:duration:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCPPIosEffectEventCompanion *companion __attribute__((swift_name("companion")));
 @property (readonly) int32_t duration __attribute__((swift_name("duration")));
 @property (readonly) NSString *layerId __attribute__((swift_name("layerId")));
 @property (readonly) NSString *sceneId __attribute__((swift_name("sceneId")));
@@ -1567,16 +1674,44 @@ __attribute__((swift_name("PPIosEffectEvent")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPIosEffectEvent.Companion")))
+@interface PPCPPIosEffectEventCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPIosEffectEventCompanion *shared __attribute__((swift_name("shared")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPMediaCommandEvent")))
 @interface PPCPPMediaCommandEvent : PPCPPRenderEvent
 - (instancetype)initWithSceneId:(NSString *)sceneId layerId:(NSString *)layerId command:(NSString *)command __attribute__((swift_name("init(sceneId:layerId:command:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCPPMediaCommandEventCompanion *companion __attribute__((swift_name("companion")));
 @property (readonly) NSString *command __attribute__((swift_name("command")));
 @property (readonly) NSString *layerId __attribute__((swift_name("layerId")));
 @property (readonly) NSString *sceneId __attribute__((swift_name("sceneId")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPMediaCommandEvent.Companion")))
+@interface PPCPPMediaCommandEventCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPMediaCommandEventCompanion *shared __attribute__((swift_name("shared")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
 __attribute__((swift_name("PPPieRecord")))
 @interface PPCPPPieRecord : PPCBase
+- (void)attachStartTime:(int32_t)startTime endTime:(int32_t)endTime playEvents:(PPCPPValueHistory<PPCPPPlayEvent *> *)playEvents renderEvents:(PPCPPValueHistory<PPCPPRenderEvent *> *)renderEvents mousePositions:(PPCPPValueHistory<PPCPPPoint *> *)mousePositions mouseActions:(PPCPPValueHistory<NSString *> *)mouseActions numberValues:(PPCMutableDictionary<NSString *, PPCPPValueHistory<PPCFloat *> *> *)numberValues colorValues:(PPCMutableDictionary<NSString *, PPCPPValueHistory<PPCInt *> *> *)colorValues stringValues:(PPCMutableDictionary<NSString *, PPCPPValueHistory<NSString *> *> *)stringValues __attribute__((swift_name("attach(startTime:endTime:playEvents:renderEvents:mousePositions:mouseActions:numberValues:colorValues:stringValues:)")));
+- (BOOL)empty __attribute__((swift_name("empty()")));
 - (void)getChangesTimeFrom:(int32_t)timeFrom timeTo:(int32_t)timeTo replayer:(PPCReplayer *)replayer __attribute__((swift_name("getChanges(timeFrom:timeTo:replayer:)")));
 - (NSString * _Nullable)getColorPropValueSceneId:(NSString *)sceneId layerId:(NSString *)layerId propName:(NSString *)propName time:(int32_t)time __attribute__((swift_name("getColorPropValue(sceneId:layerId:propName:time:)")));
 - (PPCKotlinArray<PPCPPPlayEvent *> *)getEvents __attribute__((swift_name("getEvents()")));
@@ -1591,9 +1726,26 @@ __attribute__((swift_name("PPPieRecord")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPRenderEvent.Companion")))
+@interface PPCPPRenderEventCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPRenderEventCompanion *shared __attribute__((swift_name("shared")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(PPCKotlinArray<id<PPCKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPReorderEvent")))
 @interface PPCPPReorderEvent : PPCPPRenderEvent
 - (instancetype)initWithSceneId:(NSString *)sceneId parentId:(NSString *)parentId oldIndex:(int32_t)oldIndex newIndex:(int32_t)newIndex __attribute__((swift_name("init(sceneId:parentId:oldIndex:newIndex:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCPPReorderEventCompanion *companion __attribute__((swift_name("companion")));
 @property (readonly, getter=doNewIndex) int32_t newIndex __attribute__((swift_name("newIndex")));
 @property (readonly) int32_t oldIndex __attribute__((swift_name("oldIndex")));
 @property (readonly) NSString *parentId __attribute__((swift_name("parentId")));
@@ -1601,12 +1753,74 @@ __attribute__((swift_name("PPReorderEvent")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPReorderEvent.Companion")))
+@interface PPCPPReorderEventCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPReorderEventCompanion *shared __attribute__((swift_name("shared")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPSceneChangeEvent")))
 @interface PPCPPSceneChangeEvent : PPCPPRenderEvent
 - (instancetype)initWithSceneId:(NSString *)sceneId add:(BOOL)add top:(BOOL)top __attribute__((swift_name("init(sceneId:add:top:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCPPSceneChangeEventCompanion *companion __attribute__((swift_name("companion")));
 @property (readonly) BOOL add __attribute__((swift_name("add")));
 @property (readonly) NSString *sceneId __attribute__((swift_name("sceneId")));
 @property (readonly) BOOL top __attribute__((swift_name("top")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPSceneChangeEvent.Companion")))
+@interface PPCPPSceneChangeEventCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPSceneChangeEventCompanion *shared __attribute__((swift_name("shared")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPValueHistory")))
+@interface PPCPPValueHistory<T> : PPCBase
+- (instancetype)initWithAllowMultiple:(BOOL)allowMultiple __attribute__((swift_name("init(allowMultiple:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCPPValueHistoryCompanion *companion __attribute__((swift_name("companion")));
+- (void)addValue:(PPCPPValueHistory<T> *)value __attribute__((swift_name("add(value:)")));
+- (void)addTime:(int32_t)time value:(T _Nullable)value __attribute__((swift_name("add(time:value:)")));
+- (void)forEachFn:(void (^)(PPCInt *, T _Nullable))fn __attribute__((swift_name("forEach(fn:)")));
+- (T _Nullable)getChangeFromTime:(int32_t)fromTime toTime:(int32_t)toTime __attribute__((swift_name("getChange(fromTime:toTime:)")));
+- (T _Nullable)getEventAtIndex:(int32_t)index __attribute__((swift_name("getEventAt(index:)")));
+- (NSArray<PPCInt *> *)getEventIndexBetweenFromTime:(int32_t)fromTime toTime:(int32_t)toTime __attribute__((swift_name("getEventIndexBetween(fromTime:toTime:)")));
+- (int32_t)getEventTimeAtIndex:(int32_t)index __attribute__((swift_name("getEventTimeAt(index:)")));
+- (T _Nullable)getValueAtTime:(int32_t)time __attribute__((swift_name("getValueAt(time:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t count __attribute__((swift_name("count")));
+@property (readonly) int32_t size __attribute__((swift_name("size")));
+@property (readonly) NSArray<PPCInt *> *times __attribute__((swift_name("times")));
+@property (readonly) NSArray<id> *values __attribute__((swift_name("values")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPValueHistoryCompanion")))
+@interface PPCPPValueHistoryCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPValueHistoryCompanion *shared __attribute__((swift_name("shared")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializerTypeParamsSerializers:(PPCKotlinArray<id<PPCKotlinx_serialization_coreKSerializer>> *)typeParamsSerializers __attribute__((swift_name("serializer(typeParamsSerializers:)")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializerTypeSerial0:(id<PPCKotlinx_serialization_coreKSerializer>)typeSerial0 __attribute__((swift_name("serializer(typeSerial0:)")));
 @end
 
 
@@ -1617,17 +1831,18 @@ __attribute__((swift_name("PPSceneChangeEvent")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ReplayData")))
 @interface PPCReplayData : PPCBase
-- (instancetype)initWithVersion:(int32_t)version endTime:(int32_t)endTime times:(NSString * _Nullable)times mousePositions:(PPCValueHistory * _Nullable)mousePositions mouseActions:(PPCArrayHistory * _Nullable)mouseActions playEvents:(PPCValueHistory * _Nullable)playEvents renderEvents:(PPCValueHistory * _Nullable)renderEvents numberValues:(NSDictionary<NSString *, PPCKotlinx_serialization_jsonJsonElement *> * _Nullable)numberValues colorValues:(NSDictionary<NSString *, PPCKotlinx_serialization_jsonJsonElement *> * _Nullable)colorValues stringValues:(NSDictionary<NSString *, PPCKotlinx_serialization_jsonJsonElement *> * _Nullable)stringValues __attribute__((swift_name("init(version:endTime:times:mousePositions:mouseActions:playEvents:renderEvents:numberValues:colorValues:stringValues:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithVersion:(int32_t)version startTime:(int32_t)startTime endTime:(int32_t)endTime playEvents:(PPCPPValueHistory<PPCPPPlayEvent *> * _Nullable)playEvents renderEvents:(PPCPPValueHistory<PPCPPRenderEvent *> * _Nullable)renderEvents mousePositions:(PPCPPValueHistory<PPCPPPoint *> * _Nullable)mousePositions mouseActions:(PPCPPValueHistory<NSString *> * _Nullable)mouseActions numberValues:(PPCMutableDictionary<NSString *, PPCPPValueHistory<PPCFloat *> *> * _Nullable)numberValues colorValues:(PPCMutableDictionary<NSString *, PPCPPValueHistory<PPCInt *> *> * _Nullable)colorValues stringValues:(PPCMutableDictionary<NSString *, PPCPPValueHistory<NSString *> *> * _Nullable)stringValues sceneId:(NSString * _Nullable)sceneId __attribute__((swift_name("init(version:startTime:endTime:playEvents:renderEvents:mousePositions:mouseActions:numberValues:colorValues:stringValues:sceneId:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) PPCReplayDataCompanion *companion __attribute__((swift_name("companion")));
-@property (readonly) NSDictionary<NSString *, PPCKotlinx_serialization_jsonJsonElement *> * _Nullable colorValues __attribute__((swift_name("colorValues")));
+@property (readonly) PPCMutableDictionary<NSString *, PPCPPValueHistory<PPCInt *> *> * _Nullable colorValues __attribute__((swift_name("colorValues")));
 @property (readonly) int32_t endTime __attribute__((swift_name("endTime")));
-@property (readonly) PPCArrayHistory * _Nullable mouseActions __attribute__((swift_name("mouseActions")));
-@property (readonly) PPCValueHistory * _Nullable mousePositions __attribute__((swift_name("mousePositions")));
-@property (readonly) NSDictionary<NSString *, PPCKotlinx_serialization_jsonJsonElement *> * _Nullable numberValues __attribute__((swift_name("numberValues")));
-@property (readonly) PPCValueHistory * _Nullable playEvents __attribute__((swift_name("playEvents")));
-@property (readonly) PPCValueHistory * _Nullable renderEvents __attribute__((swift_name("renderEvents")));
-@property (readonly) NSDictionary<NSString *, PPCKotlinx_serialization_jsonJsonElement *> * _Nullable stringValues __attribute__((swift_name("stringValues")));
-@property (readonly) NSString * _Nullable times __attribute__((swift_name("times")));
+@property (readonly) PPCPPValueHistory<NSString *> * _Nullable mouseActions __attribute__((swift_name("mouseActions")));
+@property (readonly) PPCPPValueHistory<PPCPPPoint *> * _Nullable mousePositions __attribute__((swift_name("mousePositions")));
+@property (readonly) PPCMutableDictionary<NSString *, PPCPPValueHistory<PPCFloat *> *> * _Nullable numberValues __attribute__((swift_name("numberValues")));
+@property (readonly) PPCPPValueHistory<PPCPPPlayEvent *> * _Nullable playEvents __attribute__((swift_name("playEvents")));
+@property (readonly) PPCPPValueHistory<PPCPPRenderEvent *> * _Nullable renderEvents __attribute__((swift_name("renderEvents")));
+@property (readonly) NSString * _Nullable sceneId __attribute__((swift_name("sceneId")));
+@property (readonly) int32_t startTime __attribute__((swift_name("startTime")));
+@property (readonly) PPCMutableDictionary<NSString *, PPCPPValueHistory<NSString *> *> * _Nullable stringValues __attribute__((swift_name("stringValues")));
 @property (readonly) int32_t version __attribute__((swift_name("version")));
 @end
 
@@ -1641,35 +1856,26 @@ __attribute__((swift_name("ReplayData.Companion")))
 - (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ReplayHelper")))
-@interface PPCReplayHelper : PPCBase
-- (instancetype)initWithReplayData:(NSString *)replayData __attribute__((swift_name("init(replayData:)"))) __attribute__((objc_designated_initializer));
-- (PPCPPPieRecord *)deserialize __attribute__((swift_name("deserialize()")));
-@property (readonly) NSString *replayData __attribute__((swift_name("replayData")));
-@end
-
 
 /**
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ValueHistory")))
-@interface PPCValueHistory : PPCBase
-- (instancetype)initWithT:(NSString *)t v:(NSString *)v __attribute__((swift_name("init(t:v:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) PPCValueHistoryCompanion *companion __attribute__((swift_name("companion")));
-@property (readonly) NSString *t __attribute__((swift_name("t")));
-@property (readonly) NSString *v __attribute__((swift_name("v")));
+__attribute__((swift_name("ReplayDataVersion")))
+@interface PPCReplayDataVersion : PPCBase
+- (instancetype)initWithVersion:(int32_t)version __attribute__((swift_name("init(version:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCReplayDataVersionCompanion *companion __attribute__((swift_name("companion")));
+@property (readonly) int32_t version __attribute__((swift_name("version")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ValueHistory.Companion")))
-@interface PPCValueHistoryCompanion : PPCBase
+__attribute__((swift_name("ReplayDataVersion.Companion")))
+@interface PPCReplayDataVersionCompanion : PPCBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCValueHistoryCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) PPCReplayDataVersionCompanion *shared __attribute__((swift_name("shared")));
 - (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
@@ -1678,73 +1884,6 @@ __attribute__((swift_name("ListSerializer")))
 @required
 - (id)deserializeString:(NSString *)string __attribute__((swift_name("deserialize(string:)")));
 - (NSString *)serializeIterable:(id)iterable __attribute__((swift_name("serialize(iterable:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ReplayOptions")))
-@interface PPCReplayOptions : PPCBase
-- (instancetype)initWithAutoPlay:(PPCBoolean * _Nullable)autoPlay onProgress:(void (^ _Nullable)(PPCInt *))onProgress onEnd:(void (^ _Nullable)(void))onEnd onPropChange:(void (^ _Nullable)(NSString *, NSString *, NSString *))onPropChange onVarChange:(void (^ _Nullable)(NSString *, NSString *))onVarChange onOneTimeTrigger:(void (^ _Nullable)(PPCInt *))onOneTimeTrigger onSceneChange:(void (^ _Nullable)(NSString *))onSceneChange onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded __attribute__((swift_name("init(autoPlay:onProgress:onEnd:onPropChange:onVarChange:onOneTimeTrigger:onSceneChange:onFirstFrame:onInitialSceneResourceLoaded:)"))) __attribute__((objc_designated_initializer));
-- (PPCReplayOptions *)doCopyAutoPlay:(PPCBoolean * _Nullable)autoPlay onProgress:(void (^ _Nullable)(PPCInt *))onProgress onEnd:(void (^ _Nullable)(void))onEnd onPropChange:(void (^ _Nullable)(NSString *, NSString *, NSString *))onPropChange onVarChange:(void (^ _Nullable)(NSString *, NSString *))onVarChange onOneTimeTrigger:(void (^ _Nullable)(PPCInt *))onOneTimeTrigger onSceneChange:(void (^ _Nullable)(NSString *))onSceneChange onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded __attribute__((swift_name("doCopy(autoPlay:onProgress:onEnd:onPropChange:onVarChange:onOneTimeTrigger:onSceneChange:onFirstFrame:onInitialSceneResourceLoaded:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) PPCBoolean * _Nullable autoPlay __attribute__((swift_name("autoPlay")));
-@property (readonly) void (^ _Nullable onEnd)(void) __attribute__((swift_name("onEnd")));
-@property (readonly) void (^ _Nullable onFirstFrame)(void) __attribute__((swift_name("onFirstFrame")));
-@property (readonly) void (^ _Nullable onInitialSceneResourceLoaded)(PPCInt *, PPCInt *) __attribute__((swift_name("onInitialSceneResourceLoaded")));
-@property (readonly) void (^ _Nullable onOneTimeTrigger)(PPCInt *) __attribute__((swift_name("onOneTimeTrigger")));
-@property (readonly) void (^ _Nullable onProgress)(PPCInt *) __attribute__((swift_name("onProgress")));
-@property (readonly) void (^ _Nullable onPropChange)(NSString *, NSString *, NSString *) __attribute__((swift_name("onPropChange")));
-@property (readonly) void (^ _Nullable onSceneChange)(NSString *) __attribute__((swift_name("onSceneChange")));
-@property (readonly) void (^ _Nullable onVarChange)(NSString *, NSString *) __attribute__((swift_name("onVarChange")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Replayer")))
-@interface PPCReplayer : PPCBase
-- (instancetype)initWithPie:(PPCPPPieModel *)pie initialScene:(PPCPPScene *)initialScene clock:(PPCPPClock *)clock delegate:(id<PPCReplayerDelegate>)delegate record:(PPCPPPieRecord *)record replayerInterface:(id<PPCReplayerInterface> _Nullable)replayerInterface options:(PPCReplayOptions * _Nullable)options __attribute__((swift_name("init(pie:initialScene:clock:delegate:record:replayerInterface:options:)"))) __attribute__((objc_designated_initializer));
-- (void)buildSceneHistory __attribute__((swift_name("buildSceneHistory()")));
-- (void)dispatchTouchEventTouchEvent:(PPCPPTouchEvent *)touchEvent __attribute__((swift_name("dispatchTouchEvent(touchEvent:)")));
-- (PPCPPScene * _Nullable)getRunningScene __attribute__((swift_name("getRunningScene()")));
-- (int64_t)getSceneAddedTimeEvent:(PPCPPSceneChangeEvent *)event __attribute__((swift_name("getSceneAddedTime(event:)")));
-- (BOOL)handleKeyDownKeyCode:(PPCPPKeyCode *)keyCode __attribute__((swift_name("handleKeyDown(keyCode:)")));
-- (void)handleMessageMessageId:(NSString *)messageId channel:(PPCPPMsgChannel *)channel value:(NSString * _Nullable)value __attribute__((swift_name("handleMessage(messageId:channel:value:)")));
-- (void)handleMouseMoveMouseX:(float)mouseX mouseY:(float)mouseY __attribute__((swift_name("handleMouseMove(mouseX:mouseY:)")));
-- (void)handleShake __attribute__((swift_name("handleShake()")));
-- (BOOL)handleWheelEventEvent:(PPCPPWheelEvent *)event __attribute__((swift_name("handleWheelEvent(event:)")));
-- (void)onColorPropChangeSceneId:(NSString *)sceneId layerId:(NSString *)layerId propName:(NSString *)propName value:(PPCPPColor *)value __attribute__((swift_name("onColorPropChange(sceneId:layerId:propName:value:)")));
-- (void)onColorVarChangeSceneId:(NSString *)sceneId varName:(NSString *)varName value:(PPCPPColor *)value __attribute__((swift_name("onColorVarChange(sceneId:varName:value:)")));
-- (void)onExtraPropChangeSceneId:(NSString *)sceneId layerId:(NSString *)layerId propName:(NSString *)propName value:(NSString *)value __attribute__((swift_name("onExtraPropChange(sceneId:layerId:propName:value:)")));
-- (void)onInteractionEventIndex:(int32_t)index __attribute__((swift_name("onInteractionEvent(index:)")));
-- (void)onMouseActionAction:(NSString *)action forward:(BOOL)forward __attribute__((swift_name("onMouseAction(action:forward:)")));
-- (void)onMouseMoveX:(int32_t)x y:(int32_t)y __attribute__((swift_name("onMouseMove(x:y:)")));
-- (void)onNumberPropChangeSceneId:(NSString *)sceneId layerId:(NSString *)layerId propName:(NSString *)propName value:(float)value __attribute__((swift_name("onNumberPropChange(sceneId:layerId:propName:value:)")));
-- (void)onNumberVarChangeSceneId:(NSString *)sceneId varName:(NSString *)varName value:(float)value __attribute__((swift_name("onNumberVarChange(sceneId:varName:value:)")));
-- (void)onRenderEventEvent:(PPCPPRenderEvent *)event forward:(BOOL)forward __attribute__((swift_name("onRenderEvent(event:forward:)")));
-- (void)onStringVarChangeSceneId:(NSString *)sceneId varName:(NSString *)varName value:(NSString *)value __attribute__((swift_name("onStringVarChange(sceneId:varName:value:)")));
-- (void)pause __attribute__((swift_name("pause()")));
-- (void)postProgress __attribute__((swift_name("postProgress()")));
-- (void)preProgress __attribute__((swift_name("preProgress()")));
-- (void)progressFromTime:(int32_t)fromTime toTime:(int32_t)toTime __attribute__((swift_name("progress(fromTime:toTime:)")));
-- (void)start __attribute__((swift_name("start()")));
-- (void)stop __attribute__((swift_name("stop()")));
-@property (readonly) id<PPCReplayerInterface> _Nullable replayerInterface __attribute__((swift_name("replayerInterface")));
-@end
-
-__attribute__((swift_name("ReplayerDelegate")))
-@protocol PPCReplayerDelegate
-@required
-- (void)addSceneViewScene:(PPCPPScene *)scene top:(BOOL)top fixed:(BOOL)fixed __attribute__((swift_name("addSceneView(scene:top:fixed:)")));
-- (void)removeSceneViewScene:(PPCPPScene *)scene __attribute__((swift_name("removeSceneView(scene:)")));
-- (void)showFixedSceneScene:(PPCPPScene *)scene __attribute__((swift_name("showFixedScene(scene:)")));
-@end
-
-__attribute__((swift_name("ReplayerInterface")))
-@protocol PPCReplayerInterface
-@required
-- (void)onMouseActionAction:(NSString *)action forward:(BOOL)forward __attribute__((swift_name("onMouseAction(action:forward:)")));
-- (void)onMouseMoveX:(int32_t)x y:(int32_t)y __attribute__((swift_name("onMouseMove(x:y:)")));
-- (void)onRenderEventEvent:(PPCPPRenderEvent *)event forward:(BOOL)forward __attribute__((swift_name("onRenderEvent(event:forward:)")));
 @end
 
 __attribute__((swift_name("PPKeyboardProvider")))
@@ -2000,6 +2139,7 @@ __attribute__((swift_name("AbstractMediaLayer")))
 @property BOOL isRepeating __attribute__((swift_name("isRepeating")));
 @property (readonly) NSString *resourceId __attribute__((swift_name("resourceId")));
 @property (readonly) PPCPPFloatProperty *totalTime __attribute__((swift_name("totalTime")));
+@property (readonly) PPCPPFloatProperty *volume __attribute__((swift_name("volume")));
 @end
 
 __attribute__((swift_name("AbstractTextLayer")))
@@ -2748,6 +2888,16 @@ __attribute__((swift_name("PPPlayControlGestureOptions")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPReplayProxy")))
+@interface PPCPPReplayProxy : PPCBase
+- (instancetype)initWithReplayer:(PPCReplayer *)replayer __attribute__((swift_name("init(replayer:)"))) __attribute__((objc_designated_initializer));
+- (int32_t)getEndTime __attribute__((swift_name("getEndTime()")));
+- (int32_t)getStartTime __attribute__((swift_name("getStartTime()")));
+- (BOOL)jumpTime:(int32_t)time __attribute__((swift_name("jump(time:)")));
+- (void)putData:(NSString *)data __attribute__((swift_name("put(data:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPScene")))
 @interface PPCPPScene : PPCBase
 - (NSSet<NSString *> *)consumeModifiedLayerIdsIncludeMaskedLayers:(BOOL)includeMaskedLayers __attribute__((swift_name("consumeModifiedLayerIds(includeMaskedLayers:)")));
@@ -2891,6 +3041,12 @@ __attribute__((swift_name("PPJsonImplKt")))
 + (NSDictionary<NSString *, PPCKotlinx_serialization_jsonJsonElement *> *)toJsonObject:(NSDictionary<id, id> *)receiver __attribute__((swift_name("toJsonObject(_:)")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ReplayDataSerializerKt")))
+@interface PPCReplayDataSerializerKt : PPCBase
+@property (class, readonly) PPCKotlinx_serialization_jsonJson *format __attribute__((swift_name("format")));
+@end
+
 __attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
 @protocol PPCKotlinx_serialization_coreSerializationStrategy
 @required
@@ -3002,6 +3158,31 @@ __attribute__((swift_name("KotlinIterator")))
 @required
 - (BOOL)hasNext __attribute__((swift_name("hasNext()")));
 - (id _Nullable)next __attribute__((swift_name("next()")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreSerialFormat")))
+@protocol PPCKotlinx_serialization_coreSerialFormat
+@required
+@property (readonly) PPCKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_coreStringFormat")))
+@protocol PPCKotlinx_serialization_coreStringFormat <PPCKotlinx_serialization_coreSerialFormat>
+@required
+- (id _Nullable)decodeFromStringDeserializer:(id<PPCKotlinx_serialization_coreDeserializationStrategy>)deserializer string:(NSString *)string __attribute__((swift_name("decodeFromString(deserializer:string:)")));
+- (NSString *)encodeToStringSerializer:(id<PPCKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToString(serializer:value:)")));
+@end
+
+__attribute__((swift_name("Kotlinx_serialization_jsonJson")))
+@interface PPCKotlinx_serialization_jsonJson : PPCBase <PPCKotlinx_serialization_coreStringFormat>
+@property (class, readonly, getter=companion) PPCKotlinx_serialization_jsonJsonDefault *companion __attribute__((swift_name("companion")));
+- (id _Nullable)decodeFromJsonElementDeserializer:(id<PPCKotlinx_serialization_coreDeserializationStrategy>)deserializer element:(PPCKotlinx_serialization_jsonJsonElement *)element __attribute__((swift_name("decodeFromJsonElement(deserializer:element:)")));
+- (id _Nullable)decodeFromStringDeserializer:(id<PPCKotlinx_serialization_coreDeserializationStrategy>)deserializer string:(NSString *)string __attribute__((swift_name("decodeFromString(deserializer:string:)")));
+- (PPCKotlinx_serialization_jsonJsonElement *)encodeToJsonElementSerializer:(id<PPCKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToJsonElement(serializer:value:)")));
+- (NSString *)encodeToStringSerializer:(id<PPCKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToString(serializer:value:)")));
+- (PPCKotlinx_serialization_jsonJsonElement *)parseToJsonElementString:(NSString *)string __attribute__((swift_name("parseToJsonElement(string:)")));
+@property (readonly) PPCKotlinx_serialization_jsonJsonConfiguration *configuration __attribute__((swift_name("configuration")));
+@property (readonly) PPCKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreEncoder")))
@@ -3231,6 +3412,71 @@ __attribute__((swift_name("KotlinFloatIterator")))
 - (float)nextFloat __attribute__((swift_name("nextFloat()")));
 @end
 
+__attribute__((swift_name("Kotlinx_serialization_coreSerializersModule")))
+@interface PPCKotlinx_serialization_coreSerializersModule : PPCBase
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (void)dumpToCollector:(id<PPCKotlinx_serialization_coreSerializersModuleCollector>)collector __attribute__((swift_name("dumpTo(collector:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (id<PPCKotlinx_serialization_coreKSerializer> _Nullable)getContextualKClass:(id<PPCKotlinKClass>)kClass typeArgumentsSerializers:(NSArray<id<PPCKotlinx_serialization_coreKSerializer>> *)typeArgumentsSerializers __attribute__((swift_name("getContextual(kClass:typeArgumentsSerializers:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (id<PPCKotlinx_serialization_coreSerializationStrategy> _Nullable)getPolymorphicBaseClass:(id<PPCKotlinKClass>)baseClass value:(id)value __attribute__((swift_name("getPolymorphic(baseClass:value:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (id<PPCKotlinx_serialization_coreDeserializationStrategy> _Nullable)getPolymorphicBaseClass:(id<PPCKotlinKClass>)baseClass serializedClassName:(NSString * _Nullable)serializedClassName __attribute__((swift_name("getPolymorphic(baseClass:serializedClassName:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_serialization_jsonJson.Default")))
+@interface PPCKotlinx_serialization_jsonJsonDefault : PPCKotlinx_serialization_jsonJson
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)default_ __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCKotlinx_serialization_jsonJsonDefault *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_serialization_jsonJsonConfiguration")))
+@interface PPCKotlinx_serialization_jsonJsonConfiguration : PPCBase
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL allowSpecialFloatingPointValues __attribute__((swift_name("allowSpecialFloatingPointValues")));
+@property (readonly) BOOL allowStructuredMapKeys __attribute__((swift_name("allowStructuredMapKeys")));
+@property (readonly) NSString *classDiscriminator __attribute__((swift_name("classDiscriminator")));
+@property (readonly) BOOL coerceInputValues __attribute__((swift_name("coerceInputValues")));
+@property (readonly) BOOL encodeDefaults __attribute__((swift_name("encodeDefaults")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property (readonly) BOOL explicitNulls __attribute__((swift_name("explicitNulls")));
+@property (readonly) BOOL ignoreUnknownKeys __attribute__((swift_name("ignoreUnknownKeys")));
+@property (readonly) BOOL isLenient __attribute__((swift_name("isLenient")));
+@property (readonly) BOOL prettyPrint __attribute__((swift_name("prettyPrint")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property (readonly) NSString *prettyPrintIndent __attribute__((swift_name("prettyPrintIndent")));
+@property (readonly) BOOL useAlternativeNames __attribute__((swift_name("useAlternativeNames")));
+@property (readonly) BOOL useArrayPolymorphism __attribute__((swift_name("useArrayPolymorphism")));
+@end
+
 __attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
 @protocol PPCKotlinx_serialization_coreCompositeEncoder
 @required
@@ -3259,34 +3505,6 @@ __attribute__((swift_name("Kotlinx_serialization_coreCompositeEncoder")))
 */
 - (BOOL)shouldEncodeElementDefaultDescriptor:(id<PPCKotlinx_serialization_coreSerialDescriptor>)descriptor index:(int32_t)index __attribute__((swift_name("shouldEncodeElementDefault(descriptor:index:)")));
 @property (readonly) PPCKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
-@end
-
-__attribute__((swift_name("Kotlinx_serialization_coreSerializersModule")))
-@interface PPCKotlinx_serialization_coreSerializersModule : PPCBase
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-- (void)dumpToCollector:(id<PPCKotlinx_serialization_coreSerializersModuleCollector>)collector __attribute__((swift_name("dumpTo(collector:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-- (id<PPCKotlinx_serialization_coreKSerializer> _Nullable)getContextualKClass:(id<PPCKotlinKClass>)kClass typeArgumentsSerializers:(NSArray<id<PPCKotlinx_serialization_coreKSerializer>> *)typeArgumentsSerializers __attribute__((swift_name("getContextual(kClass:typeArgumentsSerializers:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-- (id<PPCKotlinx_serialization_coreSerializationStrategy> _Nullable)getPolymorphicBaseClass:(id<PPCKotlinKClass>)baseClass value:(id)value __attribute__((swift_name("getPolymorphic(baseClass:value:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-- (id<PPCKotlinx_serialization_coreDeserializationStrategy> _Nullable)getPolymorphicBaseClass:(id<PPCKotlinKClass>)baseClass serializedClassName:(NSString * _Nullable)serializedClassName __attribute__((swift_name("getPolymorphic(baseClass:serializedClassName:)")));
 @end
 
 __attribute__((swift_name("KotlinAnnotation")))
