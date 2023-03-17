@@ -805,8 +805,8 @@ __attribute__((swift_name("PPSoftKeyboardListener")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PlayOptions")))
 @interface PPCPlayOptions : PPCBase
-- (instancetype)initWithEntrySceneId:(NSString * _Nullable)entrySceneId outlineFixEnabled:(BOOL)outlineFixEnabled keyboardMap:(NSDictionary<NSString *, PPCPPSoftKeyboard *> *)keyboardMap record:(BOOL)record hotspotHintsEnabled:(BOOL)hotspotHintsEnabled onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onSend:(void (^ _Nullable)(NSString *, NSString *, NSString * _Nullable))onSend onOpenUrl:(void (^ _Nullable)(NSString *))onOpenUrl onShowControlRequested:(void (^ _Nullable)(void))onShowControlRequested onStart:(void (^ _Nullable)(void))onStart onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded onBroadcast:(void (^ _Nullable)(NSString *, NSString *))onBroadcast __attribute__((swift_name("init(entrySceneId:outlineFixEnabled:keyboardMap:record:hotspotHintsEnabled:onFirstFrame:onSend:onOpenUrl:onShowControlRequested:onStart:onInitialSceneResourceLoaded:onBroadcast:)"))) __attribute__((objc_designated_initializer));
-- (PPCPlayOptions *)doCopyEntrySceneId:(NSString * _Nullable)entrySceneId outlineFixEnabled:(BOOL)outlineFixEnabled keyboardMap:(NSDictionary<NSString *, PPCPPSoftKeyboard *> *)keyboardMap record:(BOOL)record hotspotHintsEnabled:(BOOL)hotspotHintsEnabled onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onSend:(void (^ _Nullable)(NSString *, NSString *, NSString * _Nullable))onSend onOpenUrl:(void (^ _Nullable)(NSString *))onOpenUrl onShowControlRequested:(void (^ _Nullable)(void))onShowControlRequested onStart:(void (^ _Nullable)(void))onStart onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded onBroadcast:(void (^ _Nullable)(NSString *, NSString *))onBroadcast __attribute__((swift_name("doCopy(entrySceneId:outlineFixEnabled:keyboardMap:record:hotspotHintsEnabled:onFirstFrame:onSend:onOpenUrl:onShowControlRequested:onStart:onInitialSceneResourceLoaded:onBroadcast:)")));
+- (instancetype)initWithEntrySceneId:(NSString * _Nullable)entrySceneId outlineFixEnabled:(BOOL)outlineFixEnabled keyboardMap:(NSDictionary<NSString *, PPCPPSoftKeyboard *> *)keyboardMap record:(BOOL)record hotspotHintsEnabled:(BOOL)hotspotHintsEnabled onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onSend:(void (^ _Nullable)(NSString *, NSString *, NSString * _Nullable))onSend onOpenUrl:(void (^ _Nullable)(NSString *))onOpenUrl onShowControlRequested:(void (^ _Nullable)(void))onShowControlRequested onStart:(void (^ _Nullable)(void))onStart onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded onBroadcast:(void (^ _Nullable)(NSString *, NSString *))onBroadcast progressiveRenderingEnabled:(BOOL)progressiveRenderingEnabled __attribute__((swift_name("init(entrySceneId:outlineFixEnabled:keyboardMap:record:hotspotHintsEnabled:onFirstFrame:onSend:onOpenUrl:onShowControlRequested:onStart:onInitialSceneResourceLoaded:onBroadcast:progressiveRenderingEnabled:)"))) __attribute__((objc_designated_initializer));
+- (PPCPlayOptions *)doCopyEntrySceneId:(NSString * _Nullable)entrySceneId outlineFixEnabled:(BOOL)outlineFixEnabled keyboardMap:(NSDictionary<NSString *, PPCPPSoftKeyboard *> *)keyboardMap record:(BOOL)record hotspotHintsEnabled:(BOOL)hotspotHintsEnabled onFirstFrame:(void (^ _Nullable)(void))onFirstFrame onSend:(void (^ _Nullable)(NSString *, NSString *, NSString * _Nullable))onSend onOpenUrl:(void (^ _Nullable)(NSString *))onOpenUrl onShowControlRequested:(void (^ _Nullable)(void))onShowControlRequested onStart:(void (^ _Nullable)(void))onStart onInitialSceneResourceLoaded:(void (^ _Nullable)(PPCInt *, PPCInt *))onInitialSceneResourceLoaded onBroadcast:(void (^ _Nullable)(NSString *, NSString *))onBroadcast progressiveRenderingEnabled:(BOOL)progressiveRenderingEnabled __attribute__((swift_name("doCopy(entrySceneId:outlineFixEnabled:keyboardMap:record:hotspotHintsEnabled:onFirstFrame:onSend:onOpenUrl:onShowControlRequested:onStart:onInitialSceneResourceLoaded:onBroadcast:progressiveRenderingEnabled:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -821,6 +821,7 @@ __attribute__((swift_name("PlayOptions")))
 @property (readonly) void (^ _Nullable onShowControlRequested)(void) __attribute__((swift_name("onShowControlRequested")));
 @property (readonly) void (^ _Nullable onStart)(void) __attribute__((swift_name("onStart")));
 @property (readonly) BOOL outlineFixEnabled __attribute__((swift_name("outlineFixEnabled")));
+@property (readonly) BOOL progressiveRenderingEnabled __attribute__((swift_name("progressiveRenderingEnabled")));
 @property (readonly) BOOL record __attribute__((swift_name("record")));
 @end
 
@@ -1931,8 +1932,9 @@ __attribute__((swift_name("Profile")))
 + (instancetype)profile __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) PPCProfile *shared __attribute__((swift_name("shared")));
 - (NSString *)getStringEntries __attribute__((swift_name("getStringEntries()")));
-- (void)markType:(PPCProfileEntryType *)type __attribute__((swift_name("mark(type:)")));
-- (void)markId:(NSString *)id __attribute__((swift_name("mark(id:)")));
+- (void)markName:(NSString *)name __attribute__((swift_name("mark(name:)")));
+- (void)measureType:(PPCProfileEntryType *)type name:(NSString *)name __attribute__((swift_name("measure(type:name:)")));
+- (void)measureName:(NSString *)name mark1:(NSString *)mark1 mark2:(NSString *)mark2 __attribute__((swift_name("measure(name:mark1:mark2:)")));
 - (void)setDebugValue:(BOOL)value __attribute__((swift_name("setDebug(value:)")));
 - (void)setEnableValue:(BOOL)value __attribute__((swift_name("setEnable(value:)")));
 - (void)setProfileOptionsValue:(PPCProfileOptions *)value __attribute__((swift_name("setProfileOptions(value:)")));
@@ -1947,13 +1949,15 @@ __attribute__((swift_name("Profile")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Profile.Entry")))
 @interface PPCProfileEntry : PPCBase
-- (instancetype)initWithId:(NSString *)id numFrames:(int64_t)numFrames fps:(float)fps cpuUsage:(NSString *)cpuUsage memoryUsage:(NSString *)memoryUsage __attribute__((swift_name("init(id:numFrames:fps:cpuUsage:memoryUsage:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString *)id numFrames:(int64_t)numFrames fps:(float)fps cpuUsage:(NSString *)cpuUsage memoryUsage:(NSString *)memoryUsage name:(NSString *)name duration:(int64_t)duration __attribute__((swift_name("init(id:numFrames:fps:cpuUsage:memoryUsage:name:duration:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) PPCProfileEntryCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) NSString *cpuUsage __attribute__((swift_name("cpuUsage")));
+@property (readonly) int64_t duration __attribute__((swift_name("duration")));
 @property (readonly) float fps __attribute__((swift_name("fps")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
 @property (readonly) NSString *memoryUsage __attribute__((swift_name("memoryUsage")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
 @property (readonly) int64_t numFrames __attribute__((swift_name("numFrames")));
 @property (readonly) int64_t timestamp __attribute__((swift_name("timestamp")));
 @end
@@ -1977,6 +1981,8 @@ __attribute__((swift_name("ProfileEntryType")))
 @property (class, readonly) PPCProfileEntryType *trigger __attribute__((swift_name("trigger")));
 @property (class, readonly) PPCProfileEntryType *startreplay __attribute__((swift_name("startreplay")));
 @property (class, readonly) PPCProfileEntryType *firstframe __attribute__((swift_name("firstframe")));
+@property (class, readonly) PPCProfileEntryType *mark __attribute__((swift_name("mark")));
+@property (class, readonly) PPCProfileEntryType *measure __attribute__((swift_name("measure")));
 @property (class, readonly) PPCProfileEntryType *end __attribute__((swift_name("end")));
 + (PPCKotlinArray<PPCProfileEntryType *> *)values __attribute__((swift_name("values()")));
 @end
