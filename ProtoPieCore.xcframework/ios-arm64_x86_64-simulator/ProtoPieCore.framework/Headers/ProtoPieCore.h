@@ -700,12 +700,12 @@ __attribute__((swift_name("PPPiePlayer")))
 - (BOOL)handleWheelEventEvent:(PPCPPWheelEvent *)event __attribute__((swift_name("handleWheelEvent(event:)")));
 - (void)progressNow:(int64_t)now __attribute__((swift_name("progress(now:)")));
 - (void)restoreFromReplayDataData:(NSString *)data __attribute__((swift_name("restoreFromReplayData(data:)")));
+- (void)restoreSceneActiveSceneId:(NSString * _Nullable)activeSceneId __attribute__((swift_name("restoreScene(activeSceneId:)")));
 - (void)setHotspotHintsEnabledValue:(BOOL)value __attribute__((swift_name("setHotspotHintsEnabled(value:)")));
 - (void)showHotspotHints __attribute__((swift_name("showHotspotHints()")));
 - (void)start __attribute__((swift_name("start()")));
 - (void)stopAll __attribute__((swift_name("stopAll()")));
 @property (readonly) PPCPPEventChannel<PPCPPPiePlayerEvent *> *channel __attribute__((swift_name("channel")));
-@property (readonly) PPCPPScene *initialScene __attribute__((swift_name("initialScene")));
 @property (readonly) PPCPPPieModel *pie __attribute__((swift_name("pie")));
 @end
 
@@ -2347,6 +2347,7 @@ __attribute__((swift_name("PPMediaPauseCommand")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (NSString *)serialize __attribute__((swift_name("serialize()")));
+- (NSString *)description __attribute__((swift_name("description()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2354,6 +2355,7 @@ __attribute__((swift_name("PPMediaPlayCommand")))
 @interface PPCPPMediaPlayCommand : PPCPPMediaCommand
 - (instancetype)initWithRepeating:(BOOL)repeating __attribute__((swift_name("init(repeating:)"))) __attribute__((objc_designated_initializer));
 - (NSString *)serialize __attribute__((swift_name("serialize()")));
+- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) BOOL repeating __attribute__((swift_name("repeating")));
 @end
 
@@ -2362,6 +2364,7 @@ __attribute__((swift_name("PPMediaSeekCommand")))
 @interface PPCPPMediaSeekCommand : PPCPPMediaCommand
 - (instancetype)initWithSeekTime:(int32_t)seekTime __attribute__((swift_name("init(seekTime:)"))) __attribute__((objc_designated_initializer));
 - (NSString *)serialize __attribute__((swift_name("serialize()")));
+- (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) int32_t seekTime __attribute__((swift_name("seekTime")));
 @end
 
