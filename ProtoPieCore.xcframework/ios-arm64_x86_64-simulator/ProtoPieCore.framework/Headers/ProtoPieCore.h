@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class PPCCommon, PPCProfileOptions, PPCDeviceInfoCompanion, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPSpeechGender, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPDataType, PPCPPExprEvalError, PPCPPPlayEvent, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPMsgChannel, PPCPPPieModel, PPCPPScene, PPCPPClock, PPCPPTouchEvent, PPCPPPieRecord, PPCPPEventChannel<T>, PPCPPColor, PPCPPIosVibrateType, PPCPPAndroidVibrateType, PPCPPPlayEventCompanion, PPCPPContainerLayer, PPCPPSoftKeyboardCompanion, PPCPPSoftKeyboard, PPCPlayOptions, PPCReplayOptions, PPCPPSceneChangeEvent, PPCPPRenderEvent, PPCMediaState, PPCBinarySearch, PPCConcurrency, PPCLogger, PPCPlatform, PPCPPEngineLogger, PPCKotlinx_serialization_jsonJsonElement, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPHorizontalAlign, PPCPPLineCap, PPCPPLineJoin, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPColorCompanion, PPCPPCorners<T>, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPPointCompanion, PPCPPLayerProperty, PPCPPProperty<T>, PPCMediaStateCompanion, PPCPPRenderEventCompanion, PPCPPFixedSceneChangeEventCompanion, PPCPPInputFocusEventCompanion, PPCPPIosEffectEventCompanion, PPCPPMediaCommandEventCompanion, PPCPPValueHistory<T>, PPCReplayer, PPCPPReorderEventCompanion, PPCPPSceneChangeEventCompanion, PPCPPValueHistoryCompanion, PPCReplayDataCompanion, PPCReplayDataVersionCompanion, PPCPPKeyboardDef, PPCPPKeyboardOptions, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCProfile, PPCProfileEntryType, PPCProfileEntryCompanion, PPCPPLayerType, PPCPPLayerAlias, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPTextAttributes, PPCAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCAbstractTextLayer, PPCPPVectorShape, PPCConstraintOption, PPCDirection, PPCOneDimensionResizeConstraints, PPCPPPathSegmentData, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDevicePreset, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPVarProxy, PPCPPPlayControlGestureOptions, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCKotlinx_serialization_jsonJson, PPCKotlinCancellationException, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_jsonJsonDefault, PPCKotlinx_serialization_jsonJsonConfiguration, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing, PPCKotlinRuntimeException, PPCKotlinIllegalStateException, PPCKotlinx_coroutines_coreAtomicDesc, PPCKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, PPCKotlinx_coroutines_coreAtomicOp<__contravariant T>, PPCKotlinx_coroutines_coreOpDescriptor, PPCKotlinx_coroutines_coreLockFreeLinkedListNode, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class PPCCommon, PPCProfileOptions, PPCDeviceInfoCompanion, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPSpeechGender, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPDataType, PPCPPExprEvalError, PPCPPPlayEvent, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPMsgChannel, PPCPPPieModel, PPCPPScene, PPCPPClock, PPCPPTouchEvent, PPCPPPieRecord, PPCPPEventChannel<T>, PPCPPColor, PPCPPIosVibrateType, PPCPPAndroidVibrateType, PPCPPPlayEventCompanion, PPCPPContainerLayer, PPCPPSoftKeyboardCompanion, PPCPPSoftKeyboard, PPCPlayOptions, PPCReplayOptions, PPCPPSceneChangeEvent, PPCPPRenderEvent, PPCBinarySearch, PPCConcurrency, PPCLogger, PPCPlatform, PPCPPEngineLogger, PPCKotlinx_serialization_jsonJsonElement, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPHorizontalAlign, PPCPPLineCap, PPCPPLineJoin, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPColorCompanion, PPCPPCorners<T>, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPPointCompanion, PPCPPLayerProperty, PPCPPProperty<T>, PPCMediaStateCompanion, PPCPPRenderEventCompanion, PPCPPFixedSceneChangeEventCompanion, PPCPPInputFocusEventCompanion, PPCPPIosEffectEventCompanion, PPCPPMediaCommandEventCompanion, PPCPPValueHistory<T>, PPCReplayer, PPCPPReorderEventCompanion, PPCPPSceneChangeEventCompanion, PPCPPValueHistoryCompanion, PPCMediaState, PPCReplayDataCompanion, PPCReplayDataVersionCompanion, PPCPPKeyboardDef, PPCPPKeyboardOptions, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCProfile, PPCProfileEntryType, PPCProfileEntryCompanion, PPCPPLayerType, PPCPPLayerAlias, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPTextAttributes, PPCAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCAbstractTextLayer, PPCPPVectorShape, PPCConstraintOption, PPCDirection, PPCOneDimensionResizeConstraints, PPCPPPathSegmentData, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDevicePreset, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPVarProxy, PPCPPPlayControlGestureOptions, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCKotlinx_serialization_jsonJson, PPCKotlinCancellationException, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_jsonJsonDefault, PPCKotlinx_serialization_jsonJsonConfiguration, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing, PPCKotlinRuntimeException, PPCKotlinIllegalStateException, PPCKotlinx_coroutines_coreAtomicDesc, PPCKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, PPCKotlinx_coroutines_coreAtomicOp<__contravariant T>, PPCKotlinx_coroutines_coreOpDescriptor, PPCKotlinx_coroutines_coreLockFreeLinkedListNode, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
 
 @protocol PPCKotlinx_serialization_coreKSerializer, PPCKotlinComparable, PPCPPJson, PPCPPEventChannelHandler, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCPPExprLayer, PPCPPClockObserver, PPCPPPiePlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPKeyboardProvider, PPCPPSoftKeyboardDelegate, PPCPPSoftKeyboardListener, PPCReplayerDelegate, PPCReplayerInterface, PPCKotlinx_coroutines_coreJob, PPCPPEngineLoggerListener, PPCPPFloatNormalizer, PPCPPValueProvider, PPCPPPropertyObserver, PPCPPLayerObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPEngineObserver, PPCPPJsonOverrider, PPCPPPieDecorator, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_coroutines_coreChildHandle, PPCKotlinx_coroutines_coreChildJob, PPCKotlinx_coroutines_coreDisposableHandle, PPCKotlinSequence, PPCKotlinx_coroutines_coreSelectClause0, PPCKotlinCoroutineContextKey, PPCKotlinCoroutineContextElement, PPCKotlinCoroutineContext, PPCKotlinx_serialization_coreSerialFormat, PPCKotlinx_serialization_coreStringFormat, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_coroutines_coreParentJob, PPCKotlinx_coroutines_coreSelectInstance, PPCKotlinSuspendFunction0, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinx_serialization_jsonJsonNamingStrategy, PPCKotlinContinuation, PPCKotlinFunction, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
 
@@ -861,7 +861,6 @@ __attribute__((swift_name("Replayer")))
 - (void)onNumberPropChangeSceneId:(NSString *)sceneId layerId:(NSString *)layerId propName:(NSString *)propName value:(float)value __attribute__((swift_name("onNumberPropChange(sceneId:layerId:propName:value:)")));
 - (void)onNumberVarChangeSceneId:(NSString *)sceneId varName:(NSString *)varName value:(float)value __attribute__((swift_name("onNumberVarChange(sceneId:varName:value:)")));
 - (void)onRenderEventEvent:(PPCPPRenderEvent *)event forward:(BOOL)forward __attribute__((swift_name("onRenderEvent(event:forward:)")));
-- (void)onRestoreMediaStateMediaState:(PPCMediaState *)mediaState __attribute__((swift_name("onRestoreMediaState(mediaState:)")));
 - (void)onStringVarChangeSceneId:(NSString *)sceneId varName:(NSString *)varName value:(NSString *)value __attribute__((swift_name("onStringVarChange(sceneId:varName:value:)")));
 - (void)postProgress __attribute__((swift_name("postProgress()")));
 - (void)preProgress __attribute__((swift_name("preProgress()")));
@@ -1547,12 +1546,13 @@ __attribute__((swift_name("PPLayerProperty")))
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly) PPCPPLayerProperty *x __attribute__((swift_name("x")));
 @property (class, readonly) PPCPPLayerProperty *y __attribute__((swift_name("y")));
-@property (class, readonly) PPCPPLayerProperty *w __attribute__((swift_name("w")));
-@property (class, readonly) PPCPPLayerProperty *h __attribute__((swift_name("h")));
-@property (class, readonly) PPCPPLayerProperty *r __attribute__((swift_name("r")));
-@property (class, readonly) PPCPPLayerProperty *r3x __attribute__((swift_name("r3x")));
-@property (class, readonly) PPCPPLayerProperty *r3y __attribute__((swift_name("r3y")));
-@property (class, readonly) PPCPPLayerProperty *o __attribute__((swift_name("o")));
+@property (class, readonly) PPCPPLayerProperty *width __attribute__((swift_name("width")));
+@property (class, readonly) PPCPPLayerProperty *height __attribute__((swift_name("height")));
+@property (class, readonly) PPCPPLayerProperty *rotation __attribute__((swift_name("rotation")));
+@property (class, readonly) PPCPPLayerProperty *rotation3d __attribute__((swift_name("rotation3d")));
+@property (class, readonly) PPCPPLayerProperty *rotation3dx __attribute__((swift_name("rotation3dx")));
+@property (class, readonly) PPCPPLayerProperty *rotation3dy __attribute__((swift_name("rotation3dy")));
+@property (class, readonly) PPCPPLayerProperty *opacity __attribute__((swift_name("opacity")));
 @property (class, readonly) PPCPPLayerProperty *order __attribute__((swift_name("order")));
 @property (class, readonly) PPCPPLayerProperty *fillColor __attribute__((swift_name("fillColor")));
 @property (class, readonly) PPCPPLayerProperty *fillOpacity __attribute__((swift_name("fillOpacity")));
@@ -1573,8 +1573,8 @@ __attribute__((swift_name("PPLayerProperty")))
 @property (class, readonly) PPCPPLayerProperty *shadowBlur __attribute__((swift_name("shadowBlur")));
 @property (class, readonly) PPCPPLayerProperty *shadowSpread __attribute__((swift_name("shadowSpread")));
 @property (class, readonly) PPCPPLayerProperty *backgroundBlur __attribute__((swift_name("backgroundBlur")));
-@property (class, readonly) PPCPPLayerProperty *sx __attribute__((swift_name("sx")));
-@property (class, readonly) PPCPPLayerProperty *sy __attribute__((swift_name("sy")));
+@property (class, readonly) PPCPPLayerProperty *scrollX __attribute__((swift_name("scrollX")));
+@property (class, readonly) PPCPPLayerProperty *scrollY __attribute__((swift_name("scrollY")));
 @property (class, readonly) PPCPPLayerProperty *scaleX __attribute__((swift_name("scaleX")));
 @property (class, readonly) PPCPPLayerProperty *scaleY __attribute__((swift_name("scaleY")));
 @property (class, readonly) PPCPPLayerProperty *text __attribute__((swift_name("text")));
@@ -1748,6 +1748,7 @@ __attribute__((swift_name("PPPieRecord")))
 - (PPCKotlinArray<PPCPPPlayEvent *> *)getEvents __attribute__((swift_name("getEvents()")));
 - (PPCFloat * _Nullable)getFloatPropValueSceneId:(NSString *)sceneId layerId:(NSString *)layerId propName:(NSString *)propName time:(int32_t)time __attribute__((swift_name("getFloatPropValue(sceneId:layerId:propName:time:)")));
 - (NSString * _Nullable)getStringPropValueSceneId:(NSString *)sceneId layerId:(NSString *)layerId propName:(NSString *)propName time:(int32_t)time __attribute__((swift_name("getStringPropValue(sceneId:layerId:propName:time:)")));
+- (void)resetTime:(int32_t)time replayer:(PPCReplayer *)replayer __attribute__((swift_name("reset(time:replayer:)")));
 @property int32_t endTime __attribute__((swift_name("endTime")));
 
 /**
@@ -2107,7 +2108,7 @@ __attribute__((swift_name("PPLayer")))
 @property BOOL fixRight __attribute__((swift_name("fixRight")));
 @property BOOL fixTop __attribute__((swift_name("fixTop")));
 @property BOOL fixWidth __attribute__((swift_name("fixWidth")));
-@property (readonly) PPCPPFloatProperty *h __attribute__((swift_name("h")));
+@property (readonly) PPCPPFloatProperty *height __attribute__((swift_name("height")));
 @property (readonly) PPCPPFloatProperty *highlightOpacity __attribute__((swift_name("highlightOpacity")));
 @property (readonly) PPCPPHitArea *hitArea __attribute__((swift_name("hitArea")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
@@ -2123,7 +2124,7 @@ __attribute__((swift_name("PPLayer")))
 @property NSString * _Nullable name __attribute__((swift_name("name")));
 @property (readonly, getter=namespace) NSString *namespace_ __attribute__((swift_name("namespace_")));
 @property (readonly) NSString *nsId __attribute__((swift_name("nsId")));
-@property (readonly) PPCPPFloatProperty *o __attribute__((swift_name("o")));
+@property (readonly) PPCPPFloatProperty *opacity __attribute__((swift_name("opacity")));
 @property PPCPPContainerLayer * _Nullable parent __attribute__((swift_name("parent")));
 @property (readonly) PPCPPPoint *position __attribute__((swift_name("position")));
 
@@ -2131,18 +2132,19 @@ __attribute__((swift_name("PPLayer")))
  * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
 @property (readonly) id<PPCPPPropertyObserver> propertyObserver __attribute__((swift_name("propertyObserver")));
-@property (readonly) PPCPPFloatProperty *r __attribute__((swift_name("r")));
 @property PPCPPAxis3D * _Nullable r3Axis __attribute__((swift_name("r3Axis")));
 @property float r3Depth __attribute__((swift_name("r3Depth")));
 @property float r3PivotX __attribute__((swift_name("r3PivotX")));
 @property float r3PivotY __attribute__((swift_name("r3PivotY")));
-@property (readonly) PPCPPFloatProperty *r3X __attribute__((swift_name("r3X")));
-@property (readonly) PPCPPFloatProperty *r3Y __attribute__((swift_name("r3Y")));
 @property (readonly) PPCPPFloatProperty *radius __attribute__((swift_name("radius")));
 @property (readonly) PPCPPFloatProperty *radiusBottomLeft __attribute__((swift_name("radiusBottomLeft")));
 @property (readonly) PPCPPFloatProperty *radiusBottomRight __attribute__((swift_name("radiusBottomRight")));
 @property (readonly) PPCPPFloatProperty *radiusTopLeft __attribute__((swift_name("radiusTopLeft")));
 @property (readonly) PPCPPFloatProperty *radiusTopRight __attribute__((swift_name("radiusTopRight")));
+@property (readonly) PPCPPFloatProperty *rotation __attribute__((swift_name("rotation")));
+@property (readonly) PPCPPFloatProperty *rotation3d __attribute__((swift_name("rotation3d")));
+@property (readonly) PPCPPFloatProperty *rotation3dX __attribute__((swift_name("rotation3dX")));
+@property (readonly) PPCPPFloatProperty *rotation3dY __attribute__((swift_name("rotation3dY")));
 @property PPCInt * _Nullable savedIndexByLayerOrder __attribute__((swift_name("savedIndexByLayerOrder")));
 @property (readonly) PPCPPFloatProperty *scaleX __attribute__((swift_name("scaleX")));
 @property (readonly) PPCPPFloatProperty *scaleY __attribute__((swift_name("scaleY")));
@@ -2156,7 +2158,7 @@ __attribute__((swift_name("PPLayer")))
 @property (readonly) float top __attribute__((swift_name("top")));
 @property (readonly) PPCPPPoint *topLeft __attribute__((swift_name("topLeft")));
 @property (readonly) PPCPPLayerType *type __attribute__((swift_name("type")));
-@property (readonly) PPCPPFloatProperty *w __attribute__((swift_name("w")));
+@property (readonly) PPCPPFloatProperty *width __attribute__((swift_name("width")));
 @property (readonly) PPCPPFloatProperty *x __attribute__((swift_name("x")));
 @property (readonly) PPCPPFloatProperty *y __attribute__((swift_name("y")));
 @end
@@ -2169,6 +2171,7 @@ __attribute__((swift_name("AbstractMediaLayer")))
 - (PPCPPMediaCommand * _Nullable)dequeueCommand __attribute__((swift_name("dequeueCommand()")));
 - (void)destroy __attribute__((swift_name("destroy()")));
 - (void)notifyPlayCompleted __attribute__((swift_name("notifyPlayCompleted()")));
+- (void)resetMediaState __attribute__((swift_name("resetMediaState()")));
 - (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
 - (void)runCommandCommand:(PPCPPMediaCommand *)command __attribute__((swift_name("runCommand(command:)")));
 @property (readonly) PPCPPFloatProperty *currentTime __attribute__((swift_name("currentTime")));
@@ -2953,6 +2956,7 @@ __attribute__((swift_name("PPScene")))
 - (void)prepareTransitionNow:(int64_t)now __attribute__((swift_name("prepareTransition(now:)")));
 - (void)progressNow:(int64_t)now __attribute__((swift_name("progress(now:)")));
 - (void)reset __attribute__((swift_name("reset()")));
+- (void)resetMediaState __attribute__((swift_name("resetMediaState()")));
 - (void)startNow:(int64_t)now includePreTransition:(BOOL)includePreTransition __attribute__((swift_name("start(now:includePreTransition:)")));
 @property (readonly) NSSet<PPCPPChangeTarget *> *changeTargets __attribute__((swift_name("changeTargets")));
 @property (readonly, getter=doCopy) PPCPPScene * _Nullable (^copy)(void) __attribute__((swift_name("copy")));
