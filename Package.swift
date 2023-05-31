@@ -5,7 +5,6 @@ let package = Package(
     name: "ProtoPieCore",
     platforms: [
         .iOS(.v13),
-.tvOS(.v13),
 .watchOS(.v8)
     ],
     products: [
