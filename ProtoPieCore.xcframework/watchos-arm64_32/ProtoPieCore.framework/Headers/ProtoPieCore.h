@@ -2211,7 +2211,7 @@ __attribute__((swift_name("PPCameraLayer")))
 @interface PPCPPCameraLayer : PPCPPLayer
 - (instancetype)initWithSceneId:(NSString *)sceneId nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent autoStart:(BOOL)autoStart initialCameraPosition:(PPCPPCameraPosition *)initialCameraPosition __attribute__((swift_name("init(sceneId:nsId:parent:autoStart:initialCameraPosition:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (void)changeQrScannerPropertiesQrValue:(NSString *)qrValue qrX:(float)qrX qrY:(float)qrY qrWidth:(float)qrWidth qrHeight:(float)qrHeight __attribute__((swift_name("changeQrScannerProperties(qrValue:qrX:qrY:qrWidth:qrHeight:)")));
+- (void)changeQrScannerPropertiesIsQr:(BOOL)isQr qrValue:(NSString *)qrValue qrX:(float)qrX qrY:(float)qrY qrWidth:(float)qrWidth qrHeight:(float)qrHeight __attribute__((swift_name("changeQrScannerProperties(isQr:qrValue:qrX:qrY:qrWidth:qrHeight:)")));
 - (void)clearCommands __attribute__((swift_name("clearCommands()")));
 - (PPCPPCameraLayerCommand * _Nullable)dequeueCommand __attribute__((swift_name("dequeueCommand()")));
 - (void)openUrlData:(NSString *)data __attribute__((swift_name("openUrl(data:)")));
