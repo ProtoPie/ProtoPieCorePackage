@@ -18,6 +18,18 @@
 		</dict>
 		<dict>
 			<key>LibraryIdentifier</key>
+			<string>watchos-arm64_32</string>
+			<key>LibraryPath</key>
+			<string>ProtoPieCore.framework</string>
+			<key>SupportedArchitectures</key>
+			<array>
+				<string>arm64_32</string>
+			</array>
+			<key>SupportedPlatform</key>
+			<string>watchos</string>
+		</dict>
+		<dict>
+			<key>LibraryIdentifier</key>
 			<string>watchos-arm64-simulator</string>
 			<key>LibraryPath</key>
 			<string>ProtoPieCore.framework</string>
@@ -29,18 +41,6 @@
 			<string>watchos</string>
 			<key>SupportedPlatformVariant</key>
 			<string>simulator</string>
-		</dict>
-		<dict>
-			<key>LibraryIdentifier</key>
-			<string>watchos-arm64_32</string>
-			<key>LibraryPath</key>
-			<string>ProtoPieCore.framework</string>
-			<key>SupportedArchitectures</key>
-			<array>
-				<string>arm64_32</string>
-			</array>
-			<key>SupportedPlatform</key>
-			<string>watchos</string>
 		</dict>
 		<dict>
 			<key>LibraryIdentifier</key>

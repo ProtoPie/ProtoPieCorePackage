@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class PPCCommon, PPCProfileOptions, PPCDeviceInfoCompanion, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPSpeechGender, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPExprEvalError, PPCPPDataType, PPCPPPlayEvent, PPCPPColor, PPCPPExpr, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPChangeObserversHolder, PPCPPIdentifiableChangeObservable, PPCPPMessage, PPCPPVar<T>, PPCPPRepeatDef, PPCPPMsgChannel, PPCPPPieModel, PPCPPScene, PPCPPClock, PPCPPTouchEvent, PPCPPPieRecord, PPCPPEventChannel<T>, PPCPPIosVibrateType, PPCPPAndroidVibrateType, PPCPPPlayEventCompanion, PPCPPContainerLayer, PPCPPSoftKeyboardCompanion, PPCPPSoftKeyboard, PPCPlayOptions, PPCReplayOptions, PPCPPSceneChangeEvent, PPCPPRenderEvent, PPCBinarySearch, PPCConcurrency, PPCFormulaUtils, PPCPPNumberConstantExpr, PPCLogger, PPCPlatform, PPCPPEngineLogger, PPCKotlinx_serialization_jsonJsonElement, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPHorizontalAlign, PPCPPLineCap, PPCPPLineJoin, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPSizeProp, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPColorCompanion, PPCPPCorners<T>, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPPointCompanion, PPCPPSize, PPCPPLayerProperty, PPCPPProperty<T>, PPCMediaStateCompanion, PPCPPRenderEventCompanion, PPCPPFixedSceneChangeEventCompanion, PPCPPInputFocusEventCompanion, PPCPPIosEffectEventCompanion, PPCPPMediaCommandEventCompanion, PPCPPValueHistory<T>, PPCReplayer, PPCPPReorderEventCompanion, PPCPPSceneChangeEventCompanion, PPCPPValueHistoryCompanion, PPCMediaState, PPCReplayDataCompanion, PPCReplayDataSerializer, PPCReplayData, PPCReplayDataVersionCompanion, PPCPPKeyboardDef, PPCPPKeyboardOptions, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCProfile, PPCProfileEntryType, PPCProfileEntryCompanion, PPCPPLayerType, PPCPPLayerAlias, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPMessageBus, PPCPPTextAttributes, PPCAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCAbstractTextLayer, PPCPPVectorShape, PPCConstraintOption, PPCDirection, PPCOneDimensionResizeConstraints, PPCPPPathSegmentData, PPCPPMessageCompanion, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDeviceFrameHelper, PPCDevicePreset, PPCPPPiePlayer, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPVarProxy, PPCPPPlayControlGestureOptions, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCKotlinx_serialization_jsonJson, PPCKotlinCancellationException, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_jsonJsonDefault, PPCKotlinx_serialization_jsonJsonConfiguration, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing, PPCKotlinRuntimeException, PPCKotlinIllegalStateException, PPCKotlinx_coroutines_coreAtomicDesc, PPCKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, PPCKotlinx_coroutines_coreAtomicOp<__contravariant T>, PPCKotlinx_coroutines_coreOpDescriptor, PPCKotlinx_coroutines_coreLockFreeLinkedListNode, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class PPCCommon, PPCProfileOptions, PPCDeviceInfoCompanion, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPSpeechGender, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPExprEvalError, PPCPPDataType, PPCPPPlayEvent, PPCPPColor, PPCPPExpr, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPChangeObserversHolder, PPCPPIdentifiableChangeObservable, PPCPPMessage, PPCPPVar<T>, PPCPPRepeatDef, PPCPPMsgChannel, PPCPPPieModel, PPCPPScene, PPCPPClock, PPCPPTouchEvent, PPCPPPieRecord, PPCPPEventChannel<T>, PPCPPIosVibrateType, PPCPPAndroidVibrateType, PPCPPPlayEventCompanion, PPCPPContainerLayer, PPCPPSoftKeyboardCompanion, PPCPPSoftKeyboard, PPCPlayOptions, PPCReplayOptions, PPCPPSceneChangeEvent, PPCPPRenderEvent, PPCBinarySearch, PPCConcurrency, PPCDateTime, PPCFormulaUtils, PPCPPNumberConstantExpr, PPCLogger, PPCPlatform, PPCPPEngineLogger, PPCKotlinx_serialization_jsonJsonElement, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPHorizontalAlign, PPCPPLineCap, PPCPPLineJoin, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPSizeProp, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPColorCompanion, PPCPPCorners<T>, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPPointCompanion, PPCPPSize, PPCPPLayerProperty, PPCPPProperty<T>, PPCMediaStateCompanion, PPCPPRenderEventCompanion, PPCPPFixedSceneChangeEventCompanion, PPCPPInputFocusEventCompanion, PPCPPIosEffectEventCompanion, PPCPPMediaCommandEventCompanion, PPCPPValueHistory<T>, PPCReplayer, PPCPPReorderEventCompanion, PPCPPSceneChangeEventCompanion, PPCPPValueHistoryCompanion, PPCMediaState, PPCReplayDataCompanion, PPCReplayDataSerializer, PPCReplayData, PPCReplayDataVersionCompanion, PPCPPKeyboardDef, PPCPPKeyboardOptions, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCProfile, PPCProfileEntryType, PPCProfileEntryCompanion, PPCPPLayerType, PPCPPLayerAlias, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPMessageBus, PPCPPTextAttributes, PPCAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCAbstractTextLayer, PPCPPVectorShape, PPCConstraintOption, PPCDirection, PPCOneDimensionResizeConstraints, PPCPPPathSegmentData, PPCPPMessageCompanion, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDeviceFrameHelper, PPCDevicePreset, PPCPPPiePlayer, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPVarProxy, PPCPPPlayControlGestureOptions, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCKotlinx_serialization_jsonJson, PPCKotlinCancellationException, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_jsonJsonDefault, PPCKotlinx_serialization_jsonJsonConfiguration, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing, PPCKotlinRuntimeException, PPCKotlinIllegalStateException, PPCKotlinx_coroutines_coreAtomicDesc, PPCKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, PPCKotlinx_coroutines_coreAtomicOp<__contravariant T>, PPCKotlinx_coroutines_coreOpDescriptor, PPCKotlinx_coroutines_coreLockFreeLinkedListNode, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
 
-@protocol PPCKotlinx_serialization_coreKSerializer, PPCKotlinComparable, PPCPPJson, PPCPPEventChannelHandler, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCFormulaObserver, PPCPPExprLayer, PPCPPObservableValueProvider, PPCPPChangeObserver, PPCPPValueProvider, PPCPPClockObserver, PPCPPMessageBusTaskRunner, PPCPPPiePlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPKeyboardProvider, PPCPPSoftKeyboardDelegate, PPCPPSoftKeyboardListener, PPCReplayerDelegate, PPCKotlinx_coroutines_coreJob, PPCPPEngineLoggerListener, PPCPPFloatNormalizer, PPCPPPropertyObserver, PPCPPLayerObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPEngineObserver, PPCPPJsonOverrider, PPCPPPieDecorator, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_coroutines_coreChildHandle, PPCKotlinx_coroutines_coreChildJob, PPCKotlinx_coroutines_coreDisposableHandle, PPCKotlinSequence, PPCKotlinx_coroutines_coreSelectClause0, PPCKotlinCoroutineContextKey, PPCKotlinCoroutineContextElement, PPCKotlinCoroutineContext, PPCKotlinx_serialization_coreSerialFormat, PPCKotlinx_serialization_coreStringFormat, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_coroutines_coreParentJob, PPCKotlinx_coroutines_coreSelectInstance, PPCKotlinSuspendFunction0, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinx_serialization_jsonJsonNamingStrategy, PPCKotlinContinuation, PPCKotlinFunction, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
+@protocol PPCKotlinx_serialization_coreKSerializer, PPCKotlinComparable, PPCPPJson, PPCPPEventChannelHandler, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCFormulaObserver, PPCPPExprLayer, PPCPPObservableValueProvider, PPCPPChangeObserver, PPCPPValueProvider, PPCPPClockObserver, PPCPPMessageBusTaskRunner, PPCPPPiePlayerPlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPKeyboardProvider, PPCPPSoftKeyboardDelegate, PPCPPSoftKeyboardListener, PPCReplayerDelegate, PPCKotlinx_coroutines_coreJob, PPCPPEngineLoggerListener, PPCPPFloatNormalizer, PPCPPPropertyObserver, PPCPPLayerObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPEngineObserver, PPCPPJsonOverrider, PPCPPPieDecorator, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_coroutines_coreChildHandle, PPCKotlinx_coroutines_coreChildJob, PPCKotlinx_coroutines_coreDisposableHandle, PPCKotlinSequence, PPCKotlinx_coroutines_coreSelectClause0, PPCKotlinCoroutineContextKey, PPCKotlinCoroutineContextElement, PPCKotlinCoroutineContext, PPCKotlinx_serialization_coreSerialFormat, PPCKotlinx_serialization_coreStringFormat, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_coroutines_coreParentJob, PPCKotlinx_coroutines_coreSelectInstance, PPCKotlinSuspendFunction0, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinx_serialization_jsonJsonNamingStrategy, PPCKotlinContinuation, PPCKotlinFunction, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -797,7 +797,7 @@ __attribute__((swift_name("PPPieContext")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPPiePlayer")))
 @interface PPCPPPiePlayer : PPCBase
-- (instancetype)initWithPie:(PPCPPPieModel *)pie initialScene:(PPCPPScene *)initialScene clock:(PPCPPClock *)clock delegate:(id<PPCPPPiePlayerDelegate>)delegate hotspotHintsEnabled:(BOOL)hotspotHintsEnabled sensorManager:(id<PPCPPSensorManager>)sensorManager voiceInterface:(id<PPCPPVoiceInterface> _Nullable)voiceInterface speechInterface:(id<PPCPPSpeechInterface> _Nullable)speechInterface record:(BOOL)record broadcast:(BOOL)broadcast __attribute__((swift_name("init(pie:initialScene:clock:delegate:hotspotHintsEnabled:sensorManager:voiceInterface:speechInterface:record:broadcast:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithPie:(PPCPPPieModel *)pie initialScene:(PPCPPScene *)initialScene clock:(PPCPPClock *)clock playerDelegate:(id<PPCPPPiePlayerPlayerDelegate>)playerDelegate hotspotHintsEnabled:(BOOL)hotspotHintsEnabled sensorManager:(id<PPCPPSensorManager>)sensorManager voiceInterface:(id<PPCPPVoiceInterface> _Nullable)voiceInterface speechInterface:(id<PPCPPSpeechInterface> _Nullable)speechInterface record:(BOOL)record broadcast:(BOOL)broadcast __attribute__((swift_name("init(pie:initialScene:clock:playerDelegate:hotspotHintsEnabled:sensorManager:voiceInterface:speechInterface:record:broadcast:)"))) __attribute__((objc_designated_initializer));
 - (void)dispatchTouchEventTouchEvent:(PPCPPTouchEvent *)touchEvent __attribute__((swift_name("dispatchTouchEvent(touchEvent:)")));
 - (void)focusOutCurrentNow:(int64_t)now __attribute__((swift_name("focusOutCurrent(now:)")));
 - (PPCPPPieRecord * _Nullable)getRecord __attribute__((swift_name("getRecord()")));
@@ -820,8 +820,18 @@ __attribute__((swift_name("PPPiePlayer")))
 @property (readonly) PPCPPPieModel *pie __attribute__((swift_name("pie")));
 @end
 
-__attribute__((swift_name("PPPiePlayerDelegate")))
-@protocol PPCPPPiePlayerDelegate
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPPiePlayer.PlayerDelayRunner")))
+@interface PPCPPPiePlayerPlayerDelayRunner : PPCBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)cancelRunnable:(void (^)(void))runnable __attribute__((swift_name("cancel(runnable:)")));
+- (void)progress __attribute__((swift_name("progress()")));
+- (void)runRunnable:(void (^)(void))runnable delay:(int32_t)delay __attribute__((swift_name("run(runnable:delay:)")));
+@end
+
+__attribute__((swift_name("PPPiePlayerPlayerDelegate")))
+@protocol PPCPPPiePlayerPlayerDelegate
 @required
 - (void)addSceneViewScene:(PPCPPScene *)scene top:(BOOL)top __attribute__((swift_name("addSceneView(scene:top:)")));
 - (void)broadcastType:(NSString *)type data:(NSString *)data __attribute__((swift_name("broadcast(type:data:)")));
@@ -833,16 +843,6 @@ __attribute__((swift_name("PPPiePlayerDelegate")))
 - (void)showControl __attribute__((swift_name("showControl()")));
 - (void)showFixedSceneScene:(PPCPPScene *)scene __attribute__((swift_name("showFixedScene(scene:)")));
 - (void)vibrateIosType:(PPCPPIosVibrateType *)iosType androidType:(PPCPPAndroidVibrateType *)androidType __attribute__((swift_name("vibrate(iosType:androidType:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPPiePlayer.PlayerDelayRunner")))
-@interface PPCPPPiePlayerPlayerDelayRunner : PPCBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)cancelRunnable:(void (^)(void))runnable __attribute__((swift_name("cancel(runnable:)")));
-- (void)progress __attribute__((swift_name("progress()")));
-- (void)runRunnable:(void (^)(void))runnable delay:(int32_t)delay __attribute__((swift_name("run(runnable:delay:)")));
 @end
 
 
@@ -1013,6 +1013,40 @@ __attribute__((swift_name("Concurrency")))
 - (id<PPCKotlinx_coroutines_coreJob>)runAsyncCallback:(void (^)(void))callback __attribute__((swift_name("runAsync(callback:)")));
 - (id<PPCKotlinx_coroutines_coreJob>)runAsyncWithDelayDelay:(int64_t)delay callback:(void (^)(void))callback __attribute__((swift_name("runAsyncWithDelay(delay:callback:)")));
 - (id<PPCKotlinx_coroutines_coreJob>)runMainScopeCallback:(void (^)(void))callback __attribute__((swift_name("runMainScope(callback:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DateTime")))
+@interface PPCDateTime : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)dateTime __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCDateTime *shared __attribute__((swift_name("shared")));
+- (NSString *)dateYear:(int32_t)year month:(int32_t)month day:(int32_t)day __attribute__((swift_name("date(year:month:day:)")));
+- (NSString *)dateNow __attribute__((swift_name("dateNow()")));
+- (NSString *)dateTimeYear:(int32_t)year month:(int32_t)month day:(int32_t)day hour:(int32_t)hour minute:(int32_t)minute second:(int32_t)second __attribute__((swift_name("dateTime(year:month:day:hour:minute:second:)")));
+- (int32_t)dayLocalDate:(NSString *)localDate __attribute__((swift_name("day(localDate:)")));
+- (int32_t)diffDateTo:(NSString *)to from:(NSString *)from option:(NSString *)option __attribute__((swift_name("diffDate(to:from:option:)")));
+- (int32_t)diffTimeTo:(NSString *)to from:(NSString *)from option:(NSString *)option __attribute__((swift_name("diffTime(to:from:option:)")));
+- (NSString *)formatDateLocalDate:(NSString *)localDate format:(NSString *)format __attribute__((swift_name("formatDate(localDate:format:)")));
+- (NSString *)formatTimeLocalTime:(NSString *)localTime format:(NSString *)format __attribute__((swift_name("formatTime(localTime:format:)")));
+- (NSString *)getFormattedDateTimestamp:(NSString *)timestamp format:(NSString *)format __attribute__((swift_name("getFormattedDate(timestamp:format:)")));
+- (int32_t)hourLocalTime:(NSString *)localTime __attribute__((swift_name("hour(localTime:)")));
+- (int32_t)minuteLocalTime:(NSString *)localTime __attribute__((swift_name("minute(localTime:)")));
+- (int32_t)monthLocalDate:(NSString *)localDate __attribute__((swift_name("month(localDate:)")));
+- (NSString *)nowTz:(NSString * _Nullable)tz __attribute__((swift_name("now(tz:)")));
+- (int32_t)secondLocalTime:(NSString *)localTime __attribute__((swift_name("second(localTime:)")));
+- (NSString *)timeHour:(int32_t)hour minute:(int32_t)minute second:(int32_t)second __attribute__((swift_name("time(hour:minute:second:)")));
+- (NSString *)timeNow __attribute__((swift_name("timeNow()")));
+- (NSString *)timezoneArg:(NSString *)arg __attribute__((swift_name("timezone(arg:)")));
+- (int32_t)yearLocalDate:(NSString *)localDate __attribute__((swift_name("year(localDate:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DateTime.DateTimeFormatter")))
+@interface PPCDateTimeDateTimeFormatter : PPCBase
+- (instancetype)initWithTimestamp:(NSString *)timestamp __attribute__((swift_name("init(timestamp:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)formatFormat:(NSString *)format __attribute__((swift_name("format(format:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2219,6 +2253,7 @@ __attribute__((swift_name("PPLayer")))
 - (float)getBorderCenterOffsetScaleFactor:(float)scaleFactor __attribute__((swift_name("getBorderCenterOffset(scaleFactor:)")));
 - (int32_t)getBottomScaleFactor:(float)scaleFactor __attribute__((swift_name("getBottom(scaleFactor:)")));
 - (PPCPPColorProperty * _Nullable)getColorPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getColorPropertyByName(propertyName:)")));
+- (NSString * _Nullable)getFillResourceUrl __attribute__((swift_name("getFillResourceUrl()")));
 - (PPCPPFloatProperty * _Nullable)getFloatPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getFloatPropertyByName(propertyName:)")));
 - (float)getInsideBorderWidthScaleFactor:(float)scaleFactor __attribute__((swift_name("getInsideBorderWidth(scaleFactor:)")));
 - (int32_t)getIntHeightScaleFactor:(float)scaleFactor __attribute__((swift_name("getIntHeight(scaleFactor:)")));
@@ -2239,6 +2274,7 @@ __attribute__((swift_name("PPLayer")))
 - (BOOL)includesPointPointInParent:(PPCPPPoint *)pointInParent __attribute__((swift_name("includesPoint(pointInParent:)")));
 - (BOOL)includesSelfOriginPointPoint:(PPCPPPoint *)point __attribute__((swift_name("includesSelfOriginPoint(point:)")));
 - (BOOL)is3DRotatable __attribute__((swift_name("is3DRotatable()")));
+- (BOOL)isDirty __attribute__((swift_name("isDirty()")));
 - (BOOL)isInterestedWithTouchEventPointInParent:(PPCPPPoint *)pointInParent __attribute__((swift_name("isInterestedWithTouchEvent(pointInParent:)")));
 - (BOOL)isTouchable __attribute__((swift_name("isTouchable()")));
 - (void)moveAnchorNewAnchor:(PPCPPPoint *)newAnchor __attribute__((swift_name("moveAnchor(newAnchor:)")));
@@ -2256,6 +2292,9 @@ __attribute__((swift_name("PPLayer")))
 - (void)reset __attribute__((swift_name("reset()")));
 - (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
 - (void)saveInitialState __attribute__((swift_name("saveInitialState()")));
+- (void)setDirty __attribute__((swift_name("setDirty()")));
+- (void)setFillResourceIdFillResourceId:(NSString *)fillResourceId __attribute__((swift_name("setFillResourceId(fillResourceId:)")));
+- (void)setFillResourceUrlFillResourceUrl:(NSString *)fillResourceUrl __attribute__((swift_name("setFillResourceUrl(fillResourceUrl:)")));
 - (void)setNeedUpdateOnNextFrame __attribute__((swift_name("setNeedUpdateOnNextFrame()")));
 - (BOOL)shouldRenderBorder __attribute__((swift_name("shouldRenderBorder()")));
 - (BOOL)shouldRenderShadow __attribute__((swift_name("shouldRenderShadow()")));
@@ -2263,6 +2302,7 @@ __attribute__((swift_name("PPLayer")))
 - (NSString *)description __attribute__((swift_name("description()")));
 - (PPCPPPoint *)translateAbsPointToSelfAbsPoint:(PPCPPPoint *)absPoint applyScroll:(BOOL)applyScroll __attribute__((swift_name("translateAbsPointToSelf(absPoint:applyScroll:)")));
 - (PPCPPPoint *)translateParentPointToSelfPoint:(PPCPPPoint *)point applyScroll:(BOOL)applyScroll __attribute__((swift_name("translateParentPointToSelf(point:applyScroll:)")));
+- (void)unsetDirty __attribute__((swift_name("unsetDirty()")));
 @property PPCPPLayerAlias * _Nullable alias __attribute__((swift_name("alias")));
 @property (readonly) NSArray<PPCPPContainerLayer *> *ancestors __attribute__((swift_name("ancestors")));
 @property float anchorX __attribute__((swift_name("anchorX")));
@@ -2277,7 +2317,6 @@ __attribute__((swift_name("PPLayer")))
 @property (readonly) int32_t fillColorWithOpacity __attribute__((swift_name("fillColorWithOpacity")));
 @property (readonly) PPCPPFloatProperty *fillImageRate __attribute__((swift_name("fillImageRate")));
 @property (readonly) PPCPPFloatProperty *fillOpacity __attribute__((swift_name("fillOpacity")));
-@property NSString * _Nullable fillResourceId __attribute__((swift_name("fillResourceId")));
 @property PPCPPFillScaleMode *fillScaleMode __attribute__((swift_name("fillScaleMode")));
 @property (readonly) PPCPPFloatProperty *fillSolidRate __attribute__((swift_name("fillSolidRate")));
 @property BOOL fixAspectRatio __attribute__((swift_name("fixAspectRatio")));
@@ -2344,19 +2383,20 @@ __attribute__((swift_name("PPLayer")))
 
 __attribute__((swift_name("AbstractMediaLayer")))
 @interface PPCAbstractMediaLayer : PPCPPLayer
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId autoPlay:(BOOL)autoPlay autoPlayRepeat:(BOOL)autoPlayRepeat __attribute__((swift_name("init(namespace:nsId:type:parent:resourceId:autoPlay:autoPlayRepeat:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoPlay:(BOOL)autoPlay autoPlayRepeat:(BOOL)autoPlayRepeat __attribute__((swift_name("init(namespace:nsId:type:parent:resourceId:resourceUrl:autoPlay:autoPlayRepeat:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (void)clearCommands __attribute__((swift_name("clearCommands()")));
 - (PPCPPMediaCommand * _Nullable)dequeueCommand __attribute__((swift_name("dequeueCommand()")));
 - (void)destroy __attribute__((swift_name("destroy()")));
+- (NSString *)getMediaResourceUrl __attribute__((swift_name("getMediaResourceUrl()")));
 - (void)notifyPlayCompleted __attribute__((swift_name("notifyPlayCompleted()")));
 - (void)resetMediaState __attribute__((swift_name("resetMediaState()")));
 - (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
 - (void)runCommandCommand:(PPCPPMediaCommand *)command __attribute__((swift_name("runCommand(command:)")));
+- (void)setMediaResourceUrlValue:(NSString *)value __attribute__((swift_name("setMediaResourceUrl(value:)")));
 @property (readonly) PPCPPFloatProperty *currentTime __attribute__((swift_name("currentTime")));
 @property BOOL isPlaying __attribute__((swift_name("isPlaying")));
 @property BOOL isRepeating __attribute__((swift_name("isRepeating")));
-@property (readonly) NSString *resourceId __attribute__((swift_name("resourceId")));
 @property PPCPPMessageBus * _Nullable scheduler __attribute__((swift_name("scheduler")));
 @property (readonly) PPCPPFloatProperty *totalTime __attribute__((swift_name("totalTime")));
 @property (readonly) PPCPPFloatProperty *volume __attribute__((swift_name("volume")));
@@ -2381,8 +2421,8 @@ __attribute__((swift_name("AbstractTextLayer")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPAudioLayer")))
 @interface PPCPPAudioLayer : PPCAbstractMediaLayer
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId autoStart:(BOOL)autoStart autoStartRepeat:(BOOL)autoStartRepeat __attribute__((swift_name("init(namespace:nsId:parent:resourceId:autoStart:autoStartRepeat:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId autoPlay:(BOOL)autoPlay autoPlayRepeat:(BOOL)autoPlayRepeat __attribute__((swift_name("init(namespace:nsId:type:parent:resourceId:autoPlay:autoPlayRepeat:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoStart:(BOOL)autoStart autoStartRepeat:(BOOL)autoStartRepeat __attribute__((swift_name("init(namespace:nsId:parent:resourceId:resourceUrl:autoStart:autoStartRepeat:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoPlay:(BOOL)autoPlay autoPlayRepeat:(BOOL)autoPlayRepeat __attribute__((swift_name("init(namespace:nsId:type:parent:resourceId:resourceUrl:autoPlay:autoPlayRepeat:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (BOOL)isTouchable __attribute__((swift_name("isTouchable()")));
 @end
 
@@ -2474,9 +2514,10 @@ __attribute__((swift_name("PPHitArea")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPImageLayer")))
 @interface PPCPPImageLayer : PPCPPLayer
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId __attribute__((swift_name("init(namespace:nsId:parent:resourceId:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString * _Nullable)resourceUrl __attribute__((swift_name("init(namespace:nsId:parent:resourceId:resourceUrl:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (readonly) NSString *resourceId __attribute__((swift_name("resourceId")));
+- (NSString *)getMediaResourceUrl __attribute__((swift_name("getMediaResourceUrl()")));
+- (void)setMediaResourceUrlValue:(NSString *)value __attribute__((swift_name("setMediaResourceUrl(value:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2534,8 +2575,8 @@ __attribute__((swift_name("PPLayerType")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPLottieLayer")))
 @interface PPCPPLottieLayer : PPCAbstractMediaLayer
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId autoStart:(BOOL)autoStart autoStartRepeat:(BOOL)autoStartRepeat __attribute__((swift_name("init(namespace:nsId:parent:resourceId:autoStart:autoStartRepeat:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId autoPlay:(BOOL)autoPlay autoPlayRepeat:(BOOL)autoPlayRepeat __attribute__((swift_name("init(namespace:nsId:type:parent:resourceId:autoPlay:autoPlayRepeat:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoStart:(BOOL)autoStart autoStartRepeat:(BOOL)autoStartRepeat __attribute__((swift_name("init(namespace:nsId:parent:resourceId:resourceUrl:autoStart:autoStartRepeat:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoPlay:(BOOL)autoPlay autoPlayRepeat:(BOOL)autoPlayRepeat __attribute__((swift_name("init(namespace:nsId:type:parent:resourceId:resourceUrl:autoPlay:autoPlayRepeat:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @end
 
 __attribute__((swift_name("PPMediaCommand")))
@@ -2676,6 +2717,7 @@ __attribute__((swift_name("PPTextInputLayer")))
 - (void)saveInitialState __attribute__((swift_name("saveInitialState()")));
 @property BOOL autoHeight __attribute__((swift_name("autoHeight")));
 @property BOOL focusOutOnTapOutside __attribute__((swift_name("focusOutOnTapOutside")));
+@property BOOL initialFocus __attribute__((swift_name("initialFocus")));
 @property BOOL isAutoFocusOut __attribute__((swift_name("isAutoFocusOut")));
 @property PPCPPTextInputLayerKeyboardLook *keyboardLook __attribute__((swift_name("keyboardLook")));
 @property PPCPPTextInputLayerKeyboardType *keyboardType __attribute__((swift_name("keyboardType")));
@@ -2778,8 +2820,8 @@ __attribute__((swift_name("PPVectorShapeLayer")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPVideoLayer")))
 @interface PPCPPVideoLayer : PPCAbstractMediaLayer
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId autoStart:(BOOL)autoStart autoStartRepeat:(BOOL)autoStartRepeat __attribute__((swift_name("init(namespace:nsId:parent:resourceId:autoStart:autoStartRepeat:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId autoPlay:(BOOL)autoPlay autoPlayRepeat:(BOOL)autoPlayRepeat __attribute__((swift_name("init(namespace:nsId:type:parent:resourceId:autoPlay:autoPlayRepeat:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoStart:(BOOL)autoStart autoStartRepeat:(BOOL)autoStartRepeat __attribute__((swift_name("init(namespace:nsId:parent:resourceId:resourceUrl:autoStart:autoStartRepeat:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoPlay:(BOOL)autoPlay autoPlayRepeat:(BOOL)autoPlayRepeat __attribute__((swift_name("init(namespace:nsId:type:parent:resourceId:resourceUrl:autoPlay:autoPlayRepeat:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3333,6 +3375,12 @@ __attribute__((swift_name("JsonUtilsKt")))
 + (NSArray<PPCKotlinx_serialization_jsonJsonElement *> *)toJsonArray:(NSArray<id> *)receiver __attribute__((swift_name("toJsonArray(_:)")));
 + (PPCKotlinx_serialization_jsonJsonElement *)toJsonElement:(id _Nullable)receiver __attribute__((swift_name("toJsonElement(_:)")));
 + (NSDictionary<NSString *, PPCKotlinx_serialization_jsonJsonElement *> *)toJsonObject:(NSDictionary<id, id> *)receiver __attribute__((swift_name("toJsonObject(_:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ZeroPrefixedKt")))
+@interface PPCZeroPrefixedKt : PPCBase
++ (NSString *)zeroPrefixed:(int32_t)receiver maxLength:(int32_t)maxLength __attribute__((swift_name("zeroPrefixed(_:maxLength:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
