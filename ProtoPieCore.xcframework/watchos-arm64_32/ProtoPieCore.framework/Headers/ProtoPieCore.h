@@ -603,7 +603,7 @@ __attribute__((swift_name("PPExpr")))
 - (instancetype)initWithDataType:(PPCPPDataType *)dataType observer:(id<PPCFormulaObserver> _Nullable)observer __attribute__((swift_name("init(dataType:observer:)"))) __attribute__((objc_designated_initializer));
 - (PPCPPColor * _Nullable)evalAsColor __attribute__((swift_name("evalAsColor()")));
 - (id<PPCPPExprLayer> _Nullable)evalAsLayer __attribute__((swift_name("evalAsLayer()")));
-- (PPCFloat * _Nullable)evalAsNumber __attribute__((swift_name("evalAsNumber()")));
+- (PPCDouble * _Nullable)evalAsNumber __attribute__((swift_name("evalAsNumber()")));
 - (NSString * _Nullable)evalAsString __attribute__((swift_name("evalAsString()")));
 - (void)forEachFn:(void (^)(PPCPPExpr *))fn __attribute__((swift_name("forEach(fn:)")));
 
@@ -627,7 +627,7 @@ __attribute__((swift_name("PPExpr")))
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-- (PPCFloat * _Nullable)unsupportedEvalAsNumber __attribute__((swift_name("unsupportedEvalAsNumber()")));
+- (PPCDouble * _Nullable)unsupportedEvalAsNumber __attribute__((swift_name("unsupportedEvalAsNumber()")));
 
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
@@ -691,7 +691,7 @@ __attribute__((swift_name("PPNumberConstantExpr")))
 - (instancetype)initWithDataType:(PPCPPDataType *)dataType observer:(id<PPCFormulaObserver> _Nullable)observer __attribute__((swift_name("init(dataType:observer:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (PPCPPColor * _Nullable)evalAsColor __attribute__((swift_name("evalAsColor()")));
 - (id<PPCPPExprLayer> _Nullable)evalAsLayer __attribute__((swift_name("evalAsLayer()")));
-- (PPCFloat * _Nullable)evalAsNumber __attribute__((swift_name("evalAsNumber()")));
+- (PPCDouble * _Nullable)evalAsNumber __attribute__((swift_name("evalAsNumber()")));
 - (NSString * _Nullable)evalAsString __attribute__((swift_name("evalAsString()")));
 - (void)forEachFn:(void (^)(PPCPPExpr *))fn __attribute__((swift_name("forEach(fn:)")));
 - (id<PPCPPObservableValueProvider> _Nullable)toObservableValueProvider __attribute__((swift_name("toObservableValueProvider()")));
