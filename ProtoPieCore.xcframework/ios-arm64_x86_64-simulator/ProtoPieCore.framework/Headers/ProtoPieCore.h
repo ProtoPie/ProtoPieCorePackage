@@ -2813,6 +2813,7 @@ __attribute__((swift_name("PPVideoLayer")))
 - (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl thumbnailId:(NSString *)thumbnailId autoStart:(BOOL)autoStart autoStartRepeat:(BOOL)autoStartRepeat __attribute__((swift_name("init(namespace:nsId:parent:resourceId:resourceUrl:thumbnailId:autoStart:autoStartRepeat:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoPlay:(BOOL)autoPlay autoPlayRepeat:(BOOL)autoPlayRepeat __attribute__((swift_name("init(namespace:nsId:type:parent:resourceId:resourceUrl:autoPlay:autoPlayRepeat:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (NSString *)getThumbnailUrl __attribute__((swift_name("getThumbnailUrl()")));
+@property (readonly) NSString *thumbnailId __attribute__((swift_name("thumbnailId")));
 @end
 
 __attribute__((objc_subclassing_restricted))
