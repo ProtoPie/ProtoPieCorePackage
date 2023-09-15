@@ -3165,7 +3165,7 @@ __attribute__((swift_name("PPPieModel")))
 - (void)showFixedSceneScene:(PPCPPScene *)scene __attribute__((swift_name("showFixedScene(scene:)")));
 - (void)showSceneScene:(PPCPPScene *)scene top:(BOOL)top __attribute__((swift_name("showScene(scene:top:)")));
 @property (readonly) NSSet<NSString *> *allResourceIds __attribute__((swift_name("allResourceIds")));
-@property (readonly) NSDictionary<NSString *, NSString *> *allResourceIdsWithLayerType __attribute__((swift_name("allResourceIdsWithLayerType")));
+@property (readonly) NSDictionary<NSString *, PPCPPLayerType *> *allResourceIdsWithLayerType __attribute__((swift_name("allResourceIdsWithLayerType")));
 @property (readonly) NSSet<NSString *> *allThumbnailIds __attribute__((swift_name("allThumbnailIds")));
 @property int32_t baseModelVersion __attribute__((swift_name("baseModelVersion")));
 @property (readonly) PPCPPDeviceInfo *deviceInfo __attribute__((swift_name("deviceInfo")));
@@ -3252,7 +3252,7 @@ __attribute__((swift_name("PPScene")))
 @property (readonly) NSString *name __attribute__((swift_name("name")));
 @property (readonly) NSSet<NSString *> *nextSceneIds __attribute__((swift_name("nextSceneIds")));
 @property (readonly) NSSet<NSString *> *requiredImageResourceIds __attribute__((swift_name("requiredImageResourceIds")));
-@property (readonly) NSDictionary<NSString *, NSString *> *requiredImageResourceIdsWidthLayerType __attribute__((swift_name("requiredImageResourceIdsWidthLayerType")));
+@property (readonly) NSDictionary<NSString *, PPCPPLayerType *> *requiredImageResourceIdsWidthLayerType __attribute__((swift_name("requiredImageResourceIdsWidthLayerType")));
 @property (readonly) PPCPPContainerLayer * _Nullable rootLayer __attribute__((swift_name("rootLayer")));
 @property (readonly) NSString * _Nullable thumbnailId __attribute__((swift_name("thumbnailId")));
 @property (readonly) float width __attribute__((swift_name("width")));
