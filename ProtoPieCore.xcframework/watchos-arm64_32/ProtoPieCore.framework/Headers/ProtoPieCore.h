@@ -2248,7 +2248,7 @@ __attribute__((swift_name("PPLayer")))
 - (float)getBorderCenterOffsetScaleFactor:(float)scaleFactor __attribute__((swift_name("getBorderCenterOffset(scaleFactor:)")));
 - (int32_t)getBottomScaleFactor:(float)scaleFactor __attribute__((swift_name("getBottom(scaleFactor:)")));
 - (PPCPPColorProperty * _Nullable)getColorPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getColorPropertyByName(propertyName:)")));
-- (NSString * _Nullable)getFillResourceUrl __attribute__((swift_name("getFillResourceUrl()")));
+- (NSString *)getFillResourceUrl __attribute__((swift_name("getFillResourceUrl()")));
 - (PPCPPFloatProperty * _Nullable)getFloatPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getFloatPropertyByName(propertyName:)")));
 - (float)getInsideBorderWidthScaleFactor:(float)scaleFactor __attribute__((swift_name("getInsideBorderWidth(scaleFactor:)")));
 - (int32_t)getIntHeightScaleFactor:(float)scaleFactor __attribute__((swift_name("getIntHeight(scaleFactor:)")));
@@ -2511,8 +2511,6 @@ __attribute__((swift_name("PPImageLayer")))
 @interface PPCPPImageLayer : PPCPPLayer
 - (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString * _Nullable)resourceUrl __attribute__((swift_name("init(namespace:nsId:parent:resourceId:resourceUrl:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (NSString *)getMediaResourceUrl __attribute__((swift_name("getMediaResourceUrl()")));
-- (void)setMediaResourceUrlValue:(NSString *)value __attribute__((swift_name("setMediaResourceUrl(value:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3171,19 +3169,16 @@ __attribute__((swift_name("PPPieModel")))
 - (void)reset __attribute__((swift_name("reset()")));
 - (void)showFixedSceneScene:(PPCPPScene *)scene __attribute__((swift_name("showFixedScene(scene:)")));
 - (void)showSceneScene:(PPCPPScene *)scene top:(BOOL)top __attribute__((swift_name("showScene(scene:top:)")));
-@property (readonly) NSSet<NSString *> *allResourceIds __attribute__((swift_name("allResourceIds")));
-@property (readonly) NSDictionary<NSString *, PPCPPLayerType *> *allResourceIdsWithLayerType __attribute__((swift_name("allResourceIdsWithLayerType")));
+@property (readonly) NSDictionary<NSString *, PPCPPLayerType *> *allResourceIds __attribute__((swift_name("allResourceIds")));
 @property (readonly) NSSet<NSString *> *allThumbnailIds __attribute__((swift_name("allThumbnailIds")));
 @property int32_t baseModelVersion __attribute__((swift_name("baseModelVersion")));
 @property (readonly) PPCPPDeviceInfo *deviceInfo __attribute__((swift_name("deviceInfo")));
 @property (readonly) NSMutableArray<PPCPPScene *> *fixedScenes __attribute__((swift_name("fixedScenes")));
 @property (readonly) NSDictionary<NSString *, PPCPPFont *> *fonts __attribute__((swift_name("fonts")));
 @property float height __attribute__((swift_name("height")));
-@property (readonly) NSSet<NSString *> *imageResourceIds __attribute__((swift_name("imageResourceIds")));
 @property (readonly) PPCPPScene *initialScene __attribute__((swift_name("initialScene")));
 @property NSString * _Nullable initialSceneId __attribute__((swift_name("initialSceneId")));
 @property (readonly) BOOL isOpaque __attribute__((swift_name("isOpaque")));
-@property (readonly) NSSet<NSString *> *mediaResourceIds __attribute__((swift_name("mediaResourceIds")));
 @property int32_t modelVersion __attribute__((swift_name("modelVersion")));
 @property NSString * _Nullable name __attribute__((swift_name("name")));
 @property (readonly) id<PPCPPEngineObserver> _Nullable observer __attribute__((swift_name("observer")));
@@ -3258,8 +3253,6 @@ __attribute__((swift_name("PPScene")))
 @property (readonly) BOOL isOpaque __attribute__((swift_name("isOpaque")));
 @property (readonly) NSString *name __attribute__((swift_name("name")));
 @property (readonly) NSSet<NSString *> *nextSceneIds __attribute__((swift_name("nextSceneIds")));
-@property (readonly) NSSet<NSString *> *requiredImageResourceIds __attribute__((swift_name("requiredImageResourceIds")));
-@property (readonly) NSDictionary<NSString *, PPCPPLayerType *> *requiredImageResourceIdsWidthLayerType __attribute__((swift_name("requiredImageResourceIdsWidthLayerType")));
 @property (readonly) PPCPPContainerLayer * _Nullable rootLayer __attribute__((swift_name("rootLayer")));
 @property (readonly) NSString * _Nullable thumbnailId __attribute__((swift_name("thumbnailId")));
 @property (readonly) float width __attribute__((swift_name("width")));
