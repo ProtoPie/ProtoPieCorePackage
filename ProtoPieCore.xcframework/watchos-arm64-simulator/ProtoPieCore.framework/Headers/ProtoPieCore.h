@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class PPCCommon, PPCProfileOptions, PPCDeviceInfoCompanion, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPSpeechGender, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPExprEvalError, PPCPPDataType, PPCPPPlayEvent, PPCPPColor, PPCPPExpr, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPChangeObserversHolder, PPCPPIdentifiableChangeObservable, PPCPPMessage, PPCPPVar<T>, PPCPPRepeatDef, PPCPPMsgChannel, PPCPPPieModel, PPCPPScene, PPCPPClock, PPCPPTouchEvent, PPCPPPieRecord, PPCPPEventChannel<T>, PPCPPPlayEventCompanion, PPCPPContainerLayer, PPCPPSoftKeyboardCompanion, PPCPPSoftKeyboard, PPCPlayOptions, PPCPPIosVibrateType, PPCPPAndroidVibrateType, PPCReplayOptions, PPCPPSceneChangeEvent, PPCPPRenderEvent, PPCBinarySearch, PPCConcurrency, PPCDateTime, PPCFormulaUtils, PPCPPNumberConstantExpr, PPCLogger, PPCPlatform, PPCKotlinx_serialization_jsonJsonElement, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPHorizontalAlign, PPCPPLineCap, PPCPPLineJoin, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPSizeProp, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPColorCompanion, PPCPPCorners<T>, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPPointCompanion, PPCPPSize, PPCPPLayerProperty, PPCPPProperty<T>, PPCMediaStateCompanion, PPCPPRenderEventCompanion, PPCPPFixedSceneChangeEventCompanion, PPCPPInputFocusEventCompanion, PPCPPIosEffectEventCompanion, PPCPPMediaCommandEventCompanion, PPCPPValueHistory<T>, PPCReplayer, PPCPPReorderEventCompanion, PPCPPSceneChangeEventCompanion, PPCPPValueHistoryCompanion, PPCMediaState, PPCReplayDataCompanion, PPCReplayDataSerializer, PPCReplayData, PPCReplayDataVersionCompanion, PPCPPKeyboardDef, PPCPPKeyboardOptions, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCProfile, PPCProfileEntryType, PPCProfileEntryCompanion, PPCPPLayerType, PPCPPLayerAlias, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPMessageBus, PPCPPTextAttributes, PPCAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCAbstractTextLayer, PPCPPVectorShape, PPCConstraintOption, PPCDirection, PPCOneDimensionResizeConstraints, PPCPPPathSegmentData, PPCPPMessageCompanion, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDeviceFrameHelper, PPCDevicePreset, PPCPPPiePlayer, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPVarProxy, PPCPPPlayControlGestureOptions, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCKotlinx_serialization_jsonJson, PPCKotlinCancellationException, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_jsonJsonDefault, PPCKotlinx_serialization_jsonJsonConfiguration, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing, PPCKotlinRuntimeException, PPCKotlinIllegalStateException, PPCKotlinx_coroutines_coreAtomicDesc, PPCKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, PPCKotlinx_coroutines_coreAtomicOp<__contravariant T>, PPCKotlinx_coroutines_coreOpDescriptor, PPCKotlinx_coroutines_coreLockFreeLinkedListNode, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, PPCKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class PPCCommon, PPCProfileOptions, PPCDeviceInfoCompanion, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPSpeechGender, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPExprEvalError, PPCPPDataType, PPCPPPlayEvent, PPCPPColor, PPCPPExpr, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPChangeObserversHolder, PPCPPIdentifiableChangeObservable, PPCPPMessage, PPCPPVar<T>, PPCPPRepeatDef, PPCPPMsgChannel, PPCPPPieModel, PPCPPScene, PPCPPClock, PPCPPTouchEvent, PPCPPPieRecord, PPCPPEventChannel<T>, PPCPPPlayEventCompanion, PPCPPContainerLayer, PPCPPSoftKeyboardCompanion, PPCPPSoftKeyboard, PPCPlayOptions, PPCPPIosVibrateType, PPCPPAndroidVibrateType, PPCReplayOptions, PPCPPSceneChangeEvent, PPCPPRenderEvent, PPCBinarySearch, PPCDateTime, PPCFormulaUtils, PPCPPNumberConstantExpr, PPCLogger, PPCPlatform, PPCKotlinx_serialization_jsonJsonElement, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPHorizontalAlign, PPCPPLineCap, PPCPPLineJoin, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPSizeProp, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPColorCompanion, PPCPPCorners<T>, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPPointCompanion, PPCPPSize, PPCPPLayerProperty, PPCPPProperty<T>, PPCMediaStateCompanion, PPCPPRenderEventCompanion, PPCPPFixedSceneChangeEventCompanion, PPCPPInputFocusEventCompanion, PPCPPIosEffectEventCompanion, PPCPPMediaCommandEventCompanion, PPCPPValueHistory<T>, PPCReplayer, PPCPPReorderEventCompanion, PPCPPSceneChangeEventCompanion, PPCPPValueHistoryCompanion, PPCMediaState, PPCReplayDataCompanion, PPCReplayDataSerializer, PPCReplayData, PPCReplayDataVersionCompanion, PPCPPKeyboardDef, PPCPPKeyboardOptions, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCProfile, PPCProfileEntryType, PPCProfileEntryCompanion, PPCPPLayerType, PPCPPLayerAlias, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPMessageBus, PPCPPTextAttributes, PPCAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCAbstractTextLayer, PPCPPVectorShape, PPCConstraintOption, PPCDirection, PPCOneDimensionResizeConstraints, PPCPPPathSegmentData, PPCPPMessageCompanion, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDeviceFrameHelper, PPCDevicePreset, PPCPPPiePlayer, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPVarProxy, PPCPPPlayControlGestureOptions, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCKotlinx_serialization_jsonJson, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_jsonJsonDefault, PPCKotlinx_serialization_jsonJsonConfiguration, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing;
 
-@protocol PPCKotlinx_serialization_coreKSerializer, PPCKotlinComparable, PPCPPJson, PPCPPEventChannelHandler, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCFormulaObserver, PPCPPExprLayer, PPCPPObservableValueProvider, PPCPPChangeObserver, PPCPPValueProvider, PPCPPClockObserver, PPCPPMessageBusTaskRunner, PPCPlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPKeyboardProvider, PPCPPSoftKeyboardDelegate, PPCPPSoftKeyboardListener, PPCReplayerDelegate, PPCKotlinx_coroutines_coreJob, PPCPPFloatNormalizer, PPCPPPropertyObserver, PPCPPLayerObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPEngineObserver, PPCPPJsonOverrider, PPCPPPieDecorator, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_coroutines_coreChildHandle, PPCKotlinx_coroutines_coreChildJob, PPCKotlinx_coroutines_coreDisposableHandle, PPCKotlinSequence, PPCKotlinx_coroutines_coreSelectClause0, PPCKotlinCoroutineContextKey, PPCKotlinCoroutineContextElement, PPCKotlinCoroutineContext, PPCKotlinx_serialization_coreSerialFormat, PPCKotlinx_serialization_coreStringFormat, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_coroutines_coreParentJob, PPCKotlinx_coroutines_coreSelectInstance, PPCKotlinSuspendFunction0, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinx_serialization_jsonJsonNamingStrategy, PPCKotlinContinuation, PPCKotlinFunction, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
+@protocol PPCKotlinx_serialization_coreKSerializer, PPCKotlinComparable, PPCPPJson, PPCPPEventChannelHandler, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCFormulaObserver, PPCPPExprLayer, PPCPPObservableValueProvider, PPCPPChangeObserver, PPCPPValueProvider, PPCPPClockObserver, PPCPPMessageBusTaskRunner, PPCPlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPKeyboardProvider, PPCPPSoftKeyboardDelegate, PPCPPSoftKeyboardListener, PPCReplayerDelegate, PPCPPFloatNormalizer, PPCPPPropertyObserver, PPCPPLayerObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPEngineObserver, PPCPPJsonOverrider, PPCPPPieDecorator, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_serialization_coreSerialFormat, PPCKotlinx_serialization_coreStringFormat, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinx_serialization_jsonJsonNamingStrategy, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -151,12 +151,16 @@ __attribute__((swift_name("Common")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)common __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) PPCCommon *shared __attribute__((swift_name("shared")));
+- (void)debugMessage:(NSString *)message __attribute__((swift_name("debug(message:)")));
 - (NSString *)getDeviceInfo __attribute__((swift_name("getDeviceInfo()")));
 - (NSString *)getEngineVersion __attribute__((swift_name("getEngineVersion()")));
 - (NSString *)getProfileData __attribute__((swift_name("getProfileData()")));
 - (NSString * _Nullable)getQrScannerLicenseApplicationId:(NSString *)applicationId __attribute__((swift_name("getQrScannerLicense(applicationId:)")));
 - (void)markTrigger __attribute__((swift_name("markTrigger()")));
 - (void)setProfileOptionsOptions:(PPCProfileOptions *)options __attribute__((swift_name("setProfileOptions(options:)")));
+- (void)traceMessage:(NSString *)message __attribute__((swift_name("trace(message:)")));
+@property (readonly) BOOL ENABLE_DEBUG __attribute__((swift_name("ENABLE_DEBUG")));
+@property (readonly) BOOL ENABLE_PROFILE __attribute__((swift_name("ENABLE_PROFILE")));
 @end
 
 
@@ -1008,18 +1012,6 @@ __attribute__((swift_name("BinarySearch")))
 @property (class, readonly, getter=shared) PPCBinarySearch *shared __attribute__((swift_name("shared")));
 - (PPCInt * _Nullable)maxLessThanList:(NSArray<id> *)list value:(id)value __attribute__((swift_name("maxLessThan(list:value:)")));
 - (PPCInt * _Nullable)minGreaterThanList:(NSArray<id> *)list value:(id)value __attribute__((swift_name("minGreaterThan(list:value:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Concurrency")))
-@interface PPCConcurrency : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)concurrency __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCConcurrency *shared __attribute__((swift_name("shared")));
-- (id<PPCKotlinx_coroutines_coreJob>)runAsyncCallback:(void (^)(void))callback __attribute__((swift_name("runAsync(callback:)")));
-- (id<PPCKotlinx_coroutines_coreJob>)runAsyncWithDelayDelay:(int64_t)delay callback:(void (^)(void))callback __attribute__((swift_name("runAsyncWithDelay(delay:callback:)")));
-- (id<PPCKotlinx_coroutines_coreJob>)runMainScopeCallback:(void (^)(void))callback __attribute__((swift_name("runMainScope(callback:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3435,49 +3427,6 @@ __attribute__((swift_name("KotlinEnumCompanion")))
 
 /**
  * @note annotations
- *   kotlin.SinceKotlin(version="1.3")
-*/
-__attribute__((swift_name("KotlinCoroutineContext")))
-@protocol PPCKotlinCoroutineContext
-@required
-- (id _Nullable)foldInitial:(id _Nullable)initial operation:(id _Nullable (^)(id _Nullable, id<PPCKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation:)")));
-- (id<PPCKotlinCoroutineContextElement> _Nullable)getKey_:(id<PPCKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key_:)")));
-- (id<PPCKotlinCoroutineContext>)minusKeyKey:(id<PPCKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key:)")));
-- (id<PPCKotlinCoroutineContext>)plusContext:(id<PPCKotlinCoroutineContext>)context __attribute__((swift_name("plus(context:)")));
-@end
-
-__attribute__((swift_name("KotlinCoroutineContextElement")))
-@protocol PPCKotlinCoroutineContextElement <PPCKotlinCoroutineContext>
-@required
-@property (readonly) id<PPCKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreJob")))
-@protocol PPCKotlinx_coroutines_coreJob <PPCKotlinCoroutineContextElement>
-@required
-- (id<PPCKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<PPCKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
-- (void)cancelCause:(PPCKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
-- (PPCKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
-- (id<PPCKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(PPCKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
-- (id<PPCKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(PPCKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)joinWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
-- (id<PPCKotlinx_coroutines_coreJob>)plusOther:(id<PPCKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
-- (BOOL)start __attribute__((swift_name("start()")));
-@property (readonly) id<PPCKotlinSequence> children __attribute__((swift_name("children")));
-@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
-@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
-@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
-@property (readonly) id<PPCKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
-@end
-
-
-/**
- * @note annotations
  *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/serialization/json/JsonElementSerializer))
 */
 __attribute__((swift_name("Kotlinx_serialization_jsonJsonElement")))
@@ -3683,74 +3632,6 @@ __attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
 @property (readonly) PPCKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
 @end
 
-__attribute__((swift_name("KotlinRuntimeException")))
-@interface PPCKotlinRuntimeException : PPCKotlinException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(PPCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(PPCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
-__attribute__((swift_name("KotlinIllegalStateException")))
-@interface PPCKotlinIllegalStateException : PPCKotlinRuntimeException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(PPCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(PPCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.4")
-*/
-__attribute__((swift_name("KotlinCancellationException")))
-@interface PPCKotlinCancellationException : PPCKotlinIllegalStateException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(PPCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(PPCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
-@protocol PPCKotlinx_coroutines_coreDisposableHandle
-@required
-- (void)dispose __attribute__((swift_name("dispose()")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
-@protocol PPCKotlinx_coroutines_coreChildHandle <PPCKotlinx_coroutines_coreDisposableHandle>
-@required
-- (BOOL)childCancelledCause:(PPCKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
-@property (readonly) id<PPCKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
-@protocol PPCKotlinx_coroutines_coreChildJob <PPCKotlinx_coroutines_coreJob>
-@required
-- (void)parentCancelledParentJob:(id<PPCKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
-@end
-
-__attribute__((swift_name("KotlinSequence")))
-@protocol PPCKotlinSequence
-@required
-- (id<PPCKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
-@protocol PPCKotlinx_coroutines_coreSelectClause0
-@required
-- (void)registerSelectClause0Select:(id<PPCKotlinx_coroutines_coreSelectInstance>)select block:(id<PPCKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
-@end
-
-__attribute__((swift_name("KotlinCoroutineContextKey")))
-@protocol PPCKotlinCoroutineContextKey
-@required
-@end
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Kotlinx_serialization_jsonJsonElement.Companion")))
 @interface PPCKotlinx_serialization_jsonJsonElementCompanion : PPCBase
@@ -3923,40 +3804,6 @@ __attribute__((swift_name("KotlinNothing")))
 @interface PPCKotlinNothing : PPCBase
 @end
 
-__attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
-@protocol PPCKotlinx_coroutines_coreParentJob <PPCKotlinx_coroutines_coreJob>
-@required
-- (PPCKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
-@protocol PPCKotlinx_coroutines_coreSelectInstance
-@required
-- (void)disposeOnSelectHandle:(id<PPCKotlinx_coroutines_coreDisposableHandle>)handle __attribute__((swift_name("disposeOnSelect(handle:)")));
-- (id _Nullable)performAtomicTrySelectDesc:(PPCKotlinx_coroutines_coreAtomicDesc *)desc __attribute__((swift_name("performAtomicTrySelect(desc:)")));
-- (void)resumeSelectWithExceptionException:(PPCKotlinThrowable *)exception __attribute__((swift_name("resumeSelectWithException(exception:)")));
-- (BOOL)trySelect __attribute__((swift_name("trySelect()")));
-- (id _Nullable)trySelectOtherOtherOp:(PPCKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp * _Nullable)otherOp __attribute__((swift_name("trySelectOther(otherOp:)")));
-@property (readonly) id<PPCKotlinContinuation> completion __attribute__((swift_name("completion")));
-@property (readonly) BOOL isSelected __attribute__((swift_name("isSelected")));
-@end
-
-__attribute__((swift_name("KotlinFunction")))
-@protocol PPCKotlinFunction
-@required
-@end
-
-__attribute__((swift_name("KotlinSuspendFunction0")))
-@protocol PPCKotlinSuspendFunction0 <PPCKotlinFunction>
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)invokeWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
-@end
-
 
 /**
  * @note annotations
@@ -4015,212 +3862,6 @@ __attribute__((swift_name("Kotlinx_serialization_jsonJsonNamingStrategy")))
 @protocol PPCKotlinx_serialization_jsonJsonNamingStrategy
 @required
 - (NSString *)serialNameForJsonDescriptor:(id<PPCKotlinx_serialization_coreSerialDescriptor>)descriptor elementIndex:(int32_t)elementIndex serialName:(NSString *)serialName __attribute__((swift_name("serialNameForJson(descriptor:elementIndex:serialName:)")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreAtomicDesc")))
-@interface PPCKotlinx_coroutines_coreAtomicDesc : PPCBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeOp:(PPCKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
-- (id _Nullable)prepareOp:(PPCKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
-@property PPCKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreOpDescriptor")))
-@interface PPCKotlinx_coroutines_coreOpDescriptor : PPCBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (BOOL)isEarlierThanThat:(PPCKotlinx_coroutines_coreOpDescriptor *)that __attribute__((swift_name("isEarlierThan(that:)")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) PPCKotlinx_coroutines_coreAtomicOp<id> * _Nullable atomicOp __attribute__((swift_name("atomicOp")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.PrepareOp")))
-@interface PPCKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp : PPCKotlinx_coroutines_coreOpDescriptor
-- (instancetype)initWithAffected:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)next desc:(PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *)desc __attribute__((swift_name("init(affected:next:desc:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-- (void)finishPrepare __attribute__((swift_name("finishPrepare()")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode *affected __attribute__((swift_name("affected")));
-@property (readonly) PPCKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *desc __attribute__((swift_name("desc")));
-@property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode *next __attribute__((swift_name("next")));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.3")
-*/
-__attribute__((swift_name("KotlinContinuation")))
-@protocol PPCKotlinContinuation
-@required
-- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
-@property (readonly) id<PPCKotlinCoroutineContext> context __attribute__((swift_name("context")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreAtomicOp")))
-@interface PPCKotlinx_coroutines_coreAtomicOp<__contravariant T> : PPCKotlinx_coroutines_coreOpDescriptor
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeAffected:(T _Nullable)affected failure:(id _Nullable)failure __attribute__((swift_name("complete(affected:failure:)")));
-- (id _Nullable)decideDecision:(id _Nullable)decision __attribute__((swift_name("decide(decision:)")));
-- (id _Nullable)performAffected:(id _Nullable)affected __attribute__((swift_name("perform(affected:)")));
-- (id _Nullable)prepareAffected:(T _Nullable)affected __attribute__((swift_name("prepare(affected:)")));
-@property (readonly) PPCKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
-@property (readonly) id _Nullable consensus __attribute__((swift_name("consensus")));
-@property (readonly) BOOL isDecided __attribute__((swift_name("isDecided")));
-@property (readonly) int64_t opSequence __attribute__((swift_name("opSequence")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode")))
-@interface PPCKotlinx_coroutines_coreLockFreeLinkedListNode : PPCBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)addLastNode:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addLast(node:)")));
-- (BOOL)addLastIfNode:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)node condition:(PPCBoolean *(^)(void))condition __attribute__((swift_name("addLastIf(node:condition:)")));
-- (BOOL)addLastIfPrevNode:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(PPCBoolean *(^)(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate __attribute__((swift_name("addLastIfPrev(node:predicate:)")));
-- (BOOL)addLastIfPrevAndIfNode:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)node predicate:(PPCBoolean *(^)(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *))predicate condition:(PPCBoolean *(^)(void))condition __attribute__((swift_name("addLastIfPrevAndIf(node:predicate:condition:)")));
-- (BOOL)addOneIfEmptyNode:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("addOneIfEmpty(node:)")));
-- (PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<PPCKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeAddLastNode:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)node __attribute__((swift_name("describeAddLast(node:)")));
-- (PPCKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<PPCKotlinx_coroutines_coreLockFreeLinkedListNode *> *)describeRemoveFirst __attribute__((swift_name("describeRemoveFirst()")));
-- (void)helpRemove __attribute__((swift_name("helpRemove()")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (PPCKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)nextIfRemoved __attribute__((swift_name("nextIfRemoved()")));
-- (BOOL)remove __attribute__((swift_name("remove()")));
-- (id _Nullable)removeFirstIfIsInstanceOfOrPeekIfPredicate:(PPCBoolean *(^)(id _Nullable))predicate __attribute__((swift_name("removeFirstIfIsInstanceOfOrPeekIf(predicate:)")));
-- (PPCKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)removeFirstOrNull __attribute__((swift_name("removeFirstOrNull()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BOOL isRemoved __attribute__((swift_name("isRemoved")));
-@property (readonly, getter=next_) id next __attribute__((swift_name("next")));
-@property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode *nextNode __attribute__((swift_name("nextNode")));
-@property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode *prevNode __attribute__((swift_name("prevNode")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.AbstractAtomicDesc")))
-@interface PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc : PPCKotlinx_coroutines_coreAtomicDesc
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)completeOp:(PPCKotlinx_coroutines_coreAtomicOp<id> *)op failure:(id _Nullable)failure __attribute__((swift_name("complete(op:failure:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (id _Nullable)failureAffected:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("failure(affected:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)finishOnSuccessAffected:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
-- (void)finishPreparePrepareOp:(PPCKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
-- (id _Nullable)onPreparePrepareOp:(PPCKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("onPrepare(prepareOp:)")));
-- (void)onRemovedAffected:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("onRemoved(affected:)")));
-- (id _Nullable)prepareOp:(PPCKotlinx_coroutines_coreAtomicOp<id> *)op __attribute__((swift_name("prepare(op:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (BOOL)retryAffected:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (PPCKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(PPCKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
-- (id)updatedNextAffected:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc")))
-@interface PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T> : PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc
-- (instancetype)initWithQueue:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)queue node:(T)node __attribute__((swift_name("init(queue:node:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)finishOnSuccessAffected:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
-- (void)finishPreparePrepareOp:(PPCKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (BOOL)retryAffected:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (PPCKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(PPCKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
-- (id)updatedNextAffected:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
-@property (readonly) T node __attribute__((swift_name("node")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode *originalNext __attribute__((swift_name("originalNext")));
-@property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc")))
-@interface PPCKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T> : PPCKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc
-- (instancetype)initWithQueue:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)queue __attribute__((swift_name("init(queue:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (id _Nullable)failureAffected:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)affected __attribute__((swift_name("failure(affected:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)finishOnSuccessAffected:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("finishOnSuccess(affected:next:)")));
-- (void)finishPreparePrepareOp:(PPCKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp *)prepareOp __attribute__((swift_name("finishPrepare(prepareOp:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (BOOL)retryAffected:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(id)next __attribute__((swift_name("retry(affected:next:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (PPCKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable)takeAffectedNodeOp:(PPCKotlinx_coroutines_coreOpDescriptor *)op __attribute__((swift_name("takeAffectedNode(op:)")));
-- (id)updatedNextAffected:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)affected next:(PPCKotlinx_coroutines_coreLockFreeLinkedListNode *)next __attribute__((swift_name("updatedNext(affected:next:)")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable affectedNode __attribute__((swift_name("affectedNode")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode * _Nullable originalNext __attribute__((swift_name("originalNext")));
-@property (readonly) PPCKotlinx_coroutines_coreLockFreeLinkedListNode *queue __attribute__((swift_name("queue")));
-@property (readonly) T _Nullable result __attribute__((swift_name("result")));
 @end
 
 #pragma pop_macro("_Nullable_result")
