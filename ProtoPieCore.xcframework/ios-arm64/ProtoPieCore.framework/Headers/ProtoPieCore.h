@@ -438,6 +438,7 @@ __attribute__((swift_name("PPSensor")))
 @property (class, readonly) PPCPPSensor *sound __attribute__((swift_name("sound")));
 @property (class, readonly) PPCPPSensor *proximity __attribute__((swift_name("proximity")));
 @property (class, readonly) PPCPPSensor *light __attribute__((swift_name("light")));
+@property (class, readonly) PPCPPSensor *rotary __attribute__((swift_name("rotary")));
 + (PPCKotlinArray<PPCPPSensor *> *)values __attribute__((swift_name("values()")));
 @end
 
