@@ -4,8 +4,7 @@ import PackageDescription
 let package = Package(
     name: "ProtoPieCore",
     platforms: [
-        .iOS(.v13),
-.watchOS(.v8)
+        .iOS(.v13)
     ],
     products: [
         .library(
