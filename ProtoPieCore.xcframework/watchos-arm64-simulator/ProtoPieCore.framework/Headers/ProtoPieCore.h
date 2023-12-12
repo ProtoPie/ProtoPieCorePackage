@@ -2307,7 +2307,6 @@ __attribute__((swift_name("PPLayer")))
 - (float)getBorderCenterOffsetScaleFactor:(float)scaleFactor __attribute__((swift_name("getBorderCenterOffset(scaleFactor:)")));
 - (int32_t)getBottomScaleFactor:(float)scaleFactor __attribute__((swift_name("getBottom(scaleFactor:)")));
 - (PPCPPColorProperty * _Nullable)getColorPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getColorPropertyByName(propertyName:)")));
-- (NSString * _Nullable)getFillResourceUrl __attribute__((swift_name("getFillResourceUrl()")));
 - (PPCPPFloatProperty * _Nullable)getFloatPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getFloatPropertyByName(propertyName:)")));
 - (float)getInsideBorderWidthScaleFactor:(float)scaleFactor __attribute__((swift_name("getInsideBorderWidth(scaleFactor:)")));
 - (int32_t)getIntHeightScaleFactor:(float)scaleFactor __attribute__((swift_name("getIntHeight(scaleFactor:)")));
@@ -2347,8 +2346,6 @@ __attribute__((swift_name("PPLayer")))
 - (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
 - (void)saveInitialState __attribute__((swift_name("saveInitialState()")));
 - (void)setDirty __attribute__((swift_name("setDirty()")));
-- (void)setFillResourceIdFillResourceId:(NSString *)fillResourceId __attribute__((swift_name("setFillResourceId(fillResourceId:)")));
-- (void)setFillResourceUrlFillResourceUrl:(NSString *)fillResourceUrl __attribute__((swift_name("setFillResourceUrl(fillResourceUrl:)")));
 - (void)setNeedUpdateOnNextFrame __attribute__((swift_name("setNeedUpdateOnNextFrame()")));
 - (BOOL)shouldRenderBorder __attribute__((swift_name("shouldRenderBorder()")));
 - (BOOL)shouldRenderShadow __attribute__((swift_name("shouldRenderShadow()")));
@@ -2372,6 +2369,7 @@ __attribute__((swift_name("PPLayer")))
 @property PPCPPGradient * _Nullable fillGradient __attribute__((swift_name("fillGradient")));
 @property (readonly) PPCPPFloatProperty *fillImageRate __attribute__((swift_name("fillImageRate")));
 @property (readonly) PPCPPFloatProperty *fillOpacity __attribute__((swift_name("fillOpacity")));
+@property NSString * _Nullable fillResourceId __attribute__((swift_name("fillResourceId")));
 @property PPCPPFillScaleMode *fillScaleMode __attribute__((swift_name("fillScaleMode")));
 @property (readonly) PPCPPFloatProperty *fillSolidRate __attribute__((swift_name("fillSolidRate")));
 @property PPCPPFillType *fillType __attribute__((swift_name("fillType")));
@@ -2575,7 +2573,9 @@ __attribute__((swift_name("PPImageLayer")))
 - (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString * _Nullable)resourceUrl __attribute__((swift_name("init(namespace:nsId:parent:resourceId:resourceUrl:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (NSString *)getMediaResourceUrl __attribute__((swift_name("getMediaResourceUrl()")));
+- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
 - (void)setMediaResourceUrlValue:(NSString *)value __attribute__((swift_name("setMediaResourceUrl(value:)")));
+@property (readonly) NSString * _Nullable initailResourceUrl __attribute__((swift_name("initailResourceUrl")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2690,6 +2690,7 @@ __attribute__((swift_name("PPShapeLayer")))
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
 - (void)onPropertyModifiedProperty:(PPCPPProperty<id> *)property __attribute__((swift_name("onPropertyModified(property:)")));
+- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
 @property BOOL isMask __attribute__((swift_name("isMask")));
 @end
 
