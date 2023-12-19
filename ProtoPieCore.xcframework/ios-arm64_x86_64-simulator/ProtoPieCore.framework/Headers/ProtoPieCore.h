@@ -2573,9 +2573,7 @@ __attribute__((swift_name("PPImageLayer")))
 - (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString * _Nullable)resourceUrl __attribute__((swift_name("init(namespace:nsId:parent:resourceId:resourceUrl:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (NSString *)getMediaResourceUrl __attribute__((swift_name("getMediaResourceUrl()")));
-- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
 - (void)setMediaResourceUrlValue:(NSString *)value __attribute__((swift_name("setMediaResourceUrl(value:)")));
-@property (readonly) NSString * _Nullable initailResourceUrl __attribute__((swift_name("initailResourceUrl")));
 @end
 
 __attribute__((objc_subclassing_restricted))
