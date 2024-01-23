@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class PPCCommon, PPCProfileOptions, PPCDeviceInfoCompanion, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPSpeechGender, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPExprEvalError, PPCPPDataType, PPCPPPlayEvent, PPCPPColor, PPCPPExpr, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPChangeObserversHolder, PPCPPIdentifiableChangeObservable, PPCPPMessage, PPCPPVar<T>, PPCPPRepeatDef, PPCPPMsgChannel, PPCPPPieModel, PPCPPScene, PPCPPClock, PPCPPTouchEvent, PPCPPPieRecord, PPCPPEventChannel<T>, PPCPPPlayEventCompanion, PPCPPContainerLayer, PPCPPSoftKeyboardCompanion, PPCPPSoftKeyboard, PPCPlayOptions, PPCPPIosVibrateType, PPCPPAndroidVibrateType, PPCReplayOptions, PPCPPSceneChangeEvent, PPCPPRenderEvent, PPCBinarySearch, PPCDateTime, PPCFormulaUtils, PPCPPNumberConstantExpr, PPCLogger, PPCPlatform, PPCKotlinx_serialization_jsonJsonElement, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPFillType, PPCPPHorizontalAlign, PPCPPLineCap, PPCPPLineJoin, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPSizeProp, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPColorCompanion, PPCPPCorners<T>, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPGradientOffset, PPCPPGradient, PPCPPGradientLinear, PPCPPGradientRadial, PPCPPPointCompanion, PPCPPSize, PPCPPLayerProperty, PPCPPProperty<T>, PPCMediaStateCompanion, PPCPPRenderEventCompanion, PPCPPFixedSceneChangeEventCompanion, PPCPPInputFocusEventCompanion, PPCPPIosEffectEventCompanion, PPCPPMediaCommandEventCompanion, PPCPPValueHistory<T>, PPCReplayer, PPCPPReorderEventCompanion, PPCPPSceneChangeEventCompanion, PPCPPValueHistoryCompanion, PPCMediaState, PPCReplayDataCompanion, PPCReplayDataSerializer, PPCReplayData, PPCReplayDataVersionCompanion, PPCPPKeyboardDef, PPCPPKeyboardOptions, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCProfile, PPCProfileEntryType, PPCProfileEntryCompanion, PPCPPLayerType, PPCPPLayerAlias, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPMessageBus, PPCPPTextAttributes, PPCAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCAbstractTextLayer, PPCPPVectorShape, PPCConstraintOption, PPCDirection, PPCOneDimensionResizeConstraints, PPCPPPathSegmentData, PPCPPMessageCompanion, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDeviceFrameHelper, PPCDevicePreset, PPCPPPiePlayer, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPVarProxy, PPCPPPlayControlGestureOptions, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCKotlinx_serialization_jsonJson, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_jsonJsonDefault, PPCKotlinx_serialization_jsonJsonConfiguration, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing;
+@class PPCCommon, PPCProfileOptions, PPCDeviceInfoCompanion, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPAndroidVibrateType, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPFillType, PPCPPHorizontalAlign, PPCPPIosVibrateType, PPCPPLineCap, PPCPPLineJoin, PPCPPMsgChannel, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPSizeProp, PPCPPSpeechGender, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPExprEvalError, PPCPPDataType, PPCPPPlayEvent, PPCPPColor, PPCPPExpr, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPKeyboardDef, PPCPPKeyboardOptions, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCPPLayerType, PPCPPContainerLayer, PPCPPProperty<T>, PPCPPLayerAlias, PPCPPCorners<T>, PPCPPLayerProperty, PPCPPGradient, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPMessageBus, PPCPPTextAttributes, PPCAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCAbstractTextLayer, PPCPPVectorShape, PPCConstraintOption, PPCDirection, PPCOneDimensionResizeConstraints, PPCPPPathSegmentData, PPCPPMessageCompanion, PPCPPVar<T>, PPCPPMessage, PPCKotlinx_serialization_jsonJsonElement, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDeviceFrameHelper, PPCPPScene, PPCDevicePreset, PPCPPPiePlayer, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPPieModel, PPCPPVarProxy, PPCReplayer, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCPPNodeType, PPCPPParseNode, PPCPPParseNodeCompanion, PPCPPRepeatDef, PPCPPClock, PPCPPTouchEvent, PPCPPPieRecord, PPCPPEventChannel<T>, PPCPPPlayEventCompanion, PPCPPSoftKeyboardCompanion, PPCPPSoftKeyboard, PPCPlayOptions, PPCReplayOptions, PPCPPSceneChangeEvent, PPCPPRenderEvent, PPCProfile, PPCProfileEntryType, PPCProfileEntryCompanion, PPCPPPlayControlGestureOptions, PPCMediaStateCompanion, PPCPPRenderEventCompanion, PPCPPFixedSceneChangeEventCompanion, PPCPPInputFocusEventCompanion, PPCPPIosEffectEventCompanion, PPCPPMediaCommandEventCompanion, PPCPPValueHistory<T>, PPCPPReorderEventCompanion, PPCPPSceneChangeEventCompanion, PPCPPValueHistoryCompanion, PPCMediaState, PPCReplayDataCompanion, PPCReplayDataSerializer, PPCReplayData, PPCReplayDataVersionCompanion, PPCPPColorCompanion, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPGradientOffset, PPCPPGradientLinear, PPCPPGradientRadial, PPCPPPointCompanion, PPCPPSize, PPCBinarySearch, PPCDateTime, PPCFormulaUtils, PPCPPNumberConstantExpr, PPCLogger, PPCPlatform, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPIdentifiableChangeObservable, PPCPPChangeObserversHolder, PPCKotlinx_serialization_jsonJson, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_jsonJsonDefault, PPCKotlinx_serialization_jsonJsonConfiguration, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing;
 
-@protocol PPCKotlinx_serialization_coreKSerializer, PPCKotlinComparable, PPCPPJson, PPCPPEventChannelHandler, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCFormulaObserver, PPCPPExprLayer, PPCPPObservableValueProvider, PPCPPChangeObserver, PPCPPValueProvider, PPCPPClockObserver, PPCPPMessageBusTaskRunner, PPCPlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPKeyboardProvider, PPCPPSoftKeyboardDelegate, PPCPPSoftKeyboardListener, PPCReplayerDelegate, PPCPPFloatNormalizer, PPCPPPropertyObserver, PPCPPLayerObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPEngineObserver, PPCPPJsonOverrider, PPCPPPieDecorator, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_serialization_coreSerialFormat, PPCKotlinx_serialization_coreStringFormat, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinx_serialization_jsonJsonNamingStrategy, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
+@protocol PPCKotlinx_serialization_coreKSerializer, PPCKotlinComparable, PPCPPJson, PPCPPEventChannelHandler, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCFormulaObserver, PPCPPExprLayer, PPCPPObservableValueProvider, PPCPPJsonOverrider, PPCPPKeyboardProvider, PPCPPLayerObserver, PPCPPPropertyObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPEngineObserver, PPCPPFloatNormalizer, PPCPPClockObserver, PPCPPMessageBusTaskRunner, PPCPlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPSoftKeyboardDelegate, PPCPPSoftKeyboardListener, PPCReplayerDelegate, PPCPPValueProvider, PPCPPPieDecorator, PPCPPChangeObserver, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_serialization_coreSerialFormat, PPCKotlinx_serialization_coreStringFormat, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinx_serialization_jsonJsonNamingStrategy, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -224,6 +224,7 @@ __attribute__((swift_name("LogLevel")))
 @property (class, readonly) PPCLogLevel *error __attribute__((swift_name("error")));
 @property (class, readonly) PPCLogLevel *assert __attribute__((swift_name("assert")));
 + (PPCKotlinArray<PPCLogLevel *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCLogLevel *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -257,11 +258,16 @@ __attribute__((swift_name("ScreenInfo")))
 
 __attribute__((swift_name("KotlinThrowable")))
 @interface PPCKotlinThrowable : PPCBase
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(PPCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(PPCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithMessage:(NSString * _Nullable)message cause:(PPCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ * @note annotations
+ *   kotlin.experimental.ExperimentalNativeApi
+*/
 - (PPCKotlinArray<NSString *> *)getStackTrace __attribute__((swift_name("getStackTrace()")));
 - (void)printStackTrace __attribute__((swift_name("printStackTrace()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -275,18 +281,368 @@ __attribute__((swift_name("KotlinException")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(PPCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithCause:(PPCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(PPCKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPModelException")))
 @interface PPCPPModelException : PPCKotlinException
-- (instancetype)initWithCause:(PPCKotlinThrowable *)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithMessage:(NSString *)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(PPCKotlinThrowable *)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithMessage:(NSString *)message cause:(PPCKotlinThrowable *)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPAndroidVibrateType")))
+@interface PPCPPAndroidVibrateType : PPCKotlinEnum<PPCPPAndroidVibrateType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPAndroidVibrateType *normal __attribute__((swift_name("normal")));
+@property (class, readonly) PPCPPAndroidVibrateType *keyboardPress __attribute__((swift_name("keyboardPress")));
+@property (class, readonly) PPCPPAndroidVibrateType *keyboardTap __attribute__((swift_name("keyboardTap")));
+@property (class, readonly) PPCPPAndroidVibrateType *longPress __attribute__((swift_name("longPress")));
+@property (class, readonly) PPCPPAndroidVibrateType *virtualKey __attribute__((swift_name("virtualKey")));
+@property (class, readonly) PPCPPAndroidVibrateType *none __attribute__((swift_name("none")));
++ (PPCKotlinArray<PPCPPAndroidVibrateType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPAndroidVibrateType *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPAxis3D")))
+@interface PPCPPAxis3D : PPCKotlinEnum<PPCPPAxis3D *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPAxis3D *x __attribute__((swift_name("x")));
+@property (class, readonly) PPCPPAxis3D *y __attribute__((swift_name("y")));
+@property (class, readonly) PPCPPAxis3D *z __attribute__((swift_name("z")));
++ (PPCKotlinArray<PPCPPAxis3D *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPAxis3D *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPBlurEffectStyle")))
+@interface PPCPPBlurEffectStyle : PPCKotlinEnum<PPCPPBlurEffectStyle *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPBlurEffectStyle *none __attribute__((swift_name("none")));
+@property (class, readonly) PPCPPBlurEffectStyle *light __attribute__((swift_name("light")));
+@property (class, readonly) PPCPPBlurEffectStyle *dark __attribute__((swift_name("dark")));
+@property (class, readonly) PPCPPBlurEffectStyle *extraLight __attribute__((swift_name("extraLight")));
+@property (class, readonly) PPCPPBlurEffectStyle *materialLight __attribute__((swift_name("materialLight")));
+@property (class, readonly) PPCPPBlurEffectStyle *thinMaterialLight __attribute__((swift_name("thinMaterialLight")));
+@property (class, readonly) PPCPPBlurEffectStyle *ultrathinMaterialLight __attribute__((swift_name("ultrathinMaterialLight")));
+@property (class, readonly) PPCPPBlurEffectStyle *thickMaterialLight __attribute__((swift_name("thickMaterialLight")));
+@property (class, readonly) PPCPPBlurEffectStyle *chromeMaterialLight __attribute__((swift_name("chromeMaterialLight")));
+@property (class, readonly) PPCPPBlurEffectStyle *materialDark __attribute__((swift_name("materialDark")));
+@property (class, readonly) PPCPPBlurEffectStyle *thinMaterialDark __attribute__((swift_name("thinMaterialDark")));
+@property (class, readonly) PPCPPBlurEffectStyle *ultrathinMaterialDark __attribute__((swift_name("ultrathinMaterialDark")));
+@property (class, readonly) PPCPPBlurEffectStyle *thickMaterialDark __attribute__((swift_name("thickMaterialDark")));
+@property (class, readonly) PPCPPBlurEffectStyle *chromeMaterialDark __attribute__((swift_name("chromeMaterialDark")));
++ (PPCKotlinArray<PPCPPBlurEffectStyle *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPBlurEffectStyle *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPBorderPosition")))
+@interface PPCPPBorderPosition : PPCKotlinEnum<PPCPPBorderPosition *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPBorderPosition *inside __attribute__((swift_name("inside")));
+@property (class, readonly) PPCPPBorderPosition *center __attribute__((swift_name("center")));
+@property (class, readonly) PPCPPBorderPosition *outside __attribute__((swift_name("outside")));
++ (PPCKotlinArray<PPCPPBorderPosition *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPBorderPosition *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPCameraPosition")))
+@interface PPCPPCameraPosition : PPCKotlinEnum<PPCPPCameraPosition *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPCameraPosition *back __attribute__((swift_name("back")));
+@property (class, readonly) PPCPPCameraPosition *front __attribute__((swift_name("front")));
++ (PPCKotlinArray<PPCPPCameraPosition *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPCameraPosition *> *entries __attribute__((swift_name("entries")));
+- (PPCPPCameraPosition *)toggle __attribute__((swift_name("toggle()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPDeviceFrameType")))
+@interface PPCPPDeviceFrameType : PPCKotlinEnum<PPCPPDeviceFrameType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPDeviceFrameType *none __attribute__((swift_name("none")));
+@property (class, readonly) PPCPPDeviceFrameType *iphoneX __attribute__((swift_name("iphoneX")));
+@property (class, readonly) PPCPPDeviceFrameType *iphoneXr __attribute__((swift_name("iphoneXr")));
+@property (class, readonly) PPCPPDeviceFrameType *iphoneXsMax __attribute__((swift_name("iphoneXsMax")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone11 __attribute__((swift_name("iphone11")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone11Pro __attribute__((swift_name("iphone11Pro")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone11ProMax __attribute__((swift_name("iphone11ProMax")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone12Mini __attribute__((swift_name("iphone12Mini")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone12Pro __attribute__((swift_name("iphone12Pro")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone12ProMax __attribute__((swift_name("iphone12ProMax")));
+@property (class, readonly) PPCPPDeviceFrameType *galaxyS8 __attribute__((swift_name("galaxyS8")));
+@property (class, readonly) PPCPPDeviceFrameType *galaxyS10 __attribute__((swift_name("galaxyS10")));
+@property (class, readonly) PPCPPDeviceFrameType *galaxyS10Plus __attribute__((swift_name("galaxyS10Plus")));
+@property (class, readonly) PPCPPDeviceFrameType *galaxyS20 __attribute__((swift_name("galaxyS20")));
+@property (class, readonly) PPCPPDeviceFrameType *googlePixel3 __attribute__((swift_name("googlePixel3")));
+@property (class, readonly) PPCPPDeviceFrameType *googlePixel4 __attribute__((swift_name("googlePixel4")));
+@property (class, readonly) PPCPPDeviceFrameType *googlePixel4Xl __attribute__((swift_name("googlePixel4Xl")));
+@property (class, readonly) PPCPPDeviceFrameType *googlePixel5 __attribute__((swift_name("googlePixel5")));
++ (PPCKotlinArray<PPCPPDeviceFrameType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPDeviceFrameType *> *entries __attribute__((swift_name("entries")));
+- (BOOL)matchesWithDevice:(PPCPPDeviceInfo *)device __attribute__((swift_name("matchesWith(device:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPFillScaleMode")))
+@interface PPCPPFillScaleMode : PPCKotlinEnum<PPCPPFillScaleMode *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPFillScaleMode *fill __attribute__((swift_name("fill")));
+@property (class, readonly) PPCPPFillScaleMode *fit __attribute__((swift_name("fit")));
+@property (class, readonly) PPCPPFillScaleMode *stretch __attribute__((swift_name("stretch")));
++ (PPCKotlinArray<PPCPPFillScaleMode *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPFillScaleMode *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPFillType")))
+@interface PPCPPFillType : PPCKotlinEnum<PPCPPFillType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPFillType *solid __attribute__((swift_name("solid")));
+@property (class, readonly) PPCPPFillType *image __attribute__((swift_name("image")));
+@property (class, readonly) PPCPPFillType *gradient __attribute__((swift_name("gradient")));
++ (PPCKotlinArray<PPCPPFillType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPFillType *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPHorizontalAlign")))
+@interface PPCPPHorizontalAlign : PPCKotlinEnum<PPCPPHorizontalAlign *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPHorizontalAlign *left __attribute__((swift_name("left")));
+@property (class, readonly) PPCPPHorizontalAlign *center __attribute__((swift_name("center")));
+@property (class, readonly) PPCPPHorizontalAlign *right __attribute__((swift_name("right")));
++ (PPCKotlinArray<PPCPPHorizontalAlign *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPHorizontalAlign *> *entries __attribute__((swift_name("entries")));
+@property (readonly) float autoResizeMovementFactor __attribute__((swift_name("autoResizeMovementFactor")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPIosVibrateType")))
+@interface PPCPPIosVibrateType : PPCKotlinEnum<PPCPPIosVibrateType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPIosVibrateType *normal __attribute__((swift_name("normal")));
+@property (class, readonly) PPCPPIosVibrateType *selectionChanged __attribute__((swift_name("selectionChanged")));
+@property (class, readonly) PPCPPIosVibrateType *notificationSuccess __attribute__((swift_name("notificationSuccess")));
+@property (class, readonly) PPCPPIosVibrateType *notificationWarning __attribute__((swift_name("notificationWarning")));
+@property (class, readonly) PPCPPIosVibrateType *notificationError __attribute__((swift_name("notificationError")));
+@property (class, readonly) PPCPPIosVibrateType *impactHeavy __attribute__((swift_name("impactHeavy")));
+@property (class, readonly) PPCPPIosVibrateType *impactMedium __attribute__((swift_name("impactMedium")));
+@property (class, readonly) PPCPPIosVibrateType *impactLight __attribute__((swift_name("impactLight")));
+@property (class, readonly) PPCPPIosVibrateType *impactRigid __attribute__((swift_name("impactRigid")));
+@property (class, readonly) PPCPPIosVibrateType *impactSoft __attribute__((swift_name("impactSoft")));
+@property (class, readonly) PPCPPIosVibrateType *none __attribute__((swift_name("none")));
++ (PPCKotlinArray<PPCPPIosVibrateType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPIosVibrateType *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPLineCap")))
+@interface PPCPPLineCap : PPCKotlinEnum<PPCPPLineCap *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPLineCap *butt __attribute__((swift_name("butt")));
+@property (class, readonly) PPCPPLineCap *round __attribute__((swift_name("round")));
+@property (class, readonly) PPCPPLineCap *square __attribute__((swift_name("square")));
++ (PPCKotlinArray<PPCPPLineCap *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPLineCap *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPLineJoin")))
+@interface PPCPPLineJoin : PPCKotlinEnum<PPCPPLineJoin *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPLineJoin *miter __attribute__((swift_name("miter")));
+@property (class, readonly) PPCPPLineJoin *round __attribute__((swift_name("round")));
+@property (class, readonly) PPCPPLineJoin *bevel __attribute__((swift_name("bevel")));
++ (PPCKotlinArray<PPCPPLineJoin *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPLineJoin *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPMsgChannel")))
+@interface PPCPPMsgChannel : PPCKotlinEnum<PPCPPMsgChannel *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPMsgChannel *androidBroadcast __attribute__((swift_name("androidBroadcast")));
+@property (class, readonly) PPCPPMsgChannel *studio __attribute__((swift_name("studio")));
+@property (class, readonly) PPCPPMsgChannel *scene __attribute__((swift_name("scene")));
+@property (class, readonly) PPCPPMsgChannel *current __attribute__((swift_name("current")));
+@property (class, readonly) PPCPPMsgChannel *outside __attribute__((swift_name("outside")));
+@property (class, readonly) PPCPPMsgChannel *component __attribute__((swift_name("component")));
++ (PPCKotlinArray<PPCPPMsgChannel *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPMsgChannel *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPOrientation")))
+@interface PPCPPOrientation : PPCKotlinEnum<PPCPPOrientation *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPOrientation *portrait __attribute__((swift_name("portrait")));
+@property (class, readonly) PPCPPOrientation *landscape __attribute__((swift_name("landscape")));
++ (PPCKotlinArray<PPCPPOrientation *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPOrientation *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPPathSegmentType")))
+@interface PPCPPPathSegmentType : PPCKotlinEnum<PPCPPPathSegmentType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPPathSegmentType *moveto __attribute__((swift_name("moveto")));
+@property (class, readonly) PPCPPPathSegmentType *lineto __attribute__((swift_name("lineto")));
+@property (class, readonly) PPCPPPathSegmentType *curveto __attribute__((swift_name("curveto")));
+@property (class, readonly) PPCPPPathSegmentType *quadraticcurve __attribute__((swift_name("quadraticcurve")));
+@property (class, readonly) PPCPPPathSegmentType *arccurve __attribute__((swift_name("arccurve")));
+@property (class, readonly) PPCPPPathSegmentType *zclose __attribute__((swift_name("zclose")));
+@property (class, readonly) PPCPPPathSegmentType *hlineto __attribute__((swift_name("hlineto")));
+@property (class, readonly) PPCPPPathSegmentType *vlineto __attribute__((swift_name("vlineto")));
+@property (class, readonly) PPCPPPathSegmentType *smoothcurve __attribute__((swift_name("smoothcurve")));
+@property (class, readonly) PPCPPPathSegmentType *tquadraticcurve __attribute__((swift_name("tquadraticcurve")));
+@property (class, readonly) PPCPPPathSegmentType *rmoveto __attribute__((swift_name("rmoveto")));
+@property (class, readonly) PPCPPPathSegmentType *rlineto __attribute__((swift_name("rlineto")));
+@property (class, readonly) PPCPPPathSegmentType *rcurveto __attribute__((swift_name("rcurveto")));
+@property (class, readonly) PPCPPPathSegmentType *rquadraticcurve __attribute__((swift_name("rquadraticcurve")));
+@property (class, readonly) PPCPPPathSegmentType *rarccurve __attribute__((swift_name("rarccurve")));
+@property (class, readonly) PPCPPPathSegmentType *rhlineto __attribute__((swift_name("rhlineto")));
+@property (class, readonly) PPCPPPathSegmentType *rvlineto __attribute__((swift_name("rvlineto")));
+@property (class, readonly) PPCPPPathSegmentType *rsmoothcurve __attribute__((swift_name("rsmoothcurve")));
+@property (class, readonly) PPCPPPathSegmentType *rtquadraticcurve __attribute__((swift_name("rtquadraticcurve")));
++ (PPCKotlinArray<PPCPPPathSegmentType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPPathSegmentType *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPPlatformType")))
+@interface PPCPPPlatformType : PPCKotlinEnum<PPCPPPlatformType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPPlatformType *ios __attribute__((swift_name("ios")));
+@property (class, readonly) PPCPPPlatformType *android __attribute__((swift_name("android")));
+@property (class, readonly) PPCPPPlatformType *desktop __attribute__((swift_name("desktop")));
++ (PPCKotlinArray<PPCPPPlatformType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPPlatformType *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPResetTargetType")))
+@interface PPCPPResetTargetType : PPCKotlinEnum<PPCPPResetTargetType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPResetTargetType *scene __attribute__((swift_name("scene")));
+@property (class, readonly) PPCPPResetTargetType *layer __attribute__((swift_name("layer")));
+@property (class, readonly) PPCPPResetTargetType *variable __attribute__((swift_name("variable")));
++ (PPCKotlinArray<PPCPPResetTargetType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPResetTargetType *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPSizeProp")))
+@interface PPCPPSizeProp : PPCKotlinEnum<PPCPPSizeProp *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPSizeProp *width __attribute__((swift_name("width")));
+@property (class, readonly) PPCPPSizeProp *height __attribute__((swift_name("height")));
++ (PPCKotlinArray<PPCPPSizeProp *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPSizeProp *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPSpeechGender")))
+@interface PPCPPSpeechGender : PPCKotlinEnum<PPCPPSpeechGender *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPSpeechGender *male __attribute__((swift_name("male")));
+@property (class, readonly) PPCPPSpeechGender *female __attribute__((swift_name("female")));
++ (PPCKotlinArray<PPCPPSpeechGender *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPSpeechGender *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPTextLayerSizeMode")))
+@interface PPCPPTextLayerSizeMode : PPCKotlinEnum<PPCPPTextLayerSizeMode *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPTextLayerSizeMode *autoWidth __attribute__((swift_name("autoWidth")));
+@property (class, readonly) PPCPPTextLayerSizeMode *autoHeight __attribute__((swift_name("autoHeight")));
+@property (class, readonly) PPCPPTextLayerSizeMode *autoWidthHeight __attribute__((swift_name("autoWidthHeight")));
+@property (class, readonly) PPCPPTextLayerSizeMode *fixedSize __attribute__((swift_name("fixedSize")));
++ (PPCKotlinArray<PPCPPTextLayerSizeMode *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPTextLayerSizeMode *> *entries __attribute__((swift_name("entries")));
+- (BOOL)canAutoChangeHeight __attribute__((swift_name("canAutoChangeHeight()")));
+- (BOOL)canAutoChangeWidth __attribute__((swift_name("canAutoChangeWidth()")));
+- (BOOL)shouldAutoResize __attribute__((swift_name("shouldAutoResize()")));
+- (BOOL)shouldWrap __attribute__((swift_name("shouldWrap()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPVectorShapeType")))
+@interface PPCPPVectorShapeType : PPCKotlinEnum<PPCPPVectorShapeType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPVectorShapeType *rect __attribute__((swift_name("rect")));
+@property (class, readonly) PPCPPVectorShapeType *ellipse __attribute__((swift_name("ellipse")));
+@property (class, readonly) PPCPPVectorShapeType *line __attribute__((swift_name("line")));
+@property (class, readonly) PPCPPVectorShapeType *path __attribute__((swift_name("path")));
+@property (class, readonly) PPCPPVectorShapeType *polygon __attribute__((swift_name("polygon")));
+@property (class, readonly) PPCPPVectorShapeType *polyline __attribute__((swift_name("polyline")));
++ (PPCKotlinArray<PPCPPVectorShapeType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPVectorShapeType *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPVerticalAlign")))
+@interface PPCPPVerticalAlign : PPCKotlinEnum<PPCPPVerticalAlign *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPVerticalAlign *top __attribute__((swift_name("top")));
+@property (class, readonly) PPCPPVerticalAlign *middle __attribute__((swift_name("middle")));
+@property (class, readonly) PPCPPVerticalAlign *bottom __attribute__((swift_name("bottom")));
++ (PPCKotlinArray<PPCPPVerticalAlign *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPVerticalAlign *> *entries __attribute__((swift_name("entries")));
+@property (readonly) float autoResizeMovementFactor __attribute__((swift_name("autoResizeMovementFactor")));
 @end
 
 __attribute__((swift_name("PPEventChannel")))
@@ -357,6 +713,7 @@ __attribute__((swift_name("PPKeyCode")))
 @property (class, readonly) PPCPPKeyCode *backspace __attribute__((swift_name("backspace")));
 @property (class, readonly) PPCPPKeyCode *esc __attribute__((swift_name("esc")));
 + (PPCKotlinArray<PPCPPKeyCode *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPKeyCode *> *entries __attribute__((swift_name("entries")));
 @property (readonly) NSString *stringValue __attribute__((swift_name("stringValue")));
 @end
 
@@ -440,6 +797,7 @@ __attribute__((swift_name("PPSensor")))
 @property (class, readonly) PPCPPSensor *light __attribute__((swift_name("light")));
 @property (class, readonly) PPCPPSensor *rotary __attribute__((swift_name("rotary")));
 + (PPCKotlinArray<PPCPPSensor *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPSensor *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((swift_name("PPSensorListener")))
@@ -511,6 +869,7 @@ __attribute__((swift_name("PPTouchEvent.Action")))
 @property (class, readonly) PPCPPTouchEventAction *move __attribute__((swift_name("move")));
 @property (class, readonly) PPCPPTouchEventAction *cancel __attribute__((swift_name("cancel")));
 + (PPCKotlinArray<PPCPPTouchEventAction *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPTouchEventAction *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((swift_name("PPTouchSessionListener")))
@@ -568,6 +927,7 @@ __attribute__((swift_name("PPWheelEvent.Action")))
 @property (class, readonly) PPCPPWheelEventAction *change __attribute__((swift_name("change")));
 @property (class, readonly) PPCPPWheelEventAction *end __attribute__((swift_name("end")));
 + (PPCKotlinArray<PPCPPWheelEventAction *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPWheelEventAction *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -598,6 +958,7 @@ __attribute__((swift_name("PPDataType")))
 @property (class, readonly) PPCPPDataType *color __attribute__((swift_name("color")));
 @property (class, readonly) PPCPPDataType *layer __attribute__((swift_name("layer")));
 + (PPCKotlinArray<PPCPPDataType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPDataType *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((swift_name("PPEngineObserver")))
@@ -708,41 +1069,1220 @@ __attribute__((swift_name("PPNumberConstantExpr")))
 - (id<PPCPPObservableValueProvider> _Nullable)toObservableValueProvider __attribute__((swift_name("toObservableValueProvider()")));
 @end
 
-__attribute__((swift_name("PPChangeObserver")))
-@protocol PPCPPChangeObserver
+__attribute__((swift_name("PPJson")))
+@protocol PPCPPJson
 @required
-- (void)onChangeDetected __attribute__((swift_name("onChangeDetected()")));
+- (BOOL)hasKey:(NSString *)key __attribute__((swift_name("has(key:)")));
+- (NSSet<NSString *> *)keySet __attribute__((swift_name("keySet()")));
+- (id _Nullable)optKey:(NSString *)key __attribute__((swift_name("opt(key:)")));
+- (id<PPCPPJson> _Nullable)optObjectKey:(NSString *)key __attribute__((swift_name("optObject(key:)")));
+- (NSArray<id<PPCPPJson>> * _Nullable)optObjectArrayKey:(NSString *)key __attribute__((swift_name("optObjectArray(key:)")));
+- (NSString * _Nullable)optStringKey:(NSString *)key __attribute__((swift_name("optString(key:)")));
+- (NSArray<NSString *> * _Nullable)optStringArrayKey:(NSString *)key __attribute__((swift_name("optStringArray(key:)")));
+- (void)putBooleanKey:(NSString *)key value:(BOOL)value __attribute__((swift_name("putBoolean(key:value:)")));
+- (void)putNumberKey:(NSString *)key value:(id)value __attribute__((swift_name("putNumber(key:value:)")));
+- (void)putObjectArrayKey:(NSString *)key value:(NSArray<id<PPCPPJson>> *)value __attribute__((swift_name("putObjectArray(key:value:)")));
+- (void)putStringKey:(NSString *)key value:(NSString *)value __attribute__((swift_name("putString(key:value:)")));
+- (void)removeKey:(NSString *)key __attribute__((swift_name("remove(key:)")));
+- (NSString *)toJsonString __attribute__((swift_name("toJsonString()")));
+@end
+
+__attribute__((swift_name("PPJsonOverrider")))
+@protocol PPCPPJsonOverrider
+@required
+- (NSString * _Nullable)getKey:(NSString *)key __attribute__((swift_name("get(key:)")));
+- (BOOL)hasKeyKey:(NSString *)key __attribute__((swift_name("hasKey(key:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPChangeObserversHolder")))
-@interface PPCPPChangeObserversHolder : PPCBase
+__attribute__((swift_name("PPJsonWithOverriding")))
+@interface PPCPPJsonWithOverriding : PPCBase <PPCPPJson>
+- (instancetype)initWithOrg:(id<PPCPPJson>)org overrider:(id<PPCPPJsonOverrider>)overrider __attribute__((swift_name("init(org:overrider:)"))) __attribute__((objc_designated_initializer));
+- (BOOL)hasKey:(NSString *)key __attribute__((swift_name("has(key:)")));
+- (NSSet<NSString *> *)keySet __attribute__((swift_name("keySet()")));
+- (id _Nullable)optKey:(NSString *)key __attribute__((swift_name("opt(key:)")));
+- (id<PPCPPJson> _Nullable)optObjectKey:(NSString *)key __attribute__((swift_name("optObject(key:)")));
+- (NSArray<id<PPCPPJson>> * _Nullable)optObjectArrayKey:(NSString *)key __attribute__((swift_name("optObjectArray(key:)")));
+- (NSString * _Nullable)optStringKey:(NSString *)key __attribute__((swift_name("optString(key:)")));
+- (NSArray<NSString *> * _Nullable)optStringArrayKey:(NSString *)key __attribute__((swift_name("optStringArray(key:)")));
+- (void)putBooleanKey:(NSString *)key value:(BOOL)value __attribute__((swift_name("putBoolean(key:value:)")));
+- (void)putNumberKey:(NSString *)key value:(id)value __attribute__((swift_name("putNumber(key:value:)")));
+- (void)putObjectArrayKey:(NSString *)key value:(NSArray<id<PPCPPJson>> *)value __attribute__((swift_name("putObjectArray(key:value:)")));
+- (void)putStringKey:(NSString *)key value:(NSString *)value __attribute__((swift_name("putString(key:value:)")));
+- (void)removeKey:(NSString *)key __attribute__((swift_name("remove(key:)")));
+- (NSString *)toJsonString __attribute__((swift_name("toJsonString()")));
+@end
+
+__attribute__((swift_name("PPKeyboardProvider")))
+@protocol PPCPPKeyboardProvider
+@required
+- (PPCPPKeyboardDef * _Nullable)getKeyboardDefKeyboardOptions:(PPCPPKeyboardOptions *)keyboardOptions deviceInfo:(PPCPPDeviceInfo *)deviceInfo __attribute__((swift_name("getKeyboardDef(keyboardOptions:deviceInfo:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DefaultKeyboardProvider")))
+@interface PPCDefaultKeyboardProvider : PPCBase <PPCPPKeyboardProvider>
+- (instancetype)initWithImageUrlBase:(NSString * _Nullable)imageUrlBase __attribute__((swift_name("init(imageUrlBase:)"))) __attribute__((objc_designated_initializer));
+- (PPCPPKeyboardDef * _Nullable)getKeyboardDefKeyboardOptions:(PPCPPKeyboardOptions *)keyboardOptions deviceInfo:(PPCPPDeviceInfo *)deviceInfo __attribute__((swift_name("getKeyboardDef(keyboardOptions:deviceInfo:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPKeyboardDef")))
+@interface PPCPPKeyboardDef : PPCBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)addObserver:(id<PPCPPChangeObserver>)observer __attribute__((swift_name("add(observer:)")));
-- (void)notifyChange __attribute__((swift_name("notifyChange()")));
-- (void)removeObserver:(id<PPCPPChangeObserver>)observer __attribute__((swift_name("remove(observer:)")));
-- (void)removeAll __attribute__((swift_name("removeAll()")));
+@property float height __attribute__((swift_name("height")));
+@property NSString *imageUrl __attribute__((swift_name("imageUrl")));
+@property float subImageHeight __attribute__((swift_name("subImageHeight")));
+@property NSString * _Nullable subImageUrl __attribute__((swift_name("subImageUrl")));
+@property float subImageWidth __attribute__((swift_name("subImageWidth")));
+@property float width __attribute__((swift_name("width")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPIdentifiableChangeObservable")))
-@interface PPCPPIdentifiableChangeObservable : PPCBase
-- (instancetype)initWithId:(NSString *)id changeObservers:(PPCPPChangeObserversHolder *)changeObservers __attribute__((swift_name("init(id:changeObservers:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) PPCPPChangeObserversHolder *changeObservers __attribute__((swift_name("changeObservers")));
+__attribute__((swift_name("PPKeyboardOptions")))
+@interface PPCPPKeyboardOptions : PPCBase
+- (instancetype)initWithLayer:(PPCPPTextInputLayer *)layer __attribute__((swift_name("init(layer:)"))) __attribute__((objc_designated_initializer));
+- (BOOL)isNumberKeyboard __attribute__((swift_name("isNumberKeyboard()")));
+@property PPCPPTextInputLayerKeyboardLook *keyboardLook __attribute__((swift_name("keyboardLook")));
+@property PPCPPTextInputLayerKeyboardType *keyboardType __attribute__((swift_name("keyboardType")));
+@property PPCPPTextInputLayerReturnKeyType *returnKeyType __attribute__((swift_name("returnKeyType")));
+@end
+
+__attribute__((swift_name("PPLayer")))
+@interface PPCPPLayer : PPCBase <PPCPPExprLayer>
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer));
+- (void)addObserverObserver:(id<PPCPPLayerObserver>)observer __attribute__((swift_name("addObserver(observer:)")));
+- (void)destroy __attribute__((swift_name("destroy()")));
+- (void)forEachPropertyFn:(void (^)(PPCPPProperty<id> *))fn __attribute__((swift_name("forEachProperty(fn:)")));
+- (float)getBorderCenterOffsetScaleFactor:(float)scaleFactor __attribute__((swift_name("getBorderCenterOffset(scaleFactor:)")));
+- (int32_t)getBottomScaleFactor:(float)scaleFactor __attribute__((swift_name("getBottom(scaleFactor:)")));
+- (PPCPPColorProperty * _Nullable)getColorPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getColorPropertyByName(propertyName:)")));
+- (PPCPPFloatProperty * _Nullable)getFloatPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getFloatPropertyByName(propertyName:)")));
+- (float)getInsideBorderWidthScaleFactor:(float)scaleFactor __attribute__((swift_name("getInsideBorderWidth(scaleFactor:)")));
+- (int32_t)getIntHeightScaleFactor:(float)scaleFactor __attribute__((swift_name("getIntHeight(scaleFactor:)")));
+- (int32_t)getIntWidthScaleFactor:(float)scaleFactor __attribute__((swift_name("getIntWidth(scaleFactor:)")));
+- (int32_t)getLeftScaleFactor:(float)scaleFactor __attribute__((swift_name("getLeft(scaleFactor:)")));
+- (float)getOutsideBorderWidthScaleFactor:(float)scaleFactor __attribute__((swift_name("getOutsideBorderWidth(scaleFactor:)")));
+- (id<PPCPPExprLayer> _Nullable)getParent __attribute__((swift_name("getParent()")));
+- (void)getPositionOut:(PPCPPPoint *)out __attribute__((swift_name("getPosition(out:)")));
+- (PPCPPProperty<id> * _Nullable)getPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getPropertyByName(propertyName:)")));
+- (float)getRadiusFactor __attribute__((swift_name("getRadiusFactor()")));
+- (float)getRenderBorderWidthScaleFactor:(float)scaleFactor __attribute__((swift_name("getRenderBorderWidth(scaleFactor:)")));
+- (float)getRenderRadiusScaleFactor:(float)scaleFactor __attribute__((swift_name("getRenderRadius(scaleFactor:)")));
+- (int32_t)getRightScaleFactor:(float)scaleFactor __attribute__((swift_name("getRight(scaleFactor:)")));
+- (PPCPPStringProperty * _Nullable)getStringPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getStringPropertyByName(propertyName:)")));
+- (int32_t)getTopScaleFactor:(float)scaleFactor __attribute__((swift_name("getTop(scaleFactor:)")));
+- (BOOL)hasActiveResponses __attribute__((swift_name("hasActiveResponses()")));
+- (BOOL)hasTouchTriggers __attribute__((swift_name("hasTouchTriggers()")));
+- (BOOL)includesPointPointInParent:(PPCPPPoint *)pointInParent __attribute__((swift_name("includesPoint(pointInParent:)")));
+- (BOOL)includesSelfOriginPointPoint:(PPCPPPoint *)point __attribute__((swift_name("includesSelfOriginPoint(point:)")));
+- (BOOL)is3DRotatable __attribute__((swift_name("is3DRotatable()")));
+- (BOOL)isDirty __attribute__((swift_name("isDirty()")));
+- (BOOL)isInterestedWithTouchEventPointInParent:(PPCPPPoint *)pointInParent __attribute__((swift_name("isInterestedWithTouchEvent(pointInParent:)")));
+- (BOOL)isTouchable __attribute__((swift_name("isTouchable()")));
+- (void)moveAnchorNewAnchor:(PPCPPPoint *)newAnchor __attribute__((swift_name("moveAnchor(newAnchor:)")));
+- (void)notifyLayerModified __attribute__((swift_name("notifyLayerModified()")));
+- (void)notifyOrderChange __attribute__((swift_name("notifyOrderChange()")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)onPropertyModifiedProperty:(PPCPPProperty<id> *)property __attribute__((swift_name("onPropertyModified(property:)")));
+- (void)optimizeInteractions __attribute__((swift_name("optimizeInteractions()")));
+- (BOOL)progressNow:(int64_t)now __attribute__((swift_name("progress(now:)")));
+- (void)registerPropertyProperty:(PPCPPProperty<id> *)property __attribute__((swift_name("registerProperty(property:)")));
+- (void)removeObserverObserver:(id<PPCPPLayerObserver>)observer __attribute__((swift_name("removeObserver(observer:)")));
+- (void)reset __attribute__((swift_name("reset()")));
+- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
+- (void)saveInitialState __attribute__((swift_name("saveInitialState()")));
+- (void)setDirty __attribute__((swift_name("setDirty()")));
+- (void)setNeedUpdateOnNextFrame __attribute__((swift_name("setNeedUpdateOnNextFrame()")));
+- (BOOL)shouldRenderBorder __attribute__((swift_name("shouldRenderBorder()")));
+- (BOOL)shouldRenderShadow __attribute__((swift_name("shouldRenderShadow()")));
+- (void)stopPropertyAnimation __attribute__((swift_name("stopPropertyAnimation()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+- (PPCPPPoint *)translateAbsPointToSelfAbsPoint:(PPCPPPoint *)absPoint applyScroll:(BOOL)applyScroll __attribute__((swift_name("translateAbsPointToSelf(absPoint:applyScroll:)")));
+- (PPCPPPoint *)translateParentPointToSelfPoint:(PPCPPPoint *)point applyScroll:(BOOL)applyScroll __attribute__((swift_name("translateParentPointToSelf(point:applyScroll:)")));
+- (void)unsetDirty __attribute__((swift_name("unsetDirty()")));
+@property PPCPPLayerAlias * _Nullable alias __attribute__((swift_name("alias")));
+@property (readonly) NSArray<PPCPPContainerLayer *> *ancestors __attribute__((swift_name("ancestors")));
+@property float anchorX __attribute__((swift_name("anchorX")));
+@property float anchorY __attribute__((swift_name("anchorY")));
+@property (readonly) PPCPPColorProperty *borderColor __attribute__((swift_name("borderColor")));
+@property (readonly) PPCPPFloatProperty *borderOpacity __attribute__((swift_name("borderOpacity")));
+@property PPCPPBorderPosition *borderPosition __attribute__((swift_name("borderPosition")));
+@property (readonly) PPCPPFloatProperty *borderWidth __attribute__((swift_name("borderWidth")));
+@property (readonly) PPCPPCorners<PPCPPFloatProperty *> *cornerRadius __attribute__((swift_name("cornerRadius")));
+@property (readonly) PPCMutableSet<PPCPPLayerProperty *> *dynamicProperties __attribute__((swift_name("dynamicProperties")));
+@property (readonly) PPCPPColorProperty *fillColor __attribute__((swift_name("fillColor")));
+@property (readonly) int32_t fillColorWithOpacity __attribute__((swift_name("fillColorWithOpacity")));
+@property PPCPPGradient * _Nullable fillGradient __attribute__((swift_name("fillGradient")));
+@property (readonly) PPCPPFloatProperty *fillImageRate __attribute__((swift_name("fillImageRate")));
+@property (readonly) PPCPPFloatProperty *fillOpacity __attribute__((swift_name("fillOpacity")));
+@property NSString * _Nullable fillResourceId __attribute__((swift_name("fillResourceId")));
+@property PPCPPFillScaleMode *fillScaleMode __attribute__((swift_name("fillScaleMode")));
+@property (readonly) PPCPPFloatProperty *fillSolidRate __attribute__((swift_name("fillSolidRate")));
+@property PPCPPFillType *fillType __attribute__((swift_name("fillType")));
+@property BOOL fixAspectRatio __attribute__((swift_name("fixAspectRatio")));
+@property BOOL fixBottom __attribute__((swift_name("fixBottom")));
+@property BOOL fixHeight __attribute__((swift_name("fixHeight")));
+@property BOOL fixLeft __attribute__((swift_name("fixLeft")));
+@property BOOL fixRight __attribute__((swift_name("fixRight")));
+@property BOOL fixTop __attribute__((swift_name("fixTop")));
+@property BOOL fixWidth __attribute__((swift_name("fixWidth")));
+@property (readonly) PPCPPFloatProperty *height __attribute__((swift_name("height")));
+@property (readonly) PPCPPFloatProperty *highlightOpacity __attribute__((swift_name("highlightOpacity")));
+@property (readonly) PPCPPHitArea *hitArea __attribute__((swift_name("hitArea")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
+@property NSString * _Nullable identifiedName __attribute__((swift_name("identifiedName")));
+@property PPCPPBorderPosition *initialBorderPosition __attribute__((swift_name("initialBorderPosition")));
+@property BOOL invisible __attribute__((swift_name("invisible")));
+@property BOOL isPassTouch __attribute__((swift_name("isPassTouch")));
+@property (readonly) BOOL isRoot __attribute__((swift_name("isRoot")));
+@property (readonly) float left __attribute__((swift_name("left")));
+@property PPCPPShapeLayer * _Nullable maskLayer __attribute__((swift_name("maskLayer")));
+@property (readonly) float maxRadius __attribute__((swift_name("maxRadius")));
+@property (readonly) float mergedOpacity __attribute__((swift_name("mergedOpacity")));
+@property NSString * _Nullable name __attribute__((swift_name("name")));
+@property (readonly, getter=namespace) NSString *namespace_ __attribute__((swift_name("namespace_")));
+@property (readonly) NSString *nsId __attribute__((swift_name("nsId")));
+@property (readonly) PPCPPFloatProperty *opacity __attribute__((swift_name("opacity")));
+@property PPCPPContainerLayer * _Nullable parent __attribute__((swift_name("parent")));
+@property (readonly) PPCPPPoint *position __attribute__((swift_name("position")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+@property (readonly) id<PPCPPPropertyObserver> propertyObserver __attribute__((swift_name("propertyObserver")));
+@property PPCPPAxis3D * _Nullable r3Axis __attribute__((swift_name("r3Axis")));
+@property float r3Depth __attribute__((swift_name("r3Depth")));
+@property float r3PivotX __attribute__((swift_name("r3PivotX")));
+@property float r3PivotY __attribute__((swift_name("r3PivotY")));
+@property (readonly) PPCPPFloatProperty *radius __attribute__((swift_name("radius")));
+@property (readonly) PPCPPFloatProperty *radiusBottomLeft __attribute__((swift_name("radiusBottomLeft")));
+@property (readonly) PPCPPFloatProperty *radiusBottomRight __attribute__((swift_name("radiusBottomRight")));
+@property (readonly) PPCPPFloatProperty *radiusTopLeft __attribute__((swift_name("radiusTopLeft")));
+@property (readonly) PPCPPFloatProperty *radiusTopRight __attribute__((swift_name("radiusTopRight")));
+@property (readonly) PPCPPFloatProperty *rotation __attribute__((swift_name("rotation")));
+@property (readonly) PPCPPFloatProperty *rotation3d __attribute__((swift_name("rotation3d")));
+@property (readonly) PPCPPFloatProperty *rotation3dX __attribute__((swift_name("rotation3dX")));
+@property (readonly) PPCPPFloatProperty *rotation3dY __attribute__((swift_name("rotation3dY")));
+@property PPCInt * _Nullable savedIndexByLayerOrder __attribute__((swift_name("savedIndexByLayerOrder")));
+@property (readonly) PPCPPFloatProperty *scaleX __attribute__((swift_name("scaleX")));
+@property (readonly) PPCPPFloatProperty *scaleY __attribute__((swift_name("scaleY")));
+@property (readonly) PPCPPFloatProperty *shadowBlur __attribute__((swift_name("shadowBlur")));
+@property (readonly) PPCPPColorProperty *shadowColor __attribute__((swift_name("shadowColor")));
+@property (readonly) BOOL shadowEnabled __attribute__((swift_name("shadowEnabled")));
+@property (readonly) PPCPPFloatProperty *shadowOffsetX __attribute__((swift_name("shadowOffsetX")));
+@property (readonly) PPCPPFloatProperty *shadowOffsetY __attribute__((swift_name("shadowOffsetY")));
+@property (readonly) PPCPPFloatProperty *shadowOpacity __attribute__((swift_name("shadowOpacity")));
+@property (readonly) PPCPPFloatProperty *shadowSpread __attribute__((swift_name("shadowSpread")));
+@property (readonly) float top __attribute__((swift_name("top")));
+@property (readonly) PPCPPPoint *topLeft __attribute__((swift_name("topLeft")));
+@property (readonly) PPCPPLayerType *type __attribute__((swift_name("type")));
+@property (readonly) PPCPPFloatProperty *width __attribute__((swift_name("width")));
+@property (readonly) PPCPPFloatProperty *x __attribute__((swift_name("x")));
+@property (readonly) PPCPPFloatProperty *y __attribute__((swift_name("y")));
 @end
 
-__attribute__((swift_name("PPValueProvider")))
-@protocol PPCPPValueProvider
-@required
-@property (readonly) id _Nullable value __attribute__((swift_name("value")));
+__attribute__((swift_name("AbstractMediaLayer")))
+@interface PPCAbstractMediaLayer : PPCPPLayer
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoPlay:(BOOL)autoPlay autoPlayRepeat:(BOOL)autoPlayRepeat __attribute__((swift_name("init(namespace:nsId:type:parent:resourceId:resourceUrl:autoPlay:autoPlayRepeat:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (void)clearCommands __attribute__((swift_name("clearCommands()")));
+- (PPCPPMediaCommand * _Nullable)dequeueCommand __attribute__((swift_name("dequeueCommand()")));
+- (void)destroy __attribute__((swift_name("destroy()")));
+- (NSString *)getMediaResourceUrl __attribute__((swift_name("getMediaResourceUrl()")));
+- (void)notifyPlayCompleted __attribute__((swift_name("notifyPlayCompleted()")));
+- (void)resetMediaState __attribute__((swift_name("resetMediaState()")));
+- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
+- (void)runCommandCommand:(PPCPPMediaCommand *)command __attribute__((swift_name("runCommand(command:)")));
+- (void)setMediaResourceUrlValue:(NSString *)value __attribute__((swift_name("setMediaResourceUrl(value:)")));
+@property (readonly) PPCPPFloatProperty *currentTime __attribute__((swift_name("currentTime")));
+@property (readonly) NSString *initailResourceUrl __attribute__((swift_name("initailResourceUrl")));
+@property BOOL isPlaying __attribute__((swift_name("isPlaying")));
+@property BOOL isRepeating __attribute__((swift_name("isRepeating")));
+@property PPCPPMessageBus * _Nullable scheduler __attribute__((swift_name("scheduler")));
+@property (readonly) PPCPPFloatProperty *totalTime __attribute__((swift_name("totalTime")));
+@property (readonly) PPCPPFloatProperty *volume __attribute__((swift_name("volume")));
 @end
 
-__attribute__((swift_name("PPObservableValueProvider")))
-@protocol PPCPPObservableValueProvider <PPCPPValueProvider>
+__attribute__((swift_name("AbstractTextLayer")))
+@interface PPCAbstractTextLayer : PPCPPLayer
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent __attribute__((swift_name("init(namespace:nsId:type:parent:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (PPCPPStringProperty * _Nullable)getStringPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getStringPropertyByName(propertyName:)")));
+- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
+- (void)saveInitialState __attribute__((swift_name("saveInitialState()")));
+@property float paddingBottom __attribute__((swift_name("paddingBottom")));
+@property float paddingLeft __attribute__((swift_name("paddingLeft")));
+@property float paddingRight __attribute__((swift_name("paddingRight")));
+@property float paddingTop __attribute__((swift_name("paddingTop")));
+@property (readonly) PPCPPTextAttributes *textAttributes __attribute__((swift_name("textAttributes")));
+@property (readonly) PPCPPColorProperty *textColor __attribute__((swift_name("textColor")));
+@property (readonly) PPCPPFloatProperty *textOpacity __attribute__((swift_name("textOpacity")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPAudioLayer")))
+@interface PPCPPAudioLayer : PPCAbstractMediaLayer
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoStart:(BOOL)autoStart autoStartRepeat:(BOOL)autoStartRepeat __attribute__((swift_name("init(namespace:nsId:parent:resourceId:resourceUrl:autoStart:autoStartRepeat:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoPlay:(BOOL)autoPlay autoPlayRepeat:(BOOL)autoPlayRepeat __attribute__((swift_name("init(namespace:nsId:type:parent:resourceId:resourceUrl:autoPlay:autoPlayRepeat:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (BOOL)isTouchable __attribute__((swift_name("isTouchable()")));
+@property (readonly) BOOL autoStart __attribute__((swift_name("autoStart")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPCameraLayer")))
+@interface PPCPPCameraLayer : PPCPPLayer
+- (instancetype)initWithSceneId:(NSString *)sceneId nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent autoStart:(BOOL)autoStart initialCameraPosition:(PPCPPCameraPosition *)initialCameraPosition __attribute__((swift_name("init(sceneId:nsId:parent:autoStart:initialCameraPosition:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (void)changeQrScannerPropertiesIsQr:(BOOL)isQr qrValue:(NSString *)qrValue qrX:(float)qrX qrY:(float)qrY qrWidth:(float)qrWidth qrHeight:(float)qrHeight __attribute__((swift_name("changeQrScannerProperties(isQr:qrValue:qrX:qrY:qrWidth:qrHeight:)")));
+- (void)clearCommands __attribute__((swift_name("clearCommands()")));
+- (PPCPPCameraLayerCommand * _Nullable)dequeueCommand __attribute__((swift_name("dequeueCommand()")));
+- (void)openUrlData:(NSString *)data __attribute__((swift_name("openUrl(data:)")));
+- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
+@property (readonly) PPCPPCameraPosition * _Nullable cameraPosition __attribute__((swift_name("cameraPosition")));
+@property BOOL qrScanner __attribute__((swift_name("qrScanner")));
+@property PPCBoolean * _Nullable qrScannerRedirection __attribute__((swift_name("qrScannerRedirection")));
+@property (readonly) BOOL started __attribute__((swift_name("started")));
+@end
+
+__attribute__((swift_name("PPCameraLayerCommand")))
+@interface PPCPPCameraLayerCommand : PPCBase
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPCameraLayerStartCommand")))
+@interface PPCPPCameraLayerStartCommand : PPCPPCameraLayerCommand
+- (instancetype)initWithPosition:(PPCPPCameraPosition *)position __attribute__((swift_name("init(position:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) PPCPPCameraPosition *position __attribute__((swift_name("position")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPCameraLayerStopCommand")))
+@interface PPCPPCameraLayerStopCommand : PPCPPCameraLayerCommand
+- (instancetype)initWithShowBlack:(BOOL)showBlack __attribute__((swift_name("init(showBlack:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) BOOL showBlack __attribute__((swift_name("showBlack")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPChangeTarget")))
+@interface PPCPPChangeTarget : PPCBase
+- (instancetype)initWithLayerId:(NSString *)layerId property:(PPCPPLayerProperty *)property __attribute__((swift_name("init(layerId:property:)"))) __attribute__((objc_designated_initializer));
+- (PPCPPChangeTarget *)doCopyLayerId:(NSString *)layerId property:(PPCPPLayerProperty *)property __attribute__((swift_name("doCopy(layerId:property:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *layerId __attribute__((swift_name("layerId")));
+@property (readonly) PPCPPLayerProperty *property __attribute__((swift_name("property")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPContainerLayer")))
+@interface PPCPPContainerLayer : PPCPPLayer
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer * _Nullable)parent __attribute__((swift_name("init(namespace:nsId:parent:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (void)addChildLayerChildLayer:(PPCPPLayer *)childLayer __attribute__((swift_name("addChildLayer(childLayer:)")));
+- (void)addChildLayerIndex:(int32_t)index layer:(PPCPPLayer *)layer __attribute__((swift_name("addChildLayer(index:layer:)")));
+- (BOOL)containVideoLayer __attribute__((swift_name("containVideoLayer()")));
+- (void)destroy __attribute__((swift_name("destroy()")));
+- (void)forEachLayerCallback:(void (^)(PPCPPLayer *))callback __attribute__((swift_name("forEachLayer(callback:)")));
+- (PPCKotlinArray<PPCPPLayer *> *)getAllLayers __attribute__((swift_name("getAllLayers()")));
+- (NSArray<PPCPPLayer *> *)getChildren __attribute__((swift_name("getChildren()")));
+- (PPCPPFloatProperty * _Nullable)getFloatPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getFloatPropertyByName(propertyName:)")));
+- (PPCPPProperty<id> * _Nullable)getPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getPropertyByName(propertyName:)")));
+- (void)reset __attribute__((swift_name("reset()")));
+- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
+- (void)setChildrenMaskLayers __attribute__((swift_name("setChildrenMaskLayers()")));
+@property NSString * _Nullable componentId __attribute__((swift_name("componentId")));
+@property BOOL isClipChildren __attribute__((swift_name("isClipChildren")));
+@property BOOL scrollEnabled __attribute__((swift_name("scrollEnabled")));
+@property (readonly) PPCPPFloatProperty * _Nullable scrollOffset __attribute__((swift_name("scrollOffset")));
+@property (readonly) PPCPPLayerProperty * _Nullable scrollOffsetKey __attribute__((swift_name("scrollOffsetKey")));
+@property (readonly) PPCPPFloatProperty *scrollX __attribute__((swift_name("scrollX")));
+@property (readonly) PPCPPFloatProperty *scrollY __attribute__((swift_name("scrollY")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPHitArea")))
+@interface PPCPPHitArea : PPCBase
+- (instancetype)initWithExtendAbove:(float)extendAbove extendBelow:(float)extendBelow extendLeft:(float)extendLeft extendRight:(float)extendRight __attribute__((swift_name("init(extendAbove:extendBelow:extendLeft:extendRight:)"))) __attribute__((objc_designated_initializer));
+- (BOOL)hasExtension __attribute__((swift_name("hasExtension()")));
+- (BOOL)isPointIncludedInPoint:(PPCPPPoint *)point width:(float)width height:(float)height __attribute__((swift_name("isPointIncludedIn(point:width:height:)")));
+- (void)setExtendValuesExtendAbove:(float)extendAbove extendBelow:(float)extendBelow extendLeft:(float)extendLeft extendRight:(float)extendRight __attribute__((swift_name("setExtendValues(extendAbove:extendBelow:extendLeft:extendRight:)")));
+@property float extendAbove __attribute__((swift_name("extendAbove")));
+@property float extendBelow __attribute__((swift_name("extendBelow")));
+@property float extendLeft __attribute__((swift_name("extendLeft")));
+@property float extendRight __attribute__((swift_name("extendRight")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPImageLayer")))
+@interface PPCPPImageLayer : PPCPPLayer
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString * _Nullable)resourceUrl __attribute__((swift_name("init(namespace:nsId:parent:resourceId:resourceUrl:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (NSString *)getMediaResourceUrl __attribute__((swift_name("getMediaResourceUrl()")));
+- (void)setMediaResourceUrlValue:(NSString *)value __attribute__((swift_name("setMediaResourceUrl(value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPIosEffectLayer")))
+@interface PPCPPIosEffectLayer : PPCPPLayer
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent style:(PPCPPBlurEffectStyle *)style __attribute__((swift_name("init(namespace:nsId:parent:style:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
+- (void)updateStyleBlurStyle:(PPCPPBlurEffectStyle *)blurStyle duration:(int64_t)duration __attribute__((swift_name("updateStyle(blurStyle:duration:)")));
+@property (readonly) PPCPPBlurEffectStyle *blurStyle __attribute__((swift_name("blurStyle")));
+@property (readonly) int64_t styleDuration __attribute__((swift_name("styleDuration")));
+@end
+
+__attribute__((swift_name("PPLayerObserver")))
+@protocol PPCPPLayerObserver
 @required
-@property (readonly) PPCPPIdentifiableChangeObservable *observable __attribute__((swift_name("observable")));
+- (void)onChildOrderModifiedLayer:(PPCPPLayer *)layer __attribute__((swift_name("onChildOrderModified(layer:)")));
+- (void)onLayerEndChangeLayer:(PPCPPLayer *)layer __attribute__((swift_name("onLayerEndChange(layer:)")));
+- (void)onLayerModifiedLayer:(PPCPPLayer *)layer __attribute__((swift_name("onLayerModified(layer:)")));
+- (void)onLayerWillChangeLayer:(PPCPPLayer *)layer __attribute__((swift_name("onLayerWillChange(layer:)")));
+- (void)onMaskLayerChangedLayer:(PPCPPLayer *)layer __attribute__((swift_name("onMaskLayerChanged(layer:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPLayerAlias")))
+@interface PPCPPLayerAlias : PPCBase
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId name:(NSString *)name __attribute__((swift_name("init(namespace:nsId:name:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly, getter=namespace) NSString *namespace_ __attribute__((swift_name("namespace_")));
+@property (readonly) NSString *nsId __attribute__((swift_name("nsId")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPLayerType")))
+@interface PPCPPLayerType : PPCKotlinEnum<PPCPPLayerType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPLayerType *image __attribute__((swift_name("image")));
+@property (class, readonly) PPCPPLayerType *rect __attribute__((swift_name("rect")));
+@property (class, readonly) PPCPPLayerType *oval __attribute__((swift_name("oval")));
+@property (class, readonly) PPCPPLayerType *container __attribute__((swift_name("container")));
+@property (class, readonly) PPCPPLayerType *text __attribute__((swift_name("text")));
+@property (class, readonly) PPCPPLayerType *textInput __attribute__((swift_name("textInput")));
+@property (class, readonly) PPCPPLayerType *video __attribute__((swift_name("video")));
+@property (class, readonly) PPCPPLayerType *lottie __attribute__((swift_name("lottie")));
+@property (class, readonly) PPCPPLayerType *audio __attribute__((swift_name("audio")));
+@property (class, readonly) PPCPPLayerType *shape __attribute__((swift_name("shape")));
+@property (class, readonly) PPCPPLayerType *camera __attribute__((swift_name("camera")));
+@property (class, readonly) PPCPPLayerType *iosEffect __attribute__((swift_name("iosEffect")));
+@property (class, readonly) PPCPPLayerType *component __attribute__((swift_name("component")));
++ (PPCKotlinArray<PPCPPLayerType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPLayerType *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPLottieLayer")))
+@interface PPCPPLottieLayer : PPCAbstractMediaLayer
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoStart:(BOOL)autoStart autoStartRepeat:(BOOL)autoStartRepeat __attribute__((swift_name("init(namespace:nsId:parent:resourceId:resourceUrl:autoStart:autoStartRepeat:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoPlay:(BOOL)autoPlay autoPlayRepeat:(BOOL)autoPlayRepeat __attribute__((swift_name("init(namespace:nsId:type:parent:resourceId:resourceUrl:autoPlay:autoPlayRepeat:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (readonly) BOOL autoStart __attribute__((swift_name("autoStart")));
+@end
+
+__attribute__((swift_name("PPMediaCommand")))
+@interface PPCPPMediaCommand : PPCBase
+@property (class, readonly, getter=companion) PPCPPMediaCommandCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)serialize __attribute__((swift_name("serialize()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPMediaCommand.Companion")))
+@interface PPCPPMediaCommandCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPMediaCommandCompanion *shared __attribute__((swift_name("shared")));
+- (PPCPPMediaCommand * _Nullable)deserializeStr:(NSString *)str __attribute__((swift_name("deserialize(str:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPMediaPauseCommand")))
+@interface PPCPPMediaPauseCommand : PPCPPMediaCommand
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (NSString *)serialize __attribute__((swift_name("serialize()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPMediaPlayCommand")))
+@interface PPCPPMediaPlayCommand : PPCPPMediaCommand
+- (instancetype)initWithRepeating:(BOOL)repeating __attribute__((swift_name("init(repeating:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)serialize __attribute__((swift_name("serialize()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL repeating __attribute__((swift_name("repeating")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPMediaSeekCommand")))
+@interface PPCPPMediaSeekCommand : PPCPPMediaCommand
+- (instancetype)initWithSeekTime:(int32_t)seekTime __attribute__((swift_name("init(seekTime:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)serialize __attribute__((swift_name("serialize()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t seekTime __attribute__((swift_name("seekTime")));
+@end
+
+__attribute__((swift_name("PPShapeLayer")))
+@interface PPCPPShapeLayer : PPCPPLayer
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent radiusEnabled:(BOOL)radiusEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)onPropertyModifiedProperty:(PPCPPProperty<id> *)property __attribute__((swift_name("onPropertyModified(property:)")));
+- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
+@property BOOL isMask __attribute__((swift_name("isMask")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPOvalLayer")))
+@interface PPCPPOvalLayer : PPCPPShapeLayer
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent __attribute__((swift_name("init(namespace:nsId:parent:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent radiusEnabled:(BOOL)radiusEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPPlayState")))
+@interface PPCPPPlayState : PPCBase
+- (instancetype)initWithDuration:(int64_t)duration __attribute__((swift_name("init(duration:)"))) __attribute__((objc_designated_initializer));
+- (int64_t)getPlayPositionTime:(int64_t)time __attribute__((swift_name("getPlayPosition(time:)")));
+- (BOOL)isPlayingTime:(int64_t)time __attribute__((swift_name("isPlaying(time:)")));
+- (void)pauseTime:(int64_t)time __attribute__((swift_name("pause(time:)")));
+- (void)playTime:(int64_t)time looping:(BOOL)looping __attribute__((swift_name("play(time:looping:)")));
+- (void)reset __attribute__((swift_name("reset()")));
+- (void)seekTime:(int64_t)time seekPosition:(int64_t)seekPosition __attribute__((swift_name("seek(time:seekPosition:)")));
+- (void)updateFromStateTime:(int64_t)time playing:(BOOL)playing looping:(BOOL)looping position:(int64_t)position __attribute__((swift_name("updateFromState(time:playing:looping:position:)")));
+@property (readonly) int64_t duration __attribute__((swift_name("duration")));
+@property (readonly) BOOL isLooping __attribute__((swift_name("isLooping")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPRectLayer")))
+@interface PPCPPRectLayer : PPCPPShapeLayer
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent __attribute__((swift_name("init(namespace:nsId:parent:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent radiusEnabled:(BOOL)radiusEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPTextAttributes")))
+@interface PPCPPTextAttributes : PPCBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) PPCPPTextAttributesCompanion *companion __attribute__((swift_name("companion")));
+- (BOOL)doCopyFromOther:(PPCPPTextAttributes *)other __attribute__((swift_name("doCopyFrom(other:)")));
+- (PPCFloat * _Nullable)getFontSizeScaleFactor:(float)scaleFactor __attribute__((swift_name("getFontSize(scaleFactor:)")));
+@property BOOL autoLineHeight __attribute__((swift_name("autoLineHeight")));
+@property NSString * _Nullable font __attribute__((swift_name("font")));
+@property PPCFloat * _Nullable fontSize __attribute__((swift_name("fontSize")));
+@property NSString * _Nullable initialText __attribute__((swift_name("initialText")));
+@property PPCFloat * _Nullable letterSpacing __attribute__((swift_name("letterSpacing")));
+@property PPCFloat * _Nullable lineHeight __attribute__((swift_name("lineHeight")));
+@property NSString * _Nullable text __attribute__((swift_name("text")));
+@property PPCPPHorizontalAlign * _Nullable textAlign __attribute__((swift_name("textAlign")));
+@property PPCPPVerticalAlign * _Nullable verticalAlign __attribute__((swift_name("verticalAlign")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPTextAttributes.Companion")))
+@interface PPCPPTextAttributesCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPTextAttributesCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *DEFAULT_FONT_BOLD __attribute__((swift_name("DEFAULT_FONT_BOLD")));
+@property (readonly) NSString *DEFAULT_FONT_DEBUG __attribute__((swift_name("DEFAULT_FONT_DEBUG")));
+@property (readonly) NSString *DEFAULT_FONT_REGULAR __attribute__((swift_name("DEFAULT_FONT_REGULAR")));
+@property (readonly) NSString *DEFAULT_FONT_SEMI_BOLD __attribute__((swift_name("DEFAULT_FONT_SEMI_BOLD")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPTextInputLayer")))
+@interface PPCPPTextInputLayer : PPCAbstractTextLayer
+- (instancetype)initWithNamespace:(NSString *)namespace_ id:(NSString *)id parent:(PPCPPContainerLayer * _Nullable)parent __attribute__((swift_name("init(namespace:id:parent:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent __attribute__((swift_name("init(namespace:nsId:type:parent:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (void)addFocusRequestListenerFocusRequestListener:(id<PPCPPTextInputLayerFocusRequestListener>)focusRequestListener __attribute__((swift_name("addFocusRequestListener(focusRequestListener:)")));
+- (void)addFocusStateListenerFocusStateListener:(id<PPCPPTextInputLayerFocusStateListener>)focusStateListener __attribute__((swift_name("addFocusStateListener(focusStateListener:)")));
+- (void)applySizeFromRendererTextRenderHeight:(float)textRenderHeight now:(int64_t)now __attribute__((swift_name("applySizeFromRenderer(textRenderHeight:now:)")));
+- (void)notifyFocusStateFocused:(BOOL)focused now:(int64_t)now __attribute__((swift_name("notifyFocusState(focused:now:)")));
+- (void)notifyReturnKeyPressedNow:(int64_t)now __attribute__((swift_name("notifyReturnKeyPressed(now:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)onPropertyModifiedProperty:(PPCPPProperty<id> *)property __attribute__((swift_name("onPropertyModified(property:)")));
+- (void)removeFocusRequestListenerFocusRequestListener:(id<PPCPPTextInputLayerFocusRequestListener>)focusRequestListener __attribute__((swift_name("removeFocusRequestListener(focusRequestListener:)")));
+- (void)requestFocusFocus:(BOOL)focus replayMode:(BOOL)replayMode __attribute__((swift_name("requestFocus(focus:replayMode:)")));
+- (void)reset __attribute__((swift_name("reset()")));
+- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
+- (void)saveInitialState __attribute__((swift_name("saveInitialState()")));
+@property BOOL autoHeight __attribute__((swift_name("autoHeight")));
+@property BOOL focusOutOnTapOutside __attribute__((swift_name("focusOutOnTapOutside")));
+@property BOOL initialFocus __attribute__((swift_name("initialFocus")));
+@property BOOL isAutoFocusOut __attribute__((swift_name("isAutoFocusOut")));
+@property PPCPPTextInputLayerKeyboardLook *keyboardLook __attribute__((swift_name("keyboardLook")));
+@property PPCPPTextInputLayerKeyboardType *keyboardType __attribute__((swift_name("keyboardType")));
+@property PPCFloat * _Nullable maxHeight __attribute__((swift_name("maxHeight")));
+@property float minHeight __attribute__((swift_name("minHeight")));
+@property BOOL multiLine __attribute__((swift_name("multiLine")));
+@property PPCPPColor *placeHolderColor __attribute__((swift_name("placeHolderColor")));
+@property float placeHolderOpacity __attribute__((swift_name("placeHolderOpacity")));
+@property NSString *placeHolderText __attribute__((swift_name("placeHolderText")));
+@property PPCPPTextInputLayerReturnKeyType *returnKeyType __attribute__((swift_name("returnKeyType")));
+@end
+
+__attribute__((swift_name("PPTextInputLayerFocusRequestListener")))
+@protocol PPCPPTextInputLayerFocusRequestListener
+@required
+- (void)onFocusRequestedLayer:(PPCPPTextInputLayer *)layer focus:(BOOL)focus replayMode:(BOOL)replayMode __attribute__((swift_name("onFocusRequested(layer:focus:replayMode:)")));
+@end
+
+__attribute__((swift_name("PPTextInputLayerFocusStateListener")))
+@protocol PPCPPTextInputLayerFocusStateListener
+@required
+- (void)onFocusStateChangedLayer:(PPCPPTextInputLayer *)layer focused:(BOOL)focused now:(int64_t)now __attribute__((swift_name("onFocusStateChanged(layer:focused:now:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPTextInputLayer.KeyboardLook")))
+@interface PPCPPTextInputLayerKeyboardLook : PPCKotlinEnum<PPCPPTextInputLayerKeyboardLook *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPTextInputLayerKeyboardLook *dark __attribute__((swift_name("dark")));
+@property (class, readonly) PPCPPTextInputLayerKeyboardLook *light __attribute__((swift_name("light")));
++ (PPCKotlinArray<PPCPPTextInputLayerKeyboardLook *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPTextInputLayerKeyboardLook *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPTextInputLayer.KeyboardType")))
+@interface PPCPPTextInputLayerKeyboardType : PPCKotlinEnum<PPCPPTextInputLayerKeyboardType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPTextInputLayerKeyboardType *text __attribute__((swift_name("text")));
+@property (class, readonly) PPCPPTextInputLayerKeyboardType *url __attribute__((swift_name("url")));
+@property (class, readonly) PPCPPTextInputLayerKeyboardType *email __attribute__((swift_name("email")));
+@property (class, readonly) PPCPPTextInputLayerKeyboardType *number __attribute__((swift_name("number")));
+@property (class, readonly) PPCPPTextInputLayerKeyboardType *textPassword __attribute__((swift_name("textPassword")));
+@property (class, readonly) PPCPPTextInputLayerKeyboardType *numberPassword __attribute__((swift_name("numberPassword")));
++ (PPCKotlinArray<PPCPPTextInputLayerKeyboardType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPTextInputLayerKeyboardType *> *entries __attribute__((swift_name("entries")));
+@property (readonly) BOOL isPassword __attribute__((swift_name("isPassword")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPTextInputLayer.ReturnKeyType")))
+@interface PPCPPTextInputLayerReturnKeyType : PPCKotlinEnum<PPCPPTextInputLayerReturnKeyType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPTextInputLayerReturnKeyType *done __attribute__((swift_name("done")));
+@property (class, readonly) PPCPPTextInputLayerReturnKeyType *go __attribute__((swift_name("go")));
+@property (class, readonly) PPCPPTextInputLayerReturnKeyType *next __attribute__((swift_name("next")));
+@property (class, readonly) PPCPPTextInputLayerReturnKeyType *send __attribute__((swift_name("send")));
+@property (class, readonly) PPCPPTextInputLayerReturnKeyType *search __attribute__((swift_name("search")));
+@property (class, readonly) PPCPPTextInputLayerReturnKeyType *theNewLine __attribute__((swift_name("theNewLine")));
++ (PPCKotlinArray<PPCPPTextInputLayerReturnKeyType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPTextInputLayerReturnKeyType *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPTextLayer")))
+@interface PPCPPTextLayer : PPCAbstractTextLayer
+- (instancetype)initWithNamespace:(NSString *)namespace_ id:(NSString *)id parent:(PPCPPContainerLayer *)parent __attribute__((swift_name("init(namespace:id:parent:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent __attribute__((swift_name("init(namespace:nsId:type:parent:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (void)applySizeFromRendererTextRenderWidth:(float)textRenderWidth textRenderHeight:(float)textRenderHeight now:(int64_t)now __attribute__((swift_name("applySizeFromRenderer(textRenderWidth:textRenderHeight:now:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)onPropertyModifiedProperty:(PPCPPProperty<id> *)property __attribute__((swift_name("onPropertyModified(property:)")));
+- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
+- (void)saveInitialState __attribute__((swift_name("saveInitialState()")));
+@property BOOL guessInitialWidth __attribute__((swift_name("guessInitialWidth")));
+@property float renderHeight __attribute__((swift_name("renderHeight")));
+@property float renderWidth __attribute__((swift_name("renderWidth")));
+@property PPCPPTextLayerSizeMode *sizeMode __attribute__((swift_name("sizeMode")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPVectorShapeLayer")))
+@interface PPCPPVectorShapeLayer : PPCPPShapeLayer
+- (instancetype)initWithSceneId:(NSString *)sceneId nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent __attribute__((swift_name("init(sceneId:nsId:parent:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent radiusEnabled:(BOOL)radiusEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property PPCPPLineCap *lineCap __attribute__((swift_name("lineCap")));
+@property PPCPPLineJoin *lineJoin __attribute__((swift_name("lineJoin")));
+@property (readonly) NSMutableArray<PPCPPVectorShape *> *shapes __attribute__((swift_name("shapes")));
+@property float viewBoxHeight __attribute__((swift_name("viewBoxHeight")));
+@property float viewBoxWidth __attribute__((swift_name("viewBoxWidth")));
+@property float viewBoxX __attribute__((swift_name("viewBoxX")));
+@property float viewBoxY __attribute__((swift_name("viewBoxY")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPVideoLayer")))
+@interface PPCPPVideoLayer : PPCAbstractMediaLayer
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl thumbnailId:(NSString *)thumbnailId autoStart:(BOOL)autoStart autoStartRepeat:(BOOL)autoStartRepeat __attribute__((swift_name("init(namespace:nsId:parent:resourceId:resourceUrl:thumbnailId:autoStart:autoStartRepeat:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoPlay:(BOOL)autoPlay autoPlayRepeat:(BOOL)autoPlayRepeat __attribute__((swift_name("init(namespace:nsId:type:parent:resourceId:resourceUrl:autoPlay:autoPlayRepeat:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (NSString *)getThumbnailUrl __attribute__((swift_name("getThumbnailUrl()")));
+@property (readonly) BOOL autoStart __attribute__((swift_name("autoStart")));
+@property (readonly) NSString *thumbnailId __attribute__((swift_name("thumbnailId")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ConstraintOption")))
+@interface PPCConstraintOption : PPCBase
+- (instancetype)initWithIsBeginFixed:(BOOL)isBeginFixed isSizeFixed:(BOOL)isSizeFixed isEndFixed:(BOOL)isEndFixed __attribute__((swift_name("init(isBeginFixed:isSizeFixed:isEndFixed:)"))) __attribute__((objc_designated_initializer));
+- (PPCConstraintOption *)doCopyIsBeginFixed:(BOOL)isBeginFixed isSizeFixed:(BOOL)isSizeFixed isEndFixed:(BOOL)isEndFixed __attribute__((swift_name("doCopy(isBeginFixed:isSizeFixed:isEndFixed:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL isBeginFixed __attribute__((swift_name("isBeginFixed")));
+@property BOOL isDifferentAxis __attribute__((swift_name("isDifferentAxis")));
+@property (readonly) BOOL isEndFixed __attribute__((swift_name("isEndFixed")));
+@property (readonly) BOOL isSizeFixed __attribute__((swift_name("isSizeFixed")));
+@property BOOL moveAndScaleActive __attribute__((swift_name("moveAndScaleActive")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Direction")))
+@interface PPCDirection : PPCKotlinEnum<PPCDirection *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCDirection *byX __attribute__((swift_name("byX")));
+@property (class, readonly) PPCDirection *byY __attribute__((swift_name("byY")));
+@property (class, readonly) PPCDirection *byAll __attribute__((swift_name("byAll")));
+@property (class, readonly) PPCDirection *empty __attribute__((swift_name("empty")));
++ (PPCKotlinArray<PPCDirection *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCDirection *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OneDimensionResizeConstraints")))
+@interface PPCOneDimensionResizeConstraints : PPCBase
+- (instancetype)initWithInitialBegin:(float)initialBegin initialSize:(float)initialSize initialParentSize:(float)initialParentSize constraintsOption:(PPCConstraintOption *)constraintsOption __attribute__((swift_name("init(initialBegin:initialSize:initialParentSize:constraintsOption:)"))) __attribute__((objc_designated_initializer));
+- (float)applyDeltaOldValue:(float)oldValue newFlexSum:(float)newFlexSum oldFlexSum:(float)oldFlexSum __attribute__((swift_name("applyDelta(oldValue:newFlexSum:oldFlexSum:)")));
+- (void)applyParentSizeParentSize:(float)parentSize __attribute__((swift_name("applyParentSize(parentSize:)")));
+- (void)applySelfChangeBegin:(float)begin size:(float)size parentSize:(float)parentSize __attribute__((swift_name("applySelfChange(begin:size:parentSize:)")));
+- (PPCOneDimensionResizeConstraints *)doCopyInitialBegin:(float)initialBegin initialSize:(float)initialSize initialParentSize:(float)initialParentSize constraintsOption:(PPCConstraintOption *)constraintsOption __attribute__((swift_name("doCopy(initialBegin:initialSize:initialParentSize:constraintsOption:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (BOOL)shouldFixBegin __attribute__((swift_name("shouldFixBegin()")));
+- (BOOL)shouldFixEnd __attribute__((swift_name("shouldFixEnd()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+- (void)updatePreferredSizeValue:(float)value __attribute__((swift_name("updatePreferredSize(value:)")));
+- (id _Nullable)valIfCondition:(BOOL)condition trueValue:(id _Nullable)trueValue falseValue:(id _Nullable)falseValue __attribute__((swift_name("valIf(condition:trueValue:falseValue:)")));
+@property (readonly) PPCConstraintOption *constraintsOption __attribute__((swift_name("constraintsOption")));
+@property float currentBegin __attribute__((swift_name("currentBegin")));
+@property float currentEnd __attribute__((swift_name("currentEnd")));
+@property float currentParentSize __attribute__((swift_name("currentParentSize")));
+@property float currentSize __attribute__((swift_name("currentSize")));
+@property (readonly) float initialBegin __attribute__((swift_name("initialBegin")));
+@property (readonly) float initialParentSize __attribute__((swift_name("initialParentSize")));
+@property (readonly) float initialSize __attribute__((swift_name("initialSize")));
+@end
+
+__attribute__((swift_name("PPVectorShape")))
+@interface PPCPPVectorShape : PPCBase
+- (instancetype)initWithType:(PPCPPVectorShapeType *)type fillable:(BOOL)fillable __attribute__((swift_name("init(type:fillable:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) BOOL fillable __attribute__((swift_name("fillable")));
+@property (readonly) PPCPPVectorShapeType *type __attribute__((swift_name("type")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPVectorEllipse")))
+@interface PPCPPVectorEllipse : PPCPPVectorShape
+- (instancetype)initWithCx:(float)cx cy:(float)cy rx:(float)rx ry:(float)ry __attribute__((swift_name("init(cx:cy:rx:ry:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithType:(PPCPPVectorShapeType *)type fillable:(BOOL)fillable __attribute__((swift_name("init(type:fillable:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (readonly) float cx __attribute__((swift_name("cx")));
+@property (readonly) float cy __attribute__((swift_name("cy")));
+@property (readonly) float rx __attribute__((swift_name("rx")));
+@property (readonly) float ry __attribute__((swift_name("ry")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPVectorLine")))
+@interface PPCPPVectorLine : PPCPPVectorShape
+- (instancetype)initWithX1:(float)x1 y1:(float)y1 x2:(float)x2 y2:(float)y2 __attribute__((swift_name("init(x1:y1:x2:y2:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithType:(PPCPPVectorShapeType *)type fillable:(BOOL)fillable __attribute__((swift_name("init(type:fillable:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (readonly) float x1 __attribute__((swift_name("x1")));
+@property (readonly) float x2 __attribute__((swift_name("x2")));
+@property (readonly) float y1 __attribute__((swift_name("y1")));
+@property (readonly) float y2 __attribute__((swift_name("y2")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPVectorPath")))
+@interface PPCPPVectorPath : PPCPPVectorShape
+- (instancetype)initWithD:(NSString *)d segmentData:(NSMutableArray<PPCPPPathSegmentData *> *)segmentData __attribute__((swift_name("init(d:segmentData:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithType:(PPCPPVectorShapeType *)type fillable:(BOOL)fillable __attribute__((swift_name("init(type:fillable:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (readonly) NSString *d __attribute__((swift_name("d")));
+@property (readonly) NSMutableArray<PPCPPPathSegmentData *> *segmentData __attribute__((swift_name("segmentData")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPVectorPolygon")))
+@interface PPCPPVectorPolygon : PPCPPVectorShape
+- (instancetype)initWithPointsString:(NSString *)pointsString points:(NSMutableArray<PPCPPPoint *> *)points __attribute__((swift_name("init(pointsString:points:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithType:(PPCPPVectorShapeType *)type fillable:(BOOL)fillable __attribute__((swift_name("init(type:fillable:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (readonly) NSMutableArray<PPCPPPoint *> *points __attribute__((swift_name("points")));
+@property (readonly) NSString *pointsString __attribute__((swift_name("pointsString")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPVectorPolyline")))
+@interface PPCPPVectorPolyline : PPCPPVectorShape
+- (instancetype)initWithPointsString:(NSString *)pointsString points:(NSMutableArray<PPCPPPoint *> *)points __attribute__((swift_name("init(pointsString:points:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithType:(PPCPPVectorShapeType *)type fillable:(BOOL)fillable __attribute__((swift_name("init(type:fillable:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (readonly) NSMutableArray<PPCPPPoint *> *points __attribute__((swift_name("points")));
+@property (readonly) NSString *pointsString __attribute__((swift_name("pointsString")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPVectorRect")))
+@interface PPCPPVectorRect : PPCPPVectorShape
+- (instancetype)initWithX:(float)x y:(float)y width:(float)width height:(float)height rx:(float)rx ry:(float)ry __attribute__((swift_name("init(x:y:width:height:rx:ry:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithType:(PPCPPVectorShapeType *)type fillable:(BOOL)fillable __attribute__((swift_name("init(type:fillable:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (readonly) float height __attribute__((swift_name("height")));
+@property (readonly) float rx __attribute__((swift_name("rx")));
+@property (readonly) float ry __attribute__((swift_name("ry")));
+@property (readonly) float width __attribute__((swift_name("width")));
+@property (readonly) float x __attribute__((swift_name("x")));
+@property (readonly) float y __attribute__((swift_name("y")));
+@end
+
+__attribute__((swift_name("PPMessage")))
+@interface PPCPPMessage : PPCBase
+- (instancetype)initWithExpires:(BOOL)expires __attribute__((swift_name("init(expires:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCPPMessageCompanion *companion __attribute__((swift_name("companion")));
+- (int64_t)computeDuration __attribute__((swift_name("computeDuration()")));
+- (BOOL)shouldStopForLayerLayerId:(NSString *)layerId __attribute__((swift_name("shouldStopForLayer(layerId:)")));
+- (BOOL)shouldStopForVariableVariable:(PPCPPVar<id> *)variable __attribute__((swift_name("shouldStopForVariable(variable:)")));
+@property int64_t duration __attribute__((swift_name("duration")));
+@property PPCInt * _Nullable expiresAfter __attribute__((swift_name("expiresAfter")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPMessage.Companion")))
+@interface PPCPPMessageCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPMessageCompanion *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((swift_name("PPTask")))
+@interface PPCPPTask : PPCPPMessage
+- (instancetype)initWithLayerIdToStop:(NSString * _Nullable)layerIdToStop variableNameToStop:(NSString * _Nullable)variableNameToStop expires:(BOOL)expires __attribute__((swift_name("init(layerIdToStop:variableNameToStop:expires:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithExpires:(BOOL)expires __attribute__((swift_name("init(expires:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (void)runNow:(int64_t)now __attribute__((swift_name("run(now:)")));
+- (BOOL)shouldStopForLayerLayerId:(NSString *)layerId __attribute__((swift_name("shouldStopForLayer(layerId:)")));
+- (BOOL)shouldStopForVariableVariable:(PPCPPVar<id> *)variable __attribute__((swift_name("shouldStopForVariable(variable:)")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DeviceDesc")))
+@interface PPCDeviceDesc : PPCBase
+- (instancetype)initWithId:(NSString *)id name:(NSString *)name type:(NSString *)type width:(int32_t)width height:(int32_t)height density:(float)density platformType:(NSString *)platformType orientation:(NSString *)orientation framePathOrigin:(NSString * _Nullable)framePathOrigin framePathLandscapeOrigin:(NSString * _Nullable)framePathLandscapeOrigin framePath:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)framePath frameBgPath:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)frameBgPath framePathLandscape:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)framePathLandscape frameBgPathLandscape:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)frameBgPathLandscape __attribute__((swift_name("init(id:name:type:width:height:density:platformType:orientation:framePathOrigin:framePathLandscapeOrigin:framePath:frameBgPath:framePathLandscape:frameBgPathLandscape:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCDeviceDescCompanion *companion __attribute__((swift_name("companion")));
+- (PPCDeviceDesc *)doCopyId:(NSString *)id name:(NSString *)name type:(NSString *)type width:(int32_t)width height:(int32_t)height density:(float)density platformType:(NSString *)platformType orientation:(NSString *)orientation framePathOrigin:(NSString * _Nullable)framePathOrigin framePathLandscapeOrigin:(NSString * _Nullable)framePathLandscapeOrigin framePath:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)framePath frameBgPath:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)frameBgPath framePathLandscape:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)framePathLandscape frameBgPathLandscape:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)frameBgPathLandscape __attribute__((swift_name("doCopy(id:name:type:width:height:density:platformType:orientation:framePathOrigin:framePathLandscapeOrigin:framePath:frameBgPath:framePathLandscape:frameBgPathLandscape:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) float density __attribute__((swift_name("density")));
+@property (readonly) PPCKotlinx_serialization_jsonJsonElement * _Nullable frameBgPath __attribute__((swift_name("frameBgPath")));
+@property (readonly) PPCKotlinx_serialization_jsonJsonElement * _Nullable frameBgPathLandscape __attribute__((swift_name("frameBgPathLandscape")));
+@property (readonly) PPCKotlinx_serialization_jsonJsonElement * _Nullable framePath __attribute__((swift_name("framePath")));
+@property (readonly) PPCKotlinx_serialization_jsonJsonElement * _Nullable framePathLandscape __attribute__((swift_name("framePathLandscape")));
+@property (readonly) NSString * _Nullable framePathLandscapeOrigin __attribute__((swift_name("framePathLandscapeOrigin")));
+@property (readonly) NSString * _Nullable framePathOrigin __attribute__((swift_name("framePathOrigin")));
+@property (readonly) int32_t height __attribute__((swift_name("height")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSString *orientation __attribute__((swift_name("orientation")));
+@property (readonly) NSString *platformType __attribute__((swift_name("platformType")));
+@property (readonly) NSString *type __attribute__((swift_name("type")));
+@property (readonly) int32_t width __attribute__((swift_name("width")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DeviceDesc.Companion")))
+@interface PPCDeviceDescCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCDeviceDescCompanion *shared __attribute__((swift_name("shared")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DeviceFrameHelper")))
+@interface PPCDeviceFrameHelper : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)deviceFrameHelper __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCDeviceFrameHelper *shared __attribute__((swift_name("shared")));
+- (PPCPPScene *)buildDeviceFrameSceneDeviceInfo:(PPCPPDeviceInfo *)deviceInfo disableDeviceFrameDisplay:(BOOL)disableDeviceFrameDisplay __attribute__((swift_name("buildDeviceFrameScene(deviceInfo:disableDeviceFrameDisplay:)")));
+- (void)setDeviceFrameEnabledValue:(BOOL)value fixedScenes:(NSMutableArray<PPCPPScene *> *)fixedScenes __attribute__((swift_name("setDeviceFrameEnabled(value:fixedScenes:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DevicePreset")))
+@interface PPCDevicePreset : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)devicePreset __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCDevicePreset *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *DEVICE_PRESETS __attribute__((swift_name("DEVICE_PRESETS")));
+@property (readonly) NSString *DEVICE_PRESETS_ETC __attribute__((swift_name("DEVICE_PRESETS_ETC")));
+@property (readonly) NSString *DEVICE_PRESETS_GALAXY __attribute__((swift_name("DEVICE_PRESETS_GALAXY")));
+@property (readonly) NSString *DEVICE_PRESETS_IPHONE11 __attribute__((swift_name("DEVICE_PRESETS_IPHONE11")));
+@property (readonly) NSString *DEVICE_PRESETS_IPHONE12 __attribute__((swift_name("DEVICE_PRESETS_IPHONE12")));
+@property (readonly) NSString *DEVICE_PRESETS_IPHONE13 __attribute__((swift_name("DEVICE_PRESETS_IPHONE13")));
+@property (readonly) NSString *DEVICE_PRESETS_IPHONE14 __attribute__((swift_name("DEVICE_PRESETS_IPHONE14")));
+@property (readonly) NSString *DEVICE_PRESETS_PIXEL __attribute__((swift_name("DEVICE_PRESETS_PIXEL")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPBroadcastProxy")))
+@interface PPCPPBroadcastProxy : PPCBase
+- (instancetype)initWithPlayer:(PPCPPPiePlayer *)player __attribute__((swift_name("init(player:)"))) __attribute__((objc_designated_initializer));
+- (void)switchSceneSceneId:(NSString *)sceneId __attribute__((swift_name("switchScene(sceneId:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPFont")))
+@interface PPCPPFont : PPCBase
+- (instancetype)initWithPostscriptName:(NSString * _Nullable)postscriptName family:(NSString * _Nullable)family subfamily:(NSString * _Nullable)subfamily weight:(NSString * _Nullable)weight style:(NSString * _Nullable)style preferredLineHeight:(float)preferredLineHeight __attribute__((swift_name("init(postscriptName:family:subfamily:weight:style:preferredLineHeight:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)getDisplayName __attribute__((swift_name("getDisplayName()")));
+- (PPCPPFont *)replaceFamilyFamily:(NSString *)family __attribute__((swift_name("replaceFamily(family:)")));
+@property (readonly) NSString * _Nullable family __attribute__((swift_name("family")));
+@property (readonly) NSString * _Nullable postscriptName __attribute__((swift_name("postscriptName")));
+@property (readonly) float preferredLineHeight __attribute__((swift_name("preferredLineHeight")));
+@property (readonly) NSString * _Nullable style __attribute__((swift_name("style")));
+@property (readonly) NSString * _Nullable subfamily __attribute__((swift_name("subfamily")));
+@property (readonly) NSString * _Nullable weight __attribute__((swift_name("weight")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPLayerProxy")))
+@interface PPCPPLayerProxy : PPCBase
+- (instancetype)initWithLayer:(PPCPPLayer *)layer __attribute__((swift_name("init(layer:)"))) __attribute__((objc_designated_initializer));
+- (PPCKotlinArray<PPCPPLayerProxy *> * _Nullable)getChildren __attribute__((swift_name("getChildren()")));
+- (NSString * _Nullable)getColorPropValuePropName:(NSString *)propName __attribute__((swift_name("getColorPropValue(propName:)")));
+- (NSString * _Nullable)getExtraPropValuePropName:(NSString *)propName __attribute__((swift_name("getExtraPropValue(propName:)")));
+- (PPCFloat * _Nullable)getNumberPropValuePropName:(NSString *)propName __attribute__((swift_name("getNumberPropValue(propName:)")));
+- (PPCKotlinArray<PPCFloat *> *)getPosition __attribute__((swift_name("getPosition()")));
+- (NSString * _Nullable)getTextPropValue __attribute__((swift_name("getTextPropValue()")));
+@property (readonly) NSString * _Nullable componentId __attribute__((swift_name("componentId")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSString *type __attribute__((swift_name("type")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPLayerViewSplitter")))
+@interface PPCPPLayerViewSplitter : PPCBase
+- (instancetype)initWithScene:(PPCPPScene *)scene splittingLayerIds:(id)splittingLayerIds __attribute__((swift_name("init(scene:splittingLayerIds:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCPPLayerViewSplitterCompanion *companion __attribute__((swift_name("companion")));
+- (void)update __attribute__((swift_name("update()")));
+@property (readonly) NSMutableArray<PPCPPLayerViewSplitterGroup *> *groups __attribute__((swift_name("groups")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPLayerViewSplitter.Companion")))
+@interface PPCPPLayerViewSplitterCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPLayerViewSplitterCompanion *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((swift_name("PPLayerViewSplitter.Group")))
+@interface PPCPPLayerViewSplitterGroup : PPCBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPLayerViewSplitter.NormalLayersGroup")))
+@interface PPCPPLayerViewSplitterNormalLayersGroup : PPCPPLayerViewSplitterGroup
+- (instancetype)initWithLayers:(NSArray<PPCPPLayer *> *)layers __attribute__((swift_name("init(layers:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+@property (readonly) NSArray<PPCPPLayer *> *layers __attribute__((swift_name("layers")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPLayerViewSplitter.SplittingLayer")))
+@interface PPCPPLayerViewSplitterSplittingLayer : PPCPPLayerViewSplitterGroup
+- (instancetype)initWithLayer:(PPCPPLayer *)layer __attribute__((swift_name("init(layer:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+@property (readonly) PPCPPLayer *layer __attribute__((swift_name("layer")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPLayersSplitter")))
+@interface PPCPPLayersSplitter : PPCBase
+- (instancetype)initWithScene:(PPCPPScene *)scene splittingLayers:(id)splittingLayers __attribute__((swift_name("init(scene:splittingLayers:)"))) __attribute__((objc_designated_initializer));
+- (void)applyReorderReorderedLayers:(NSSet<PPCPPLayer *> *)reorderedLayers __attribute__((swift_name("applyReorder(reorderedLayers:)")));
+- (NSArray<PPCPPLayer *> *)getSplittedLayersBeforeI:(int32_t)i __attribute__((swift_name("getSplittedLayersBefore(i:)")));
+- (PPCPPLayer *)getSplittingLayerAtI:(int32_t)i __attribute__((swift_name("getSplittingLayerAt(i:)")));
+- (NSArray<PPCPPLayer *> *)getSplittingLayersInOrder __attribute__((swift_name("getSplittingLayersInOrder()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPPieModel")))
+@interface PPCPPPieModel : PPCBase
+- (instancetype)initWithDeviceInfo:(PPCPPDeviceInfo *)deviceInfo observer:(id<PPCPPEngineObserver> _Nullable)observer fonts:(NSDictionary<NSString *, PPCPPFont *> *)fonts __attribute__((swift_name("init(deviceInfo:observer:fonts:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCPPPieModelCompanion *companion __attribute__((swift_name("companion")));
+- (float)computeScaleFactorWidth:(float)width height:(float)height __attribute__((swift_name("computeScaleFactor(width:height:)")));
+- (void)destroy __attribute__((swift_name("destroy()")));
+- (PPCPPFont * _Nullable)getFontPostscriptName:(NSString *)postscriptName __attribute__((swift_name("getFont(postscriptName:)")));
+- (id)getFonts __attribute__((swift_name("getFonts()")));
+- (NSDictionary<NSString *, PPCPPFont *> *)getFontsMap __attribute__((swift_name("getFontsMap()")));
+- (PPCPPScene * _Nullable)getSceneByIdSceneId:(NSString * _Nullable)sceneId __attribute__((swift_name("getSceneById(sceneId:)")));
+- (BOOL)hasVideoLayer __attribute__((swift_name("hasVideoLayer()")));
+- (void)hideSceneScene:(PPCPPScene *)scene __attribute__((swift_name("hideScene(scene:)")));
+- (void)doInitContextContext:(PPCPPPieContext *)context __attribute__((swift_name("doInitContext(context:)")));
+- (void)reset __attribute__((swift_name("reset()")));
+- (void)showFixedSceneScene:(PPCPPScene *)scene __attribute__((swift_name("showFixedScene(scene:)")));
+- (void)showSceneScene:(PPCPPScene *)scene top:(BOOL)top __attribute__((swift_name("showScene(scene:top:)")));
+@property (readonly) NSDictionary<NSString *, PPCPPLayerType *> *allResourceIds __attribute__((swift_name("allResourceIds")));
+@property (readonly) NSSet<NSString *> *allThumbnailIds __attribute__((swift_name("allThumbnailIds")));
+@property int32_t baseModelVersion __attribute__((swift_name("baseModelVersion")));
+@property (readonly) PPCPPDeviceInfo *deviceInfo __attribute__((swift_name("deviceInfo")));
+@property (readonly) NSMutableArray<PPCPPScene *> *fixedScenes __attribute__((swift_name("fixedScenes")));
+@property (readonly) NSDictionary<NSString *, PPCPPFont *> *fonts __attribute__((swift_name("fonts")));
+@property float height __attribute__((swift_name("height")));
+@property (readonly) PPCPPScene *initialScene __attribute__((swift_name("initialScene")));
+@property NSString * _Nullable initialSceneId __attribute__((swift_name("initialSceneId")));
+@property (readonly) BOOL isOpaque __attribute__((swift_name("isOpaque")));
+@property int32_t modelVersion __attribute__((swift_name("modelVersion")));
+@property NSString * _Nullable name __attribute__((swift_name("name")));
+@property (readonly) id<PPCPPEngineObserver> _Nullable observer __attribute__((swift_name("observer")));
+@property (readonly) BOOL requiresMicPermission __attribute__((swift_name("requiresMicPermission")));
+@property (readonly) NSMutableArray<PPCPPScene *> *scenes __attribute__((swift_name("scenes")));
+@property NSString * _Nullable selectedSceneId __attribute__((swift_name("selectedSceneId")));
+@property PPCPPScene * _Nullable statusBarScene __attribute__((swift_name("statusBarScene")));
+@property (readonly) NSSet<NSString *> *usedFontNames __attribute__((swift_name("usedFontNames")));
+@property float width __attribute__((swift_name("width")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPPieModel.Companion")))
+@interface PPCPPPieModelCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPPieModelCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) int32_t MODEL_VERSION __attribute__((swift_name("MODEL_VERSION")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPPieProxy")))
+@interface PPCPPPieProxy : PPCBase
+- (instancetype)initWithModel:(PPCPPPieModel *)model __attribute__((swift_name("init(model:)"))) __attribute__((objc_designated_initializer));
+- (PPCPPLayerProxy * _Nullable)getLayerSceneId:(NSString *)sceneId layerId:(NSString *)layerId __attribute__((swift_name("getLayer(sceneId:layerId:)")));
+- (PPCKotlinArray<NSString *> *)getLayerIdsAtSceneId:(NSString *)sceneId x:(float)x y:(float)y __attribute__((swift_name("getLayerIdsAt(sceneId:x:y:)")));
+- (PPCPPVarProxy * _Nullable)getVarSceneId:(NSString *)sceneId namespace:(NSString *)namespace_ varName:(NSString *)varName __attribute__((swift_name("getVar(sceneId:namespace:varName:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPPlayControlGestureOptions")))
+@interface PPCPPPlayControlGestureOptions : PPCBase
+- (instancetype)initWithTwoFingerDoubleTapEnabled:(BOOL)twoFingerDoubleTapEnabled threeFingerTapEnabled:(BOOL)threeFingerTapEnabled shakeEnabled:(BOOL)shakeEnabled __attribute__((swift_name("init(twoFingerDoubleTapEnabled:threeFingerTapEnabled:shakeEnabled:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) BOOL shakeEnabled __attribute__((swift_name("shakeEnabled")));
+@property (readonly) BOOL threeFingerTapEnabled __attribute__((swift_name("threeFingerTapEnabled")));
+@property (readonly) BOOL twoFingerDoubleTapEnabled __attribute__((swift_name("twoFingerDoubleTapEnabled")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPReplayProxy")))
+@interface PPCPPReplayProxy : PPCBase
+- (instancetype)initWithReplayer:(PPCReplayer *)replayer __attribute__((swift_name("init(replayer:)"))) __attribute__((objc_designated_initializer));
+- (int32_t)getEndTime __attribute__((swift_name("getEndTime()")));
+- (int32_t)getStartTime __attribute__((swift_name("getStartTime()")));
+- (BOOL)jumpTime:(int32_t)time __attribute__((swift_name("jump(time:)")));
+- (void)putData:(NSString *)data __attribute__((swift_name("put(data:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPScene")))
+@interface PPCPPScene : PPCBase
+- (NSSet<NSString *> *)consumeModifiedLayerIdsIncludeMaskedLayers:(BOOL)includeMaskedLayers __attribute__((swift_name("consumeModifiedLayerIds(includeMaskedLayers:)")));
+- (NSSet<PPCPPContainerLayer *> *)consumeReorderedParentLayers __attribute__((swift_name("consumeReorderedParentLayers()")));
+- (void)destroy __attribute__((swift_name("destroy()")));
+- (void)forEachLayerFn:(void (^)(PPCPPLayer *))fn __attribute__((swift_name("forEachLayer(fn:)")));
+- (PPCPPLayer * _Nullable)getLayerByIdId:(NSString * _Nullable)id __attribute__((swift_name("getLayerById(id:)")));
+- (BOOL)handleKeyEventKeyCode:(PPCPPKeyCode *)keyCode now:(int64_t)now __attribute__((swift_name("handleKeyEvent(keyCode:now:)")));
+- (void)handleReceivedMessageChannel:(PPCPPMsgChannel *)channel scope:(NSString * _Nullable)scope messageId:(NSString *)messageId value:(NSString * _Nullable)value now:(int64_t)now __attribute__((swift_name("handleReceivedMessage(channel:scope:messageId:value:now:)")));
+- (void)handleShakeEventNow:(int64_t)now __attribute__((swift_name("handleShakeEvent(now:)")));
+- (void)doInitContextPieContext:(PPCPPPieContext *)pieContext __attribute__((swift_name("doInitContext(pieContext:)")));
+- (BOOL)is3DRotatingLayerLayerId:(NSString *)layerId __attribute__((swift_name("is3DRotatingLayer(layerId:)")));
+- (void)prepareTransitionNow:(int64_t)now __attribute__((swift_name("prepareTransition(now:)")));
+- (void)progressNow:(int64_t)now __attribute__((swift_name("progress(now:)")));
+- (void)reset __attribute__((swift_name("reset()")));
+- (void)resetMediaState __attribute__((swift_name("resetMediaState()")));
+- (void)startNow:(int64_t)now includePreTransition:(BOOL)includePreTransition __attribute__((swift_name("start(now:includePreTransition:)")));
+@property (readonly) NSSet<PPCPPChangeTarget *> *changeTargets __attribute__((swift_name("changeTargets")));
+@property (readonly, getter=doCopy) PPCPPScene * _Nullable (^copy)(void) __attribute__((swift_name("copy")));
+@property (readonly) float height __attribute__((swift_name("height")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) BOOL isOpaque __attribute__((swift_name("isOpaque")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSSet<NSString *> *nextSceneIds __attribute__((swift_name("nextSceneIds")));
+@property (readonly) NSDictionary<NSString *, PPCPPLayerType *> *requiredMediaResourceIds __attribute__((swift_name("requiredMediaResourceIds")));
+@property (readonly) PPCPPContainerLayer * _Nullable rootLayer __attribute__((swift_name("rootLayer")));
+@property (readonly) NSString * _Nullable thumbnailId __attribute__((swift_name("thumbnailId")));
+@property (readonly) float width __attribute__((swift_name("width")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPVarProxy")))
+@interface PPCPPVarProxy : PPCBase
+- (NSString * _Nullable)getColorValue __attribute__((swift_name("getColorValue()")));
+- (PPCFloat * _Nullable)getNumberValue __attribute__((swift_name("getNumberValue()")));
+- (NSString * _Nullable)getStringValue __attribute__((swift_name("getStringValue()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSString *type __attribute__((swift_name("type")));
+@end
+
+__attribute__((swift_name("PPFloatNormalizer")))
+@protocol PPCPPFloatNormalizer
+@required
+- (float)normalizeValue:(float)value __attribute__((swift_name("normalize(value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPDegreeNormalizer")))
+@interface PPCPPDegreeNormalizer : PPCBase <PPCPPFloatNormalizer>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) PPCPPDegreeNormalizerCompanion *companion __attribute__((swift_name("companion")));
+- (float)normalizeValue:(float)value __attribute__((swift_name("normalize(value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPDegreeNormalizer.Companion")))
+@interface PPCPPDegreeNormalizerCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPDegreeNormalizerCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) PPCPPDegreeNormalizer *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPMinMaxNormalizer")))
+@interface PPCPPMinMaxNormalizer : PPCBase <PPCPPFloatNormalizer>
+- (instancetype)initWithMin:(PPCFloat * _Nullable)min max:(PPCFloat * _Nullable)max __attribute__((swift_name("init(min:max:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCPPMinMaxNormalizerCompanion *companion __attribute__((swift_name("companion")));
+- (float)normalizeValue:(float)value __attribute__((swift_name("normalize(value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPMinMaxNormalizer.Companion")))
+@interface PPCPPMinMaxNormalizerCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPMinMaxNormalizerCompanion *shared __attribute__((swift_name("shared")));
+- (PPCPPMinMaxNormalizer *)getMin:(PPCFloat * _Nullable)min max:(PPCFloat * _Nullable)max __attribute__((swift_name("get(min:max:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPExprParseError")))
+@interface PPCPPExprParseError : PPCBase
+- (instancetype)initWithPosition:(int32_t)position code:(NSString *)code args:(PPCKotlinArray<NSString *> *)args message:(NSString *)message __attribute__((swift_name("init(position:code:args:message:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCPPExprParseErrorCompanion *companion __attribute__((swift_name("companion")));
+@property (readonly) PPCKotlinArray<NSString *> *args __attribute__((swift_name("args")));
+@property (readonly) NSString *code __attribute__((swift_name("code")));
+@property (readonly) NSString *message __attribute__((swift_name("message")));
+@property (readonly) int32_t position __attribute__((swift_name("position")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPExprParseError.Companion")))
+@interface PPCPPExprParseErrorCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPExprParseErrorCompanion *shared __attribute__((swift_name("shared")));
+- (PPCPPExprParseError *)errorPosition:(int32_t)position code:(NSString *)code args:(PPCKotlinArray<NSString *> *)args __attribute__((swift_name("error(position:code:args:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPNodeType")))
+@interface PPCPPNodeType : PPCKotlinEnum<PPCPPNodeType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPNodeType *notParsed __attribute__((swift_name("notParsed")));
+@property (class, readonly) PPCPPNodeType *exprList __attribute__((swift_name("exprList")));
+@property (class, readonly) PPCPPNodeType *operator_ __attribute__((swift_name("operator_")));
+@property (class, readonly) PPCPPNodeType *identifier __attribute__((swift_name("identifier")));
+@property (class, readonly) PPCPPNodeType *number __attribute__((swift_name("number")));
+@property (class, readonly) PPCPPNodeType *string __attribute__((swift_name("string")));
+@property (class, readonly) PPCPPNodeType *color __attribute__((swift_name("color")));
+@property (class, readonly) PPCPPNodeType *variable __attribute__((swift_name("variable")));
+@property (class, readonly) PPCPPNodeType *parenthesis __attribute__((swift_name("parenthesis")));
+@property (class, readonly) PPCPPNodeType *binary __attribute__((swift_name("binary")));
+@property (class, readonly) PPCPPNodeType *unary __attribute__((swift_name("unary")));
+@property (class, readonly) PPCPPNodeType *layer __attribute__((swift_name("layer")));
+@property (class, readonly) PPCPPNodeType *property __attribute__((swift_name("property")));
+@property (class, readonly) PPCPPNodeType *function __attribute__((swift_name("function")));
++ (PPCKotlinArray<PPCPPNodeType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPNodeType *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((swift_name("PPParseNode")))
+@interface PPCPPParseNode : PPCBase
+- (instancetype)initWithEnumType:(PPCPPNodeType *)enumType position:(int32_t)position fullText:(NSString * _Nullable)fullText children:(PPCKotlinArray<PPCPPParseNode *> * _Nullable)children __attribute__((swift_name("init(enumType:position:fullText:children:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCPPParseNodeCompanion *companion __attribute__((swift_name("companion")));
+- (PPCKotlinArray<PPCPPExprParseError *> *)getErrorArray __attribute__((swift_name("getErrorArray()")));
+- (NSString *)getFullText __attribute__((swift_name("getFullText()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) PPCKotlinArray<PPCPPParseNode *> * _Nullable children __attribute__((swift_name("children")));
+@property (readonly) int32_t effectivePosition __attribute__((swift_name("effectivePosition")));
+@property (readonly) int32_t endPosition __attribute__((swift_name("endPosition")));
+@property (readonly) NSMutableArray<PPCPPExprParseError *> *errors __attribute__((swift_name("errors")));
+@property (readonly) NSString *nodeType __attribute__((swift_name("nodeType")));
+@property (readonly) int32_t position __attribute__((swift_name("position")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPNotParsedString")))
+@interface PPCPPNotParsedString : PPCPPParseNode
+- (instancetype)initWithPosition:(int32_t)position fullText:(NSString *)fullText __attribute__((swift_name("init(position:fullText:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithEnumType:(PPCPPNodeType *)enumType position:(int32_t)position fullText:(NSString * _Nullable)fullText children:(PPCKotlinArray<PPCPPParseNode *> * _Nullable)children __attribute__((swift_name("init(enumType:position:fullText:children:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPParseNode.Companion")))
+@interface PPCPPParseNodeCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPParseNodeCompanion *shared __attribute__((swift_name("shared")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1005,715 +2545,87 @@ __attribute__((swift_name("ReplayerDelegate")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("BinarySearch")))
-@interface PPCBinarySearch : PPCBase
+__attribute__((swift_name("Profile")))
+@interface PPCProfile : PPCBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)binarySearch __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCBinarySearch *shared __attribute__((swift_name("shared")));
-- (PPCInt * _Nullable)maxLessThanList:(NSArray<id> *)list value:(id)value __attribute__((swift_name("maxLessThan(list:value:)")));
-- (PPCInt * _Nullable)minGreaterThanList:(NSArray<id> *)list value:(id)value __attribute__((swift_name("minGreaterThan(list:value:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DateTime")))
-@interface PPCDateTime : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)dateTime __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCDateTime *shared __attribute__((swift_name("shared")));
-- (NSString *)dateYear:(int32_t)year month:(int32_t)month day:(int32_t)day __attribute__((swift_name("date(year:month:day:)")));
-- (NSString *)dateNow __attribute__((swift_name("dateNow()")));
-- (NSString *)dateTimeYear:(int32_t)year month:(int32_t)month day:(int32_t)day hour:(int32_t)hour minute:(int32_t)minute second:(int32_t)second __attribute__((swift_name("dateTime(year:month:day:hour:minute:second:)")));
-- (int32_t)dayLocalDate:(NSString *)localDate __attribute__((swift_name("day(localDate:)")));
-- (int32_t)diffDateTo:(NSString *)to from:(NSString *)from option:(NSString *)option __attribute__((swift_name("diffDate(to:from:option:)")));
-- (int32_t)diffTimeTo:(NSString *)to from:(NSString *)from option:(NSString *)option __attribute__((swift_name("diffTime(to:from:option:)")));
-- (NSString *)epochtodateTimestamp:(int64_t)timestamp format:(NSString * _Nullable)format __attribute__((swift_name("epochtodate(timestamp:format:)")));
-- (NSString *)formatDateLocalDate:(NSString *)localDate format:(NSString *)format __attribute__((swift_name("formatDate(localDate:format:)")));
-- (NSString *)formatTimeLocalTime:(NSString *)localTime format:(NSString *)format __attribute__((swift_name("formatTime(localTime:format:)")));
-- (NSString *)getFormattedDateTimestamp:(NSString *)timestamp format:(NSString *)format __attribute__((swift_name("getFormattedDate(timestamp:format:)")));
-- (int32_t)hourLocalTime:(NSString *)localTime __attribute__((swift_name("hour(localTime:)")));
-- (int32_t)minuteLocalTime:(NSString *)localTime __attribute__((swift_name("minute(localTime:)")));
-- (int32_t)monthLocalDate:(NSString *)localDate __attribute__((swift_name("month(localDate:)")));
-- (NSString *)nowTz:(NSString * _Nullable)tz __attribute__((swift_name("now(tz:)")));
-- (int32_t)secondLocalTime:(NSString *)localTime __attribute__((swift_name("second(localTime:)")));
-- (NSString *)timeHour:(int32_t)hour minute:(int32_t)minute second:(int32_t)second __attribute__((swift_name("time(hour:minute:second:)")));
-- (NSString *)timeNow __attribute__((swift_name("timeNow()")));
-- (NSString *)timezoneArg:(NSString *)arg __attribute__((swift_name("timezone(arg:)")));
-- (int32_t)yearLocalDate:(NSString *)localDate __attribute__((swift_name("year(localDate:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DateTime.DateTimeFormatter")))
-@interface PPCDateTimeDateTimeFormatter : PPCBase
-- (instancetype)initWithTimestamp:(NSString *)timestamp __attribute__((swift_name("init(timestamp:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)formatFormat:(NSString *)format __attribute__((swift_name("format(format:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("FormulaUtils")))
-@interface PPCFormulaUtils : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)formulaUtils __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCFormulaUtils *shared __attribute__((swift_name("shared")));
-- (int64_t)evalAsTimeFormula:(PPCPPExpr *)formula defaultValue:(int64_t)defaultValue __attribute__((swift_name("evalAsTime(formula:defaultValue:)")));
-- (PPCPPExpr *)numberConstantValue:(float)value __attribute__((swift_name("numberConstant(value:)")));
-@property (readonly) PPCPPNumberConstantExpr *ZERO __attribute__((swift_name("ZERO")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Logger")))
-@interface PPCLogger : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)logger __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCLogger *shared __attribute__((swift_name("shared")));
-- (void)aMessage:(NSString *)message throwable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag __attribute__((swift_name("a(message:throwable:tag:)")));
-- (void)aThrowable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag message:(NSString *(^)(void))message __attribute__((swift_name("a(throwable:tag:message:)")));
-- (void)dMessage:(NSString *)message throwable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag __attribute__((swift_name("d(message:throwable:tag:)")));
-- (void)dThrowable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag message:(NSString *(^)(void))message __attribute__((swift_name("d(throwable:tag:message:)")));
-- (void)eMessage:(NSString *)message throwable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag __attribute__((swift_name("e(message:throwable:tag:)")));
-- (void)eThrowable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag message:(NSString *(^)(void))message __attribute__((swift_name("e(throwable:tag:message:)")));
-- (void)iMessage:(NSString *)message throwable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag __attribute__((swift_name("i(message:throwable:tag:)")));
-- (void)iThrowable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag message:(NSString *(^)(void))message __attribute__((swift_name("i(throwable:tag:message:)")));
-- (void)logPriority:(PPCLogLevel *)priority tag:(NSString * _Nullable)tag throwable:(PPCKotlinThrowable * _Nullable)throwable message:(NSString *)message __attribute__((swift_name("log(priority:tag:throwable:message:)")));
-- (void)setLogLevelLogLevel:(int32_t)logLevel __attribute__((swift_name("setLogLevel(logLevel:)")));
-- (void)vMessage:(NSString *)message throwable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag __attribute__((swift_name("v(message:throwable:tag:)")));
-- (void)vThrowable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag message:(NSString *(^)(void))message __attribute__((swift_name("v(throwable:tag:message:)")));
-- (void)wMessage:(NSString *)message throwable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag __attribute__((swift_name("w(message:throwable:tag:)")));
-- (void)wThrowable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag message:(NSString *(^)(void))message __attribute__((swift_name("w(throwable:tag:message:)")));
-@property (readonly) PPCPlatform *platform __attribute__((swift_name("platform")));
-@end
-
-__attribute__((swift_name("PPJson")))
-@protocol PPCPPJson
-@required
-- (BOOL)hasKey:(NSString *)key __attribute__((swift_name("has(key:)")));
-- (NSSet<NSString *> *)keySet __attribute__((swift_name("keySet()")));
-- (id _Nullable)optKey:(NSString *)key __attribute__((swift_name("opt(key:)")));
-- (id<PPCPPJson> _Nullable)optObjectKey:(NSString *)key __attribute__((swift_name("optObject(key:)")));
-- (NSArray<id<PPCPPJson>> * _Nullable)optObjectArrayKey:(NSString *)key __attribute__((swift_name("optObjectArray(key:)")));
-- (NSString * _Nullable)optStringKey:(NSString *)key __attribute__((swift_name("optString(key:)")));
-- (NSArray<NSString *> * _Nullable)optStringArrayKey:(NSString *)key __attribute__((swift_name("optStringArray(key:)")));
-- (void)putBooleanKey:(NSString *)key value:(BOOL)value __attribute__((swift_name("putBoolean(key:value:)")));
-- (void)putNumberKey:(NSString *)key value:(id)value __attribute__((swift_name("putNumber(key:value:)")));
-- (void)putObjectArrayKey:(NSString *)key value:(NSArray<id<PPCPPJson>> *)value __attribute__((swift_name("putObjectArray(key:value:)")));
-- (void)putStringKey:(NSString *)key value:(NSString *)value __attribute__((swift_name("putString(key:value:)")));
-- (void)removeKey:(NSString *)key __attribute__((swift_name("remove(key:)")));
-- (NSString *)toJsonString __attribute__((swift_name("toJsonString()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPJsonImpl")))
-@interface PPCPPJsonImpl : PPCBase <PPCPPJson>
-- (instancetype)initWithJson:(PPCKotlinx_serialization_jsonJsonElement *)json __attribute__((swift_name("init(json:)"))) __attribute__((objc_designated_initializer));
-- (BOOL)hasKey:(NSString *)key __attribute__((swift_name("has(key:)")));
-- (NSSet<NSString *> *)keySet __attribute__((swift_name("keySet()")));
-- (id _Nullable)optKey:(NSString *)key __attribute__((swift_name("opt(key:)")));
-- (id<PPCPPJson> _Nullable)optObjectKey:(NSString *)key __attribute__((swift_name("optObject(key:)")));
-- (NSArray<id<PPCPPJson>> * _Nullable)optObjectArrayKey:(NSString *)key __attribute__((swift_name("optObjectArray(key:)")));
-- (NSString * _Nullable)optStringKey:(NSString *)key __attribute__((swift_name("optString(key:)")));
-- (NSArray<NSString *> * _Nullable)optStringArrayKey:(NSString *)key __attribute__((swift_name("optStringArray(key:)")));
-- (void)putBooleanKey:(NSString *)key value:(BOOL)value __attribute__((swift_name("putBoolean(key:value:)")));
-- (void)putNumberKey:(NSString *)key value:(id)value __attribute__((swift_name("putNumber(key:value:)")));
-- (void)putObjectArrayKey:(NSString *)key value:(NSArray<id<PPCPPJson>> *)value __attribute__((swift_name("putObjectArray(key:value:)")));
-- (void)putStringKey:(NSString *)key value:(NSString *)value __attribute__((swift_name("putString(key:value:)")));
-- (void)removeKey:(NSString *)key __attribute__((swift_name("remove(key:)")));
-- (NSString *)toJsonString __attribute__((swift_name("toJsonString()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) PPCKotlinx_serialization_jsonJsonElement *json __attribute__((swift_name("json")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPKotlinGC")))
-@interface PPCPPKotlinGC : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)pPKotlinGC __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCPPKotlinGC *shared __attribute__((swift_name("shared")));
-- (void)collect __attribute__((swift_name("collect()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ReorderUtils")))
-@interface PPCReorderUtils : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)reorderUtils __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCReorderUtils *shared __attribute__((swift_name("shared")));
-- (int32_t)indexForInsertionAfterRemoveFromIndex:(int32_t)fromIndex toIndex:(int32_t)toIndex __attribute__((swift_name("indexForInsertionAfterRemove(fromIndex:toIndex:)")));
-- (PPCKotlinPair<PPCInt *, PPCInt *> *)reverseFromIndex:(int32_t)fromIndex toIndex:(int32_t)toIndex __attribute__((swift_name("reverse(fromIndex:toIndex:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPAndroidVibrateType")))
-@interface PPCPPAndroidVibrateType : PPCKotlinEnum<PPCPPAndroidVibrateType *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPAndroidVibrateType *normal __attribute__((swift_name("normal")));
-@property (class, readonly) PPCPPAndroidVibrateType *keyboardPress __attribute__((swift_name("keyboardPress")));
-@property (class, readonly) PPCPPAndroidVibrateType *keyboardTap __attribute__((swift_name("keyboardTap")));
-@property (class, readonly) PPCPPAndroidVibrateType *longPress __attribute__((swift_name("longPress")));
-@property (class, readonly) PPCPPAndroidVibrateType *virtualKey __attribute__((swift_name("virtualKey")));
-@property (class, readonly) PPCPPAndroidVibrateType *none __attribute__((swift_name("none")));
-+ (PPCKotlinArray<PPCPPAndroidVibrateType *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPAxis3D")))
-@interface PPCPPAxis3D : PPCKotlinEnum<PPCPPAxis3D *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPAxis3D *x __attribute__((swift_name("x")));
-@property (class, readonly) PPCPPAxis3D *y __attribute__((swift_name("y")));
-@property (class, readonly) PPCPPAxis3D *z __attribute__((swift_name("z")));
-+ (PPCKotlinArray<PPCPPAxis3D *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPBlurEffectStyle")))
-@interface PPCPPBlurEffectStyle : PPCKotlinEnum<PPCPPBlurEffectStyle *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPBlurEffectStyle *none __attribute__((swift_name("none")));
-@property (class, readonly) PPCPPBlurEffectStyle *light __attribute__((swift_name("light")));
-@property (class, readonly) PPCPPBlurEffectStyle *dark __attribute__((swift_name("dark")));
-@property (class, readonly) PPCPPBlurEffectStyle *extraLight __attribute__((swift_name("extraLight")));
-@property (class, readonly) PPCPPBlurEffectStyle *materialLight __attribute__((swift_name("materialLight")));
-@property (class, readonly) PPCPPBlurEffectStyle *thinMaterialLight __attribute__((swift_name("thinMaterialLight")));
-@property (class, readonly) PPCPPBlurEffectStyle *ultrathinMaterialLight __attribute__((swift_name("ultrathinMaterialLight")));
-@property (class, readonly) PPCPPBlurEffectStyle *thickMaterialLight __attribute__((swift_name("thickMaterialLight")));
-@property (class, readonly) PPCPPBlurEffectStyle *chromeMaterialLight __attribute__((swift_name("chromeMaterialLight")));
-@property (class, readonly) PPCPPBlurEffectStyle *materialDark __attribute__((swift_name("materialDark")));
-@property (class, readonly) PPCPPBlurEffectStyle *thinMaterialDark __attribute__((swift_name("thinMaterialDark")));
-@property (class, readonly) PPCPPBlurEffectStyle *ultrathinMaterialDark __attribute__((swift_name("ultrathinMaterialDark")));
-@property (class, readonly) PPCPPBlurEffectStyle *thickMaterialDark __attribute__((swift_name("thickMaterialDark")));
-@property (class, readonly) PPCPPBlurEffectStyle *chromeMaterialDark __attribute__((swift_name("chromeMaterialDark")));
-+ (PPCKotlinArray<PPCPPBlurEffectStyle *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPBorderPosition")))
-@interface PPCPPBorderPosition : PPCKotlinEnum<PPCPPBorderPosition *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPBorderPosition *inside __attribute__((swift_name("inside")));
-@property (class, readonly) PPCPPBorderPosition *center __attribute__((swift_name("center")));
-@property (class, readonly) PPCPPBorderPosition *outside __attribute__((swift_name("outside")));
-+ (PPCKotlinArray<PPCPPBorderPosition *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPCameraPosition")))
-@interface PPCPPCameraPosition : PPCKotlinEnum<PPCPPCameraPosition *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPCameraPosition *back __attribute__((swift_name("back")));
-@property (class, readonly) PPCPPCameraPosition *front __attribute__((swift_name("front")));
-+ (PPCKotlinArray<PPCPPCameraPosition *> *)values __attribute__((swift_name("values()")));
-- (PPCPPCameraPosition *)toggle __attribute__((swift_name("toggle()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPDeviceFrameType")))
-@interface PPCPPDeviceFrameType : PPCKotlinEnum<PPCPPDeviceFrameType *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPDeviceFrameType *none __attribute__((swift_name("none")));
-@property (class, readonly) PPCPPDeviceFrameType *iphoneX __attribute__((swift_name("iphoneX")));
-@property (class, readonly) PPCPPDeviceFrameType *iphoneXr __attribute__((swift_name("iphoneXr")));
-@property (class, readonly) PPCPPDeviceFrameType *iphoneXsMax __attribute__((swift_name("iphoneXsMax")));
-@property (class, readonly) PPCPPDeviceFrameType *iphone11 __attribute__((swift_name("iphone11")));
-@property (class, readonly) PPCPPDeviceFrameType *iphone11Pro __attribute__((swift_name("iphone11Pro")));
-@property (class, readonly) PPCPPDeviceFrameType *iphone11ProMax __attribute__((swift_name("iphone11ProMax")));
-@property (class, readonly) PPCPPDeviceFrameType *iphone12Mini __attribute__((swift_name("iphone12Mini")));
-@property (class, readonly) PPCPPDeviceFrameType *iphone12Pro __attribute__((swift_name("iphone12Pro")));
-@property (class, readonly) PPCPPDeviceFrameType *iphone12ProMax __attribute__((swift_name("iphone12ProMax")));
-@property (class, readonly) PPCPPDeviceFrameType *galaxyS8 __attribute__((swift_name("galaxyS8")));
-@property (class, readonly) PPCPPDeviceFrameType *galaxyS10 __attribute__((swift_name("galaxyS10")));
-@property (class, readonly) PPCPPDeviceFrameType *galaxyS10Plus __attribute__((swift_name("galaxyS10Plus")));
-@property (class, readonly) PPCPPDeviceFrameType *galaxyS20 __attribute__((swift_name("galaxyS20")));
-@property (class, readonly) PPCPPDeviceFrameType *googlePixel3 __attribute__((swift_name("googlePixel3")));
-@property (class, readonly) PPCPPDeviceFrameType *googlePixel4 __attribute__((swift_name("googlePixel4")));
-@property (class, readonly) PPCPPDeviceFrameType *googlePixel4Xl __attribute__((swift_name("googlePixel4Xl")));
-@property (class, readonly) PPCPPDeviceFrameType *googlePixel5 __attribute__((swift_name("googlePixel5")));
-+ (PPCKotlinArray<PPCPPDeviceFrameType *> *)values __attribute__((swift_name("values()")));
-- (BOOL)matchesWithDevice:(PPCPPDeviceInfo *)device __attribute__((swift_name("matchesWith(device:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPFillScaleMode")))
-@interface PPCPPFillScaleMode : PPCKotlinEnum<PPCPPFillScaleMode *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPFillScaleMode *fill __attribute__((swift_name("fill")));
-@property (class, readonly) PPCPPFillScaleMode *fit __attribute__((swift_name("fit")));
-@property (class, readonly) PPCPPFillScaleMode *stretch __attribute__((swift_name("stretch")));
-+ (PPCKotlinArray<PPCPPFillScaleMode *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPFillType")))
-@interface PPCPPFillType : PPCKotlinEnum<PPCPPFillType *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPFillType *solid __attribute__((swift_name("solid")));
-@property (class, readonly) PPCPPFillType *image __attribute__((swift_name("image")));
-@property (class, readonly) PPCPPFillType *gradient __attribute__((swift_name("gradient")));
-+ (PPCKotlinArray<PPCPPFillType *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPHorizontalAlign")))
-@interface PPCPPHorizontalAlign : PPCKotlinEnum<PPCPPHorizontalAlign *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPHorizontalAlign *left __attribute__((swift_name("left")));
-@property (class, readonly) PPCPPHorizontalAlign *center __attribute__((swift_name("center")));
-@property (class, readonly) PPCPPHorizontalAlign *right __attribute__((swift_name("right")));
-+ (PPCKotlinArray<PPCPPHorizontalAlign *> *)values __attribute__((swift_name("values()")));
-@property (readonly) float autoResizeMovementFactor __attribute__((swift_name("autoResizeMovementFactor")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPIosVibrateType")))
-@interface PPCPPIosVibrateType : PPCKotlinEnum<PPCPPIosVibrateType *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPIosVibrateType *normal __attribute__((swift_name("normal")));
-@property (class, readonly) PPCPPIosVibrateType *selectionChanged __attribute__((swift_name("selectionChanged")));
-@property (class, readonly) PPCPPIosVibrateType *notificationSuccess __attribute__((swift_name("notificationSuccess")));
-@property (class, readonly) PPCPPIosVibrateType *notificationWarning __attribute__((swift_name("notificationWarning")));
-@property (class, readonly) PPCPPIosVibrateType *notificationError __attribute__((swift_name("notificationError")));
-@property (class, readonly) PPCPPIosVibrateType *impactHeavy __attribute__((swift_name("impactHeavy")));
-@property (class, readonly) PPCPPIosVibrateType *impactMedium __attribute__((swift_name("impactMedium")));
-@property (class, readonly) PPCPPIosVibrateType *impactLight __attribute__((swift_name("impactLight")));
-@property (class, readonly) PPCPPIosVibrateType *impactRigid __attribute__((swift_name("impactRigid")));
-@property (class, readonly) PPCPPIosVibrateType *impactSoft __attribute__((swift_name("impactSoft")));
-@property (class, readonly) PPCPPIosVibrateType *none __attribute__((swift_name("none")));
-+ (PPCKotlinArray<PPCPPIosVibrateType *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPLineCap")))
-@interface PPCPPLineCap : PPCKotlinEnum<PPCPPLineCap *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPLineCap *butt __attribute__((swift_name("butt")));
-@property (class, readonly) PPCPPLineCap *round __attribute__((swift_name("round")));
-@property (class, readonly) PPCPPLineCap *square __attribute__((swift_name("square")));
-+ (PPCKotlinArray<PPCPPLineCap *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPLineJoin")))
-@interface PPCPPLineJoin : PPCKotlinEnum<PPCPPLineJoin *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPLineJoin *miter __attribute__((swift_name("miter")));
-@property (class, readonly) PPCPPLineJoin *round __attribute__((swift_name("round")));
-@property (class, readonly) PPCPPLineJoin *bevel __attribute__((swift_name("bevel")));
-+ (PPCKotlinArray<PPCPPLineJoin *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPMsgChannel")))
-@interface PPCPPMsgChannel : PPCKotlinEnum<PPCPPMsgChannel *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPMsgChannel *androidBroadcast __attribute__((swift_name("androidBroadcast")));
-@property (class, readonly) PPCPPMsgChannel *studio __attribute__((swift_name("studio")));
-@property (class, readonly) PPCPPMsgChannel *scene __attribute__((swift_name("scene")));
-@property (class, readonly) PPCPPMsgChannel *current __attribute__((swift_name("current")));
-@property (class, readonly) PPCPPMsgChannel *outside __attribute__((swift_name("outside")));
-@property (class, readonly) PPCPPMsgChannel *component __attribute__((swift_name("component")));
-+ (PPCKotlinArray<PPCPPMsgChannel *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPOrientation")))
-@interface PPCPPOrientation : PPCKotlinEnum<PPCPPOrientation *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPOrientation *portrait __attribute__((swift_name("portrait")));
-@property (class, readonly) PPCPPOrientation *landscape __attribute__((swift_name("landscape")));
-+ (PPCKotlinArray<PPCPPOrientation *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPPathSegmentType")))
-@interface PPCPPPathSegmentType : PPCKotlinEnum<PPCPPPathSegmentType *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPPathSegmentType *moveto __attribute__((swift_name("moveto")));
-@property (class, readonly) PPCPPPathSegmentType *lineto __attribute__((swift_name("lineto")));
-@property (class, readonly) PPCPPPathSegmentType *curveto __attribute__((swift_name("curveto")));
-@property (class, readonly) PPCPPPathSegmentType *quadraticcurve __attribute__((swift_name("quadraticcurve")));
-@property (class, readonly) PPCPPPathSegmentType *arccurve __attribute__((swift_name("arccurve")));
-@property (class, readonly) PPCPPPathSegmentType *zclose __attribute__((swift_name("zclose")));
-@property (class, readonly) PPCPPPathSegmentType *hlineto __attribute__((swift_name("hlineto")));
-@property (class, readonly) PPCPPPathSegmentType *vlineto __attribute__((swift_name("vlineto")));
-@property (class, readonly) PPCPPPathSegmentType *smoothcurve __attribute__((swift_name("smoothcurve")));
-@property (class, readonly) PPCPPPathSegmentType *tquadraticcurve __attribute__((swift_name("tquadraticcurve")));
-@property (class, readonly) PPCPPPathSegmentType *rmoveto __attribute__((swift_name("rmoveto")));
-@property (class, readonly) PPCPPPathSegmentType *rlineto __attribute__((swift_name("rlineto")));
-@property (class, readonly) PPCPPPathSegmentType *rcurveto __attribute__((swift_name("rcurveto")));
-@property (class, readonly) PPCPPPathSegmentType *rquadraticcurve __attribute__((swift_name("rquadraticcurve")));
-@property (class, readonly) PPCPPPathSegmentType *rarccurve __attribute__((swift_name("rarccurve")));
-@property (class, readonly) PPCPPPathSegmentType *rhlineto __attribute__((swift_name("rhlineto")));
-@property (class, readonly) PPCPPPathSegmentType *rvlineto __attribute__((swift_name("rvlineto")));
-@property (class, readonly) PPCPPPathSegmentType *rsmoothcurve __attribute__((swift_name("rsmoothcurve")));
-@property (class, readonly) PPCPPPathSegmentType *rtquadraticcurve __attribute__((swift_name("rtquadraticcurve")));
-+ (PPCKotlinArray<PPCPPPathSegmentType *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPPlatformType")))
-@interface PPCPPPlatformType : PPCKotlinEnum<PPCPPPlatformType *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPPlatformType *ios __attribute__((swift_name("ios")));
-@property (class, readonly) PPCPPPlatformType *android __attribute__((swift_name("android")));
-@property (class, readonly) PPCPPPlatformType *desktop __attribute__((swift_name("desktop")));
-+ (PPCKotlinArray<PPCPPPlatformType *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPResetTargetType")))
-@interface PPCPPResetTargetType : PPCKotlinEnum<PPCPPResetTargetType *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPResetTargetType *scene __attribute__((swift_name("scene")));
-@property (class, readonly) PPCPPResetTargetType *layer __attribute__((swift_name("layer")));
-@property (class, readonly) PPCPPResetTargetType *variable __attribute__((swift_name("variable")));
-+ (PPCKotlinArray<PPCPPResetTargetType *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPSizeProp")))
-@interface PPCPPSizeProp : PPCKotlinEnum<PPCPPSizeProp *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPSizeProp *width __attribute__((swift_name("width")));
-@property (class, readonly) PPCPPSizeProp *height __attribute__((swift_name("height")));
-+ (PPCKotlinArray<PPCPPSizeProp *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPSpeechGender")))
-@interface PPCPPSpeechGender : PPCKotlinEnum<PPCPPSpeechGender *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPSpeechGender *male __attribute__((swift_name("male")));
-@property (class, readonly) PPCPPSpeechGender *female __attribute__((swift_name("female")));
-+ (PPCKotlinArray<PPCPPSpeechGender *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPTextLayerSizeMode")))
-@interface PPCPPTextLayerSizeMode : PPCKotlinEnum<PPCPPTextLayerSizeMode *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPTextLayerSizeMode *autoWidth __attribute__((swift_name("autoWidth")));
-@property (class, readonly) PPCPPTextLayerSizeMode *autoHeight __attribute__((swift_name("autoHeight")));
-@property (class, readonly) PPCPPTextLayerSizeMode *autoWidthHeight __attribute__((swift_name("autoWidthHeight")));
-@property (class, readonly) PPCPPTextLayerSizeMode *fixedSize __attribute__((swift_name("fixedSize")));
-+ (PPCKotlinArray<PPCPPTextLayerSizeMode *> *)values __attribute__((swift_name("values()")));
-- (BOOL)canAutoChangeHeight __attribute__((swift_name("canAutoChangeHeight()")));
-- (BOOL)canAutoChangeWidth __attribute__((swift_name("canAutoChangeWidth()")));
-- (BOOL)shouldAutoResize __attribute__((swift_name("shouldAutoResize()")));
-- (BOOL)shouldWrap __attribute__((swift_name("shouldWrap()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPVectorShapeType")))
-@interface PPCPPVectorShapeType : PPCKotlinEnum<PPCPPVectorShapeType *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPVectorShapeType *rect __attribute__((swift_name("rect")));
-@property (class, readonly) PPCPPVectorShapeType *ellipse __attribute__((swift_name("ellipse")));
-@property (class, readonly) PPCPPVectorShapeType *line __attribute__((swift_name("line")));
-@property (class, readonly) PPCPPVectorShapeType *path __attribute__((swift_name("path")));
-@property (class, readonly) PPCPPVectorShapeType *polygon __attribute__((swift_name("polygon")));
-@property (class, readonly) PPCPPVectorShapeType *polyline __attribute__((swift_name("polyline")));
-+ (PPCKotlinArray<PPCPPVectorShapeType *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPVerticalAlign")))
-@interface PPCPPVerticalAlign : PPCKotlinEnum<PPCPPVerticalAlign *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPVerticalAlign *top __attribute__((swift_name("top")));
-@property (class, readonly) PPCPPVerticalAlign *middle __attribute__((swift_name("middle")));
-@property (class, readonly) PPCPPVerticalAlign *bottom __attribute__((swift_name("bottom")));
-+ (PPCKotlinArray<PPCPPVerticalAlign *> *)values __attribute__((swift_name("values()")));
-@property (readonly) float autoResizeMovementFactor __attribute__((swift_name("autoResizeMovementFactor")));
-@end
-
-__attribute__((swift_name("PPFloatNormalizer")))
-@protocol PPCPPFloatNormalizer
-@required
-- (float)normalizeValue:(float)value __attribute__((swift_name("normalize(value:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPDegreeNormalizer")))
-@interface PPCPPDegreeNormalizer : PPCBase <PPCPPFloatNormalizer>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (class, readonly, getter=companion) PPCPPDegreeNormalizerCompanion *companion __attribute__((swift_name("companion")));
-- (float)normalizeValue:(float)value __attribute__((swift_name("normalize(value:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPDegreeNormalizer.Companion")))
-@interface PPCPPDegreeNormalizerCompanion : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCPPDegreeNormalizerCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) PPCPPDegreeNormalizer *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPMinMaxNormalizer")))
-@interface PPCPPMinMaxNormalizer : PPCBase <PPCPPFloatNormalizer>
-- (instancetype)initWithMin:(PPCFloat * _Nullable)min max:(PPCFloat * _Nullable)max __attribute__((swift_name("init(min:max:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) PPCPPMinMaxNormalizerCompanion *companion __attribute__((swift_name("companion")));
-- (float)normalizeValue:(float)value __attribute__((swift_name("normalize(value:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPMinMaxNormalizer.Companion")))
-@interface PPCPPMinMaxNormalizerCompanion : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCPPMinMaxNormalizerCompanion *shared __attribute__((swift_name("shared")));
-- (PPCPPMinMaxNormalizer *)getMin:(PPCFloat * _Nullable)min max:(PPCFloat * _Nullable)max __attribute__((swift_name("get(min:max:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPColor")))
-@interface PPCPPColor : PPCBase
-- (instancetype)initWithRed:(int32_t)red green:(int32_t)green blue:(int32_t)blue __attribute__((swift_name("init(red:green:blue:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) PPCPPColorCompanion *companion __attribute__((swift_name("companion")));
-- (PPCPPColor *)doCopyRed:(int32_t)red green:(int32_t)green blue:(int32_t)blue __attribute__((swift_name("doCopy(red:green:blue:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)toColorString __attribute__((swift_name("toColorString()")));
-- (int32_t)toInt __attribute__((swift_name("toInt()")));
-- (int32_t)toIntOpacity:(float)opacity __attribute__((swift_name("toInt(opacity:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t blue __attribute__((swift_name("blue")));
-@property (readonly) int32_t green __attribute__((swift_name("green")));
-@property (readonly) int32_t red __attribute__((swift_name("red")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPColor.Companion")))
-@interface PPCPPColorCompanion : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCPPColorCompanion *shared __attribute__((swift_name("shared")));
-- (PPCPPColor *)fromIntIntVal:(int32_t)intVal __attribute__((swift_name("fromInt(intVal:)")));
-- (NSString *)toHexRed:(int32_t)red green:(int32_t)green blue:(int32_t)blue __attribute__((swift_name("toHex(red:green:blue:)")));
-@property (readonly) PPCPPColor *BLACK __attribute__((swift_name("BLACK")));
-@property (readonly) PPCPPColor *BLUE __attribute__((swift_name("BLUE")));
-@property (readonly) PPCPPColor *CYAN __attribute__((swift_name("CYAN")));
-@property (readonly) PPCPPColor *LIME __attribute__((swift_name("LIME")));
-@property (readonly) PPCPPColor *MAGENTA __attribute__((swift_name("MAGENTA")));
-@property (readonly) PPCPPColor *RED __attribute__((swift_name("RED")));
-@property (readonly) PPCPPColor *WHITE __attribute__((swift_name("WHITE")));
-@property (readonly) PPCPPColor *YELLOW __attribute__((swift_name("YELLOW")));
-@end
-
-__attribute__((swift_name("PPCorners")))
-@interface PPCPPCorners<T> : PPCBase
-- (instancetype)initWithTopLeft:(T _Nullable)topLeft topRight:(T _Nullable)topRight bottomRight:(T _Nullable)bottomRight bottomLeft:(T _Nullable)bottomLeft __attribute__((swift_name("init(topLeft:topRight:bottomRight:bottomLeft:)"))) __attribute__((objc_designated_initializer));
-- (BOOL)anyPredicate:(PPCBoolean *(^)(T _Nullable))predicate __attribute__((swift_name("any(predicate:)")));
-- (void)setTopLeft:(T _Nullable)topLeft topRight:(T _Nullable)topRight bottomRight:(T _Nullable)bottomRight bottomLeft:(T _Nullable)bottomLeft __attribute__((swift_name("set(topLeft:topRight:bottomRight:bottomLeft:)")));
-- (void)setSrc:(PPCPPCorners<id> *)src valueConverter:(T _Nullable (^)(id _Nullable))valueConverter __attribute__((swift_name("set(src:valueConverter:)")));
-@property T _Nullable bottomLeft __attribute__((swift_name("bottomLeft")));
-@property T _Nullable bottomRight __attribute__((swift_name("bottomRight")));
-@property T _Nullable topLeft __attribute__((swift_name("topLeft")));
-@property T _Nullable topRight __attribute__((swift_name("topRight")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPDeviceInfo")))
-@interface PPCPPDeviceInfo : PPCBase
-- (instancetype)initWithId:(NSString * _Nullable)id name:(NSString * _Nullable)name density:(float)density width:(float)width height:(float)height platformType:(PPCPPPlatformType *)platformType orientation:(PPCPPOrientation *)orientation __attribute__((swift_name("init(id:name:density:width:height:platformType:orientation:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) PPCPPDeviceInfoCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) float density __attribute__((swift_name("density")));
-@property (readonly) PPCPPDeviceFrameType *frameType __attribute__((swift_name("frameType")));
-@property (readonly) float height __attribute__((swift_name("height")));
-@property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
-@property (readonly) BOOL isPortrait __attribute__((swift_name("isPortrait")));
-@property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
-@property (readonly) PPCPPOrientation *orientation __attribute__((swift_name("orientation")));
-@property (readonly) PPCPPPlatformType *platformType __attribute__((swift_name("platformType")));
-@property (readonly) float width __attribute__((swift_name("width")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPDeviceInfo.Companion")))
-@interface PPCPPDeviceInfoCompanion : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCPPDeviceInfoCompanion *shared __attribute__((swift_name("shared")));
-- (PPCPPPlatformType *)inferPlatformTypeFromDeviceIdId:(NSString * _Nullable)id __attribute__((swift_name("inferPlatformTypeFromDeviceId(id:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPFloatCorners")))
-@interface PPCPPFloatCorners : PPCPPCorners<PPCFloat *>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithTopLeft:(id _Nullable)topLeft topRight:(id _Nullable)topRight bottomRight:(id _Nullable)bottomRight bottomLeft:(id _Nullable)bottomLeft __attribute__((swift_name("init(topLeft:topRight:bottomRight:bottomLeft:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (BOOL)allEqualOther:(PPCPPFloatCorners *)other __attribute__((swift_name("allEqual(other:)")));
-- (PPCKotlinFloatArray *)getCorners __attribute__((swift_name("getCorners()")));
-@end
-
-__attribute__((swift_name("PPGradient")))
-@interface PPCPPGradient : PPCBase
-- (instancetype)initWithOffsets:(NSArray<PPCPPGradientOffset *> *)offsets __attribute__((swift_name("init(offsets:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) NSArray<PPCPPGradientOffset *> *offsets __attribute__((swift_name("offsets")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPGradientLinear")))
-@interface PPCPPGradientLinear : PPCPPGradient
-- (instancetype)initWithOffsets:(NSArray<PPCPPGradientOffset *> *)offsets x1:(float)x1 y1:(float)y1 x2:(float)x2 y2:(float)y2 __attribute__((swift_name("init(offsets:x1:y1:x2:y2:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithOffsets:(NSArray<PPCPPGradientOffset *> *)offsets __attribute__((swift_name("init(offsets:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (PPCPPGradientLinear *)doCopyOffsets:(NSArray<PPCPPGradientOffset *> *)offsets x1:(float)x1 y1:(float)y1 x2:(float)x2 y2:(float)y2 __attribute__((swift_name("doCopy(offsets:x1:y1:x2:y2:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSArray<PPCPPGradientOffset *> *offsets __attribute__((swift_name("offsets")));
-@property (readonly) float x1 __attribute__((swift_name("x1")));
-@property (readonly) float x2 __attribute__((swift_name("x2")));
-@property (readonly) float y1 __attribute__((swift_name("y1")));
-@property (readonly) float y2 __attribute__((swift_name("y2")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPGradientOffset")))
-@interface PPCPPGradientOffset : PPCBase
-- (instancetype)initWithColor:(PPCPPColor *)color offset:(float)offset opacity:(float)opacity __attribute__((swift_name("init(color:offset:opacity:)"))) __attribute__((objc_designated_initializer));
-- (PPCPPGradientOffset *)doCopyColor:(PPCPPColor *)color offset:(float)offset opacity:(float)opacity __attribute__((swift_name("doCopy(color:offset:opacity:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) PPCPPColor *color __attribute__((swift_name("color")));
-@property (readonly) float offset __attribute__((swift_name("offset")));
-@property (readonly) float opacity __attribute__((swift_name("opacity")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPGradientRadial")))
-@interface PPCPPGradientRadial : PPCPPGradient
-- (instancetype)initWithOffsets:(NSArray<PPCPPGradientOffset *> *)offsets cx:(float)cx cy:(float)cy tx:(float)tx ty:(float)ty scale:(float)scale radius:(float)radius rotate:(float)rotate __attribute__((swift_name("init(offsets:cx:cy:tx:ty:scale:radius:rotate:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithOffsets:(NSArray<PPCPPGradientOffset *> *)offsets __attribute__((swift_name("init(offsets:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (PPCPPGradientRadial *)doCopyOffsets:(NSArray<PPCPPGradientOffset *> *)offsets cx:(float)cx cy:(float)cy tx:(float)tx ty:(float)ty scale:(float)scale radius:(float)radius rotate:(float)rotate __attribute__((swift_name("doCopy(offsets:cx:cy:tx:ty:scale:radius:rotate:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) float cx __attribute__((swift_name("cx")));
-@property (readonly) float cy __attribute__((swift_name("cy")));
-@property (readonly) NSArray<PPCPPGradientOffset *> *offsets __attribute__((swift_name("offsets")));
-@property (readonly) float radius __attribute__((swift_name("radius")));
-@property (readonly) float rotate __attribute__((swift_name("rotate")));
-@property (readonly) float scale __attribute__((swift_name("scale")));
-@property (readonly) float tx __attribute__((swift_name("tx")));
-@property (readonly) float ty __attribute__((swift_name("ty")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPIntSize")))
-@interface PPCPPIntSize : PPCBase
-- (instancetype)initWithW:(int32_t)w h:(int32_t)h __attribute__((swift_name("init(w:h:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property int32_t h __attribute__((swift_name("h")));
-@property int32_t w __attribute__((swift_name("w")));
++ (instancetype)profile __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCProfile *shared __attribute__((swift_name("shared")));
+- (NSString *)getStringEntries __attribute__((swift_name("getStringEntries()")));
+- (void)markName:(NSString *)name __attribute__((swift_name("mark(name:)")));
+- (void)measureType:(PPCProfileEntryType *)type name:(NSString *)name __attribute__((swift_name("measure(type:name:)")));
+- (void)measureName:(NSString *)name mark1:(NSString *)mark1 mark2:(NSString *)mark2 __attribute__((swift_name("measure(name:mark1:mark2:)")));
+- (void)setDebugValue:(BOOL)value __attribute__((swift_name("setDebug(value:)")));
+- (void)setEnableValue:(BOOL)value __attribute__((swift_name("setEnable(value:)")));
+- (void)setProfileOptionsValue:(PPCProfileOptions *)value __attribute__((swift_name("setProfileOptions(value:)")));
+- (void)traceFps __attribute__((swift_name("traceFps()")));
 @end
 
 
 /**
  * @note annotations
  *   kotlinx.serialization.Serializable
+ *   kotlinx.serialization.SerialName(value="Entry")
 */
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPPoint")))
-@interface PPCPPPoint : PPCBase
-- (instancetype)initWithSrc:(PPCPPPoint *)src __attribute__((swift_name("init(src:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithX:(float)x y:(float)y __attribute__((swift_name("init(x:y:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) PPCPPPointCompanion *companion __attribute__((swift_name("companion")));
-- (void)doCopyFromOther:(PPCPPPoint *)other __attribute__((swift_name("doCopyFrom(other:)")));
-- (void)setX:(id)x y:(id)y __attribute__((swift_name("set(x:y:)")));
+__attribute__((swift_name("Profile.Entry")))
+@interface PPCProfileEntry : PPCBase
+- (instancetype)initWithId:(NSString *)id numFrames:(int64_t)numFrames fps:(float)fps cpuUsage:(NSString *)cpuUsage memoryUsage:(NSString *)memoryUsage name:(NSString *)name duration:(int64_t)duration __attribute__((swift_name("init(id:numFrames:fps:cpuUsage:memoryUsage:name:duration:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCProfileEntryCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property float x __attribute__((swift_name("x")));
-@property float y __attribute__((swift_name("y")));
+@property (readonly) NSString *cpuUsage __attribute__((swift_name("cpuUsage")));
+@property (readonly) int64_t duration __attribute__((swift_name("duration")));
+@property (readonly) float fps __attribute__((swift_name("fps")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) NSString *memoryUsage __attribute__((swift_name("memoryUsage")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) int64_t numFrames __attribute__((swift_name("numFrames")));
+@property (readonly) int64_t timestamp __attribute__((swift_name("timestamp")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPPoint.Companion")))
-@interface PPCPPPointCompanion : PPCBase
+__attribute__((swift_name("Profile.EntryCompanion")))
+@interface PPCProfileEntryCompanion : PPCBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCPPPointCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) PPCProfileEntryCompanion *shared __attribute__((swift_name("shared")));
 - (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRepeatDef")))
-@interface PPCPPRepeatDef : PPCBase
-- (instancetype)initWithIsInfinite:(BOOL)isInfinite repeatCount:(PPCPPExpr *)repeatCount interval:(PPCPPExpr *)interval __attribute__((swift_name("init(isInfinite:repeatCount:interval:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) PPCPPExpr *interval __attribute__((swift_name("interval")));
-@property (readonly) BOOL isInfinite __attribute__((swift_name("isInfinite")));
-@property (readonly) PPCPPExpr *repeatCount __attribute__((swift_name("repeatCount")));
+__attribute__((swift_name("ProfileEntryType")))
+@interface PPCProfileEntryType : PPCKotlinEnum<PPCProfileEntryType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCProfileEntryType *trigger __attribute__((swift_name("trigger")));
+@property (class, readonly) PPCProfileEntryType *startreplay __attribute__((swift_name("startreplay")));
+@property (class, readonly) PPCProfileEntryType *firstframe __attribute__((swift_name("firstframe")));
+@property (class, readonly) PPCProfileEntryType *mark __attribute__((swift_name("mark")));
+@property (class, readonly) PPCProfileEntryType *measure __attribute__((swift_name("measure")));
+@property (class, readonly) PPCProfileEntryType *end __attribute__((swift_name("end")));
++ (PPCKotlinArray<PPCProfileEntryType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCProfileEntryType *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPSize")))
-@interface PPCPPSize : PPCBase
-- (instancetype)initWithSrc:(PPCPPSize *)src __attribute__((swift_name("init(src:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithW:(float)w h:(float)h __attribute__((swift_name("init(w:h:)"))) __attribute__((objc_designated_initializer));
-- (float)getKey:(PPCPPSizeProp *)key __attribute__((swift_name("get(key:)")));
-- (void)setKey:(PPCPPSizeProp *)key value:(float)value __attribute__((swift_name("set(key:value:)")));
-- (void)setW:(id)w h:(id)h __attribute__((swift_name("set(w:h:)")));
-- (void)swap __attribute__((swift_name("swap()")));
-@property (readonly) float aspectRatio __attribute__((swift_name("aspectRatio")));
-@property float h __attribute__((swift_name("h")));
-@property float w __attribute__((swift_name("w")));
+__attribute__((swift_name("ProfileOptions")))
+@interface PPCProfileOptions : PPCBase
+- (instancetype)initWithIntervalFrames:(int32_t)intervalFrames onCpuUsage:(NSString *(^ _Nullable)(void))onCpuUsage onMemoryUsage:(NSString *(^ _Nullable)(void))onMemoryUsage __attribute__((swift_name("init(intervalFrames:onCpuUsage:onMemoryUsage:)"))) __attribute__((objc_designated_initializer));
+- (PPCProfileOptions *)doCopyIntervalFrames:(int32_t)intervalFrames onCpuUsage:(NSString *(^ _Nullable)(void))onCpuUsage onMemoryUsage:(NSString *(^ _Nullable)(void))onMemoryUsage __attribute__((swift_name("doCopy(intervalFrames:onCpuUsage:onMemoryUsage:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t intervalFrames __attribute__((swift_name("intervalFrames")));
+@property (readonly) NSString *(^ _Nullable onCpuUsage)(void) __attribute__((swift_name("onCpuUsage")));
+@property (readonly) NSString *(^ _Nullable onMemoryUsage)(void) __attribute__((swift_name("onMemoryUsage")));
+@end
+
+__attribute__((swift_name("PPValueProvider")))
+@protocol PPCPPValueProvider
+@required
+@property (readonly) id _Nullable value __attribute__((swift_name("value")));
 @end
 
 __attribute__((swift_name("PPProperty")))
@@ -1825,6 +2737,7 @@ __attribute__((swift_name("PPLayerProperty")))
 @property (class, readonly) PPCPPLayerProperty *highlight __attribute__((swift_name("highlight")));
 @property (class, readonly) PPCPPLayerProperty *volume __attribute__((swift_name("volume")));
 + (PPCKotlinArray<PPCPPLayerProperty *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPLayerProperty *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((swift_name("PPPropertyObserver")))
@@ -1840,6 +2753,27 @@ __attribute__((swift_name("PPStringProperty")))
 - (NSString *)curVal __attribute__((swift_name("curVal()")));
 - (NSString *)initialVal __attribute__((swift_name("initialVal()")));
 @property (readonly) NSString *value __attribute__((swift_name("value")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPPathSegmentData")))
+@interface PPCPPPathSegmentData : PPCBase
+- (instancetype)initWithType:(PPCPPPathSegmentType *)type data:(NSMutableArray<PPCFloat *> *)data __attribute__((swift_name("init(type:data:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSMutableArray<PPCFloat *> *data __attribute__((swift_name("data")));
+@property (readonly) PPCPPPathSegmentType *type __attribute__((swift_name("type")));
+@end
+
+__attribute__((swift_name("PPPieDecorator")))
+@protocol PPCPPPieDecorator
+@required
+- (void)onSceneLayersReadSceneId:(NSString *)sceneId rootLayer:(PPCPPContainerLayer *)rootLayer pie:(PPCPPPieModel *)pie __attribute__((swift_name("onSceneLayersRead(sceneId:rootLayer:pie:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPPieReader")))
+@interface PPCPPPieReader : PPCBase
+- (instancetype)initWithPieDecorator:(id<PPCPPPieDecorator> _Nullable)pieDecorator __attribute__((swift_name("init(pieDecorator:)"))) __attribute__((objc_designated_initializer));
+- (PPCPPPieModel *)readPieJson:(id<PPCPPJson>)json engineObserver:(id<PPCPPEngineObserver> _Nullable)engineObserver gestureOptions:(PPCPPPlayControlGestureOptions *)gestureOptions disableVariableDisplay:(BOOL)disableVariableDisplay disableDeviceFrameDisplay:(BOOL)disableDeviceFrameDisplay __attribute__((swift_name("readPie(json:engineObserver:gestureOptions:disableVariableDisplay:disableDeviceFrameDisplay:)")));
 @end
 
 
@@ -2186,57 +3120,168 @@ __attribute__((swift_name("ListSerializer")))
 - (NSString *)serializeIterable:(id)iterable __attribute__((swift_name("serialize(iterable:)")));
 @end
 
-__attribute__((swift_name("PPKeyboardProvider")))
-@protocol PPCPPKeyboardProvider
+__attribute__((swift_name("DragDetectorListener")))
+@protocol PPCDragDetectorListener
 @required
-- (PPCPPKeyboardDef * _Nullable)getKeyboardDefKeyboardOptions:(PPCPPKeyboardOptions *)keyboardOptions deviceInfo:(PPCPPDeviceInfo *)deviceInfo __attribute__((swift_name("getKeyboardDef(keyboardOptions:deviceInfo:)")));
+- (void)onDragEndNow:(int64_t)now __attribute__((swift_name("onDragEnd(now:)")));
+- (void)onDragMoveNow:(int64_t)now __attribute__((swift_name("onDragMove(now:)")));
+- (void)onDragStartNow:(int64_t)now dx:(float)dx dy:(float)dy __attribute__((swift_name("onDragStart(now:dx:dy:)")));
+- (BOOL)onDragTouchDownNow:(int64_t)now __attribute__((swift_name("onDragTouchDown(now:)")));
+@end
+
+__attribute__((swift_name("TapDetectorListener")))
+@protocol PPCTapDetectorListener
+@required
+- (void)onCancelNow:(int64_t)now __attribute__((swift_name("onCancel(now:)")));
+- (void)onTapNow:(int64_t)now __attribute__((swift_name("onTap(now:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DefaultKeyboardProvider")))
-@interface PPCDefaultKeyboardProvider : PPCBase <PPCPPKeyboardProvider>
-- (instancetype)initWithImageUrlBase:(NSString * _Nullable)imageUrlBase __attribute__((swift_name("init(imageUrlBase:)"))) __attribute__((objc_designated_initializer));
-- (PPCPPKeyboardDef * _Nullable)getKeyboardDefKeyboardOptions:(PPCPPKeyboardOptions *)keyboardOptions deviceInfo:(PPCPPDeviceInfo *)deviceInfo __attribute__((swift_name("getKeyboardDef(keyboardOptions:deviceInfo:)")));
+__attribute__((swift_name("PPColor")))
+@interface PPCPPColor : PPCBase
+- (instancetype)initWithRed:(int32_t)red green:(int32_t)green blue:(int32_t)blue __attribute__((swift_name("init(red:green:blue:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCPPColorCompanion *companion __attribute__((swift_name("companion")));
+- (PPCPPColor *)doCopyRed:(int32_t)red green:(int32_t)green blue:(int32_t)blue __attribute__((swift_name("doCopy(red:green:blue:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)toColorString __attribute__((swift_name("toColorString()")));
+- (int32_t)toInt __attribute__((swift_name("toInt()")));
+- (int32_t)toIntOpacity:(float)opacity __attribute__((swift_name("toInt(opacity:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t blue __attribute__((swift_name("blue")));
+@property (readonly) int32_t green __attribute__((swift_name("green")));
+@property (readonly) int32_t red __attribute__((swift_name("red")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPKeyboardDef")))
-@interface PPCPPKeyboardDef : PPCBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property float height __attribute__((swift_name("height")));
-@property NSString *imageUrl __attribute__((swift_name("imageUrl")));
-@property float subImageHeight __attribute__((swift_name("subImageHeight")));
-@property NSString * _Nullable subImageUrl __attribute__((swift_name("subImageUrl")));
-@property float subImageWidth __attribute__((swift_name("subImageWidth")));
-@property float width __attribute__((swift_name("width")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPKeyboardOptions")))
-@interface PPCPPKeyboardOptions : PPCBase
-- (instancetype)initWithLayer:(PPCPPTextInputLayer *)layer __attribute__((swift_name("init(layer:)"))) __attribute__((objc_designated_initializer));
-- (BOOL)isNumberKeyboard __attribute__((swift_name("isNumberKeyboard()")));
-@property PPCPPTextInputLayerKeyboardLook *keyboardLook __attribute__((swift_name("keyboardLook")));
-@property PPCPPTextInputLayerKeyboardType *keyboardType __attribute__((swift_name("keyboardType")));
-@property PPCPPTextInputLayerReturnKeyType *returnKeyType __attribute__((swift_name("returnKeyType")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Profile")))
-@interface PPCProfile : PPCBase
+__attribute__((swift_name("PPColor.Companion")))
+@interface PPCPPColorCompanion : PPCBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)profile __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCProfile *shared __attribute__((swift_name("shared")));
-- (NSString *)getStringEntries __attribute__((swift_name("getStringEntries()")));
-- (void)markName:(NSString *)name __attribute__((swift_name("mark(name:)")));
-- (void)measureType:(PPCProfileEntryType *)type name:(NSString *)name __attribute__((swift_name("measure(type:name:)")));
-- (void)measureName:(NSString *)name mark1:(NSString *)mark1 mark2:(NSString *)mark2 __attribute__((swift_name("measure(name:mark1:mark2:)")));
-- (void)setDebugValue:(BOOL)value __attribute__((swift_name("setDebug(value:)")));
-- (void)setEnableValue:(BOOL)value __attribute__((swift_name("setEnable(value:)")));
-- (void)setProfileOptionsValue:(PPCProfileOptions *)value __attribute__((swift_name("setProfileOptions(value:)")));
-- (void)traceFps __attribute__((swift_name("traceFps()")));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPColorCompanion *shared __attribute__((swift_name("shared")));
+- (PPCPPColor *)fromIntIntVal:(int32_t)intVal __attribute__((swift_name("fromInt(intVal:)")));
+- (NSString *)toHexRed:(int32_t)red green:(int32_t)green blue:(int32_t)blue __attribute__((swift_name("toHex(red:green:blue:)")));
+@property (readonly) PPCPPColor *BLACK __attribute__((swift_name("BLACK")));
+@property (readonly) PPCPPColor *BLUE __attribute__((swift_name("BLUE")));
+@property (readonly) PPCPPColor *CYAN __attribute__((swift_name("CYAN")));
+@property (readonly) PPCPPColor *LIME __attribute__((swift_name("LIME")));
+@property (readonly) PPCPPColor *MAGENTA __attribute__((swift_name("MAGENTA")));
+@property (readonly) PPCPPColor *RED __attribute__((swift_name("RED")));
+@property (readonly) PPCPPColor *WHITE __attribute__((swift_name("WHITE")));
+@property (readonly) PPCPPColor *YELLOW __attribute__((swift_name("YELLOW")));
+@end
+
+__attribute__((swift_name("PPCorners")))
+@interface PPCPPCorners<T> : PPCBase
+- (instancetype)initWithTopLeft:(T _Nullable)topLeft topRight:(T _Nullable)topRight bottomRight:(T _Nullable)bottomRight bottomLeft:(T _Nullable)bottomLeft __attribute__((swift_name("init(topLeft:topRight:bottomRight:bottomLeft:)"))) __attribute__((objc_designated_initializer));
+- (BOOL)anyPredicate:(PPCBoolean *(^)(T _Nullable))predicate __attribute__((swift_name("any(predicate:)")));
+- (void)setSrc:(PPCPPCorners<id> *)src valueConverter:(T _Nullable (^)(id _Nullable))valueConverter __attribute__((swift_name("set(src:valueConverter:)")));
+- (void)setTopLeft:(T _Nullable)topLeft topRight:(T _Nullable)topRight bottomRight:(T _Nullable)bottomRight bottomLeft:(T _Nullable)bottomLeft __attribute__((swift_name("set(topLeft:topRight:bottomRight:bottomLeft:)")));
+@property T _Nullable bottomLeft __attribute__((swift_name("bottomLeft")));
+@property T _Nullable bottomRight __attribute__((swift_name("bottomRight")));
+@property T _Nullable topLeft __attribute__((swift_name("topLeft")));
+@property T _Nullable topRight __attribute__((swift_name("topRight")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPDeviceInfo")))
+@interface PPCPPDeviceInfo : PPCBase
+- (instancetype)initWithId:(NSString * _Nullable)id name:(NSString * _Nullable)name density:(float)density width:(float)width height:(float)height platformType:(PPCPPPlatformType *)platformType orientation:(PPCPPOrientation *)orientation __attribute__((swift_name("init(id:name:density:width:height:platformType:orientation:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCPPDeviceInfoCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) float density __attribute__((swift_name("density")));
+@property (readonly) PPCPPDeviceFrameType *frameType __attribute__((swift_name("frameType")));
+@property (readonly) float height __attribute__((swift_name("height")));
+@property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
+@property (readonly) BOOL isPortrait __attribute__((swift_name("isPortrait")));
+@property (readonly) NSString * _Nullable name __attribute__((swift_name("name")));
+@property (readonly) PPCPPOrientation *orientation __attribute__((swift_name("orientation")));
+@property (readonly) PPCPPPlatformType *platformType __attribute__((swift_name("platformType")));
+@property (readonly) float width __attribute__((swift_name("width")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPDeviceInfo.Companion")))
+@interface PPCPPDeviceInfoCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPDeviceInfoCompanion *shared __attribute__((swift_name("shared")));
+- (PPCPPPlatformType *)inferPlatformTypeFromDeviceIdId:(NSString * _Nullable)id __attribute__((swift_name("inferPlatformTypeFromDeviceId(id:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPFloatCorners")))
+@interface PPCPPFloatCorners : PPCPPCorners<PPCFloat *>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithTopLeft:(id _Nullable)topLeft topRight:(id _Nullable)topRight bottomRight:(id _Nullable)bottomRight bottomLeft:(id _Nullable)bottomLeft __attribute__((swift_name("init(topLeft:topRight:bottomRight:bottomLeft:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (BOOL)allEqualOther:(PPCPPFloatCorners *)other __attribute__((swift_name("allEqual(other:)")));
+- (PPCKotlinFloatArray *)getCorners __attribute__((swift_name("getCorners()")));
+@end
+
+__attribute__((swift_name("PPGradient")))
+@interface PPCPPGradient : PPCBase
+- (instancetype)initWithOffsets:(NSArray<PPCPPGradientOffset *> *)offsets __attribute__((swift_name("init(offsets:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) NSArray<PPCPPGradientOffset *> *offsets __attribute__((swift_name("offsets")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPGradientLinear")))
+@interface PPCPPGradientLinear : PPCPPGradient
+- (instancetype)initWithOffsets:(NSArray<PPCPPGradientOffset *> *)offsets x1:(float)x1 y1:(float)y1 x2:(float)x2 y2:(float)y2 __attribute__((swift_name("init(offsets:x1:y1:x2:y2:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithOffsets:(NSArray<PPCPPGradientOffset *> *)offsets __attribute__((swift_name("init(offsets:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (PPCPPGradientLinear *)doCopyOffsets:(NSArray<PPCPPGradientOffset *> *)offsets x1:(float)x1 y1:(float)y1 x2:(float)x2 y2:(float)y2 __attribute__((swift_name("doCopy(offsets:x1:y1:x2:y2:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSArray<PPCPPGradientOffset *> *offsets __attribute__((swift_name("offsets")));
+@property (readonly) float x1 __attribute__((swift_name("x1")));
+@property (readonly) float x2 __attribute__((swift_name("x2")));
+@property (readonly) float y1 __attribute__((swift_name("y1")));
+@property (readonly) float y2 __attribute__((swift_name("y2")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPGradientOffset")))
+@interface PPCPPGradientOffset : PPCBase
+- (instancetype)initWithColor:(PPCPPColor *)color offset:(float)offset opacity:(float)opacity __attribute__((swift_name("init(color:offset:opacity:)"))) __attribute__((objc_designated_initializer));
+- (PPCPPGradientOffset *)doCopyColor:(PPCPPColor *)color offset:(float)offset opacity:(float)opacity __attribute__((swift_name("doCopy(color:offset:opacity:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) PPCPPColor *color __attribute__((swift_name("color")));
+@property (readonly) float offset __attribute__((swift_name("offset")));
+@property (readonly) float opacity __attribute__((swift_name("opacity")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPGradientRadial")))
+@interface PPCPPGradientRadial : PPCPPGradient
+- (instancetype)initWithOffsets:(NSArray<PPCPPGradientOffset *> *)offsets cx:(float)cx cy:(float)cy tx:(float)tx ty:(float)ty scale:(float)scale radius:(float)radius rotate:(float)rotate __attribute__((swift_name("init(offsets:cx:cy:tx:ty:scale:radius:rotate:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithOffsets:(NSArray<PPCPPGradientOffset *> *)offsets __attribute__((swift_name("init(offsets:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (PPCPPGradientRadial *)doCopyOffsets:(NSArray<PPCPPGradientOffset *> *)offsets cx:(float)cx cy:(float)cy tx:(float)tx ty:(float)ty scale:(float)scale radius:(float)radius rotate:(float)rotate __attribute__((swift_name("doCopy(offsets:cx:cy:tx:ty:scale:radius:rotate:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) float cx __attribute__((swift_name("cx")));
+@property (readonly) float cy __attribute__((swift_name("cy")));
+@property (readonly) NSArray<PPCPPGradientOffset *> *offsets __attribute__((swift_name("offsets")));
+@property (readonly) float radius __attribute__((swift_name("radius")));
+@property (readonly) float rotate __attribute__((swift_name("rotate")));
+@property (readonly) float scale __attribute__((swift_name("scale")));
+@property (readonly) float tx __attribute__((swift_name("tx")));
+@property (readonly) float ty __attribute__((swift_name("ty")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPIntSize")))
+@interface PPCPPIntSize : PPCBase
+- (instancetype)initWithW:(int32_t)w h:(int32_t)h __attribute__((swift_name("init(w:h:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property int32_t h __attribute__((swift_name("h")));
+@property int32_t w __attribute__((swift_name("w")));
 @end
 
 
@@ -2245,795 +3290,179 @@ __attribute__((swift_name("Profile")))
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Profile.Entry")))
-@interface PPCProfileEntry : PPCBase
-- (instancetype)initWithId:(NSString *)id numFrames:(int64_t)numFrames fps:(float)fps cpuUsage:(NSString *)cpuUsage memoryUsage:(NSString *)memoryUsage name:(NSString *)name duration:(int64_t)duration __attribute__((swift_name("init(id:numFrames:fps:cpuUsage:memoryUsage:name:duration:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) PPCProfileEntryCompanion *companion __attribute__((swift_name("companion")));
+__attribute__((swift_name("PPPoint")))
+@interface PPCPPPoint : PPCBase
+- (instancetype)initWithSrc:(PPCPPPoint *)src __attribute__((swift_name("init(src:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithX:(float)x y:(float)y __attribute__((swift_name("init(x:y:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCPPPointCompanion *companion __attribute__((swift_name("companion")));
+- (void)doCopyFromOther:(PPCPPPoint *)other __attribute__((swift_name("doCopyFrom(other:)")));
+- (void)setX:(id)x y:(id)y __attribute__((swift_name("set(x:y:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *cpuUsage __attribute__((swift_name("cpuUsage")));
-@property (readonly) int64_t duration __attribute__((swift_name("duration")));
-@property (readonly) float fps __attribute__((swift_name("fps")));
-@property (readonly) NSString *id __attribute__((swift_name("id")));
-@property (readonly) NSString *memoryUsage __attribute__((swift_name("memoryUsage")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly) int64_t numFrames __attribute__((swift_name("numFrames")));
-@property (readonly) int64_t timestamp __attribute__((swift_name("timestamp")));
+@property float x __attribute__((swift_name("x")));
+@property float y __attribute__((swift_name("y")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Profile.EntryCompanion")))
-@interface PPCProfileEntryCompanion : PPCBase
+__attribute__((swift_name("PPPoint.Companion")))
+@interface PPCPPPointCompanion : PPCBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCProfileEntryCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) PPCPPPointCompanion *shared __attribute__((swift_name("shared")));
 - (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ProfileEntryType")))
-@interface PPCProfileEntryType : PPCKotlinEnum<PPCProfileEntryType *>
+__attribute__((swift_name("PPRepeatDef")))
+@interface PPCPPRepeatDef : PPCBase
+- (instancetype)initWithIsInfinite:(BOOL)isInfinite repeatCount:(PPCPPExpr *)repeatCount interval:(PPCPPExpr *)interval __attribute__((swift_name("init(isInfinite:repeatCount:interval:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) PPCPPExpr *interval __attribute__((swift_name("interval")));
+@property (readonly) BOOL isInfinite __attribute__((swift_name("isInfinite")));
+@property (readonly) PPCPPExpr *repeatCount __attribute__((swift_name("repeatCount")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPSize")))
+@interface PPCPPSize : PPCBase
+- (instancetype)initWithSrc:(PPCPPSize *)src __attribute__((swift_name("init(src:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithW:(float)w h:(float)h __attribute__((swift_name("init(w:h:)"))) __attribute__((objc_designated_initializer));
+- (float)getKey:(PPCPPSizeProp *)key __attribute__((swift_name("get(key:)")));
+- (void)setKey:(PPCPPSizeProp *)key value:(float)value __attribute__((swift_name("set(key:value:)")));
+- (void)setW:(id)w h:(id)h __attribute__((swift_name("set(w:h:)")));
+- (void)swap __attribute__((swift_name("swap()")));
+@property (readonly) float aspectRatio __attribute__((swift_name("aspectRatio")));
+@property float h __attribute__((swift_name("h")));
+@property float w __attribute__((swift_name("w")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BinarySearch")))
+@interface PPCBinarySearch : PPCBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCProfileEntryType *trigger __attribute__((swift_name("trigger")));
-@property (class, readonly) PPCProfileEntryType *startreplay __attribute__((swift_name("startreplay")));
-@property (class, readonly) PPCProfileEntryType *firstframe __attribute__((swift_name("firstframe")));
-@property (class, readonly) PPCProfileEntryType *mark __attribute__((swift_name("mark")));
-@property (class, readonly) PPCProfileEntryType *measure __attribute__((swift_name("measure")));
-@property (class, readonly) PPCProfileEntryType *end __attribute__((swift_name("end")));
-+ (PPCKotlinArray<PPCProfileEntryType *> *)values __attribute__((swift_name("values()")));
++ (instancetype)binarySearch __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCBinarySearch *shared __attribute__((swift_name("shared")));
+- (PPCInt * _Nullable)maxLessThanList:(NSArray<id> *)list value:(id)value __attribute__((swift_name("maxLessThan(list:value:)")));
+- (PPCInt * _Nullable)minGreaterThanList:(NSArray<id> *)list value:(id)value __attribute__((swift_name("minGreaterThan(list:value:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ProfileOptions")))
-@interface PPCProfileOptions : PPCBase
-- (instancetype)initWithIntervalFrames:(int32_t)intervalFrames onCpuUsage:(NSString *(^ _Nullable)(void))onCpuUsage onMemoryUsage:(NSString *(^ _Nullable)(void))onMemoryUsage __attribute__((swift_name("init(intervalFrames:onCpuUsage:onMemoryUsage:)"))) __attribute__((objc_designated_initializer));
-- (PPCProfileOptions *)doCopyIntervalFrames:(int32_t)intervalFrames onCpuUsage:(NSString *(^ _Nullable)(void))onCpuUsage onMemoryUsage:(NSString *(^ _Nullable)(void))onMemoryUsage __attribute__((swift_name("doCopy(intervalFrames:onCpuUsage:onMemoryUsage:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
+__attribute__((swift_name("DateTime")))
+@interface PPCDateTime : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)dateTime __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCDateTime *shared __attribute__((swift_name("shared")));
+- (NSString *)dateYear:(int32_t)year month:(int32_t)month day:(int32_t)day __attribute__((swift_name("date(year:month:day:)")));
+- (NSString *)dateNow __attribute__((swift_name("dateNow()")));
+- (NSString *)dateTimeYear:(int32_t)year month:(int32_t)month day:(int32_t)day hour:(int32_t)hour minute:(int32_t)minute second:(int32_t)second __attribute__((swift_name("dateTime(year:month:day:hour:minute:second:)")));
+- (int32_t)dayLocalDate:(NSString *)localDate __attribute__((swift_name("day(localDate:)")));
+- (int32_t)diffDateTo:(NSString *)to from:(NSString *)from option:(NSString *)option __attribute__((swift_name("diffDate(to:from:option:)")));
+- (int32_t)diffTimeTo:(NSString *)to from:(NSString *)from option:(NSString *)option __attribute__((swift_name("diffTime(to:from:option:)")));
+- (NSString *)epochtodateTimestamp:(int64_t)timestamp format:(NSString * _Nullable)format __attribute__((swift_name("epochtodate(timestamp:format:)")));
+- (NSString *)formatDateLocalDate:(NSString *)localDate format:(NSString *)format __attribute__((swift_name("formatDate(localDate:format:)")));
+- (NSString *)formatTimeLocalTime:(NSString *)localTime format:(NSString *)format __attribute__((swift_name("formatTime(localTime:format:)")));
+- (NSString *)getFormattedDateTimestamp:(NSString *)timestamp format:(NSString *)format __attribute__((swift_name("getFormattedDate(timestamp:format:)")));
+- (int32_t)hourLocalTime:(NSString *)localTime __attribute__((swift_name("hour(localTime:)")));
+- (int32_t)minuteLocalTime:(NSString *)localTime __attribute__((swift_name("minute(localTime:)")));
+- (int32_t)monthLocalDate:(NSString *)localDate __attribute__((swift_name("month(localDate:)")));
+- (NSString *)nowTz:(NSString * _Nullable)tz __attribute__((swift_name("now(tz:)")));
+- (int32_t)secondLocalTime:(NSString *)localTime __attribute__((swift_name("second(localTime:)")));
+- (NSString *)timeHour:(int32_t)hour minute:(int32_t)minute second:(int32_t)second __attribute__((swift_name("time(hour:minute:second:)")));
+- (NSString *)timeNow __attribute__((swift_name("timeNow()")));
+- (NSString *)timezoneArg:(NSString *)arg __attribute__((swift_name("timezone(arg:)")));
+- (int32_t)yearLocalDate:(NSString *)localDate __attribute__((swift_name("year(localDate:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DateTime.DateTimeFormatter")))
+@interface PPCDateTimeDateTimeFormatter : PPCBase
+- (instancetype)initWithTimestamp:(NSString *)timestamp __attribute__((swift_name("init(timestamp:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)formatFormat:(NSString *)format __attribute__((swift_name("format(format:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FormulaUtils")))
+@interface PPCFormulaUtils : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)formulaUtils __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCFormulaUtils *shared __attribute__((swift_name("shared")));
+- (int64_t)evalAsTimeFormula:(PPCPPExpr *)formula defaultValue:(int64_t)defaultValue __attribute__((swift_name("evalAsTime(formula:defaultValue:)")));
+- (PPCPPExpr *)numberConstantValue:(float)value __attribute__((swift_name("numberConstant(value:)")));
+@property (readonly) PPCPPNumberConstantExpr *ZERO __attribute__((swift_name("ZERO")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Logger")))
+@interface PPCLogger : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)logger __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCLogger *shared __attribute__((swift_name("shared")));
+- (void)aMessage:(NSString *)message throwable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag __attribute__((swift_name("a(message:throwable:tag:)")));
+- (void)aThrowable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag message:(NSString *(^)(void))message __attribute__((swift_name("a(throwable:tag:message:)")));
+- (void)dMessage:(NSString *)message throwable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag __attribute__((swift_name("d(message:throwable:tag:)")));
+- (void)dThrowable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag message:(NSString *(^)(void))message __attribute__((swift_name("d(throwable:tag:message:)")));
+- (void)eMessage:(NSString *)message throwable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag __attribute__((swift_name("e(message:throwable:tag:)")));
+- (void)eThrowable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag message:(NSString *(^)(void))message __attribute__((swift_name("e(throwable:tag:message:)")));
+- (void)iMessage:(NSString *)message throwable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag __attribute__((swift_name("i(message:throwable:tag:)")));
+- (void)iThrowable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag message:(NSString *(^)(void))message __attribute__((swift_name("i(throwable:tag:message:)")));
+- (void)logPriority:(PPCLogLevel *)priority tag:(NSString * _Nullable)tag throwable:(PPCKotlinThrowable * _Nullable)throwable message:(NSString *)message __attribute__((swift_name("log(priority:tag:throwable:message:)")));
+- (void)setLogLevelLogLevel:(int32_t)logLevel __attribute__((swift_name("setLogLevel(logLevel:)")));
+- (void)vMessage:(NSString *)message throwable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag __attribute__((swift_name("v(message:throwable:tag:)")));
+- (void)vThrowable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag message:(NSString *(^)(void))message __attribute__((swift_name("v(throwable:tag:message:)")));
+- (void)wMessage:(NSString *)message throwable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag __attribute__((swift_name("w(message:throwable:tag:)")));
+- (void)wThrowable:(PPCKotlinThrowable * _Nullable)throwable tag:(NSString * _Nullable)tag message:(NSString *(^)(void))message __attribute__((swift_name("w(throwable:tag:message:)")));
+@property (readonly) PPCPlatform *platform __attribute__((swift_name("platform")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPJsonImpl")))
+@interface PPCPPJsonImpl : PPCBase <PPCPPJson>
+- (instancetype)initWithJson:(PPCKotlinx_serialization_jsonJsonElement *)json __attribute__((swift_name("init(json:)"))) __attribute__((objc_designated_initializer));
+- (BOOL)hasKey:(NSString *)key __attribute__((swift_name("has(key:)")));
+- (NSSet<NSString *> *)keySet __attribute__((swift_name("keySet()")));
+- (id _Nullable)optKey:(NSString *)key __attribute__((swift_name("opt(key:)")));
+- (id<PPCPPJson> _Nullable)optObjectKey:(NSString *)key __attribute__((swift_name("optObject(key:)")));
+- (NSArray<id<PPCPPJson>> * _Nullable)optObjectArrayKey:(NSString *)key __attribute__((swift_name("optObjectArray(key:)")));
+- (NSString * _Nullable)optStringKey:(NSString *)key __attribute__((swift_name("optString(key:)")));
+- (NSArray<NSString *> * _Nullable)optStringArrayKey:(NSString *)key __attribute__((swift_name("optStringArray(key:)")));
+- (void)putBooleanKey:(NSString *)key value:(BOOL)value __attribute__((swift_name("putBoolean(key:value:)")));
+- (void)putNumberKey:(NSString *)key value:(id)value __attribute__((swift_name("putNumber(key:value:)")));
+- (void)putObjectArrayKey:(NSString *)key value:(NSArray<id<PPCPPJson>> *)value __attribute__((swift_name("putObjectArray(key:value:)")));
+- (void)putStringKey:(NSString *)key value:(NSString *)value __attribute__((swift_name("putString(key:value:)")));
+- (void)removeKey:(NSString *)key __attribute__((swift_name("remove(key:)")));
+- (NSString *)toJsonString __attribute__((swift_name("toJsonString()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t intervalFrames __attribute__((swift_name("intervalFrames")));
-@property (readonly) NSString *(^ _Nullable onCpuUsage)(void) __attribute__((swift_name("onCpuUsage")));
-@property (readonly) NSString *(^ _Nullable onMemoryUsage)(void) __attribute__((swift_name("onMemoryUsage")));
-@end
-
-__attribute__((swift_name("PPLayer")))
-@interface PPCPPLayer : PPCBase <PPCPPExprLayer>
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer));
-- (void)addObserverObserver:(id<PPCPPLayerObserver>)observer __attribute__((swift_name("addObserver(observer:)")));
-- (void)destroy __attribute__((swift_name("destroy()")));
-- (void)forEachPropertyFn:(void (^)(PPCPPProperty<id> *))fn __attribute__((swift_name("forEachProperty(fn:)")));
-- (float)getBorderCenterOffsetScaleFactor:(float)scaleFactor __attribute__((swift_name("getBorderCenterOffset(scaleFactor:)")));
-- (int32_t)getBottomScaleFactor:(float)scaleFactor __attribute__((swift_name("getBottom(scaleFactor:)")));
-- (PPCPPColorProperty * _Nullable)getColorPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getColorPropertyByName(propertyName:)")));
-- (PPCPPFloatProperty * _Nullable)getFloatPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getFloatPropertyByName(propertyName:)")));
-- (float)getInsideBorderWidthScaleFactor:(float)scaleFactor __attribute__((swift_name("getInsideBorderWidth(scaleFactor:)")));
-- (int32_t)getIntHeightScaleFactor:(float)scaleFactor __attribute__((swift_name("getIntHeight(scaleFactor:)")));
-- (int32_t)getIntWidthScaleFactor:(float)scaleFactor __attribute__((swift_name("getIntWidth(scaleFactor:)")));
-- (int32_t)getLeftScaleFactor:(float)scaleFactor __attribute__((swift_name("getLeft(scaleFactor:)")));
-- (float)getOutsideBorderWidthScaleFactor:(float)scaleFactor __attribute__((swift_name("getOutsideBorderWidth(scaleFactor:)")));
-- (id<PPCPPExprLayer> _Nullable)getParent __attribute__((swift_name("getParent()")));
-- (void)getPositionOut:(PPCPPPoint *)out __attribute__((swift_name("getPosition(out:)")));
-- (PPCPPProperty<id> * _Nullable)getPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getPropertyByName(propertyName:)")));
-- (float)getRadiusFactor __attribute__((swift_name("getRadiusFactor()")));
-- (float)getRenderBorderWidthScaleFactor:(float)scaleFactor __attribute__((swift_name("getRenderBorderWidth(scaleFactor:)")));
-- (float)getRenderRadiusScaleFactor:(float)scaleFactor __attribute__((swift_name("getRenderRadius(scaleFactor:)")));
-- (int32_t)getRightScaleFactor:(float)scaleFactor __attribute__((swift_name("getRight(scaleFactor:)")));
-- (PPCPPStringProperty * _Nullable)getStringPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getStringPropertyByName(propertyName:)")));
-- (int32_t)getTopScaleFactor:(float)scaleFactor __attribute__((swift_name("getTop(scaleFactor:)")));
-- (BOOL)hasActiveResponses __attribute__((swift_name("hasActiveResponses()")));
-- (BOOL)hasTouchTriggers __attribute__((swift_name("hasTouchTriggers()")));
-- (BOOL)includesPointPointInParent:(PPCPPPoint *)pointInParent __attribute__((swift_name("includesPoint(pointInParent:)")));
-- (BOOL)includesSelfOriginPointPoint:(PPCPPPoint *)point __attribute__((swift_name("includesSelfOriginPoint(point:)")));
-- (BOOL)is3DRotatable __attribute__((swift_name("is3DRotatable()")));
-- (BOOL)isDirty __attribute__((swift_name("isDirty()")));
-- (BOOL)isInterestedWithTouchEventPointInParent:(PPCPPPoint *)pointInParent __attribute__((swift_name("isInterestedWithTouchEvent(pointInParent:)")));
-- (BOOL)isTouchable __attribute__((swift_name("isTouchable()")));
-- (void)moveAnchorNewAnchor:(PPCPPPoint *)newAnchor __attribute__((swift_name("moveAnchor(newAnchor:)")));
-- (void)notifyLayerModified __attribute__((swift_name("notifyLayerModified()")));
-- (void)notifyOrderChange __attribute__((swift_name("notifyOrderChange()")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)onPropertyModifiedProperty:(PPCPPProperty<id> *)property __attribute__((swift_name("onPropertyModified(property:)")));
-- (void)optimizeInteractions __attribute__((swift_name("optimizeInteractions()")));
-- (BOOL)progressNow:(int64_t)now __attribute__((swift_name("progress(now:)")));
-- (void)registerPropertyProperty:(PPCPPProperty<id> *)property __attribute__((swift_name("registerProperty(property:)")));
-- (void)removeObserverObserver:(id<PPCPPLayerObserver>)observer __attribute__((swift_name("removeObserver(observer:)")));
-- (void)reset __attribute__((swift_name("reset()")));
-- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
-- (void)saveInitialState __attribute__((swift_name("saveInitialState()")));
-- (void)setDirty __attribute__((swift_name("setDirty()")));
-- (void)setNeedUpdateOnNextFrame __attribute__((swift_name("setNeedUpdateOnNextFrame()")));
-- (BOOL)shouldRenderBorder __attribute__((swift_name("shouldRenderBorder()")));
-- (BOOL)shouldRenderShadow __attribute__((swift_name("shouldRenderShadow()")));
-- (void)stopPropertyAnimation __attribute__((swift_name("stopPropertyAnimation()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-- (PPCPPPoint *)translateAbsPointToSelfAbsPoint:(PPCPPPoint *)absPoint applyScroll:(BOOL)applyScroll __attribute__((swift_name("translateAbsPointToSelf(absPoint:applyScroll:)")));
-- (PPCPPPoint *)translateParentPointToSelfPoint:(PPCPPPoint *)point applyScroll:(BOOL)applyScroll __attribute__((swift_name("translateParentPointToSelf(point:applyScroll:)")));
-- (void)unsetDirty __attribute__((swift_name("unsetDirty()")));
-@property PPCPPLayerAlias * _Nullable alias __attribute__((swift_name("alias")));
-@property (readonly) NSArray<PPCPPContainerLayer *> *ancestors __attribute__((swift_name("ancestors")));
-@property float anchorX __attribute__((swift_name("anchorX")));
-@property float anchorY __attribute__((swift_name("anchorY")));
-@property (readonly) PPCPPColorProperty *borderColor __attribute__((swift_name("borderColor")));
-@property (readonly) PPCPPFloatProperty *borderOpacity __attribute__((swift_name("borderOpacity")));
-@property PPCPPBorderPosition *borderPosition __attribute__((swift_name("borderPosition")));
-@property (readonly) PPCPPFloatProperty *borderWidth __attribute__((swift_name("borderWidth")));
-@property (readonly) PPCPPCorners<PPCPPFloatProperty *> *cornerRadius __attribute__((swift_name("cornerRadius")));
-@property (readonly) PPCMutableSet<PPCPPLayerProperty *> *dynamicProperties __attribute__((swift_name("dynamicProperties")));
-@property (readonly) PPCPPColorProperty *fillColor __attribute__((swift_name("fillColor")));
-@property (readonly) int32_t fillColorWithOpacity __attribute__((swift_name("fillColorWithOpacity")));
-@property PPCPPGradient * _Nullable fillGradient __attribute__((swift_name("fillGradient")));
-@property (readonly) PPCPPFloatProperty *fillImageRate __attribute__((swift_name("fillImageRate")));
-@property (readonly) PPCPPFloatProperty *fillOpacity __attribute__((swift_name("fillOpacity")));
-@property NSString * _Nullable fillResourceId __attribute__((swift_name("fillResourceId")));
-@property PPCPPFillScaleMode *fillScaleMode __attribute__((swift_name("fillScaleMode")));
-@property (readonly) PPCPPFloatProperty *fillSolidRate __attribute__((swift_name("fillSolidRate")));
-@property PPCPPFillType *fillType __attribute__((swift_name("fillType")));
-@property BOOL fixAspectRatio __attribute__((swift_name("fixAspectRatio")));
-@property BOOL fixBottom __attribute__((swift_name("fixBottom")));
-@property BOOL fixHeight __attribute__((swift_name("fixHeight")));
-@property BOOL fixLeft __attribute__((swift_name("fixLeft")));
-@property BOOL fixRight __attribute__((swift_name("fixRight")));
-@property BOOL fixTop __attribute__((swift_name("fixTop")));
-@property BOOL fixWidth __attribute__((swift_name("fixWidth")));
-@property (readonly) PPCPPFloatProperty *height __attribute__((swift_name("height")));
-@property (readonly) PPCPPFloatProperty *highlightOpacity __attribute__((swift_name("highlightOpacity")));
-@property (readonly) PPCPPHitArea *hitArea __attribute__((swift_name("hitArea")));
-@property (readonly) NSString *id __attribute__((swift_name("id")));
-@property NSString * _Nullable identifiedName __attribute__((swift_name("identifiedName")));
-@property PPCPPBorderPosition *initialBorderPosition __attribute__((swift_name("initialBorderPosition")));
-@property BOOL invisible __attribute__((swift_name("invisible")));
-@property BOOL isPassTouch __attribute__((swift_name("isPassTouch")));
-@property (readonly) BOOL isRoot __attribute__((swift_name("isRoot")));
-@property (readonly) float left __attribute__((swift_name("left")));
-@property PPCPPShapeLayer * _Nullable maskLayer __attribute__((swift_name("maskLayer")));
-@property (readonly) float maxRadius __attribute__((swift_name("maxRadius")));
-@property (readonly) float mergedOpacity __attribute__((swift_name("mergedOpacity")));
-@property NSString * _Nullable name __attribute__((swift_name("name")));
-@property (readonly, getter=namespace) NSString *namespace_ __attribute__((swift_name("namespace_")));
-@property (readonly) NSString *nsId __attribute__((swift_name("nsId")));
-@property (readonly) PPCPPFloatProperty *opacity __attribute__((swift_name("opacity")));
-@property PPCPPContainerLayer * _Nullable parent __attribute__((swift_name("parent")));
-@property (readonly) PPCPPPoint *position __attribute__((swift_name("position")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) id<PPCPPPropertyObserver> propertyObserver __attribute__((swift_name("propertyObserver")));
-@property PPCPPAxis3D * _Nullable r3Axis __attribute__((swift_name("r3Axis")));
-@property float r3Depth __attribute__((swift_name("r3Depth")));
-@property float r3PivotX __attribute__((swift_name("r3PivotX")));
-@property float r3PivotY __attribute__((swift_name("r3PivotY")));
-@property (readonly) PPCPPFloatProperty *radius __attribute__((swift_name("radius")));
-@property (readonly) PPCPPFloatProperty *radiusBottomLeft __attribute__((swift_name("radiusBottomLeft")));
-@property (readonly) PPCPPFloatProperty *radiusBottomRight __attribute__((swift_name("radiusBottomRight")));
-@property (readonly) PPCPPFloatProperty *radiusTopLeft __attribute__((swift_name("radiusTopLeft")));
-@property (readonly) PPCPPFloatProperty *radiusTopRight __attribute__((swift_name("radiusTopRight")));
-@property (readonly) PPCPPFloatProperty *rotation __attribute__((swift_name("rotation")));
-@property (readonly) PPCPPFloatProperty *rotation3d __attribute__((swift_name("rotation3d")));
-@property (readonly) PPCPPFloatProperty *rotation3dX __attribute__((swift_name("rotation3dX")));
-@property (readonly) PPCPPFloatProperty *rotation3dY __attribute__((swift_name("rotation3dY")));
-@property PPCInt * _Nullable savedIndexByLayerOrder __attribute__((swift_name("savedIndexByLayerOrder")));
-@property (readonly) PPCPPFloatProperty *scaleX __attribute__((swift_name("scaleX")));
-@property (readonly) PPCPPFloatProperty *scaleY __attribute__((swift_name("scaleY")));
-@property (readonly) PPCPPFloatProperty *shadowBlur __attribute__((swift_name("shadowBlur")));
-@property (readonly) PPCPPColorProperty *shadowColor __attribute__((swift_name("shadowColor")));
-@property (readonly) BOOL shadowEnabled __attribute__((swift_name("shadowEnabled")));
-@property (readonly) PPCPPFloatProperty *shadowOffsetX __attribute__((swift_name("shadowOffsetX")));
-@property (readonly) PPCPPFloatProperty *shadowOffsetY __attribute__((swift_name("shadowOffsetY")));
-@property (readonly) PPCPPFloatProperty *shadowOpacity __attribute__((swift_name("shadowOpacity")));
-@property (readonly) PPCPPFloatProperty *shadowSpread __attribute__((swift_name("shadowSpread")));
-@property (readonly) float top __attribute__((swift_name("top")));
-@property (readonly) PPCPPPoint *topLeft __attribute__((swift_name("topLeft")));
-@property (readonly) PPCPPLayerType *type __attribute__((swift_name("type")));
-@property (readonly) PPCPPFloatProperty *width __attribute__((swift_name("width")));
-@property (readonly) PPCPPFloatProperty *x __attribute__((swift_name("x")));
-@property (readonly) PPCPPFloatProperty *y __attribute__((swift_name("y")));
-@end
-
-__attribute__((swift_name("AbstractMediaLayer")))
-@interface PPCAbstractMediaLayer : PPCPPLayer
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoPlay:(BOOL)autoPlay autoPlayRepeat:(BOOL)autoPlayRepeat __attribute__((swift_name("init(namespace:nsId:type:parent:resourceId:resourceUrl:autoPlay:autoPlayRepeat:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (void)clearCommands __attribute__((swift_name("clearCommands()")));
-- (PPCPPMediaCommand * _Nullable)dequeueCommand __attribute__((swift_name("dequeueCommand()")));
-- (void)destroy __attribute__((swift_name("destroy()")));
-- (NSString *)getMediaResourceUrl __attribute__((swift_name("getMediaResourceUrl()")));
-- (void)notifyPlayCompleted __attribute__((swift_name("notifyPlayCompleted()")));
-- (void)resetMediaState __attribute__((swift_name("resetMediaState()")));
-- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
-- (void)runCommandCommand:(PPCPPMediaCommand *)command __attribute__((swift_name("runCommand(command:)")));
-- (void)setMediaResourceUrlValue:(NSString *)value __attribute__((swift_name("setMediaResourceUrl(value:)")));
-@property (readonly) PPCPPFloatProperty *currentTime __attribute__((swift_name("currentTime")));
-@property (readonly) NSString *initailResourceUrl __attribute__((swift_name("initailResourceUrl")));
-@property BOOL isPlaying __attribute__((swift_name("isPlaying")));
-@property BOOL isRepeating __attribute__((swift_name("isRepeating")));
-@property PPCPPMessageBus * _Nullable scheduler __attribute__((swift_name("scheduler")));
-@property (readonly) PPCPPFloatProperty *totalTime __attribute__((swift_name("totalTime")));
-@property (readonly) PPCPPFloatProperty *volume __attribute__((swift_name("volume")));
-@end
-
-__attribute__((swift_name("AbstractTextLayer")))
-@interface PPCAbstractTextLayer : PPCPPLayer
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent __attribute__((swift_name("init(namespace:nsId:type:parent:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (PPCPPStringProperty * _Nullable)getStringPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getStringPropertyByName(propertyName:)")));
-- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
-- (void)saveInitialState __attribute__((swift_name("saveInitialState()")));
-@property float paddingBottom __attribute__((swift_name("paddingBottom")));
-@property float paddingLeft __attribute__((swift_name("paddingLeft")));
-@property float paddingRight __attribute__((swift_name("paddingRight")));
-@property float paddingTop __attribute__((swift_name("paddingTop")));
-@property (readonly) PPCPPTextAttributes *textAttributes __attribute__((swift_name("textAttributes")));
-@property (readonly) PPCPPColorProperty *textColor __attribute__((swift_name("textColor")));
-@property (readonly) PPCPPFloatProperty *textOpacity __attribute__((swift_name("textOpacity")));
+@property (readonly) PPCKotlinx_serialization_jsonJsonElement *json __attribute__((swift_name("json")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPAudioLayer")))
-@interface PPCPPAudioLayer : PPCAbstractMediaLayer
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoStart:(BOOL)autoStart autoStartRepeat:(BOOL)autoStartRepeat __attribute__((swift_name("init(namespace:nsId:parent:resourceId:resourceUrl:autoStart:autoStartRepeat:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoPlay:(BOOL)autoPlay autoPlayRepeat:(BOOL)autoPlayRepeat __attribute__((swift_name("init(namespace:nsId:type:parent:resourceId:resourceUrl:autoPlay:autoPlayRepeat:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (BOOL)isTouchable __attribute__((swift_name("isTouchable()")));
-@property (readonly) BOOL autoStart __attribute__((swift_name("autoStart")));
+__attribute__((swift_name("PPKotlinGC")))
+@interface PPCPPKotlinGC : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)pPKotlinGC __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPKotlinGC *shared __attribute__((swift_name("shared")));
+- (void)collect __attribute__((swift_name("collect()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPCameraLayer")))
-@interface PPCPPCameraLayer : PPCPPLayer
-- (instancetype)initWithSceneId:(NSString *)sceneId nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent autoStart:(BOOL)autoStart initialCameraPosition:(PPCPPCameraPosition *)initialCameraPosition __attribute__((swift_name("init(sceneId:nsId:parent:autoStart:initialCameraPosition:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (void)changeQrScannerPropertiesIsQr:(BOOL)isQr qrValue:(NSString *)qrValue qrX:(float)qrX qrY:(float)qrY qrWidth:(float)qrWidth qrHeight:(float)qrHeight __attribute__((swift_name("changeQrScannerProperties(isQr:qrValue:qrX:qrY:qrWidth:qrHeight:)")));
-- (void)clearCommands __attribute__((swift_name("clearCommands()")));
-- (PPCPPCameraLayerCommand * _Nullable)dequeueCommand __attribute__((swift_name("dequeueCommand()")));
-- (void)openUrlData:(NSString *)data __attribute__((swift_name("openUrl(data:)")));
-- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
-@property (readonly) PPCPPCameraPosition * _Nullable cameraPosition __attribute__((swift_name("cameraPosition")));
-@property BOOL qrScanner __attribute__((swift_name("qrScanner")));
-@property PPCBoolean * _Nullable qrScannerRedirection __attribute__((swift_name("qrScannerRedirection")));
-@property (readonly) BOOL started __attribute__((swift_name("started")));
+__attribute__((swift_name("ReorderUtils")))
+@interface PPCReorderUtils : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)reorderUtils __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCReorderUtils *shared __attribute__((swift_name("shared")));
+- (int32_t)indexForInsertionAfterRemoveFromIndex:(int32_t)fromIndex toIndex:(int32_t)toIndex __attribute__((swift_name("indexForInsertionAfterRemove(fromIndex:toIndex:)")));
+- (PPCKotlinPair<PPCInt *, PPCInt *> *)reverseFromIndex:(int32_t)fromIndex toIndex:(int32_t)toIndex __attribute__((swift_name("reverse(fromIndex:toIndex:)")));
 @end
 
-__attribute__((swift_name("PPCameraLayerCommand")))
-@interface PPCPPCameraLayerCommand : PPCBase
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPCameraLayerStartCommand")))
-@interface PPCPPCameraLayerStartCommand : PPCPPCameraLayerCommand
-- (instancetype)initWithPosition:(PPCPPCameraPosition *)position __attribute__((swift_name("init(position:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) PPCPPCameraPosition *position __attribute__((swift_name("position")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPCameraLayerStopCommand")))
-@interface PPCPPCameraLayerStopCommand : PPCPPCameraLayerCommand
-- (instancetype)initWithShowBlack:(BOOL)showBlack __attribute__((swift_name("init(showBlack:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) BOOL showBlack __attribute__((swift_name("showBlack")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPChangeTarget")))
-@interface PPCPPChangeTarget : PPCBase
-- (instancetype)initWithLayerId:(NSString *)layerId property:(PPCPPLayerProperty *)property __attribute__((swift_name("init(layerId:property:)"))) __attribute__((objc_designated_initializer));
-- (PPCPPChangeTarget *)doCopyLayerId:(NSString *)layerId property:(PPCPPLayerProperty *)property __attribute__((swift_name("doCopy(layerId:property:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *layerId __attribute__((swift_name("layerId")));
-@property (readonly) PPCPPLayerProperty *property __attribute__((swift_name("property")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPContainerLayer")))
-@interface PPCPPContainerLayer : PPCPPLayer
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer * _Nullable)parent __attribute__((swift_name("init(namespace:nsId:parent:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (void)addChildLayerChildLayer:(PPCPPLayer *)childLayer __attribute__((swift_name("addChildLayer(childLayer:)")));
-- (void)addChildLayerIndex:(int32_t)index layer:(PPCPPLayer *)layer __attribute__((swift_name("addChildLayer(index:layer:)")));
-- (BOOL)containVideoLayer __attribute__((swift_name("containVideoLayer()")));
-- (void)destroy __attribute__((swift_name("destroy()")));
-- (void)forEachLayerCallback:(void (^)(PPCPPLayer *))callback __attribute__((swift_name("forEachLayer(callback:)")));
-- (PPCKotlinArray<PPCPPLayer *> *)getAllLayers __attribute__((swift_name("getAllLayers()")));
-- (NSArray<PPCPPLayer *> *)getChildren __attribute__((swift_name("getChildren()")));
-- (PPCPPFloatProperty * _Nullable)getFloatPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getFloatPropertyByName(propertyName:)")));
-- (PPCPPProperty<id> * _Nullable)getPropertyByNamePropertyName:(NSString *)propertyName __attribute__((swift_name("getPropertyByName(propertyName:)")));
-- (void)reset __attribute__((swift_name("reset()")));
-- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
-- (void)setChildrenMaskLayers __attribute__((swift_name("setChildrenMaskLayers()")));
-@property NSString * _Nullable componentId __attribute__((swift_name("componentId")));
-@property BOOL isClipChildren __attribute__((swift_name("isClipChildren")));
-@property BOOL scrollEnabled __attribute__((swift_name("scrollEnabled")));
-@property (readonly) PPCPPFloatProperty * _Nullable scrollOffset __attribute__((swift_name("scrollOffset")));
-@property (readonly) PPCPPLayerProperty * _Nullable scrollOffsetKey __attribute__((swift_name("scrollOffsetKey")));
-@property (readonly) PPCPPFloatProperty *scrollX __attribute__((swift_name("scrollX")));
-@property (readonly) PPCPPFloatProperty *scrollY __attribute__((swift_name("scrollY")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPHitArea")))
-@interface PPCPPHitArea : PPCBase
-- (instancetype)initWithExtendAbove:(float)extendAbove extendBelow:(float)extendBelow extendLeft:(float)extendLeft extendRight:(float)extendRight __attribute__((swift_name("init(extendAbove:extendBelow:extendLeft:extendRight:)"))) __attribute__((objc_designated_initializer));
-- (BOOL)hasExtension __attribute__((swift_name("hasExtension()")));
-- (BOOL)isPointIncludedInPoint:(PPCPPPoint *)point width:(float)width height:(float)height __attribute__((swift_name("isPointIncludedIn(point:width:height:)")));
-- (void)setExtendValuesExtendAbove:(float)extendAbove extendBelow:(float)extendBelow extendLeft:(float)extendLeft extendRight:(float)extendRight __attribute__((swift_name("setExtendValues(extendAbove:extendBelow:extendLeft:extendRight:)")));
-@property float extendAbove __attribute__((swift_name("extendAbove")));
-@property float extendBelow __attribute__((swift_name("extendBelow")));
-@property float extendLeft __attribute__((swift_name("extendLeft")));
-@property float extendRight __attribute__((swift_name("extendRight")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPImageLayer")))
-@interface PPCPPImageLayer : PPCPPLayer
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString * _Nullable)resourceUrl __attribute__((swift_name("init(namespace:nsId:parent:resourceId:resourceUrl:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (NSString *)getMediaResourceUrl __attribute__((swift_name("getMediaResourceUrl()")));
-- (void)setMediaResourceUrlValue:(NSString *)value __attribute__((swift_name("setMediaResourceUrl(value:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPIosEffectLayer")))
-@interface PPCPPIosEffectLayer : PPCPPLayer
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent style:(PPCPPBlurEffectStyle *)style __attribute__((swift_name("init(namespace:nsId:parent:style:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
-- (void)updateStyleBlurStyle:(PPCPPBlurEffectStyle *)blurStyle duration:(int64_t)duration __attribute__((swift_name("updateStyle(blurStyle:duration:)")));
-@property (readonly) PPCPPBlurEffectStyle *blurStyle __attribute__((swift_name("blurStyle")));
-@property (readonly) int64_t styleDuration __attribute__((swift_name("styleDuration")));
-@end
-
-__attribute__((swift_name("PPLayerObserver")))
-@protocol PPCPPLayerObserver
+__attribute__((swift_name("PPObservableValueProvider")))
+@protocol PPCPPObservableValueProvider <PPCPPValueProvider>
 @required
-- (void)onChildOrderModifiedLayer:(PPCPPLayer *)layer __attribute__((swift_name("onChildOrderModified(layer:)")));
-- (void)onLayerEndChangeLayer:(PPCPPLayer *)layer __attribute__((swift_name("onLayerEndChange(layer:)")));
-- (void)onLayerModifiedLayer:(PPCPPLayer *)layer __attribute__((swift_name("onLayerModified(layer:)")));
-- (void)onLayerWillChangeLayer:(PPCPPLayer *)layer __attribute__((swift_name("onLayerWillChange(layer:)")));
-- (void)onMaskLayerChangedLayer:(PPCPPLayer *)layer __attribute__((swift_name("onMaskLayerChanged(layer:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPLayerAlias")))
-@interface PPCPPLayerAlias : PPCBase
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId name:(NSString *)name __attribute__((swift_name("init(namespace:nsId:name:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly, getter=namespace) NSString *namespace_ __attribute__((swift_name("namespace_")));
-@property (readonly) NSString *nsId __attribute__((swift_name("nsId")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPLayerType")))
-@interface PPCPPLayerType : PPCKotlinEnum<PPCPPLayerType *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPLayerType *image __attribute__((swift_name("image")));
-@property (class, readonly) PPCPPLayerType *rect __attribute__((swift_name("rect")));
-@property (class, readonly) PPCPPLayerType *oval __attribute__((swift_name("oval")));
-@property (class, readonly) PPCPPLayerType *container __attribute__((swift_name("container")));
-@property (class, readonly) PPCPPLayerType *text __attribute__((swift_name("text")));
-@property (class, readonly) PPCPPLayerType *textInput __attribute__((swift_name("textInput")));
-@property (class, readonly) PPCPPLayerType *video __attribute__((swift_name("video")));
-@property (class, readonly) PPCPPLayerType *lottie __attribute__((swift_name("lottie")));
-@property (class, readonly) PPCPPLayerType *audio __attribute__((swift_name("audio")));
-@property (class, readonly) PPCPPLayerType *shape __attribute__((swift_name("shape")));
-@property (class, readonly) PPCPPLayerType *camera __attribute__((swift_name("camera")));
-@property (class, readonly) PPCPPLayerType *iosEffect __attribute__((swift_name("iosEffect")));
-@property (class, readonly) PPCPPLayerType *component __attribute__((swift_name("component")));
-+ (PPCKotlinArray<PPCPPLayerType *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPLottieLayer")))
-@interface PPCPPLottieLayer : PPCAbstractMediaLayer
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoStart:(BOOL)autoStart autoStartRepeat:(BOOL)autoStartRepeat __attribute__((swift_name("init(namespace:nsId:parent:resourceId:resourceUrl:autoStart:autoStartRepeat:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoPlay:(BOOL)autoPlay autoPlayRepeat:(BOOL)autoPlayRepeat __attribute__((swift_name("init(namespace:nsId:type:parent:resourceId:resourceUrl:autoPlay:autoPlayRepeat:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (readonly) BOOL autoStart __attribute__((swift_name("autoStart")));
-@end
-
-__attribute__((swift_name("PPMediaCommand")))
-@interface PPCPPMediaCommand : PPCBase
-@property (class, readonly, getter=companion) PPCPPMediaCommandCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)serialize __attribute__((swift_name("serialize()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPMediaCommand.Companion")))
-@interface PPCPPMediaCommandCompanion : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCPPMediaCommandCompanion *shared __attribute__((swift_name("shared")));
-- (PPCPPMediaCommand * _Nullable)deserializeStr:(NSString *)str __attribute__((swift_name("deserialize(str:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPMediaPauseCommand")))
-@interface PPCPPMediaPauseCommand : PPCPPMediaCommand
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (NSString *)serialize __attribute__((swift_name("serialize()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPMediaPlayCommand")))
-@interface PPCPPMediaPlayCommand : PPCPPMediaCommand
-- (instancetype)initWithRepeating:(BOOL)repeating __attribute__((swift_name("init(repeating:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)serialize __attribute__((swift_name("serialize()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BOOL repeating __attribute__((swift_name("repeating")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPMediaSeekCommand")))
-@interface PPCPPMediaSeekCommand : PPCPPMediaCommand
-- (instancetype)initWithSeekTime:(int32_t)seekTime __attribute__((swift_name("init(seekTime:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)serialize __attribute__((swift_name("serialize()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t seekTime __attribute__((swift_name("seekTime")));
-@end
-
-__attribute__((swift_name("PPShapeLayer")))
-@interface PPCPPShapeLayer : PPCPPLayer
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent radiusEnabled:(BOOL)radiusEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)onPropertyModifiedProperty:(PPCPPProperty<id> *)property __attribute__((swift_name("onPropertyModified(property:)")));
-- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
-@property BOOL isMask __attribute__((swift_name("isMask")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPOvalLayer")))
-@interface PPCPPOvalLayer : PPCPPShapeLayer
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent __attribute__((swift_name("init(namespace:nsId:parent:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent radiusEnabled:(BOOL)radiusEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPPlayState")))
-@interface PPCPPPlayState : PPCBase
-- (instancetype)initWithDuration:(int64_t)duration __attribute__((swift_name("init(duration:)"))) __attribute__((objc_designated_initializer));
-- (int64_t)getPlayPositionTime:(int64_t)time __attribute__((swift_name("getPlayPosition(time:)")));
-- (BOOL)isPlayingTime:(int64_t)time __attribute__((swift_name("isPlaying(time:)")));
-- (void)pauseTime:(int64_t)time __attribute__((swift_name("pause(time:)")));
-- (void)playTime:(int64_t)time looping:(BOOL)looping __attribute__((swift_name("play(time:looping:)")));
-- (void)reset __attribute__((swift_name("reset()")));
-- (void)seekTime:(int64_t)time seekPosition:(int64_t)seekPosition __attribute__((swift_name("seek(time:seekPosition:)")));
-- (void)updateFromStateTime:(int64_t)time playing:(BOOL)playing looping:(BOOL)looping position:(int64_t)position __attribute__((swift_name("updateFromState(time:playing:looping:position:)")));
-@property (readonly) int64_t duration __attribute__((swift_name("duration")));
-@property (readonly) BOOL isLooping __attribute__((swift_name("isLooping")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRectLayer")))
-@interface PPCPPRectLayer : PPCPPShapeLayer
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent __attribute__((swift_name("init(namespace:nsId:parent:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent radiusEnabled:(BOOL)radiusEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPTextAttributes")))
-@interface PPCPPTextAttributes : PPCBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (class, readonly, getter=companion) PPCPPTextAttributesCompanion *companion __attribute__((swift_name("companion")));
-- (BOOL)doCopyFromOther:(PPCPPTextAttributes *)other __attribute__((swift_name("doCopyFrom(other:)")));
-- (PPCFloat * _Nullable)getFontSizeScaleFactor:(float)scaleFactor __attribute__((swift_name("getFontSize(scaleFactor:)")));
-@property BOOL autoLineHeight __attribute__((swift_name("autoLineHeight")));
-@property NSString * _Nullable font __attribute__((swift_name("font")));
-@property PPCFloat * _Nullable fontSize __attribute__((swift_name("fontSize")));
-@property NSString * _Nullable initialText __attribute__((swift_name("initialText")));
-@property PPCFloat * _Nullable letterSpacing __attribute__((swift_name("letterSpacing")));
-@property PPCFloat * _Nullable lineHeight __attribute__((swift_name("lineHeight")));
-@property NSString * _Nullable text __attribute__((swift_name("text")));
-@property PPCPPHorizontalAlign * _Nullable textAlign __attribute__((swift_name("textAlign")));
-@property PPCPPVerticalAlign * _Nullable verticalAlign __attribute__((swift_name("verticalAlign")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPTextAttributes.Companion")))
-@interface PPCPPTextAttributesCompanion : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCPPTextAttributesCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) NSString *DEFAULT_FONT_BOLD __attribute__((swift_name("DEFAULT_FONT_BOLD")));
-@property (readonly) NSString *DEFAULT_FONT_DEBUG __attribute__((swift_name("DEFAULT_FONT_DEBUG")));
-@property (readonly) NSString *DEFAULT_FONT_REGULAR __attribute__((swift_name("DEFAULT_FONT_REGULAR")));
-@property (readonly) NSString *DEFAULT_FONT_SEMI_BOLD __attribute__((swift_name("DEFAULT_FONT_SEMI_BOLD")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPTextInputLayer")))
-@interface PPCPPTextInputLayer : PPCAbstractTextLayer
-- (instancetype)initWithNamespace:(NSString *)namespace_ id:(NSString *)id parent:(PPCPPContainerLayer * _Nullable)parent __attribute__((swift_name("init(namespace:id:parent:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent __attribute__((swift_name("init(namespace:nsId:type:parent:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (void)addFocusRequestListenerFocusRequestListener:(id<PPCPPTextInputLayerFocusRequestListener>)focusRequestListener __attribute__((swift_name("addFocusRequestListener(focusRequestListener:)")));
-- (void)addFocusStateListenerFocusStateListener:(id<PPCPPTextInputLayerFocusStateListener>)focusStateListener __attribute__((swift_name("addFocusStateListener(focusStateListener:)")));
-- (void)applySizeFromRendererTextRenderHeight:(float)textRenderHeight now:(int64_t)now __attribute__((swift_name("applySizeFromRenderer(textRenderHeight:now:)")));
-- (void)notifyFocusStateFocused:(BOOL)focused now:(int64_t)now __attribute__((swift_name("notifyFocusState(focused:now:)")));
-- (void)notifyReturnKeyPressedNow:(int64_t)now __attribute__((swift_name("notifyReturnKeyPressed(now:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)onPropertyModifiedProperty:(PPCPPProperty<id> *)property __attribute__((swift_name("onPropertyModified(property:)")));
-- (void)removeFocusRequestListenerFocusRequestListener:(id<PPCPPTextInputLayerFocusRequestListener>)focusRequestListener __attribute__((swift_name("removeFocusRequestListener(focusRequestListener:)")));
-- (void)requestFocusFocus:(BOOL)focus replayMode:(BOOL)replayMode __attribute__((swift_name("requestFocus(focus:replayMode:)")));
-- (void)reset __attribute__((swift_name("reset()")));
-- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
-- (void)saveInitialState __attribute__((swift_name("saveInitialState()")));
-@property BOOL autoHeight __attribute__((swift_name("autoHeight")));
-@property BOOL focusOutOnTapOutside __attribute__((swift_name("focusOutOnTapOutside")));
-@property BOOL initialFocus __attribute__((swift_name("initialFocus")));
-@property BOOL isAutoFocusOut __attribute__((swift_name("isAutoFocusOut")));
-@property PPCPPTextInputLayerKeyboardLook *keyboardLook __attribute__((swift_name("keyboardLook")));
-@property PPCPPTextInputLayerKeyboardType *keyboardType __attribute__((swift_name("keyboardType")));
-@property PPCFloat * _Nullable maxHeight __attribute__((swift_name("maxHeight")));
-@property float minHeight __attribute__((swift_name("minHeight")));
-@property BOOL multiLine __attribute__((swift_name("multiLine")));
-@property PPCPPColor *placeHolderColor __attribute__((swift_name("placeHolderColor")));
-@property float placeHolderOpacity __attribute__((swift_name("placeHolderOpacity")));
-@property NSString *placeHolderText __attribute__((swift_name("placeHolderText")));
-@property PPCPPTextInputLayerReturnKeyType *returnKeyType __attribute__((swift_name("returnKeyType")));
-@end
-
-__attribute__((swift_name("PPTextInputLayerFocusRequestListener")))
-@protocol PPCPPTextInputLayerFocusRequestListener
-@required
-- (void)onFocusRequestedLayer:(PPCPPTextInputLayer *)layer focus:(BOOL)focus replayMode:(BOOL)replayMode __attribute__((swift_name("onFocusRequested(layer:focus:replayMode:)")));
-@end
-
-__attribute__((swift_name("PPTextInputLayerFocusStateListener")))
-@protocol PPCPPTextInputLayerFocusStateListener
-@required
-- (void)onFocusStateChangedLayer:(PPCPPTextInputLayer *)layer focused:(BOOL)focused now:(int64_t)now __attribute__((swift_name("onFocusStateChanged(layer:focused:now:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPTextInputLayer.KeyboardLook")))
-@interface PPCPPTextInputLayerKeyboardLook : PPCKotlinEnum<PPCPPTextInputLayerKeyboardLook *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPTextInputLayerKeyboardLook *dark __attribute__((swift_name("dark")));
-@property (class, readonly) PPCPPTextInputLayerKeyboardLook *light __attribute__((swift_name("light")));
-+ (PPCKotlinArray<PPCPPTextInputLayerKeyboardLook *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPTextInputLayer.KeyboardType")))
-@interface PPCPPTextInputLayerKeyboardType : PPCKotlinEnum<PPCPPTextInputLayerKeyboardType *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPTextInputLayerKeyboardType *text __attribute__((swift_name("text")));
-@property (class, readonly) PPCPPTextInputLayerKeyboardType *url __attribute__((swift_name("url")));
-@property (class, readonly) PPCPPTextInputLayerKeyboardType *email __attribute__((swift_name("email")));
-@property (class, readonly) PPCPPTextInputLayerKeyboardType *number __attribute__((swift_name("number")));
-@property (class, readonly) PPCPPTextInputLayerKeyboardType *textPassword __attribute__((swift_name("textPassword")));
-@property (class, readonly) PPCPPTextInputLayerKeyboardType *numberPassword __attribute__((swift_name("numberPassword")));
-+ (PPCKotlinArray<PPCPPTextInputLayerKeyboardType *> *)values __attribute__((swift_name("values()")));
-@property (readonly) BOOL isPassword __attribute__((swift_name("isPassword")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPTextInputLayer.ReturnKeyType")))
-@interface PPCPPTextInputLayerReturnKeyType : PPCKotlinEnum<PPCPPTextInputLayerReturnKeyType *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCPPTextInputLayerReturnKeyType *done __attribute__((swift_name("done")));
-@property (class, readonly) PPCPPTextInputLayerReturnKeyType *go __attribute__((swift_name("go")));
-@property (class, readonly) PPCPPTextInputLayerReturnKeyType *next __attribute__((swift_name("next")));
-@property (class, readonly) PPCPPTextInputLayerReturnKeyType *send __attribute__((swift_name("send")));
-@property (class, readonly) PPCPPTextInputLayerReturnKeyType *search __attribute__((swift_name("search")));
-@property (class, readonly) PPCPPTextInputLayerReturnKeyType *theNewLine __attribute__((swift_name("theNewLine")));
-+ (PPCKotlinArray<PPCPPTextInputLayerReturnKeyType *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPTextLayer")))
-@interface PPCPPTextLayer : PPCAbstractTextLayer
-- (instancetype)initWithNamespace:(NSString *)namespace_ id:(NSString *)id parent:(PPCPPContainerLayer *)parent __attribute__((swift_name("init(namespace:id:parent:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent __attribute__((swift_name("init(namespace:nsId:type:parent:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (void)applySizeFromRendererTextRenderWidth:(float)textRenderWidth textRenderHeight:(float)textRenderHeight now:(int64_t)now __attribute__((swift_name("applySizeFromRenderer(textRenderWidth:textRenderHeight:now:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)onPropertyModifiedProperty:(PPCPPProperty<id> *)property __attribute__((swift_name("onPropertyModified(property:)")));
-- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
-- (void)saveInitialState __attribute__((swift_name("saveInitialState()")));
-@property BOOL guessInitialWidth __attribute__((swift_name("guessInitialWidth")));
-@property float renderHeight __attribute__((swift_name("renderHeight")));
-@property float renderWidth __attribute__((swift_name("renderWidth")));
-@property PPCPPTextLayerSizeMode *sizeMode __attribute__((swift_name("sizeMode")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPVectorShapeLayer")))
-@interface PPCPPVectorShapeLayer : PPCPPShapeLayer
-- (instancetype)initWithSceneId:(NSString *)sceneId nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent __attribute__((swift_name("init(sceneId:nsId:parent:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent radiusEnabled:(BOOL)radiusEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property PPCPPLineCap *lineCap __attribute__((swift_name("lineCap")));
-@property PPCPPLineJoin *lineJoin __attribute__((swift_name("lineJoin")));
-@property (readonly) NSMutableArray<PPCPPVectorShape *> *shapes __attribute__((swift_name("shapes")));
-@property float viewBoxHeight __attribute__((swift_name("viewBoxHeight")));
-@property float viewBoxWidth __attribute__((swift_name("viewBoxWidth")));
-@property float viewBoxX __attribute__((swift_name("viewBoxX")));
-@property float viewBoxY __attribute__((swift_name("viewBoxY")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPVideoLayer")))
-@interface PPCPPVideoLayer : PPCAbstractMediaLayer
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl thumbnailId:(NSString *)thumbnailId autoStart:(BOOL)autoStart autoStartRepeat:(BOOL)autoStartRepeat __attribute__((swift_name("init(namespace:nsId:parent:resourceId:resourceUrl:thumbnailId:autoStart:autoStartRepeat:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoPlay:(BOOL)autoPlay autoPlayRepeat:(BOOL)autoPlayRepeat __attribute__((swift_name("init(namespace:nsId:type:parent:resourceId:resourceUrl:autoPlay:autoPlayRepeat:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (NSString *)getThumbnailUrl __attribute__((swift_name("getThumbnailUrl()")));
-@property (readonly) BOOL autoStart __attribute__((swift_name("autoStart")));
-@property (readonly) NSString *thumbnailId __attribute__((swift_name("thumbnailId")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ConstraintOption")))
-@interface PPCConstraintOption : PPCBase
-- (instancetype)initWithIsBeginFixed:(BOOL)isBeginFixed isSizeFixed:(BOOL)isSizeFixed isEndFixed:(BOOL)isEndFixed __attribute__((swift_name("init(isBeginFixed:isSizeFixed:isEndFixed:)"))) __attribute__((objc_designated_initializer));
-- (PPCConstraintOption *)doCopyIsBeginFixed:(BOOL)isBeginFixed isSizeFixed:(BOOL)isSizeFixed isEndFixed:(BOOL)isEndFixed __attribute__((swift_name("doCopy(isBeginFixed:isSizeFixed:isEndFixed:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BOOL isBeginFixed __attribute__((swift_name("isBeginFixed")));
-@property BOOL isDifferentAxis __attribute__((swift_name("isDifferentAxis")));
-@property (readonly) BOOL isEndFixed __attribute__((swift_name("isEndFixed")));
-@property (readonly) BOOL isSizeFixed __attribute__((swift_name("isSizeFixed")));
-@property BOOL moveAndScaleActive __attribute__((swift_name("moveAndScaleActive")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Direction")))
-@interface PPCDirection : PPCKotlinEnum<PPCDirection *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCDirection *byX __attribute__((swift_name("byX")));
-@property (class, readonly) PPCDirection *byY __attribute__((swift_name("byY")));
-@property (class, readonly) PPCDirection *byAll __attribute__((swift_name("byAll")));
-@property (class, readonly) PPCDirection *empty __attribute__((swift_name("empty")));
-+ (PPCKotlinArray<PPCDirection *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("OneDimensionResizeConstraints")))
-@interface PPCOneDimensionResizeConstraints : PPCBase
-- (instancetype)initWithInitialBegin:(float)initialBegin initialSize:(float)initialSize initialParentSize:(float)initialParentSize constraintsOption:(PPCConstraintOption *)constraintsOption __attribute__((swift_name("init(initialBegin:initialSize:initialParentSize:constraintsOption:)"))) __attribute__((objc_designated_initializer));
-- (float)applyDeltaOldValue:(float)oldValue newFlexSum:(float)newFlexSum oldFlexSum:(float)oldFlexSum __attribute__((swift_name("applyDelta(oldValue:newFlexSum:oldFlexSum:)")));
-- (void)applyParentSizeParentSize:(float)parentSize __attribute__((swift_name("applyParentSize(parentSize:)")));
-- (void)applySelfChangeBegin:(float)begin size:(float)size parentSize:(float)parentSize __attribute__((swift_name("applySelfChange(begin:size:parentSize:)")));
-- (PPCOneDimensionResizeConstraints *)doCopyInitialBegin:(float)initialBegin initialSize:(float)initialSize initialParentSize:(float)initialParentSize constraintsOption:(PPCConstraintOption *)constraintsOption __attribute__((swift_name("doCopy(initialBegin:initialSize:initialParentSize:constraintsOption:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (BOOL)shouldFixBegin __attribute__((swift_name("shouldFixBegin()")));
-- (BOOL)shouldFixEnd __attribute__((swift_name("shouldFixEnd()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-- (void)updatePreferredSizeValue:(float)value __attribute__((swift_name("updatePreferredSize(value:)")));
-- (id _Nullable)valIfCondition:(BOOL)condition trueValue:(id _Nullable)trueValue falseValue:(id _Nullable)falseValue __attribute__((swift_name("valIf(condition:trueValue:falseValue:)")));
-@property (readonly) PPCConstraintOption *constraintsOption __attribute__((swift_name("constraintsOption")));
-@property float currentBegin __attribute__((swift_name("currentBegin")));
-@property float currentEnd __attribute__((swift_name("currentEnd")));
-@property float currentParentSize __attribute__((swift_name("currentParentSize")));
-@property float currentSize __attribute__((swift_name("currentSize")));
-@property (readonly) float initialBegin __attribute__((swift_name("initialBegin")));
-@property (readonly) float initialParentSize __attribute__((swift_name("initialParentSize")));
-@property (readonly) float initialSize __attribute__((swift_name("initialSize")));
-@end
-
-__attribute__((swift_name("PPVectorShape")))
-@interface PPCPPVectorShape : PPCBase
-- (instancetype)initWithType:(PPCPPVectorShapeType *)type fillable:(BOOL)fillable __attribute__((swift_name("init(type:fillable:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) BOOL fillable __attribute__((swift_name("fillable")));
-@property (readonly) PPCPPVectorShapeType *type __attribute__((swift_name("type")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPVectorEllipse")))
-@interface PPCPPVectorEllipse : PPCPPVectorShape
-- (instancetype)initWithCx:(float)cx cy:(float)cy rx:(float)rx ry:(float)ry __attribute__((swift_name("init(cx:cy:rx:ry:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithType:(PPCPPVectorShapeType *)type fillable:(BOOL)fillable __attribute__((swift_name("init(type:fillable:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (readonly) float cx __attribute__((swift_name("cx")));
-@property (readonly) float cy __attribute__((swift_name("cy")));
-@property (readonly) float rx __attribute__((swift_name("rx")));
-@property (readonly) float ry __attribute__((swift_name("ry")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPVectorLine")))
-@interface PPCPPVectorLine : PPCPPVectorShape
-- (instancetype)initWithX1:(float)x1 y1:(float)y1 x2:(float)x2 y2:(float)y2 __attribute__((swift_name("init(x1:y1:x2:y2:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithType:(PPCPPVectorShapeType *)type fillable:(BOOL)fillable __attribute__((swift_name("init(type:fillable:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (readonly) float x1 __attribute__((swift_name("x1")));
-@property (readonly) float x2 __attribute__((swift_name("x2")));
-@property (readonly) float y1 __attribute__((swift_name("y1")));
-@property (readonly) float y2 __attribute__((swift_name("y2")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPVectorPath")))
-@interface PPCPPVectorPath : PPCPPVectorShape
-- (instancetype)initWithD:(NSString *)d segmentData:(NSMutableArray<PPCPPPathSegmentData *> *)segmentData __attribute__((swift_name("init(d:segmentData:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithType:(PPCPPVectorShapeType *)type fillable:(BOOL)fillable __attribute__((swift_name("init(type:fillable:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (readonly) NSString *d __attribute__((swift_name("d")));
-@property (readonly) NSMutableArray<PPCPPPathSegmentData *> *segmentData __attribute__((swift_name("segmentData")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPVectorPolygon")))
-@interface PPCPPVectorPolygon : PPCPPVectorShape
-- (instancetype)initWithPointsString:(NSString *)pointsString points:(NSMutableArray<PPCPPPoint *> *)points __attribute__((swift_name("init(pointsString:points:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithType:(PPCPPVectorShapeType *)type fillable:(BOOL)fillable __attribute__((swift_name("init(type:fillable:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (readonly) NSMutableArray<PPCPPPoint *> *points __attribute__((swift_name("points")));
-@property (readonly) NSString *pointsString __attribute__((swift_name("pointsString")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPVectorPolyline")))
-@interface PPCPPVectorPolyline : PPCPPVectorShape
-- (instancetype)initWithPointsString:(NSString *)pointsString points:(NSMutableArray<PPCPPPoint *> *)points __attribute__((swift_name("init(pointsString:points:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithType:(PPCPPVectorShapeType *)type fillable:(BOOL)fillable __attribute__((swift_name("init(type:fillable:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (readonly) NSMutableArray<PPCPPPoint *> *points __attribute__((swift_name("points")));
-@property (readonly) NSString *pointsString __attribute__((swift_name("pointsString")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPVectorRect")))
-@interface PPCPPVectorRect : PPCPPVectorShape
-- (instancetype)initWithX:(float)x y:(float)y width:(float)width height:(float)height rx:(float)rx ry:(float)ry __attribute__((swift_name("init(x:y:width:height:rx:ry:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithType:(PPCPPVectorShapeType *)type fillable:(BOOL)fillable __attribute__((swift_name("init(type:fillable:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (readonly) float height __attribute__((swift_name("height")));
-@property (readonly) float rx __attribute__((swift_name("rx")));
-@property (readonly) float ry __attribute__((swift_name("ry")));
-@property (readonly) float width __attribute__((swift_name("width")));
-@property (readonly) float x __attribute__((swift_name("x")));
-@property (readonly) float y __attribute__((swift_name("y")));
-@end
-
-__attribute__((swift_name("PPMessage")))
-@interface PPCPPMessage : PPCBase
-- (instancetype)initWithExpires:(BOOL)expires __attribute__((swift_name("init(expires:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) PPCPPMessageCompanion *companion __attribute__((swift_name("companion")));
-- (int64_t)computeDuration __attribute__((swift_name("computeDuration()")));
-- (BOOL)shouldStopForLayerLayerId:(NSString *)layerId __attribute__((swift_name("shouldStopForLayer(layerId:)")));
-- (BOOL)shouldStopForVariableVariable:(PPCPPVar<id> *)variable __attribute__((swift_name("shouldStopForVariable(variable:)")));
-@property int64_t duration __attribute__((swift_name("duration")));
-@property PPCInt * _Nullable expiresAfter __attribute__((swift_name("expiresAfter")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPMessage.Companion")))
-@interface PPCPPMessageCompanion : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCPPMessageCompanion *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((swift_name("PPTask")))
-@interface PPCPPTask : PPCPPMessage
-- (instancetype)initWithLayerIdToStop:(NSString * _Nullable)layerIdToStop variableNameToStop:(NSString * _Nullable)variableNameToStop expires:(BOOL)expires __attribute__((swift_name("init(layerIdToStop:variableNameToStop:expires:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithExpires:(BOOL)expires __attribute__((swift_name("init(expires:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (void)runNow:(int64_t)now __attribute__((swift_name("run(now:)")));
-- (BOOL)shouldStopForLayerLayerId:(NSString *)layerId __attribute__((swift_name("shouldStopForLayer(layerId:)")));
-- (BOOL)shouldStopForVariableVariable:(PPCPPVar<id> *)variable __attribute__((swift_name("shouldStopForVariable(variable:)")));
+@property (readonly) PPCPPIdentifiableChangeObservable *observable __attribute__((swift_name("observable")));
 @end
 
 __attribute__((swift_name("PPVar")))
@@ -3059,367 +3488,29 @@ __attribute__((swift_name("PPVar")))
 @property float y __attribute__((swift_name("y")));
 @end
 
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DeviceDesc")))
-@interface PPCDeviceDesc : PPCBase
-- (instancetype)initWithId:(NSString *)id name:(NSString *)name type:(NSString *)type width:(int32_t)width height:(int32_t)height density:(float)density platformType:(NSString *)platformType orientation:(NSString *)orientation framePathOrigin:(NSString * _Nullable)framePathOrigin framePathLandscapeOrigin:(NSString * _Nullable)framePathLandscapeOrigin framePath:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)framePath frameBgPath:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)frameBgPath framePathLandscape:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)framePathLandscape frameBgPathLandscape:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)frameBgPathLandscape __attribute__((swift_name("init(id:name:type:width:height:density:platformType:orientation:framePathOrigin:framePathLandscapeOrigin:framePath:frameBgPath:framePathLandscape:frameBgPathLandscape:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) PPCDeviceDescCompanion *companion __attribute__((swift_name("companion")));
-- (PPCDeviceDesc *)doCopyId:(NSString *)id name:(NSString *)name type:(NSString *)type width:(int32_t)width height:(int32_t)height density:(float)density platformType:(NSString *)platformType orientation:(NSString *)orientation framePathOrigin:(NSString * _Nullable)framePathOrigin framePathLandscapeOrigin:(NSString * _Nullable)framePathLandscapeOrigin framePath:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)framePath frameBgPath:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)frameBgPath framePathLandscape:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)framePathLandscape frameBgPathLandscape:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)frameBgPathLandscape __attribute__((swift_name("doCopy(id:name:type:width:height:density:platformType:orientation:framePathOrigin:framePathLandscapeOrigin:framePath:frameBgPath:framePathLandscape:frameBgPathLandscape:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) float density __attribute__((swift_name("density")));
-@property (readonly) PPCKotlinx_serialization_jsonJsonElement * _Nullable frameBgPath __attribute__((swift_name("frameBgPath")));
-@property (readonly) PPCKotlinx_serialization_jsonJsonElement * _Nullable frameBgPathLandscape __attribute__((swift_name("frameBgPathLandscape")));
-@property (readonly) PPCKotlinx_serialization_jsonJsonElement * _Nullable framePath __attribute__((swift_name("framePath")));
-@property (readonly) PPCKotlinx_serialization_jsonJsonElement * _Nullable framePathLandscape __attribute__((swift_name("framePathLandscape")));
-@property (readonly) NSString * _Nullable framePathLandscapeOrigin __attribute__((swift_name("framePathLandscapeOrigin")));
-@property (readonly) NSString * _Nullable framePathOrigin __attribute__((swift_name("framePathOrigin")));
-@property (readonly) int32_t height __attribute__((swift_name("height")));
-@property (readonly) NSString *id __attribute__((swift_name("id")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly) NSString *orientation __attribute__((swift_name("orientation")));
-@property (readonly) NSString *platformType __attribute__((swift_name("platformType")));
-@property (readonly) NSString *type __attribute__((swift_name("type")));
-@property (readonly) int32_t width __attribute__((swift_name("width")));
+__attribute__((swift_name("PPChangeObserver")))
+@protocol PPCPPChangeObserver
+@required
+- (void)onChangeDetected __attribute__((swift_name("onChangeDetected()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DeviceDesc.Companion")))
-@interface PPCDeviceDescCompanion : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCDeviceDescCompanion *shared __attribute__((swift_name("shared")));
-- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DeviceFrameHelper")))
-@interface PPCDeviceFrameHelper : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)deviceFrameHelper __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCDeviceFrameHelper *shared __attribute__((swift_name("shared")));
-- (PPCPPScene *)buildDeviceFrameSceneDeviceInfo:(PPCPPDeviceInfo *)deviceInfo disableDeviceFrameDisplay:(BOOL)disableDeviceFrameDisplay __attribute__((swift_name("buildDeviceFrameScene(deviceInfo:disableDeviceFrameDisplay:)")));
-- (void)setDeviceFrameEnabledValue:(BOOL)value fixedScenes:(NSMutableArray<PPCPPScene *> *)fixedScenes __attribute__((swift_name("setDeviceFrameEnabled(value:fixedScenes:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DevicePreset")))
-@interface PPCDevicePreset : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)devicePreset __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCDevicePreset *shared __attribute__((swift_name("shared")));
-@property (readonly) NSString *DEVICE_PRESETS __attribute__((swift_name("DEVICE_PRESETS")));
-@property (readonly) NSString *DEVICE_PRESETS_ETC __attribute__((swift_name("DEVICE_PRESETS_ETC")));
-@property (readonly) NSString *DEVICE_PRESETS_GALAXY __attribute__((swift_name("DEVICE_PRESETS_GALAXY")));
-@property (readonly) NSString *DEVICE_PRESETS_IPHONE11 __attribute__((swift_name("DEVICE_PRESETS_IPHONE11")));
-@property (readonly) NSString *DEVICE_PRESETS_IPHONE12 __attribute__((swift_name("DEVICE_PRESETS_IPHONE12")));
-@property (readonly) NSString *DEVICE_PRESETS_IPHONE13 __attribute__((swift_name("DEVICE_PRESETS_IPHONE13")));
-@property (readonly) NSString *DEVICE_PRESETS_IPHONE14 __attribute__((swift_name("DEVICE_PRESETS_IPHONE14")));
-@property (readonly) NSString *DEVICE_PRESETS_PIXEL __attribute__((swift_name("DEVICE_PRESETS_PIXEL")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPBroadcastProxy")))
-@interface PPCPPBroadcastProxy : PPCBase
-- (instancetype)initWithPlayer:(PPCPPPiePlayer *)player __attribute__((swift_name("init(player:)"))) __attribute__((objc_designated_initializer));
-- (void)switchSceneSceneId:(NSString *)sceneId __attribute__((swift_name("switchScene(sceneId:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPFont")))
-@interface PPCPPFont : PPCBase
-- (instancetype)initWithPostscriptName:(NSString * _Nullable)postscriptName family:(NSString * _Nullable)family subfamily:(NSString * _Nullable)subfamily weight:(NSString * _Nullable)weight style:(NSString * _Nullable)style preferredLineHeight:(float)preferredLineHeight __attribute__((swift_name("init(postscriptName:family:subfamily:weight:style:preferredLineHeight:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)getDisplayName __attribute__((swift_name("getDisplayName()")));
-- (PPCPPFont *)replaceFamilyFamily:(NSString *)family __attribute__((swift_name("replaceFamily(family:)")));
-@property (readonly) NSString * _Nullable family __attribute__((swift_name("family")));
-@property (readonly) NSString * _Nullable postscriptName __attribute__((swift_name("postscriptName")));
-@property (readonly) float preferredLineHeight __attribute__((swift_name("preferredLineHeight")));
-@property (readonly) NSString * _Nullable style __attribute__((swift_name("style")));
-@property (readonly) NSString * _Nullable subfamily __attribute__((swift_name("subfamily")));
-@property (readonly) NSString * _Nullable weight __attribute__((swift_name("weight")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPLayerProxy")))
-@interface PPCPPLayerProxy : PPCBase
-- (instancetype)initWithLayer:(PPCPPLayer *)layer __attribute__((swift_name("init(layer:)"))) __attribute__((objc_designated_initializer));
-- (PPCKotlinArray<PPCPPLayerProxy *> * _Nullable)getChildren __attribute__((swift_name("getChildren()")));
-- (NSString * _Nullable)getColorPropValuePropName:(NSString *)propName __attribute__((swift_name("getColorPropValue(propName:)")));
-- (NSString * _Nullable)getExtraPropValuePropName:(NSString *)propName __attribute__((swift_name("getExtraPropValue(propName:)")));
-- (PPCFloat * _Nullable)getNumberPropValuePropName:(NSString *)propName __attribute__((swift_name("getNumberPropValue(propName:)")));
-- (PPCKotlinArray<PPCFloat *> *)getPosition __attribute__((swift_name("getPosition()")));
-- (NSString * _Nullable)getTextPropValue __attribute__((swift_name("getTextPropValue()")));
-@property (readonly) NSString * _Nullable componentId __attribute__((swift_name("componentId")));
-@property (readonly) NSString *id __attribute__((swift_name("id")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly) NSString *type __attribute__((swift_name("type")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPLayerViewSplitter")))
-@interface PPCPPLayerViewSplitter : PPCBase
-- (instancetype)initWithScene:(PPCPPScene *)scene splittingLayerIds:(id)splittingLayerIds __attribute__((swift_name("init(scene:splittingLayerIds:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) PPCPPLayerViewSplitterCompanion *companion __attribute__((swift_name("companion")));
-- (void)update __attribute__((swift_name("update()")));
-@property (readonly) NSMutableArray<PPCPPLayerViewSplitterGroup *> *groups __attribute__((swift_name("groups")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPLayerViewSplitter.Companion")))
-@interface PPCPPLayerViewSplitterCompanion : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCPPLayerViewSplitterCompanion *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((swift_name("PPLayerViewSplitter.Group")))
-@interface PPCPPLayerViewSplitterGroup : PPCBase
+__attribute__((swift_name("PPChangeObserversHolder")))
+@interface PPCPPChangeObserversHolder : PPCBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)addObserver:(id<PPCPPChangeObserver>)observer __attribute__((swift_name("add(observer:)")));
+- (void)notifyChange __attribute__((swift_name("notifyChange()")));
+- (void)removeObserver:(id<PPCPPChangeObserver>)observer __attribute__((swift_name("remove(observer:)")));
+- (void)removeAll __attribute__((swift_name("removeAll()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPLayerViewSplitter.NormalLayersGroup")))
-@interface PPCPPLayerViewSplitterNormalLayersGroup : PPCPPLayerViewSplitterGroup
-- (instancetype)initWithLayers:(NSArray<PPCPPLayer *> *)layers __attribute__((swift_name("init(layers:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-@property (readonly) NSArray<PPCPPLayer *> *layers __attribute__((swift_name("layers")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPLayerViewSplitter.SplittingLayer")))
-@interface PPCPPLayerViewSplitterSplittingLayer : PPCPPLayerViewSplitterGroup
-- (instancetype)initWithLayer:(PPCPPLayer *)layer __attribute__((swift_name("init(layer:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)new __attribute__((unavailable));
-@property (readonly) PPCPPLayer *layer __attribute__((swift_name("layer")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPLayersSplitter")))
-@interface PPCPPLayersSplitter : PPCBase
-- (instancetype)initWithScene:(PPCPPScene *)scene splittingLayers:(id)splittingLayers __attribute__((swift_name("init(scene:splittingLayers:)"))) __attribute__((objc_designated_initializer));
-- (void)applyReorderReorderedLayers:(NSSet<PPCPPLayer *> *)reorderedLayers __attribute__((swift_name("applyReorder(reorderedLayers:)")));
-- (NSArray<PPCPPLayer *> *)getSplittedLayersBeforeI:(int32_t)i __attribute__((swift_name("getSplittedLayersBefore(i:)")));
-- (PPCPPLayer *)getSplittingLayerAtI:(int32_t)i __attribute__((swift_name("getSplittingLayerAt(i:)")));
-- (NSArray<PPCPPLayer *> *)getSplittingLayersInOrder __attribute__((swift_name("getSplittingLayersInOrder()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPPieModel")))
-@interface PPCPPPieModel : PPCBase
-- (instancetype)initWithDeviceInfo:(PPCPPDeviceInfo *)deviceInfo observer:(id<PPCPPEngineObserver> _Nullable)observer fonts:(NSDictionary<NSString *, PPCPPFont *> *)fonts __attribute__((swift_name("init(deviceInfo:observer:fonts:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) PPCPPPieModelCompanion *companion __attribute__((swift_name("companion")));
-- (float)computeScaleFactorWidth:(float)width height:(float)height __attribute__((swift_name("computeScaleFactor(width:height:)")));
-- (void)destroy __attribute__((swift_name("destroy()")));
-- (PPCPPFont * _Nullable)getFontPostscriptName:(NSString *)postscriptName __attribute__((swift_name("getFont(postscriptName:)")));
-- (id)getFonts __attribute__((swift_name("getFonts()")));
-- (NSDictionary<NSString *, PPCPPFont *> *)getFontsMap __attribute__((swift_name("getFontsMap()")));
-- (PPCPPScene * _Nullable)getSceneByIdSceneId:(NSString * _Nullable)sceneId __attribute__((swift_name("getSceneById(sceneId:)")));
-- (BOOL)hasVideoLayer __attribute__((swift_name("hasVideoLayer()")));
-- (void)hideSceneScene:(PPCPPScene *)scene __attribute__((swift_name("hideScene(scene:)")));
-- (void)doInitContextContext:(PPCPPPieContext *)context __attribute__((swift_name("doInitContext(context:)")));
-- (void)reset __attribute__((swift_name("reset()")));
-- (void)showFixedSceneScene:(PPCPPScene *)scene __attribute__((swift_name("showFixedScene(scene:)")));
-- (void)showSceneScene:(PPCPPScene *)scene top:(BOOL)top __attribute__((swift_name("showScene(scene:top:)")));
-@property (readonly) NSDictionary<NSString *, PPCPPLayerType *> *allResourceIds __attribute__((swift_name("allResourceIds")));
-@property (readonly) NSSet<NSString *> *allThumbnailIds __attribute__((swift_name("allThumbnailIds")));
-@property int32_t baseModelVersion __attribute__((swift_name("baseModelVersion")));
-@property (readonly) PPCPPDeviceInfo *deviceInfo __attribute__((swift_name("deviceInfo")));
-@property (readonly) NSMutableArray<PPCPPScene *> *fixedScenes __attribute__((swift_name("fixedScenes")));
-@property (readonly) NSDictionary<NSString *, PPCPPFont *> *fonts __attribute__((swift_name("fonts")));
-@property float height __attribute__((swift_name("height")));
-@property (readonly) PPCPPScene *initialScene __attribute__((swift_name("initialScene")));
-@property NSString * _Nullable initialSceneId __attribute__((swift_name("initialSceneId")));
-@property (readonly) BOOL isOpaque __attribute__((swift_name("isOpaque")));
-@property int32_t modelVersion __attribute__((swift_name("modelVersion")));
-@property NSString * _Nullable name __attribute__((swift_name("name")));
-@property (readonly) id<PPCPPEngineObserver> _Nullable observer __attribute__((swift_name("observer")));
-@property (readonly) BOOL requiresMicPermission __attribute__((swift_name("requiresMicPermission")));
-@property (readonly) NSMutableArray<PPCPPScene *> *scenes __attribute__((swift_name("scenes")));
-@property NSString * _Nullable selectedSceneId __attribute__((swift_name("selectedSceneId")));
-@property PPCPPScene * _Nullable statusBarScene __attribute__((swift_name("statusBarScene")));
-@property (readonly) NSSet<NSString *> *usedFontNames __attribute__((swift_name("usedFontNames")));
-@property float width __attribute__((swift_name("width")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPPieModel.Companion")))
-@interface PPCPPPieModelCompanion : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCPPPieModelCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) int32_t MODEL_VERSION __attribute__((swift_name("MODEL_VERSION")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPPieProxy")))
-@interface PPCPPPieProxy : PPCBase
-- (instancetype)initWithModel:(PPCPPPieModel *)model __attribute__((swift_name("init(model:)"))) __attribute__((objc_designated_initializer));
-- (PPCPPLayerProxy * _Nullable)getLayerSceneId:(NSString *)sceneId layerId:(NSString *)layerId __attribute__((swift_name("getLayer(sceneId:layerId:)")));
-- (PPCKotlinArray<NSString *> *)getLayerIdsAtSceneId:(NSString *)sceneId x:(float)x y:(float)y __attribute__((swift_name("getLayerIdsAt(sceneId:x:y:)")));
-- (PPCPPVarProxy * _Nullable)getVarSceneId:(NSString *)sceneId namespace:(NSString *)namespace_ varName:(NSString *)varName __attribute__((swift_name("getVar(sceneId:namespace:varName:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPPlayControlGestureOptions")))
-@interface PPCPPPlayControlGestureOptions : PPCBase
-- (instancetype)initWithTwoFingerDoubleTapEnabled:(BOOL)twoFingerDoubleTapEnabled threeFingerTapEnabled:(BOOL)threeFingerTapEnabled shakeEnabled:(BOOL)shakeEnabled __attribute__((swift_name("init(twoFingerDoubleTapEnabled:threeFingerTapEnabled:shakeEnabled:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) BOOL shakeEnabled __attribute__((swift_name("shakeEnabled")));
-@property (readonly) BOOL threeFingerTapEnabled __attribute__((swift_name("threeFingerTapEnabled")));
-@property (readonly) BOOL twoFingerDoubleTapEnabled __attribute__((swift_name("twoFingerDoubleTapEnabled")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPReplayProxy")))
-@interface PPCPPReplayProxy : PPCBase
-- (instancetype)initWithReplayer:(PPCReplayer *)replayer __attribute__((swift_name("init(replayer:)"))) __attribute__((objc_designated_initializer));
-- (int32_t)getEndTime __attribute__((swift_name("getEndTime()")));
-- (int32_t)getStartTime __attribute__((swift_name("getStartTime()")));
-- (BOOL)jumpTime:(int32_t)time __attribute__((swift_name("jump(time:)")));
-- (void)putData:(NSString *)data __attribute__((swift_name("put(data:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPScene")))
-@interface PPCPPScene : PPCBase
-- (NSSet<NSString *> *)consumeModifiedLayerIdsIncludeMaskedLayers:(BOOL)includeMaskedLayers __attribute__((swift_name("consumeModifiedLayerIds(includeMaskedLayers:)")));
-- (NSSet<PPCPPContainerLayer *> *)consumeReorderedParentLayers __attribute__((swift_name("consumeReorderedParentLayers()")));
-- (void)destroy __attribute__((swift_name("destroy()")));
-- (void)forEachLayerFn:(void (^)(PPCPPLayer *))fn __attribute__((swift_name("forEachLayer(fn:)")));
-- (PPCPPLayer * _Nullable)getLayerByIdId:(NSString * _Nullable)id __attribute__((swift_name("getLayerById(id:)")));
-- (BOOL)handleKeyEventKeyCode:(PPCPPKeyCode *)keyCode now:(int64_t)now __attribute__((swift_name("handleKeyEvent(keyCode:now:)")));
-- (void)handleReceivedMessageChannel:(PPCPPMsgChannel *)channel scope:(NSString * _Nullable)scope messageId:(NSString *)messageId value:(NSString * _Nullable)value now:(int64_t)now __attribute__((swift_name("handleReceivedMessage(channel:scope:messageId:value:now:)")));
-- (void)handleShakeEventNow:(int64_t)now __attribute__((swift_name("handleShakeEvent(now:)")));
-- (void)doInitContextPieContext:(PPCPPPieContext *)pieContext __attribute__((swift_name("doInitContext(pieContext:)")));
-- (BOOL)is3DRotatingLayerLayerId:(NSString *)layerId __attribute__((swift_name("is3DRotatingLayer(layerId:)")));
-- (void)prepareTransitionNow:(int64_t)now __attribute__((swift_name("prepareTransition(now:)")));
-- (void)progressNow:(int64_t)now __attribute__((swift_name("progress(now:)")));
-- (void)reset __attribute__((swift_name("reset()")));
-- (void)resetMediaState __attribute__((swift_name("resetMediaState()")));
-- (void)startNow:(int64_t)now includePreTransition:(BOOL)includePreTransition __attribute__((swift_name("start(now:includePreTransition:)")));
-@property (readonly) NSSet<PPCPPChangeTarget *> *changeTargets __attribute__((swift_name("changeTargets")));
-@property (readonly, getter=doCopy) PPCPPScene * _Nullable (^copy)(void) __attribute__((swift_name("copy")));
-@property (readonly) float height __attribute__((swift_name("height")));
+__attribute__((swift_name("PPIdentifiableChangeObservable")))
+@interface PPCPPIdentifiableChangeObservable : PPCBase
+- (instancetype)initWithId:(NSString *)id changeObservers:(PPCPPChangeObserversHolder *)changeObservers __attribute__((swift_name("init(id:changeObservers:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) PPCPPChangeObserversHolder *changeObservers __attribute__((swift_name("changeObservers")));
 @property (readonly) NSString *id __attribute__((swift_name("id")));
-@property (readonly) BOOL isOpaque __attribute__((swift_name("isOpaque")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly) NSSet<NSString *> *nextSceneIds __attribute__((swift_name("nextSceneIds")));
-@property (readonly) NSDictionary<NSString *, PPCPPLayerType *> *requiredMediaResourceIds __attribute__((swift_name("requiredMediaResourceIds")));
-@property (readonly) PPCPPContainerLayer * _Nullable rootLayer __attribute__((swift_name("rootLayer")));
-@property (readonly) NSString * _Nullable thumbnailId __attribute__((swift_name("thumbnailId")));
-@property (readonly) float width __attribute__((swift_name("width")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPVarProxy")))
-@interface PPCPPVarProxy : PPCBase
-- (NSString * _Nullable)getColorValue __attribute__((swift_name("getColorValue()")));
-- (PPCFloat * _Nullable)getNumberValue __attribute__((swift_name("getNumberValue()")));
-- (NSString * _Nullable)getStringValue __attribute__((swift_name("getStringValue()")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly) NSString *type __attribute__((swift_name("type")));
-@end
-
-__attribute__((swift_name("DragDetectorListener")))
-@protocol PPCDragDetectorListener
-@required
-- (void)onDragEndNow:(int64_t)now __attribute__((swift_name("onDragEnd(now:)")));
-- (void)onDragMoveNow:(int64_t)now __attribute__((swift_name("onDragMove(now:)")));
-- (void)onDragStartNow:(int64_t)now dx:(float)dx dy:(float)dy __attribute__((swift_name("onDragStart(now:dx:dy:)")));
-- (BOOL)onDragTouchDownNow:(int64_t)now __attribute__((swift_name("onDragTouchDown(now:)")));
-@end
-
-__attribute__((swift_name("TapDetectorListener")))
-@protocol PPCTapDetectorListener
-@required
-- (void)onCancelNow:(int64_t)now __attribute__((swift_name("onCancel(now:)")));
-- (void)onTapNow:(int64_t)now __attribute__((swift_name("onTap(now:)")));
-@end
-
-__attribute__((swift_name("PPJsonOverrider")))
-@protocol PPCPPJsonOverrider
-@required
-- (NSString * _Nullable)getKey:(NSString *)key __attribute__((swift_name("get(key:)")));
-- (BOOL)hasKeyKey:(NSString *)key __attribute__((swift_name("hasKey(key:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPJsonWithOverriding")))
-@interface PPCPPJsonWithOverriding : PPCBase <PPCPPJson>
-- (instancetype)initWithOrg:(id<PPCPPJson>)org overrider:(id<PPCPPJsonOverrider>)overrider __attribute__((swift_name("init(org:overrider:)"))) __attribute__((objc_designated_initializer));
-- (BOOL)hasKey:(NSString *)key __attribute__((swift_name("has(key:)")));
-- (NSSet<NSString *> *)keySet __attribute__((swift_name("keySet()")));
-- (id _Nullable)optKey:(NSString *)key __attribute__((swift_name("opt(key:)")));
-- (id<PPCPPJson> _Nullable)optObjectKey:(NSString *)key __attribute__((swift_name("optObject(key:)")));
-- (NSArray<id<PPCPPJson>> * _Nullable)optObjectArrayKey:(NSString *)key __attribute__((swift_name("optObjectArray(key:)")));
-- (NSString * _Nullable)optStringKey:(NSString *)key __attribute__((swift_name("optString(key:)")));
-- (NSArray<NSString *> * _Nullable)optStringArrayKey:(NSString *)key __attribute__((swift_name("optStringArray(key:)")));
-- (void)putBooleanKey:(NSString *)key value:(BOOL)value __attribute__((swift_name("putBoolean(key:value:)")));
-- (void)putNumberKey:(NSString *)key value:(id)value __attribute__((swift_name("putNumber(key:value:)")));
-- (void)putObjectArrayKey:(NSString *)key value:(NSArray<id<PPCPPJson>> *)value __attribute__((swift_name("putObjectArray(key:value:)")));
-- (void)putStringKey:(NSString *)key value:(NSString *)value __attribute__((swift_name("putString(key:value:)")));
-- (void)removeKey:(NSString *)key __attribute__((swift_name("remove(key:)")));
-- (NSString *)toJsonString __attribute__((swift_name("toJsonString()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPPathSegmentData")))
-@interface PPCPPPathSegmentData : PPCBase
-- (instancetype)initWithType:(PPCPPPathSegmentType *)type data:(NSMutableArray<PPCFloat *> *)data __attribute__((swift_name("init(type:data:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) NSMutableArray<PPCFloat *> *data __attribute__((swift_name("data")));
-@property (readonly) PPCPPPathSegmentType *type __attribute__((swift_name("type")));
-@end
-
-__attribute__((swift_name("PPPieDecorator")))
-@protocol PPCPPPieDecorator
-@required
-- (void)onSceneLayersReadSceneId:(NSString *)sceneId rootLayer:(PPCPPContainerLayer *)rootLayer pie:(PPCPPPieModel *)pie __attribute__((swift_name("onSceneLayersRead(sceneId:rootLayer:pie:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPPieReader")))
-@interface PPCPPPieReader : PPCBase
-- (instancetype)initWithPieDecorator:(id<PPCPPPieDecorator> _Nullable)pieDecorator __attribute__((swift_name("init(pieDecorator:)"))) __attribute__((objc_designated_initializer));
-
-/**
- * @note This method converts instances of Exception to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (PPCPPPieModel * _Nullable)readPieJson:(id<PPCPPJson>)json engineObserver:(id<PPCPPEngineObserver> _Nullable)engineObserver gestureOptions:(PPCPPPlayControlGestureOptions *)gestureOptions disableVariableDisplay:(BOOL)disableVariableDisplay disableDeviceFrameDisplay:(BOOL)disableDeviceFrameDisplay error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("readPie(json:engineObserver:gestureOptions:disableVariableDisplay:disableDeviceFrameDisplay:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPExprParseError")))
-@interface PPCPPExprParseError : PPCBase
-- (instancetype)initWithPosition:(int32_t)position code:(NSString *)code args:(PPCKotlinArray<NSString *> *)args message:(NSString *)message __attribute__((swift_name("init(position:code:args:message:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) PPCPPExprParseErrorCompanion *companion __attribute__((swift_name("companion")));
-@property (readonly) PPCKotlinArray<NSString *> *args __attribute__((swift_name("args")));
-@property (readonly) NSString *code __attribute__((swift_name("code")));
-@property (readonly) NSString *message __attribute__((swift_name("message")));
-@property (readonly) int32_t position __attribute__((swift_name("position")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPExprParseError.Companion")))
-@interface PPCPPExprParseErrorCompanion : PPCBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCPPExprParseErrorCompanion *shared __attribute__((swift_name("shared")));
-- (PPCPPExprParseError *)errorPosition:(int32_t)position code:(NSString *)code args:(PPCKotlinArray<NSString *> *)args __attribute__((swift_name("error(position:code:args:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -3439,13 +3530,6 @@ __attribute__((swift_name("KotlinArray")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPClockKt")))
-@interface PPCPPClockKt : PPCBase
-+ (NSString *)getCurrentLocalTime __attribute__((swift_name("getCurrentLocalTime()")));
-+ (int64_t)getCurrentTimeMillis __attribute__((swift_name("getCurrentTimeMillis()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("JsonUtilsKt")))
 @interface PPCJsonUtilsKt : PPCBase
 + (NSArray<PPCKotlinx_serialization_jsonJsonElement *> *)toJsonArray:(NSArray<id> *)receiver __attribute__((swift_name("toJsonArray(_:)")));
@@ -3454,15 +3538,22 @@ __attribute__((swift_name("JsonUtilsKt")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("ZeroPrefixedKt")))
-@interface PPCZeroPrefixedKt : PPCBase
-+ (NSString *)zeroPrefixed:(int32_t)receiver maxLength:(int32_t)maxLength __attribute__((swift_name("zeroPrefixed(_:maxLength:)")));
+__attribute__((swift_name("PPClockKt")))
+@interface PPCPPClockKt : PPCBase
++ (NSString *)getCurrentLocalTime __attribute__((swift_name("getCurrentLocalTime()")));
++ (int64_t)getCurrentTimeMillis __attribute__((swift_name("getCurrentTimeMillis()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ReplayDataSerializerKt")))
 @interface PPCReplayDataSerializerKt : PPCBase
 @property (class, readonly) PPCKotlinx_serialization_jsonJson *format __attribute__((swift_name("format")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ZeroPrefixedKt")))
+@interface PPCZeroPrefixedKt : PPCBase
++ (NSString *)zeroPrefixed:(int32_t)receiver maxLength:(int32_t)maxLength __attribute__((swift_name("zeroPrefixed(_:maxLength:)")));
 @end
 
 __attribute__((swift_name("Kotlinx_serialization_coreSerializationStrategy")))
@@ -3504,18 +3595,6 @@ __attribute__((swift_name("Kotlinx_serialization_jsonJsonElement")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinPair")))
-@interface PPCKotlinPair<__covariant A, __covariant B> : PPCBase
-- (instancetype)initWithFirst:(A _Nullable)first second:(B _Nullable)second __attribute__((swift_name("init(first:second:)"))) __attribute__((objc_designated_initializer));
-- (PPCKotlinPair<A, B> *)doCopyFirst:(A _Nullable)first second:(B _Nullable)second __attribute__((swift_name("doCopy(first:second:)")));
-- (BOOL)equalsOther:(id _Nullable)other __attribute__((swift_name("equals(other:)")));
-- (int32_t)hashCode __attribute__((swift_name("hashCode()")));
-- (NSString *)toString __attribute__((swift_name("toString()")));
-@property (readonly) A _Nullable first __attribute__((swift_name("first")));
-@property (readonly) B _Nullable second __attribute__((swift_name("second")));
-@end
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinFloatArray")))
 @interface PPCKotlinFloatArray : PPCBase
 + (instancetype)arrayWithSize:(int32_t)size __attribute__((swift_name("init(size:)")));
@@ -3526,6 +3605,18 @@ __attribute__((swift_name("KotlinFloatArray")))
 - (PPCKotlinFloatIterator *)iterator __attribute__((swift_name("iterator()")));
 - (void)setIndex:(int32_t)index value:(float)value __attribute__((swift_name("set(index:value:)")));
 @property (readonly) int32_t size __attribute__((swift_name("size")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinPair")))
+@interface PPCKotlinPair<__covariant A, __covariant B> : PPCBase
+- (instancetype)initWithFirst:(A _Nullable)first second:(B _Nullable)second __attribute__((swift_name("init(first:second:)"))) __attribute__((objc_designated_initializer));
+- (PPCKotlinPair<A, B> *)doCopyFirst:(A _Nullable)first second:(B _Nullable)second __attribute__((swift_name("doCopy(first:second:)")));
+- (BOOL)equalsOther:(id _Nullable)other __attribute__((swift_name("equals(other:)")));
+- (int32_t)hashCode __attribute__((swift_name("hashCode()")));
+- (NSString *)toString __attribute__((swift_name("toString()")));
+@property (readonly) A _Nullable first __attribute__((swift_name("first")));
+@property (readonly) B _Nullable second __attribute__((swift_name("second")));
 @end
 
 __attribute__((swift_name("KotlinIterator")))
@@ -3552,6 +3643,7 @@ __attribute__((swift_name("Kotlinx_serialization_jsonJson")))
 @interface PPCKotlinx_serialization_jsonJson : PPCBase <PPCKotlinx_serialization_coreStringFormat>
 @property (class, readonly, getter=companion) PPCKotlinx_serialization_jsonJsonDefault *companion __attribute__((swift_name("companion")));
 - (id _Nullable)decodeFromJsonElementDeserializer:(id<PPCKotlinx_serialization_coreDeserializationStrategy>)deserializer element:(PPCKotlinx_serialization_jsonJsonElement *)element __attribute__((swift_name("decodeFromJsonElement(deserializer:element:)")));
+- (id _Nullable)decodeFromStringString:(NSString *)string __attribute__((swift_name("decodeFromString(string:)")));
 - (id _Nullable)decodeFromStringDeserializer:(id<PPCKotlinx_serialization_coreDeserializationStrategy>)deserializer string:(NSString *)string __attribute__((swift_name("decodeFromString(deserializer:string:)")));
 - (PPCKotlinx_serialization_jsonJsonElement *)encodeToJsonElementSerializer:(id<PPCKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToJsonElement(serializer:value:)")));
 - (NSString *)encodeToStringSerializer:(id<PPCKotlinx_serialization_coreSerializationStrategy>)serializer value:(id _Nullable)value __attribute__((swift_name("encodeToString(serializer:value:)")));
@@ -3762,8 +3854,20 @@ __attribute__((swift_name("Kotlinx_serialization_jsonJsonConfiguration")))
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) BOOL allowSpecialFloatingPointValues __attribute__((swift_name("allowSpecialFloatingPointValues")));
 @property (readonly) BOOL allowStructuredMapKeys __attribute__((swift_name("allowStructuredMapKeys")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property (readonly) BOOL allowTrailingComma __attribute__((swift_name("allowTrailingComma")));
 @property (readonly) NSString *classDiscriminator __attribute__((swift_name("classDiscriminator")));
 @property (readonly) BOOL coerceInputValues __attribute__((swift_name("coerceInputValues")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property (readonly) BOOL decodeEnumsCaseInsensitive __attribute__((swift_name("decodeEnumsCaseInsensitive")));
 @property (readonly) BOOL encodeDefaults __attribute__((swift_name("encodeDefaults")));
 
 /**
