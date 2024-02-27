@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class PPCCommon, PPCProfileOptions, PPCDeviceInfoCompanion, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPAndroidVibrateType, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPFillType, PPCPPHorizontalAlign, PPCPPIosVibrateType, PPCPPLineCap, PPCPPLineJoin, PPCPPMsgChannel, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPSizeProp, PPCPPSpeechGender, PPCPPTextLayerSizeMode, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPPoint, PPCPPTouchEventAction, PPCPPMouseEvent, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPExprEvalError, PPCPPDataType, PPCPPPlayEvent, PPCPPColor, PPCPPExpr, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPKeyboardDef, PPCPPKeyboardOptions, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCPPLayerType, PPCPPContainerLayer, PPCPPProperty<T>, PPCPPLayerAlias, PPCPPCorners<T>, PPCPPLayerProperty, PPCPPGradient, PPCPPHitArea, PPCPPShapeLayer, PPCPPLayer, PPCPPMediaCommand, PPCPPMessageBus, PPCPPTextAttributes, PPCAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCAbstractTextLayer, PPCPPVectorShape, PPCConstraintOption, PPCDirection, PPCOneDimensionResizeConstraints, PPCPPPathSegmentData, PPCPPMessageCompanion, PPCPPVar<T>, PPCPPMessage, PPCKotlinx_serialization_jsonJsonElement, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDeviceFrameHelper, PPCPPScene, PPCDevicePreset, PPCPPPiePlayer, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPPieModel, PPCPPVarProxy, PPCReplayer, PPCWatermark, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCPPNodeType, PPCPPParseNode, PPCPPParseNodeCompanion, PPCPPRepeatDef, PPCPPClock, PPCPPTouchEvent, PPCPPPieRecord, PPCPPEventChannel<T>, PPCPPPlayEventCompanion, PPCPPSoftKeyboardCompanion, PPCPPSoftKeyboard, PPCPlayOptions, PPCReplayOptions, PPCPPSceneChangeEvent, PPCPPRenderEvent, PPCProfile, PPCProfileEntryType, PPCProfileEntryCompanion, PPCPPPlayControlGestureOptions, PPCMediaStateCompanion, PPCPPRenderEventCompanion, PPCPPFixedSceneChangeEventCompanion, PPCPPInputFocusEventCompanion, PPCPPIosEffectEventCompanion, PPCPPMediaCommandEventCompanion, PPCPPValueHistory<T>, PPCPPReorderEventCompanion, PPCPPSceneChangeEventCompanion, PPCPPValueHistoryCompanion, PPCMediaState, PPCReplayDataCompanion, PPCReplayDataSerializer, PPCReplayData, PPCReplayDataVersionCompanion, PPCPPColorCompanion, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPGradientOffset, PPCPPGradientLinear, PPCPPGradientRadial, PPCPPPointCompanion, PPCPPSize, PPCBinarySearch, PPCDateTime, PPCFormulaUtils, PPCPPNumberConstantExpr, PPCLogger, PPCPlatform, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPIdentifiableChangeObservable, PPCPPChangeObserversHolder, PPCKotlinx_serialization_jsonJson, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_jsonJsonDefault, PPCKotlinx_serialization_jsonJsonConfiguration, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing;
+@class PPCCommon, PPCProfileOptions, PPCDeviceInfoCompanion, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPAndroidVibrateType, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPFillType, PPCPPHorizontalAlign, PPCPPIosVibrateType, PPCPPLineCap, PPCPPLineJoin, PPCPPMsgChannel, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPSizeProp, PPCPPSpeechGender, PPCPPTextLayerSizeMode, PPCPPTriggerTypeCompanion, PPCPPTriggerType, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPPoint, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPLayer, PPCPPMouseEvent, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPTouchEventAction, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPExprEvalError, PPCPPResponseObserver, PPCPPPieObserver, PPCPPSceneObserver, PPCPPTriggerObserver, PPCPPDataType, PPCPPPlayEvent, PPCPPColor, PPCPPExpr, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPConditionObserver, PPCPPKeyboardDef, PPCPPKeyboardOptions, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCPPLayerType, PPCPPContainerLayer, PPCPPProperty<T>, PPCPPLayerAlias, PPCPPCorners<T>, PPCPPLayerProperty, PPCPPGradient, PPCPPHitArea, PPCPPShapeLayer, PPCAbstractMouseTrigger, PPCPPMediaCommand, PPCPPMessageBus, PPCPPTextAttributes, PPCAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCAbstractTextLayer, PPCPPVectorShape, PPCConstraintOption, PPCDirection, PPCOneDimensionResizeConstraints, PPCPPPathSegmentData, PPCPPMessageCompanion, PPCPPVar<T>, PPCPPMessage, PPCKotlinx_serialization_jsonJsonElement, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDeviceFrameHelper, PPCPPScene, PPCDevicePreset, PPCPPPiePlayer, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPPieModel, PPCPPVarProxy, PPCReplayer, PPCWatermark, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCPPNodeType, PPCPPParseNode, PPCPPParseNodeCompanion, PPCPPRepeatDef, PPCPPClock, PPCPPTouchEvent, PPCPPPieRecord, PPCPPEventChannel<T>, PPCPPPlayEventCompanion, PPCPPSoftKeyboardCompanion, PPCPPSoftKeyboard, PPCPlayOptions, PPCReplayOptions, PPCPPSceneChangeEvent, PPCPPRenderEvent, PPCProfile, PPCProfileEntryType, PPCProfileEntryCompanion, PPCPPPlayControlGestureOptions, PPCMediaStateCompanion, PPCPPRenderEventCompanion, PPCPPFixedSceneChangeEventCompanion, PPCPPInputFocusEventCompanion, PPCPPIosEffectEventCompanion, PPCPPMediaCommandEventCompanion, PPCPPValueHistory<T>, PPCPPReorderEventCompanion, PPCPPSceneChangeEventCompanion, PPCPPValueHistoryCompanion, PPCMediaState, PPCReplayDataCompanion, PPCReplayDataSerializer, PPCReplayData, PPCReplayDataVersionCompanion, PPCPPSceneContext, PPCPPResponse, PPCPPAnimationDef, PPCRangeMap<E>, PPCPPChainResponse<E>, PPCPPOneTimeResponse, PPCPPEvent, PPCPPTrigger, PPCPPEasingFunc, PPCPPColorCompanion, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPGradientOffset, PPCPPGradientLinear, PPCPPGradientRadial, PPCPPPointCompanion, PPCPPSize, PPCBinarySearch, PPCDateTime, PPCFormulaUtils, PPCPPNumberConstantExpr, PPCLogger, PPCPlatform, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPIdentifiableChangeObservable, PPCPPChangeObserversHolder, PPCKotlinx_serialization_jsonJson, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_jsonJsonDefault, PPCKotlinx_serialization_jsonJsonConfiguration, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing;
 
-@protocol PPCKotlinx_serialization_coreKSerializer, PPCKotlinComparable, PPCPPJson, PPCPPEventChannelHandler, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCFormulaObserver, PPCPPExprLayer, PPCPPObservableValueProvider, PPCPPJsonOverrider, PPCPPKeyboardProvider, PPCPPLayerObserver, PPCPPPropertyObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPEngineObserver, PPCPPFloatNormalizer, PPCPPClockObserver, PPCPPMessageBusTaskRunner, PPCPlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPSoftKeyboardDelegate, PPCPPSoftKeyboardListener, PPCReplayerDelegate, PPCPPValueProvider, PPCPPPieDecorator, PPCPPChangeObserver, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_serialization_coreSerialFormat, PPCKotlinx_serialization_coreStringFormat, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinx_serialization_jsonJsonNamingStrategy, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
+@protocol PPCKotlinx_serialization_coreKSerializer, PPCKotlinComparable, PPCPPJson, PPCPPEventChannelHandler, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCFormulaObserver, PPCPPResponseParentObserver, PPCPPExprLayer, PPCPPObservableValueProvider, PPCPPEngineObserver, PPCPPJsonOverrider, PPCPPKeyboardProvider, PPCPPLayerObserver, PPCPPPropertyObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPFloatNormalizer, PPCPPClockObserver, PPCPPMessageBusTaskRunner, PPCPlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPSoftKeyboardDelegate, PPCPPSoftKeyboardListener, PPCReplayerDelegate, PPCPPValueProvider, PPCPPPieDecorator, PPCPPChangeObserver, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_serialization_coreSerialFormat, PPCKotlinx_serialization_coreStringFormat, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinx_serialization_jsonJsonNamingStrategy, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -293,6 +293,15 @@ __attribute__((swift_name("PPModelException")))
 - (instancetype)initWithMessage:(NSString *)message cause:(PPCKotlinThrowable *)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
+@end
+
+__attribute__((swift_name("PPEasingFunc")))
+@interface PPCPPEasingFunc : PPCBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (float)calculateValueProgressProgress:(float)progress __attribute__((swift_name("calculateValueProgress(progress:)")));
+- (BOOL)hasDuration __attribute__((swift_name("hasDuration()")));
+@property int64_t duration __attribute__((swift_name("duration")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -616,6 +625,61 @@ __attribute__((swift_name("PPTextLayerSizeMode")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPTriggerType")))
+@interface PPCPPTriggerType : PPCKotlinEnum<PPCPPTriggerType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) PPCPPTriggerTypeCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) PPCPPTriggerType *chain __attribute__((swift_name("chain")));
+@property (class, readonly) PPCPPTriggerType *range __attribute__((swift_name("range")));
+@property (class, readonly) PPCPPTriggerType *change __attribute__((swift_name("change")));
+@property (class, readonly) PPCPPTriggerType *onLoad __attribute__((swift_name("onLoad")));
+@property (class, readonly) PPCPPTriggerType *receive __attribute__((swift_name("receive")));
+@property (class, readonly) PPCPPTriggerType *tap __attribute__((swift_name("tap")));
+@property (class, readonly) PPCPPTriggerType *touchDown __attribute__((swift_name("touchDown")));
+@property (class, readonly) PPCPPTriggerType *touchUp __attribute__((swift_name("touchUp")));
+@property (class, readonly) PPCPPTriggerType *doubleTap __attribute__((swift_name("doubleTap")));
+@property (class, readonly) PPCPPTriggerType *longPress __attribute__((swift_name("longPress")));
+@property (class, readonly) PPCPPTriggerType *fling __attribute__((swift_name("fling")));
+@property (class, readonly) PPCPPTriggerType *swipe __attribute__((swift_name("swipe")));
+@property (class, readonly) PPCPPTriggerType *drag __attribute__((swift_name("drag")));
+@property (class, readonly) PPCPPTriggerType *pinch __attribute__((swift_name("pinch")));
+@property (class, readonly) PPCPPTriggerType *rotate __attribute__((swift_name("rotate")));
+@property (class, readonly) PPCPPTriggerType *pull __attribute__((swift_name("pull")));
+@property (class, readonly) PPCPPTriggerType *forceTouch __attribute__((swift_name("forceTouch")));
+@property (class, readonly) PPCPPTriggerType *mouseOver __attribute__((swift_name("mouseOver")));
+@property (class, readonly) PPCPPTriggerType *mouseOut __attribute__((swift_name("mouseOut")));
+@property (class, readonly) PPCPPTriggerType *scroll __attribute__((swift_name("scroll")));
+@property (class, readonly) PPCPPTriggerType *page __attribute__((swift_name("page")));
+@property (class, readonly) PPCPPTriggerType *freeTransform __attribute__((swift_name("freeTransform")));
+@property (class, readonly) PPCPPTriggerType *focus __attribute__((swift_name("focus")));
+@property (class, readonly) PPCPPTriggerType *returnKey __attribute__((swift_name("returnKey")));
+@property (class, readonly) PPCPPTriggerType *key __attribute__((swift_name("key")));
+@property (class, readonly) PPCPPTriggerType *voice __attribute__((swift_name("voice")));
+@property (class, readonly) PPCPPTriggerType *speak __attribute__((swift_name("speak")));
+@property (class, readonly) PPCPPTriggerType *compass __attribute__((swift_name("compass")));
+@property (class, readonly) PPCPPTriggerType *tilt __attribute__((swift_name("tilt")));
+@property (class, readonly) PPCPPTriggerType *light __attribute__((swift_name("light")));
+@property (class, readonly) PPCPPTriggerType *proximity __attribute__((swift_name("proximity")));
+@property (class, readonly) PPCPPTriggerType *sound __attribute__((swift_name("sound")));
+@property (class, readonly) PPCPPTriggerType *shake __attribute__((swift_name("shake")));
+@property (class, readonly) PPCPPTriggerType *rotary __attribute__((swift_name("rotary")));
++ (PPCKotlinArray<PPCPPTriggerType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPTriggerType *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPTriggerType.Companion")))
+@interface PPCPPTriggerTypeCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPTriggerTypeCompanion *shared __attribute__((swift_name("shared")));
+- (PPCPPTriggerType *)fromStringValue:(NSString *)value __attribute__((swift_name("fromString(value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPVectorShapeType")))
 @interface PPCPPVectorShapeType : PPCKotlinEnum<PPCPPVectorShapeType *>
 + (instancetype)alloc __attribute__((unavailable));
@@ -643,6 +707,21 @@ __attribute__((swift_name("PPVerticalAlign")))
 + (PPCKotlinArray<PPCPPVerticalAlign *> *)values __attribute__((swift_name("values()")));
 @property (class, readonly) NSArray<PPCPPVerticalAlign *> *entries __attribute__((swift_name("entries")));
 @property (readonly) float autoResizeMovementFactor __attribute__((swift_name("autoResizeMovementFactor")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPEvent")))
+@interface PPCPPEvent : PPCBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (PPCFloat * _Nullable)getVarName:(NSString * _Nullable)name __attribute__((swift_name("getVar(name:)")));
+- (void)setMainVarNameMainAttributeName:(NSString *)mainAttributeName __attribute__((swift_name("setMainVarName(mainAttributeName:)")));
+- (void)setPositionVarNameXName:(NSString *)xName yName:(NSString *)yName __attribute__((swift_name("setPositionVarName(xName:yName:)")));
+- (void)setVarName:(NSString *)name value:(float)value __attribute__((swift_name("setVar(name:value:)")));
+@property (readonly) int32_t intTime __attribute__((swift_name("intTime")));
+@property (readonly) float mainVar __attribute__((swift_name("mainVar")));
+@property int64_t time __attribute__((swift_name("time")));
+@property (readonly) PPCPPPoint *touchPoint __attribute__((swift_name("touchPoint")));
 @end
 
 __attribute__((swift_name("PPEventChannel")))
@@ -725,6 +804,14 @@ __attribute__((swift_name("PPKeyCode.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) PPCPPKeyCodeCompanion *shared __attribute__((swift_name("shared")));
 - (PPCPPKeyCode * _Nullable)fromStringStringValue:(NSString *)stringValue __attribute__((swift_name("fromString(stringValue:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPLayerMouseEventHandler")))
+@interface PPCPPLayerMouseEventHandler : PPCBase
+- (instancetype)initWithLayer:(PPCPPLayer *)layer __attribute__((swift_name("init(layer:)"))) __attribute__((objc_designated_initializer));
+- (void)onMouseOutE:(PPCPPMouseEvent *)e __attribute__((swift_name("onMouseOut(e:)")));
+- (BOOL)onMouseOverE:(PPCPPMouseEvent *)e __attribute__((swift_name("onMouseOver(e:)")));
 @end
 
 __attribute__((swift_name("PPMouseEvent")))
@@ -947,6 +1034,27 @@ __attribute__((swift_name("FormulaObserver")))
 @property (readonly, getter=namespace) NSString *namespace_ __attribute__((swift_name("namespace_")));
 @end
 
+__attribute__((swift_name("PPResponseParentObserver")))
+@protocol PPCPPResponseParentObserver <PPCFormulaObserver>
+@required
+- (PPCPPResponseObserver *)withResponseResponseId:(NSString *)responseId __attribute__((swift_name("withResponse(responseId:)")));
+@property (readonly) PPCPPPieObserver *pieObserver __attribute__((swift_name("pieObserver")));
+@property (readonly) PPCPPSceneObserver *sceneObserver __attribute__((swift_name("sceneObserver")));
+@property (readonly) PPCPPTriggerObserver *triggerContext __attribute__((swift_name("triggerContext")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPConditionObserver")))
+@interface PPCPPConditionObserver : PPCBase <PPCPPResponseParentObserver, PPCFormulaObserver>
+- (instancetype)initWithParentContext:(PPCPPTriggerObserver *)parentContext conditionId:(NSString *)conditionId __attribute__((swift_name("init(parentContext:conditionId:)"))) __attribute__((objc_designated_initializer));
+- (void)reportErrorError:(PPCPPExprEvalError *)error __attribute__((swift_name("reportError(error:)")));
+- (PPCPPResponseObserver *)withResponseResponseId:(NSString *)responseId __attribute__((swift_name("withResponse(responseId:)")));
+@property (readonly, getter=namespace) NSString *namespace_ __attribute__((swift_name("namespace_")));
+@property (readonly) PPCPPPieObserver *pieObserver __attribute__((swift_name("pieObserver")));
+@property (readonly) PPCPPSceneObserver *sceneObserver __attribute__((swift_name("sceneObserver")));
+@property (readonly) PPCPPTriggerObserver *triggerContext __attribute__((swift_name("triggerContext")));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPDataType")))
 @interface PPCPPDataType : PPCKotlinEnum<PPCPPDataType *>
@@ -1067,6 +1175,60 @@ __attribute__((swift_name("PPNumberConstantExpr")))
 - (NSString * _Nullable)evalAsString __attribute__((swift_name("evalAsString()")));
 - (void)forEachFn:(void (^)(PPCPPExpr *))fn __attribute__((swift_name("forEach(fn:)")));
 - (id<PPCPPObservableValueProvider> _Nullable)toObservableValueProvider __attribute__((swift_name("toObservableValueProvider()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPPieObserver")))
+@interface PPCPPPieObserver : PPCBase
+- (instancetype)initWithEngineObserver:(id<PPCPPEngineObserver> _Nullable)engineObserver __attribute__((swift_name("init(engineObserver:)"))) __attribute__((objc_designated_initializer));
+- (void)reportErrorError:(PPCPPExprEvalError *)error __attribute__((swift_name("reportError(error:)")));
+@property (readonly) id<PPCPPEngineObserver> _Nullable engineObserver __attribute__((swift_name("engineObserver")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPResponseObserver")))
+@interface PPCPPResponseObserver : PPCBase <PPCFormulaObserver>
+- (instancetype)initWithParentObserver:(id<PPCPPResponseParentObserver>)parentObserver responseId:(NSString *)responseId __attribute__((swift_name("init(parentObserver:responseId:)"))) __attribute__((objc_designated_initializer));
+- (void)notifyChainRunNow:(int32_t)now __attribute__((swift_name("notifyChainRun(now:)")));
+- (void)notifyChainRunNow_:(int64_t)now __attribute__((swift_name("notifyChainRun(now_:)")));
+- (void)notifyContinuousEndNow:(int32_t)now __attribute__((swift_name("notifyContinuousEnd(now:)")));
+- (void)notifyContinuousStartNow:(int32_t)now __attribute__((swift_name("notifyContinuousStart(now:)")));
+- (void)notifyOneTimeRunTriggerEventId:(int32_t)triggerEventId taskId:(int32_t)taskId delay:(int32_t)delay startTime:(int32_t)startTime endTime:(int32_t)endTime __attribute__((swift_name("notifyOneTimeRun(triggerEventId:taskId:delay:startTime:endTime:)")));
+- (void)notifyOneTimeRunTriggerEventId:(int32_t)triggerEventId taskId:(int32_t)taskId delay:(int64_t)delay startTime:(int64_t)startTime endTime_:(int64_t)endTime __attribute__((swift_name("notifyOneTimeRun(triggerEventId:taskId:delay:startTime:endTime_:)")));
+- (void)reportErrorError:(PPCPPExprEvalError *)error __attribute__((swift_name("reportError(error:)")));
+- (BOOL)shouldNotify __attribute__((swift_name("shouldNotify()")));
+@property (readonly) PPCInt * _Nullable lastTriggerEventId __attribute__((swift_name("lastTriggerEventId")));
+@property (readonly, getter=namespace) NSString *namespace_ __attribute__((swift_name("namespace_")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPSceneObserver")))
+@interface PPCPPSceneObserver : PPCBase
+- (instancetype)initWithParentObserver:(PPCPPPieObserver *)parentObserver sceneId:(NSString *)sceneId __attribute__((swift_name("init(parentObserver:sceneId:)"))) __attribute__((objc_designated_initializer));
+- (PPCPPTriggerObserver *)triggerContextNamespace:(NSString *)namespace_ triggerId:(NSString *)triggerId mergable:(BOOL)mergable __attribute__((swift_name("triggerContext(namespace:triggerId:mergable:)")));
+@property (readonly) PPCPPPieObserver *parentObserver __attribute__((swift_name("parentObserver")));
+@property (readonly) NSString *sceneId __attribute__((swift_name("sceneId")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPTriggerObserver")))
+@interface PPCPPTriggerObserver : PPCBase <PPCPPResponseParentObserver, PPCFormulaObserver>
+- (instancetype)initWithParentObserver:(PPCPPSceneObserver *)parentObserver namespace:(NSString *)namespace_ triggerId:(NSString *)triggerId mergable:(BOOL)mergable __attribute__((swift_name("init(parentObserver:namespace:triggerId:mergable:)"))) __attribute__((objc_designated_initializer));
+- (BOOL)isLastEventMerged __attribute__((swift_name("isLastEventMerged()")));
+- (void)notifyChainResponseNow:(int32_t)now __attribute__((swift_name("notifyChainResponse(now:)")));
+- (void)notifyContinuousEndNow:(int32_t)now __attribute__((swift_name("notifyContinuousEnd(now:)")));
+- (void)notifyContinuousStartNow:(int32_t)now __attribute__((swift_name("notifyContinuousStart(now:)")));
+- (void)notifyOneTimeTriggerNow:(int32_t)now __attribute__((swift_name("notifyOneTimeTrigger(now:)")));
+- (void)notifyOneTimeTriggerNow_:(int64_t)now __attribute__((swift_name("notifyOneTimeTrigger(now_:)")));
+- (void)reportErrorError:(PPCPPExprEvalError *)error __attribute__((swift_name("reportError(error:)")));
+- (PPCPPConditionObserver *)withConditionConditionId:(NSString *)conditionId __attribute__((swift_name("withCondition(conditionId:)")));
+- (PPCPPResponseObserver *)withResponseResponseId:(NSString *)responseId __attribute__((swift_name("withResponse(responseId:)")));
+@property BOOL ignoreChain __attribute__((swift_name("ignoreChain")));
+@property PPCPPPlayEvent * _Nullable lastEvent __attribute__((swift_name("lastEvent")));
+@property (readonly, getter=namespace) NSString *namespace_ __attribute__((swift_name("namespace_")));
+@property (readonly) PPCPPPieObserver *pieObserver __attribute__((swift_name("pieObserver")));
+@property (readonly) PPCPPSceneObserver *sceneObserver __attribute__((swift_name("sceneObserver")));
+@property (readonly) PPCPPTriggerObserver *triggerContext __attribute__((swift_name("triggerContext")));
 @end
 
 __attribute__((swift_name("PPJson")))
@@ -1244,6 +1406,7 @@ __attribute__((swift_name("PPLayer")))
 @property PPCPPShapeLayer * _Nullable maskLayer __attribute__((swift_name("maskLayer")));
 @property (readonly) float maxRadius __attribute__((swift_name("maxRadius")));
 @property (readonly) float mergedOpacity __attribute__((swift_name("mergedOpacity")));
+@property (readonly) NSMutableArray<PPCAbstractMouseTrigger *> *mouseTriggers __attribute__((swift_name("mouseTriggers")));
 @property NSString * _Nullable name __attribute__((swift_name("name")));
 @property (readonly, getter=namespace) NSString *namespace_ __attribute__((swift_name("namespace_")));
 @property (readonly) NSString *nsId __attribute__((swift_name("nsId")));
@@ -2430,6 +2593,14 @@ __attribute__((swift_name("PPPlayEvent.Companion")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPSceneContext")))
+@interface PPCPPSceneContext : PPCBase
+- (instancetype)initWithPieContext:(PPCPPPieContext *)pieContext taskScheduler:(PPCPPMessageBus *)taskScheduler __attribute__((swift_name("init(pieContext:taskScheduler:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) PPCPPPieContext *pieContext __attribute__((swift_name("pieContext")));
+@property (readonly) PPCPPMessageBus *taskScheduler __attribute__((swift_name("taskScheduler")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPSoftKeyboard")))
 @interface PPCPPSoftKeyboard : PPCBase
 - (instancetype)initWithRootLayer:(PPCPPContainerLayer *)rootLayer keyboardProvider:(id<PPCPPKeyboardProvider>)keyboardProvider pie:(PPCPPPieModel *)pie __attribute__((swift_name("init(rootLayer:keyboardProvider:pie:)"))) __attribute__((objc_designated_initializer));
@@ -3132,6 +3303,99 @@ __attribute__((swift_name("ListSerializer")))
 - (NSString *)serializeIterable:(id)iterable __attribute__((swift_name("serialize(iterable:)")));
 @end
 
+__attribute__((swift_name("PPResponse")))
+@interface PPCPPResponse : PPCBase
+- (instancetype)initWithLayer:(PPCPPLayer * _Nullable)layer ctx:(PPCPPResponseObserver * _Nullable)ctx __attribute__((swift_name("init(layer:ctx:)"))) __attribute__((objc_designated_initializer));
+- (void)getChangeTargetsOut:(PPCMutableSet<PPCPPChangeTarget *> *)out __attribute__((swift_name("getChangeTargets(out:)")));
+- (void)getUsedFontNamesOut:(PPCMutableSet<NSString *> *)out __attribute__((swift_name("getUsedFontNames(out:)")));
+- (void)doInitContextContext:(PPCPPSceneContext *)context __attribute__((swift_name("doInitContext(context:)")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+@property (readonly) PPCPPResponseObserver * _Nullable ctx __attribute__((swift_name("ctx")));
+@property (readonly) PPCPPLayer * _Nullable layer __attribute__((swift_name("layer")));
+@property (readonly) PPCPPMessageBus * _Nullable messageBus __attribute__((swift_name("messageBus")));
+@end
+
+__attribute__((swift_name("PPChainResponse")))
+@interface PPCPPChainResponse<E> : PPCPPResponse
+- (instancetype)initWithLayer:(PPCPPLayer * _Nullable)layer ctx:(PPCPPResponseObserver * _Nullable)ctx __attribute__((swift_name("init(layer:ctx:)"))) __attribute__((objc_designated_initializer));
+- (void)addMappingEntryEntry:(E)entry __attribute__((swift_name("addMappingEntry(entry:)")));
+- (void)reset __attribute__((swift_name("reset()")));
+- (BOOL)runValue:(float)value now:(int64_t)now __attribute__((swift_name("run(value:now:)")));
+- (void)updatePropertyProperty:(PPCPPColorProperty *)property value:(PPCPPColor *)value now:(int64_t)now __attribute__((swift_name("updateProperty(property:value:now:)")));
+- (void)updatePropertyProperty:(PPCPPFloatProperty *)property value:(float)value now_:(int64_t)now __attribute__((swift_name("updateProperty(property:value:now_:)")));
+@property PPCPPAnimationDef * _Nullable animationDef __attribute__((swift_name("animationDef")));
+@property (readonly) PPCRangeMap<E> *mapping __attribute__((swift_name("mapping")));
+@end
+
+__attribute__((swift_name("RangeEntry")))
+@interface PPCRangeEntry<T> : PPCBase
+- (instancetype)initWithRangeStart:(float)rangeStart rangeEnd:(float)rangeEnd startValue:(T _Nullable)startValue endValue:(T _Nullable)endValue __attribute__((swift_name("init(rangeStart:rangeEnd:startValue:endValue:)"))) __attribute__((objc_designated_initializer));
+- (float)getDistanceCurrentRange:(float)currentRange prevRange:(PPCFloat * _Nullable)prevRange __attribute__((swift_name("getDistance(currentRange:prevRange:)")));
+- (float)getProgressAtRangeValue:(float)rangeValue __attribute__((swift_name("getProgressAt(rangeValue:)")));
+- (T _Nullable)getValueAtRangeValue:(float)rangeValue __attribute__((swift_name("getValueAt(rangeValue:)")));
+- (PPCFloat * _Nullable)interpolateStart:(PPCFloat * _Nullable)start end:(PPCFloat * _Nullable)end progress:(float)progress __attribute__((swift_name("interpolate(start:end:progress:)")));
+- (int32_t)interpolateStart:(int32_t)start end:(int32_t)end progress_:(float)progress __attribute__((swift_name("interpolate(start:end:progress_:)")));
+@property T _Nullable endValue __attribute__((swift_name("endValue")));
+@property T _Nullable startValue __attribute__((swift_name("startValue")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("RangeMap")))
+@interface PPCRangeMap<E> : PPCBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)addEntry:(E)entry __attribute__((swift_name("add(entry:)")));
+- (void)reset __attribute__((swift_name("reset()")));
+- (E _Nullable)updateRangeValueRangeValue:(float)rangeValue __attribute__((swift_name("updateRangeValue(rangeValue:)")));
+@property (readonly) NSMutableArray<E> *all __attribute__((swift_name("all")));
+@end
+
+__attribute__((swift_name("PPOneTimeResponse")))
+@interface PPCPPOneTimeResponse : PPCPPResponse
+- (instancetype)initWithLayer:(PPCPPLayer * _Nullable)layer ctx:(PPCPPResponseObserver * _Nullable)ctx __attribute__((swift_name("init(layer:ctx:)"))) __attribute__((objc_designated_initializer));
+- (void)getNextSceneIdsOut:(PPCMutableSet<NSString *> *)out __attribute__((swift_name("getNextSceneIds(out:)")));
+- (void)runNow:(int64_t)now __attribute__((swift_name("run(now:)")));
+@end
+
+__attribute__((swift_name("PPTrigger")))
+@interface PPCPPTrigger : PPCBase
+- (instancetype)initWithType:(PPCPPTriggerType *)type observer:(PPCPPTriggerObserver * _Nullable)observer __attribute__((swift_name("init(type:observer:)"))) __attribute__((objc_designated_initializer));
+- (void)destroy __attribute__((swift_name("destroy()")));
+- (void)forEachChainResponsesCallback:(void (^)(PPCPPChainResponse<id> *))callback __attribute__((swift_name("forEachChainResponses(callback:)")));
+- (void)forEachOneTimeResponsesCallback:(void (^)(PPCPPOneTimeResponse *))callback __attribute__((swift_name("forEachOneTimeResponses(callback:)")));
+- (void)getChangeTargetsOut:(PPCMutableSet<PPCPPChangeTarget *> *)out __attribute__((swift_name("getChangeTargets(out:)")));
+- (void)getNextSceneIdsOut:(PPCMutableSet<NSString *> *)out __attribute__((swift_name("getNextSceneIds(out:)")));
+- (void)getUsedFontNamesOut:(PPCMutableSet<NSString *> *)out __attribute__((swift_name("getUsedFontNames(out:)")));
+- (void)doInitContextContext:(PPCPPSceneContext *)context __attribute__((swift_name("doInitContext(context:)")));
+- (void)reset __attribute__((swift_name("reset()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+@property PPCPPSceneContext * _Nullable context __attribute__((swift_name("context")));
+@property (readonly) PPCPPTriggerObserver * _Nullable observer __attribute__((swift_name("observer")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+@property (readonly) PPCPPEvent *outputEvent __attribute__((swift_name("outputEvent")));
+@property (readonly) PPCPPTriggerType *type __attribute__((swift_name("type")));
+@end
+
+__attribute__((swift_name("AbstractMouseTrigger")))
+@interface PPCAbstractMouseTrigger : PPCPPTrigger
+- (instancetype)initWithType:(PPCPPTriggerType *)type ctx:(PPCPPTriggerObserver *)ctx layer:(PPCPPLayer *)layer __attribute__((swift_name("init(type:ctx:layer:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithType:(PPCPPTriggerType *)type observer:(PPCPPTriggerObserver * _Nullable)observer __attribute__((swift_name("init(type:observer:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (void)forEachChainResponsesCallback:(void (^)(PPCPPChainResponse<id> *))callback __attribute__((swift_name("forEachChainResponses(callback:)")));
+- (void)onMouseOutE:(PPCPPMouseEvent *)e __attribute__((swift_name("onMouseOut(e:)")));
+- (BOOL)onMouseOverE:(PPCPPMouseEvent *)e __attribute__((swift_name("onMouseOver(e:)")));
+@property (readonly) PPCPPLayer * _Nullable layer __attribute__((swift_name("layer")));
+@end
+
 __attribute__((swift_name("DragDetectorListener")))
 @protocol PPCDragDetectorListener
 @required
@@ -3146,6 +3410,15 @@ __attribute__((swift_name("TapDetectorListener")))
 @required
 - (void)onCancelNow:(int64_t)now __attribute__((swift_name("onCancel(now:)")));
 - (void)onTapNow:(int64_t)now __attribute__((swift_name("onTap(now:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPAnimationDef")))
+@interface PPCPPAnimationDef : PPCBase
+- (instancetype)initWithDelay:(int64_t)delay duration:(int64_t)duration easingFunc:(PPCPPEasingFunc *)easingFunc __attribute__((swift_name("init(delay:duration:easingFunc:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) int64_t delay __attribute__((swift_name("delay")));
+@property (readonly) int64_t duration __attribute__((swift_name("duration")));
+@property (readonly) PPCPPEasingFunc *easingFunc __attribute__((swift_name("easingFunc")));
 @end
 
 __attribute__((objc_subclassing_restricted))
