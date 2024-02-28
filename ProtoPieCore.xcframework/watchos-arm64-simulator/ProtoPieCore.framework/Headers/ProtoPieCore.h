@@ -2337,8 +2337,6 @@ __attribute__((swift_name("Watermark")))
 + (instancetype)watermark __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) PPCWatermark *shared __attribute__((swift_name("shared")));
 @property (readonly) NSString *data __attribute__((swift_name("data")));
-@property (readonly) int32_t deviceHeight __attribute__((swift_name("deviceHeight")));
-@property (readonly) int32_t deviceWidth __attribute__((swift_name("deviceWidth")));
 @end
 
 __attribute__((swift_name("PPFloatNormalizer")))
