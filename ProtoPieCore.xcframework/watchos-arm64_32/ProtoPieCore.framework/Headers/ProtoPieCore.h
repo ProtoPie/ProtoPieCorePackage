@@ -2337,6 +2337,7 @@ __attribute__((swift_name("Watermark")))
 + (instancetype)watermark __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) PPCWatermark *shared __attribute__((swift_name("shared")));
 @property (readonly) NSString *data __attribute__((swift_name("data")));
+@property (readonly) double delay __attribute__((swift_name("delay")));
 @end
 
 __attribute__((swift_name("PPFloatNormalizer")))
