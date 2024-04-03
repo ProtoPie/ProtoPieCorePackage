@@ -1,11 +1,11 @@
-// swift-tools-version:5.7
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
     name: "ProtoPieCore",
     platforms: [
-        .iOS(.v13),
-.watchOS(.v9)
+        .iOS(.v17),
+.watchOS(.v10)
     ],
     products: [
         .library(
