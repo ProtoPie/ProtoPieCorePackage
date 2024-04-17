@@ -2120,6 +2120,7 @@ __attribute__((swift_name("DevicePreset")))
 @property (readonly) NSString *DEVICE_PRESETS_IPHONE12 __attribute__((swift_name("DEVICE_PRESETS_IPHONE12")));
 @property (readonly) NSString *DEVICE_PRESETS_IPHONE13 __attribute__((swift_name("DEVICE_PRESETS_IPHONE13")));
 @property (readonly) NSString *DEVICE_PRESETS_IPHONE14 __attribute__((swift_name("DEVICE_PRESETS_IPHONE14")));
+@property (readonly) NSString *DEVICE_PRESETS_IPHONE15 __attribute__((swift_name("DEVICE_PRESETS_IPHONE15")));
 @property (readonly) NSString *DEVICE_PRESETS_PIXEL __attribute__((swift_name("DEVICE_PRESETS_PIXEL")));
 @end
 
