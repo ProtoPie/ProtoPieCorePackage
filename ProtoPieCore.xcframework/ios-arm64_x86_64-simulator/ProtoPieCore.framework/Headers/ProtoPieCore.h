@@ -1669,6 +1669,15 @@ __attribute__((swift_name("PPMediaCommand")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPMediaChangeCommand")))
+@interface PPCPPMediaChangeCommand : PPCPPMediaCommand
+- (instancetype)initWithUrl:(NSString *)url __attribute__((swift_name("init(url:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)serialize __attribute__((swift_name("serialize()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *url __attribute__((swift_name("url")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPMediaCommand.Companion")))
 @interface PPCPPMediaCommandCompanion : PPCBase
 + (instancetype)alloc __attribute__((unavailable));
@@ -2725,6 +2734,7 @@ __attribute__((swift_name("Replayer")))
 - (void)progressFromTime:(int32_t)fromTime toTime:(int32_t)toTime __attribute__((swift_name("progress(fromTime:toTime:)")));
 - (void)putData:(NSString *)data __attribute__((swift_name("put(data:)")));
 - (void)setReplayDataData:(NSString *)data __attribute__((swift_name("setReplayData(data:)")));
+- (void)start __attribute__((swift_name("start()")));
 @end
 
 __attribute__((swift_name("ReplayerDelegate")))
