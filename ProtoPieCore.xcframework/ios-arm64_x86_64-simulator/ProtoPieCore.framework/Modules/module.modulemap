@@ -1,4 +1,4 @@
-framework module ProtoPieCore {
+framework module "ProtoPieCore" {
     umbrella header "ProtoPieCore.h"
 
     export *

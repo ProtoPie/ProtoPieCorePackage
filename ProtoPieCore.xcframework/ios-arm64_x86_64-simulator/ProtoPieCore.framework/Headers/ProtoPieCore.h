@@ -2583,6 +2583,7 @@ __attribute__((swift_name("PPPiePlayer.PlayerDelayRunner")))
 __attribute__((swift_name("PPPlayEvent")))
 @interface PPCPPPlayEvent : PPCBase
 - (instancetype)initWithEventId:(int32_t)eventId delay:(int32_t)delay startTime:(int32_t)startTime endTime:(int32_t)endTime sceneId:(NSString *)sceneId namespace:(NSString *)namespace_ targetType:(NSString *)targetType targetId:(NSString *)targetId count:(int32_t)count averageDuration:(int32_t)averageDuration parentEventId:(PPCInt * _Nullable)parentEventId __attribute__((swift_name("init(eventId:delay:startTime:endTime:sceneId:namespace:targetType:targetId:count:averageDuration:parentEventId:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithSeen0:(int32_t)seen0 eventId:(int32_t)eventId delay:(int32_t)delay startTime:(int32_t)startTime endTime:(int32_t)endTime sceneId:(NSString * _Nullable)sceneId namespace:(NSString * _Nullable)namespace_ targetType:(NSString * _Nullable)targetType targetId:(NSString * _Nullable)targetId count:(int32_t)count averageDuration:(int32_t)averageDuration parentEventId:(PPCInt * _Nullable)parentEventId lastMergedStartTime:(int32_t)lastMergedStartTime serializationConstructorMarker:(id _Nullable)serializationConstructorMarker __attribute__((swift_name("init(seen0:eventId:delay:startTime:endTime:sceneId:namespace:targetType:targetId:count:averageDuration:parentEventId:lastMergedStartTime:serializationConstructorMarker:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) PPCPPPlayEventCompanion *companion __attribute__((swift_name("companion")));
 - (void)mergeStartTime:(int32_t)startTime endTime:(int32_t)endTime __attribute__((swift_name("merge(startTime:endTime:)")));
 @property int32_t averageDuration __attribute__((swift_name("averageDuration")));
@@ -4158,6 +4159,12 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Kotlinx_serialization_jsonJsonConfiguration")))
 @interface PPCKotlinx_serialization_jsonJsonConfiguration : PPCBase
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property (readonly) BOOL allowComments __attribute__((swift_name("allowComments")));
 @property (readonly) BOOL allowSpecialFloatingPointValues __attribute__((swift_name("allowSpecialFloatingPointValues")));
 @property (readonly) BOOL allowStructuredMapKeys __attribute__((swift_name("allowStructuredMapKeys")));
 
@@ -4181,11 +4188,6 @@ __attribute__((swift_name("Kotlinx_serialization_jsonJsonConfiguration")))
 */
 @property (readonly) BOOL decodeEnumsCaseInsensitive __attribute__((swift_name("decodeEnumsCaseInsensitive")));
 @property (readonly) BOOL encodeDefaults __attribute__((swift_name("encodeDefaults")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
 @property (readonly) BOOL explicitNulls __attribute__((swift_name("explicitNulls")));
 @property (readonly) BOOL ignoreUnknownKeys __attribute__((swift_name("ignoreUnknownKeys")));
 @property (readonly) BOOL isLenient __attribute__((swift_name("isLenient")));
