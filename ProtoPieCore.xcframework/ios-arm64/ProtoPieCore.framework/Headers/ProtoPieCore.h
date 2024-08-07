@@ -3662,22 +3662,22 @@ __attribute__((swift_name("DateTime")))
 - (NSString *)dateYear:(int32_t)year month:(int32_t)month day:(int32_t)day __attribute__((swift_name("date(year:month:day:)")));
 - (NSString *)dateNow __attribute__((swift_name("dateNow()")));
 - (NSString *)dateTimeYear:(int32_t)year month:(int32_t)month day:(int32_t)day hour:(int32_t)hour minute:(int32_t)minute second:(int32_t)second __attribute__((swift_name("dateTime(year:month:day:hour:minute:second:)")));
-- (int32_t)dayLocalDate:(NSString *)localDate __attribute__((swift_name("day(localDate:)")));
-- (int32_t)diffDateTo:(NSString *)to from:(NSString *)from option:(NSString *)option __attribute__((swift_name("diffDate(to:from:option:)")));
+- (int32_t)dayLocalDateString:(NSString *)localDateString __attribute__((swift_name("day(localDateString:)")));
+- (int32_t)diffDateToString:(NSString *)toString fromString:(NSString *)fromString option:(NSString *)option __attribute__((swift_name("diffDate(toString:fromString:option:)")));
 - (int32_t)diffTimeTo:(NSString *)to from:(NSString *)from option:(NSString *)option __attribute__((swift_name("diffTime(to:from:option:)")));
 - (NSString *)epochtodateTimestamp:(int64_t)timestamp format:(NSString * _Nullable)format __attribute__((swift_name("epochtodate(timestamp:format:)")));
-- (NSString *)formatDateLocalDate:(NSString *)localDate format:(NSString *)format __attribute__((swift_name("formatDate(localDate:format:)")));
-- (NSString *)formatTimeLocalTime:(NSString *)localTime format:(NSString *)format __attribute__((swift_name("formatTime(localTime:format:)")));
+- (NSString *)formatDateLocalDateString:(NSString *)localDateString format:(NSString *)format __attribute__((swift_name("formatDate(localDateString:format:)")));
+- (NSString *)formatTimeLocalTimeString:(NSString *)localTimeString format:(NSString *)format __attribute__((swift_name("formatTime(localTimeString:format:)")));
 - (NSString *)getFormattedDateTimestamp:(NSString *)timestamp format:(NSString *)format __attribute__((swift_name("getFormattedDate(timestamp:format:)")));
-- (int32_t)hourLocalTime:(NSString *)localTime __attribute__((swift_name("hour(localTime:)")));
-- (int32_t)minuteLocalTime:(NSString *)localTime __attribute__((swift_name("minute(localTime:)")));
-- (int32_t)monthLocalDate:(NSString *)localDate __attribute__((swift_name("month(localDate:)")));
+- (int32_t)hourLocalTimeString:(NSString *)localTimeString __attribute__((swift_name("hour(localTimeString:)")));
+- (int32_t)minuteLocalTimeString:(NSString *)localTimeString __attribute__((swift_name("minute(localTimeString:)")));
+- (int32_t)monthLocalDateString:(NSString *)localDateString __attribute__((swift_name("month(localDateString:)")));
 - (NSString *)nowTz:(NSString * _Nullable)tz __attribute__((swift_name("now(tz:)")));
-- (int32_t)secondLocalTime:(NSString *)localTime __attribute__((swift_name("second(localTime:)")));
+- (int32_t)secondLocalTimeString:(NSString *)localTimeString __attribute__((swift_name("second(localTimeString:)")));
 - (NSString *)timeHour:(int32_t)hour minute:(int32_t)minute second:(int32_t)second __attribute__((swift_name("time(hour:minute:second:)")));
 - (NSString *)timeNow __attribute__((swift_name("timeNow()")));
 - (NSString *)timezoneArg:(NSString *)arg __attribute__((swift_name("timezone(arg:)")));
-- (int32_t)yearLocalDate:(NSString *)localDate __attribute__((swift_name("year(localDate:)")));
+- (int32_t)yearLocalDateString:(NSString *)localDateString __attribute__((swift_name("year(localDateString:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
