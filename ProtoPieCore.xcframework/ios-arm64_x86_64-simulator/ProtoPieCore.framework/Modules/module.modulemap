@@ -1,6 +1,5 @@
 framework module "ProtoPieCore" {
     umbrella header "ProtoPieCore.h"
-
     export *
     module * { export * }
 }
