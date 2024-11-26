@@ -410,6 +410,10 @@ __attribute__((swift_name("PPDeviceFrameType")))
 @property (class, readonly) PPCPPDeviceFrameType *iphone15plus __attribute__((swift_name("iphone15plus")));
 @property (class, readonly) PPCPPDeviceFrameType *iphone15pro __attribute__((swift_name("iphone15pro")));
 @property (class, readonly) PPCPPDeviceFrameType *iphone15promax __attribute__((swift_name("iphone15promax")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone16 __attribute__((swift_name("iphone16")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone16plus __attribute__((swift_name("iphone16plus")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone16pro __attribute__((swift_name("iphone16pro")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone16promax __attribute__((swift_name("iphone16promax")));
 @property (class, readonly) PPCPPDeviceFrameType *galaxyS8 __attribute__((swift_name("galaxyS8")));
 @property (class, readonly) PPCPPDeviceFrameType *galaxyS10 __attribute__((swift_name("galaxyS10")));
 @property (class, readonly) PPCPPDeviceFrameType *galaxyS10Plus __attribute__((swift_name("galaxyS10Plus")));
