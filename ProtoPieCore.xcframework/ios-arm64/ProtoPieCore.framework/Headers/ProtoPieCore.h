@@ -1268,6 +1268,7 @@ __attribute__((swift_name("PPJsonOverrider")))
 @protocol PPCPPJsonOverrider
 @required
 - (NSString * _Nullable)getKey:(NSString *)key __attribute__((swift_name("get(key:)")));
+- (NSArray<id> * _Nullable)getArrayKey:(NSString *)key __attribute__((swift_name("getArray(key:)")));
 - (BOOL)hasKeyKey:(NSString *)key __attribute__((swift_name("hasKey(key:)")));
 @end
 
@@ -3917,6 +3918,7 @@ __attribute__((swift_name("KotlinArray")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("JsonUtilsKt")))
 @interface PPCJsonUtilsKt : PPCBase
++ (BOOL)isListOfTypeList:(NSArray<id> *)list __attribute__((swift_name("isListOfType(list:)")));
 + (NSArray<PPCKotlinx_serialization_jsonJsonElement *> *)toJsonArray:(NSArray<id> *)receiver __attribute__((swift_name("toJsonArray(_:)")));
 + (PPCKotlinx_serialization_jsonJsonElement *)toJsonElement:(id _Nullable)receiver __attribute__((swift_name("toJsonElement(_:)")));
 + (NSDictionary<NSString *, PPCKotlinx_serialization_jsonJsonElement *> *)toJsonObject:(NSDictionary<id, id> *)receiver __attribute__((swift_name("toJsonObject(_:)")));
