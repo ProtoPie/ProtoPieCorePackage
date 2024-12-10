@@ -2028,6 +2028,7 @@ __attribute__((swift_name("Constraints")))
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property BOOL constraintsIgnored __attribute__((swift_name("constraintsIgnored")));
 @property (readonly) PPCConstraintType *horizontal __attribute__((swift_name("horizontal")));
 @property BOOL isDifferentAxis __attribute__((swift_name("isDifferentAxis")));
 @property BOOL moveAndScaleActive __attribute__((swift_name("moveAndScaleActive")));
