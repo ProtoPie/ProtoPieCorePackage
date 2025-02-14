@@ -4104,12 +4104,12 @@ __attribute__((swift_name("PPIdentifiableChangeObservable")))
 @property int32_t bbL __attribute__((swift_name("bbL")));
 @property int32_t bbT __attribute__((swift_name("bbT")));
 @property int32_t bbW __attribute__((swift_name("bbW")));
-@property double originHeight __attribute__((swift_name("originHeight")));
-@property double originL __attribute__((swift_name("originL")));
-@property double originT __attribute__((swift_name("originT")));
-@property double originWidth __attribute__((swift_name("originWidth")));
-@property double originX __attribute__((swift_name("originX")));
-@property double originY __attribute__((swift_name("originY")));
+@property float originHeight __attribute__((swift_name("originHeight")));
+@property float originL __attribute__((swift_name("originL")));
+@property float originT __attribute__((swift_name("originT")));
+@property float originWidth __attribute__((swift_name("originWidth")));
+@property float originX __attribute__((swift_name("originX")));
+@property float originY __attribute__((swift_name("originY")));
 @property BOOL visible __attribute__((swift_name("visible")));
 @end
 
