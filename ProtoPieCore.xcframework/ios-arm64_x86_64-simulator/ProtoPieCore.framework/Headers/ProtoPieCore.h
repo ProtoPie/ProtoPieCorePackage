@@ -4152,11 +4152,12 @@ __attribute__((swift_name("PPIdentifiableChangeObservable")))
 - (void)autoLayout __attribute__((swift_name("autoLayout()")));
 - (void)autoLayoutWithConfigLayoutMode:(PPCLayoutMode *)layoutMode isWrap:(BOOL)isWrap __attribute__((swift_name("autoLayoutWithConfig(layoutMode:isWrap:)")));
 - (void)decideFillSizingLines:(NSMutableArray<PPCLineInfo *> *)lines isHorizontal:(BOOL)isHorizontal primarySpace:(int32_t)primarySpace counterSpace:(int32_t)counterSpace __attribute__((swift_name("decideFillSizing(lines:isHorizontal:primarySpace:counterSpace:)")));
+- (void)decideSelfContainerSizingLines:(NSMutableArray<PPCLineInfo *> *)lines isHorizontal:(BOOL)isHorizontal usedWidth:(int32_t)usedWidth usedHeight:(int32_t)usedHeight __attribute__((swift_name("decideSelfContainerSizing(lines:isHorizontal:usedWidth:usedHeight:)")));
 - (PPCPPLayerLayoutBBox *)gatherFillWrapInfoLines:(NSMutableArray<PPCLineInfo *> *)lines isHorizontal:(BOOL)isHorizontal isWrap:(BOOL)isWrap __attribute__((swift_name("gatherFillWrapInfo(lines:isHorizontal:isWrap:)")));
 @end
 
 @interface PPCPPLayer (Extensions)
-- (void)adjustForBoundingBoxDbbW:(int32_t)dbbW dbbH:(int32_t)dbbH __attribute__((swift_name("adjustForBoundingBox(dbbW:dbbH:)")));
+- (void)adjustFillBoundingBoxDbbW:(int32_t)dbbW dbbH:(int32_t)dbbH __attribute__((swift_name("adjustFillBoundingBox(dbbW:dbbH:)")));
 - (void)scaleByScaleX:(id)scaleX scaleY:(id)scaleY __attribute__((swift_name("scaleBy(scaleX:scaleY:)")));
 - (void)setWidthHeightWidthf:(float)widthf heightf:(float)heightf __attribute__((swift_name("setWidthHeight(widthf:heightf:)")));
 - (void)updateBoundingBox __attribute__((swift_name("updateBoundingBox()")));
@@ -4165,8 +4166,8 @@ __attribute__((swift_name("PPIdentifiableChangeObservable")))
 @property int32_t bbT __attribute__((swift_name("bbT")));
 @property int32_t bbW __attribute__((swift_name("bbW")));
 @property float originHeight __attribute__((swift_name("originHeight")));
-@property float originL __attribute__((swift_name("originL")));
-@property float originT __attribute__((swift_name("originT")));
+@property float originLeft __attribute__((swift_name("originLeft")));
+@property float originTop __attribute__((swift_name("originTop")));
 @property float originWidth __attribute__((swift_name("originWidth")));
 @property float originX __attribute__((swift_name("originX")));
 @property float originY __attribute__((swift_name("originY")));
@@ -4196,6 +4197,8 @@ __attribute__((swift_name("AutoLayoutAlgorithmKt")))
 + (int32_t)toLC:(double)receiver __attribute__((swift_name("toLC(_:)")));
 + (int32_t)toLC_:(float)receiver __attribute__((swift_name("toLC(__:)")));
 + (int32_t)toLC__:(int32_t)receiver __attribute__((swift_name("toLC(___:)")));
+@property (class) BOOL ENABLE_CONSTRAINTS_IN_AUTO_LAYOUT __attribute__((swift_name("ENABLE_CONSTRAINTS_IN_AUTO_LAYOUT")));
+@property (class) BOOL ENABLE_FIGMA_FILL_ROTATION __attribute__((swift_name("ENABLE_FIGMA_FILL_ROTATION")));
 @property (class, readonly) int32_t LC_SCALE __attribute__((swift_name("LC_SCALE")));
 @end
 
