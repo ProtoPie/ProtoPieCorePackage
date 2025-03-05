@@ -4149,6 +4149,7 @@ __attribute__((swift_name("PPIdentifiableChangeObservable")))
 @end
 
 @interface PPCPPContainerLayer (Extensions)
+- (void)applyConstraintsToChild:(PPCPPLayer *)child __attribute__((swift_name("applyConstraintsTo(child:)")));
 - (void)autoLayout __attribute__((swift_name("autoLayout()")));
 - (void)autoLayoutWithConfigLayoutMode:(PPCLayoutMode *)layoutMode isWrap:(BOOL)isWrap __attribute__((swift_name("autoLayoutWithConfig(layoutMode:isWrap:)")));
 - (void)decideFillSizingLines:(NSMutableArray<PPCLineInfo *> *)lines isHorizontal:(BOOL)isHorizontal primarySpace:(int32_t)primarySpace counterSpace:(int32_t)counterSpace __attribute__((swift_name("decideFillSizing(lines:isHorizontal:primarySpace:counterSpace:)")));
@@ -4197,9 +4198,9 @@ __attribute__((swift_name("AutoLayoutAlgorithmKt")))
 + (int32_t)toLC:(double)receiver __attribute__((swift_name("toLC(_:)")));
 + (int32_t)toLC_:(float)receiver __attribute__((swift_name("toLC(__:)")));
 + (int32_t)toLC__:(int32_t)receiver __attribute__((swift_name("toLC(___:)")));
-@property (class) BOOL ENABLE_CONSTRAINTS_IN_AUTO_LAYOUT __attribute__((swift_name("ENABLE_CONSTRAINTS_IN_AUTO_LAYOUT")));
 @property (class) BOOL ENABLE_FIGMA_FILL_ROTATION __attribute__((swift_name("ENABLE_FIGMA_FILL_ROTATION")));
 @property (class, readonly) int32_t LC_SCALE __attribute__((swift_name("LC_SCALE")));
+@property (class, readonly) int32_t MIN_LAYER_SIZE __attribute__((swift_name("MIN_LAYER_SIZE")));
 @end
 
 __attribute__((objc_subclassing_restricted))
