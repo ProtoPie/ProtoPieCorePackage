@@ -2119,6 +2119,7 @@ __attribute__((swift_name("LayerUtil")))
 + (instancetype)layerUtil __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) PPCLayerUtil *shared __attribute__((swift_name("shared")));
 - (PPCPPLayerLayoutBBox *)calculateBoundingBoxOrigin:(PPCOrigin *)origin transform:(PPCTransform *)transform __attribute__((swift_name("calculateBoundingBox(origin:transform:)")));
+- (float)floorToPrecision:(float)receiver precision:(int32_t)precision __attribute__((swift_name("floorToPrecision(_:precision:)")));
 - (float)roundToPrecision:(float)receiver precision:(int32_t)precision __attribute__((swift_name("roundToPrecision(_:precision:)")));
 - (double)toRadiansDegrees:(double)degrees __attribute__((swift_name("toRadians(degrees:)")));
 @end
