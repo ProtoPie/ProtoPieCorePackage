@@ -4155,7 +4155,7 @@ __attribute__((swift_name("PPIdentifiableChangeObservable")))
 - (void)autoLayoutWithConfigLayoutMode:(PPCLayoutMode *)layoutMode isWrap:(BOOL)isWrap __attribute__((swift_name("autoLayoutWithConfig(layoutMode:isWrap:)")));
 - (void)decideFillSizingLines:(NSMutableArray<PPCLineInfo *> *)lines isHorizontal:(BOOL)isHorizontal primarySpace:(int32_t)primarySpace counterSpace:(int32_t)counterSpace __attribute__((swift_name("decideFillSizing(lines:isHorizontal:primarySpace:counterSpace:)")));
 - (void)decideSelfContainerSizingLines:(NSMutableArray<PPCLineInfo *> *)lines isHorizontal:(BOOL)isHorizontal usedWidth:(int32_t)usedWidth usedHeight:(int32_t)usedHeight __attribute__((swift_name("decideSelfContainerSizing(lines:isHorizontal:usedWidth:usedHeight:)")));
-- (PPCPPLayerLayoutBBox *)gatherFillWrapInfoLines:(NSMutableArray<PPCLineInfo *> *)lines isHorizontal:(BOOL)isHorizontal isWrap:(BOOL)isWrap __attribute__((swift_name("gatherFillWrapInfo(lines:isHorizontal:isWrap:)")));
+- (PPCPPLayerLayoutBBox *)gatherFillWrapInfoLines:(NSMutableArray<PPCLineInfo *> *)lines isHorizontal:(BOOL)isHorizontal useWrap:(BOOL)useWrap __attribute__((swift_name("gatherFillWrapInfo(lines:isHorizontal:useWrap:)")));
 @end
 
 @interface PPCPPLayer (Extensions)
