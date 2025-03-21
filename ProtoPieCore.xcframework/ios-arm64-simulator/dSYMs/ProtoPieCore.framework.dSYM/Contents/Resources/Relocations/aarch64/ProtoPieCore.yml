@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/sookie/pj/protopie-engine/ProtoPieCore/build/bin/iosSimulatorArm64/releaseFramework/ProtoPieCore.framework/ProtoPieCore'
+relocations:     []
+...
