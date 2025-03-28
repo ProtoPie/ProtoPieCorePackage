@@ -2659,12 +2659,12 @@ __attribute__((swift_name("PPScene")))
 - (NSSet<NSString *> *)consumeModifiedLayerIdsIncludeMaskedLayers:(BOOL)includeMaskedLayers __attribute__((swift_name("consumeModifiedLayerIds(includeMaskedLayers:)")));
 - (NSSet<PPCPPContainerLayer *> *)consumeReorderedParentLayers __attribute__((swift_name("consumeReorderedParentLayers()")));
 - (void)destroy __attribute__((swift_name("destroy()")));
-- (NSArray<PPCPPContainerLayer *> *)findTopMostAutoLayoutContainers __attribute__((swift_name("findTopMostAutoLayoutContainers()")));
 - (void)forEachLayerFn:(void (^)(PPCPPLayer *))fn __attribute__((swift_name("forEachLayer(fn:)")));
 - (PPCPPLayer * _Nullable)getLayerByIdId:(NSString * _Nullable)id __attribute__((swift_name("getLayerById(id:)")));
 - (BOOL)handleKeyEventKeyCode:(PPCPPKeyCode *)keyCode now:(int64_t)now __attribute__((swift_name("handleKeyEvent(keyCode:now:)")));
 - (void)handleReceivedMessageChannel:(PPCPPMsgChannel *)channel scope:(NSString * _Nullable)scope messageId:(NSString *)messageId value:(NSString * _Nullable)value now:(int64_t)now __attribute__((swift_name("handleReceivedMessage(channel:scope:messageId:value:now:)")));
 - (void)handleShakeEventNow:(int64_t)now __attribute__((swift_name("handleShakeEvent(now:)")));
+- (BOOL)hasAutoLayoutEnabledChild __attribute__((swift_name("hasAutoLayoutEnabledChild()")));
 - (void)doInitContextPieContext:(PPCPPPieContext *)pieContext __attribute__((swift_name("doInitContext(pieContext:)")));
 - (BOOL)is3DRotatingLayerLayerId:(NSString *)layerId __attribute__((swift_name("is3DRotatingLayer(layerId:)")));
 - (void)prepareTransitionNow:(int64_t)now __attribute__((swift_name("prepareTransition(now:)")));
@@ -3201,6 +3201,7 @@ __attribute__((swift_name("PPProperty")))
 @property BOOL affectsRendering __attribute__((swift_name("affectsRendering")));
 @property T currentValue __attribute__((swift_name("currentValue")));
 @property (setter=setInitialValue_:) T initialValue __attribute__((swift_name("initialValue")));
+@property T intermediaryValue __attribute__((swift_name("intermediaryValue")));
 @property (readonly) PPCPPLayerProperty * _Nullable key __attribute__((swift_name("key")));
 @property (readonly) NSString *name __attribute__((swift_name("name")));
 @end
