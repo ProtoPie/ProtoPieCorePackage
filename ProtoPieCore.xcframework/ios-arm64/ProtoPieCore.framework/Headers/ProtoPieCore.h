@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class PPCCommon, PPCProfileOptions, PPCDeviceInfoCompanion, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPAndroidVibrateType, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPFillType, PPCPPHorizontalAlign, PPCPPIosVibrateType, PPCPPLineCap, PPCPPLineJoin, PPCPPMsgChannel, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPSizeProp, PPCPPSpeechGender, PPCPPTextLayerSizeMode, PPCPPTriggerTypeCompanion, PPCPPTriggerType, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPPoint, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPLayer, PPCPPMouseEvent, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPTouchEventAction, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPExprEvalError, PPCPPResponseObserver, PPCPPPieObserver, PPCPPSceneObserver, PPCPPTriggerObserver, PPCPPDataType, PPCPPPlayEvent, PPCPPColor, PPCPPExpr, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPConditionObserver, PPCPPKeyboardDef, PPCPPKeyboardOptions, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCPPLayerType, PPCPPContainerLayer, PPCPPLayerCompanion, PPCPPProperty<T>, PPCPPResponse, PPCPPLayerAlias, PPCPPLayerLayoutBBox, PPCConstraints, PPCPPCorners<T>, PPCPPLayerProperty, PPCPPGradient, PPCPPHitArea, PPCLayoutPositioningType, PPCPPLayerLayoutSizeProperty, PPCPPShapeLayer, PPCAbstractMouseTrigger, PPCPPMediaCommand, PPCPPMessageBus, PPCPPTextAttributes, PPCAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCAxisAlignContent, PPCAxisAlignment, PPCAxisSizingMode, PPCLayoutMode, PPCLayoutWrap, PPCLayoutSizingType, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCAbstractTextLayer, PPCPPVectorShape, PPCLineInfo, PPCLayerUtil, PPCOrigin, PPCTransform, PPCMathUtils, PPCAxis, PPCResizeConstraintsFactory, PPCConstraintOption, PPCDirection, PPCOneDimensionResizeConstraints, PPCConstraintType, PPCSingleAxisResizeConstraints, PPCPPPathSegmentData, PPCPPMessageCompanion, PPCPPVar<T>, PPCPPMessage, PPCKotlinx_serialization_jsonJsonElement, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDeviceFrameHelper, PPCPPScene, PPCDevicePreset, PPCPPPiePlayer, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPPieModel, PPCPPVarProxy, PPCReplayer, PPCWatermark, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCPPNodeType, PPCPPParseNode, PPCPPParseNodeCompanion, PPCPPRepeatDef, PPCPPClock, PPCPPPieRecord, PPCPPTouchEvent, PPCPPEventChannel<T>, PPCPPPlayEventCompanion, PPCPPSoftKeyboardCompanion, PPCPPSoftKeyboard, PPCPlayOptions, PPCReplayOptions, PPCPPSceneChangeEvent, PPCPPRenderEvent, PPCProfile, PPCProfileEntryType, PPCProfileEntryCompanion, PPCPPPlayControlGestureOptions, PPCMediaStateCompanion, PPCPPRenderEventCompanion, PPCPPFixedSceneChangeEventCompanion, PPCPPInputFocusEventCompanion, PPCPPIosEffectEventCompanion, PPCPPMediaCommandEventCompanion, PPCPPValueHistory<T>, PPCPPReorderEventCompanion, PPCPPSceneChangeEventCompanion, PPCPPValueHistoryCompanion, PPCMediaState, PPCReplayDataCompanion, PPCReplayDataSerializer, PPCReplayData, PPCReplayDataVersionCompanion, PPCPPSceneContext, PPCPPAnimationDef, PPCRangeMap<E>, PPCPPChainResponse<E>, PPCPPOneTimeResponse, PPCPPEvent, PPCPPTrigger, PPCPPEasingFunc, PPCPPColorCompanion, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPGradientOffset, PPCPPGradientLinear, PPCPPGradientRadial, PPCPPPointCompanion, PPCPPSize, PPCBinarySearch, PPCDateTime, PPCFormulaUtils, PPCPPNumberConstantExpr, PPCLogger, PPCPlatform, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPIdentifiableChangeObservable, PPCPPChangeObserversHolder, PPCKotlinx_serialization_jsonJson, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_jsonJsonDefault, PPCKotlinx_serialization_jsonJsonConfiguration, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing, PPCKotlinx_serialization_jsonClassDiscriminatorMode;
+@class PPCCommon, PPCProfileOptions, PPCDeviceInfoCompanion, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPAndroidVibrateType, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPFillType, PPCPPHorizontalAlign, PPCPPIosVibrateType, PPCPPLineCap, PPCPPLineJoin, PPCPPMsgChannel, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPSizeProp, PPCPPSpeechGender, PPCPPTextLayerSizeMode, PPCPPTriggerTypeCompanion, PPCPPTriggerType, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPPoint, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPLayer, PPCPPMouseEvent, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPTouchEventAction, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPExprEvalError, PPCPPResponseObserver, PPCPPPieObserver, PPCPPSceneObserver, PPCPPTriggerObserver, PPCPPDataType, PPCPPPlayEvent, PPCPPColor, PPCPPExpr, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPConditionObserver, PPCPPKeyboardDef, PPCPPKeyboardOptions, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCPPLayerType, PPCPPContainerLayer, PPCPPLayerCompanion, PPCPPProperty<T>, PPCPPResponse, PPCPPLayerAlias, PPCPPLayerLayoutBBox, PPCConstraints, PPCPPCorners<T>, PPCPPLayerProperty, PPCPPGradient, PPCPPHitArea, PPCLayoutPositioningType, PPCPPLayerLayoutSizeProperty, PPCPPShapeLayer, PPCAbstractMouseTrigger, PPCPPMediaCommand, PPCPPMessageBus, PPCPPTextAttributes, PPCAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCAxisAlignContent, PPCAxisAlignment, PPCAxisSizingMode, PPCLayoutMode, PPCLayoutWrap, PPCLayoutSizingType, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCAbstractTextLayer, PPCPPVectorShape, PPCLineInfo, PPCLayerUtil, PPCOrigin, PPCTransform, PPCMathUtils, PPCAxis, PPCResizeConstraintsFactory, PPCConstraintOption, PPCDirection, PPCOneDimensionResizeConstraints, PPCConstraintType, PPCSingleAxisResizeConstraints, PPCPPPathSegmentData, PPCPPMessageCompanion, PPCPPVar<T>, PPCPPMessage, PPCKotlinx_serialization_jsonJsonElement, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDeviceFrameHelper, PPCPPScene, PPCDevicePreset, PPCPPPiePlayer, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPPieModel, PPCPPVarProxy, PPCReplayer, PPCWatermark, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCPPNodeType, PPCPPParseNode, PPCPPParseNodeCompanion, PPCPPRepeatDef, PPCPPClock, PPCPPPieRecord, PPCPPTouchEvent, PPCPPEventChannel<T>, PPCPPPlayEventCompanion, PPCPPSoftKeyboardCompanion, PPCPPSoftKeyboard, PPCPlayOptions, PPCReplayOptions, PPCPPSceneChangeEvent, PPCPPRenderEvent, PPCProfile, PPCProfileEntryType, PPCProfileEntryCompanion, PPCPPPlayControlGestureOptions, PPCMediaStateCompanion, PPCPPRenderEventCompanion, PPCPPFixedSceneChangeEventCompanion, PPCPPInputFocusEventCompanion, PPCPPIosEffectEventCompanion, PPCPPMediaCommandEventCompanion, PPCPPValueHistory<T>, PPCPPReorderEventCompanion, PPCPPSceneChangeEventCompanion, PPCPPValueHistoryCompanion, PPCMediaState, PPCReplayDataCompanion, PPCReplayDataSerializer, PPCReplayData, PPCReplayDataVersionCompanion, PPCPPSceneContext, PPCPPAnimationDef, PPCRangeMap<E>, PPCPPChainResponse<E>, PPCPPOneTimeResponse, PPCPPEvent, PPCPPTrigger, PPCPPEasingFunc, PPCPPColorCompanion, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPGradientOffset, PPCPPGradientLinear, PPCPPGradientRadial, PPCPPPointCompanion, PPCPPSize, PPCBinarySearch, PPCDateTime, PPCKotlinx_datetimeInstant, PPCDateTimeDateDiffOptionCompanion, PPCDateTimeDateDiffOption, PPCDateTimeTimeDiffOptionCompanion, PPCDateTimeTimeDiffOption, PPCFormulaUtils, PPCPPNumberConstantExpr, PPCLogger, PPCPlatform, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPIdentifiableChangeObservable, PPCPPVarCompanion, PPCPPChangeObserversHolder, PPCKotlinx_serialization_jsonJson, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_datetimeInstantCompanion, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_jsonJsonDefault, PPCKotlinx_serialization_jsonJsonConfiguration, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing, PPCKotlinx_serialization_jsonClassDiscriminatorMode;
 
-@protocol PPCKotlinx_serialization_coreKSerializer, PPCKotlinComparable, PPCPPJson, PPCPPEventChannelHandler, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCFormulaObserver, PPCPPResponseParentObserver, PPCPPExprLayer, PPCPPObservableValueProvider, PPCPPEngineObserver, PPCPPJsonOverrider, PPCPPKeyboardProvider, PPCPPLayerObserver, PPCPPPropertyObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCLayoutProcessor, PPCResizeConstraints, PPCPPFloatNormalizer, PPCPPClockObserver, PPCPPMessageBusTaskRunner, PPCPlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPSoftKeyboardDelegate, PPCPPSoftKeyboardListener, PPCReplayerDelegate, PPCPPValueProvider, PPCPPPieDecorator, PPCPPChangeObserver, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_serialization_coreSerialFormat, PPCKotlinx_serialization_coreStringFormat, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinx_serialization_jsonJsonNamingStrategy, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
+@protocol PPCKotlinx_serialization_coreKSerializer, PPCKotlinComparable, PPCPPJson, PPCPPEventChannelHandler, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCFormulaObserver, PPCPPResponseParentObserver, PPCPPExprLayer, PPCPPObservableValueProvider, PPCPPEngineObserver, PPCPPJsonOverrider, PPCPPKeyboardProvider, PPCPPLayerObserver, PPCPPPropertyObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCLayoutProcessor, PPCResizeConstraints, PPCPPFloatNormalizer, PPCPPClockObserver, PPCPPMessageBusTaskRunner, PPCPlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPSoftKeyboardDelegate, PPCPPSoftKeyboardListener, PPCReplayerDelegate, PPCPPValueProvider, PPCPPPieDecorator, PPCPPChangeObserver, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_serialization_coreSerialFormat, PPCKotlinx_serialization_coreStringFormat, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_datetimeDateTimeFormat, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinx_serialization_jsonJsonNamingStrategy, PPCKotlinAppendable, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -2584,16 +2584,20 @@ __attribute__((swift_name("PPPieModel")))
 @property (class, readonly, getter=companion) PPCPPPieModelCompanion *companion __attribute__((swift_name("companion")));
 - (float)computeScaleFactorWidth:(float)width height:(float)height __attribute__((swift_name("computeScaleFactor(width:height:)")));
 - (void)destroy __attribute__((swift_name("destroy()")));
+- (NSArray<PPCPPVar<id> *> *)getContextVariables __attribute__((swift_name("getContextVariables()")));
 - (PPCPPFont * _Nullable)getFontPostscriptName:(NSString *)postscriptName __attribute__((swift_name("getFont(postscriptName:)")));
 - (id)getFonts __attribute__((swift_name("getFonts()")));
 - (NSDictionary<NSString *, PPCPPFont *> *)getFontsMap __attribute__((swift_name("getFontsMap()")));
+- (NSArray<PPCPPVar<id> *> *)getGlobalVariables __attribute__((swift_name("getGlobalVariables()")));
 - (PPCPPScene * _Nullable)getSceneByIdSceneId:(NSString * _Nullable)sceneId __attribute__((swift_name("getSceneById(sceneId:)")));
+- (NSArray<PPCPPVar<id> *> *)getSceneVariables __attribute__((swift_name("getSceneVariables()")));
 - (BOOL)hasVideoLayer __attribute__((swift_name("hasVideoLayer()")));
 - (void)hideSceneScene:(PPCPPScene *)scene __attribute__((swift_name("hideScene(scene:)")));
 - (void)doInitContextContext:(PPCPPPieContext *)context __attribute__((swift_name("doInitContext(context:)")));
 - (void)reset __attribute__((swift_name("reset()")));
 - (void)showFixedSceneScene:(PPCPPScene *)scene __attribute__((swift_name("showFixedScene(scene:)")));
 - (void)showSceneScene:(PPCPPScene *)scene top:(BOOL)top __attribute__((swift_name("showScene(scene:top:)")));
+- (void)toggleVariableVisibilityVarName:(NSString *)varName updateLayerVisibility:(void (^ _Nullable)(NSString *, PPCBoolean *))updateLayerVisibility __attribute__((swift_name("toggleVariableVisibility(varName:updateLayerVisibility:)")));
 @property (readonly) NSDictionary<NSString *, PPCPPLayerType *> *allResourceIds __attribute__((swift_name("allResourceIds")));
 @property (readonly) NSSet<NSString *> *allThumbnailIds __attribute__((swift_name("allThumbnailIds")));
 @property int32_t baseModelVersion __attribute__((swift_name("baseModelVersion")));
@@ -4007,14 +4011,13 @@ __attribute__((swift_name("DateTime")))
 @property (class, readonly, getter=shared) PPCDateTime *shared __attribute__((swift_name("shared")));
 - (NSString *)dateYear:(int32_t)year month:(int32_t)month day:(int32_t)day __attribute__((swift_name("date(year:month:day:)")));
 - (NSString *)dateNow __attribute__((swift_name("dateNow()")));
-- (NSString *)dateTimeYear:(int32_t)year month:(int32_t)month day:(int32_t)day hour:(int32_t)hour minute:(int32_t)minute second:(int32_t)second __attribute__((swift_name("dateTime(year:month:day:hour:minute:second:)")));
 - (int32_t)dayLocalDateString:(NSString *)localDateString __attribute__((swift_name("day(localDateString:)")));
 - (int32_t)diffDateToString:(NSString *)toString fromString:(NSString *)fromString option:(NSString *)option __attribute__((swift_name("diffDate(toString:fromString:option:)")));
 - (int32_t)diffTimeTo:(NSString *)to from:(NSString *)from option:(NSString *)option __attribute__((swift_name("diffTime(to:from:option:)")));
 - (NSString *)epochtodateTimestamp:(int64_t)timestamp format:(NSString * _Nullable)format __attribute__((swift_name("epochtodate(timestamp:format:)")));
 - (NSString *)formatDateLocalDateString:(NSString *)localDateString format:(NSString *)format __attribute__((swift_name("formatDate(localDateString:format:)")));
+- (NSString *)formatInstantInstant:(PPCKotlinx_datetimeInstant *)instant format:(NSString *)format __attribute__((swift_name("formatInstant(instant:format:)")));
 - (NSString *)formatTimeLocalTimeString:(NSString *)localTimeString format:(NSString *)format __attribute__((swift_name("formatTime(localTimeString:format:)")));
-- (NSString *)getFormattedDateTimestamp:(NSString *)timestamp format:(NSString *)format __attribute__((swift_name("getFormattedDate(timestamp:format:)")));
 - (int32_t)hourLocalTimeString:(NSString *)localTimeString __attribute__((swift_name("hour(localTimeString:)")));
 - (int32_t)minuteLocalTimeString:(NSString *)localTimeString __attribute__((swift_name("minute(localTimeString:)")));
 - (int32_t)monthLocalDateString:(NSString *)localDateString __attribute__((swift_name("month(localDateString:)")));
@@ -4022,15 +4025,60 @@ __attribute__((swift_name("DateTime")))
 - (int32_t)secondLocalTimeString:(NSString *)localTimeString __attribute__((swift_name("second(localTimeString:)")));
 - (NSString *)timeHour:(int32_t)hour minute:(int32_t)minute second:(int32_t)second __attribute__((swift_name("time(hour:minute:second:)")));
 - (NSString *)timeNow __attribute__((swift_name("timeNow()")));
-- (NSString *)timezoneArg:(NSString *)arg __attribute__((swift_name("timezone(arg:)")));
 - (int32_t)yearLocalDateString:(NSString *)localDateString __attribute__((swift_name("year(localDateString:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DateTime.DateTimeFormatter")))
-@interface PPCDateTimeDateTimeFormatter : PPCBase
-- (instancetype)initWithTimestamp:(NSString *)timestamp __attribute__((swift_name("init(timestamp:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)formatFormat:(NSString *)format __attribute__((swift_name("format(format:)")));
+__attribute__((swift_name("DateTime.DateDiffOption")))
+@interface PPCDateTimeDateDiffOption : PPCKotlinEnum<PPCDateTimeDateDiffOption *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) PPCDateTimeDateDiffOptionCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) PPCDateTimeDateDiffOption *years __attribute__((swift_name("years")));
+@property (class, readonly) PPCDateTimeDateDiffOption *months __attribute__((swift_name("months")));
+@property (class, readonly) PPCDateTimeDateDiffOption *days __attribute__((swift_name("days")));
+@property (class, readonly) PPCDateTimeDateDiffOption *monthsDays __attribute__((swift_name("monthsDays")));
+@property (class, readonly) PPCDateTimeDateDiffOption *yearsMonths __attribute__((swift_name("yearsMonths")));
+@property (class, readonly) PPCDateTimeDateDiffOption *yearsDays __attribute__((swift_name("yearsDays")));
++ (PPCKotlinArray<PPCDateTimeDateDiffOption *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCDateTimeDateDiffOption *> *entries __attribute__((swift_name("entries")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DateTime.DateDiffOptionCompanion")))
+@interface PPCDateTimeDateDiffOptionCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCDateTimeDateDiffOptionCompanion *shared __attribute__((swift_name("shared")));
+- (PPCDateTimeDateDiffOption * _Nullable)fromStringValue:(NSString *)value __attribute__((swift_name("fromString(value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DateTime.TimeDiffOption")))
+@interface PPCDateTimeTimeDiffOption : PPCKotlinEnum<PPCDateTimeTimeDiffOption *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) PPCDateTimeTimeDiffOptionCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) PPCDateTimeTimeDiffOption *hours __attribute__((swift_name("hours")));
+@property (class, readonly) PPCDateTimeTimeDiffOption *minutes __attribute__((swift_name("minutes")));
+@property (class, readonly) PPCDateTimeTimeDiffOption *seconds __attribute__((swift_name("seconds")));
++ (PPCKotlinArray<PPCDateTimeTimeDiffOption *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCDateTimeTimeDiffOption *> *entries __attribute__((swift_name("entries")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("DateTime.TimeDiffOptionCompanion")))
+@interface PPCDateTimeTimeDiffOptionCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCDateTimeTimeDiffOptionCompanion *shared __attribute__((swift_name("shared")));
+- (PPCDateTimeTimeDiffOption * _Nullable)fromStringValue:(NSString *)value __attribute__((swift_name("fromString(value:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -4121,6 +4169,8 @@ __attribute__((swift_name("PPObservableValueProvider")))
 __attribute__((swift_name("PPVar")))
 @interface PPCPPVar<T> : PPCBase <PPCPPObservableValueProvider>
 - (instancetype)initWithNamespace:(NSString *)namespace_ name:(NSString *)name type:(PPCPPDataType *)type isGlobal:(BOOL)isGlobal formula:(NSString * _Nullable)formula linkSceneId:(NSString * _Nullable)linkSceneId linkVarName:(NSString * _Nullable)linkVarName __attribute__((swift_name("init(namespace:name:type:isGlobal:formula:linkSceneId:linkVarName:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) PPCPPVarCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)getLayerId __attribute__((swift_name("getLayerId()")));
 - (PPCPPVar<T> *)getLinkedVarSceneId:(NSString *)sceneId namespace:(NSString *)namespace_ name:(NSString *)name __attribute__((swift_name("getLinkedVar(sceneId:namespace:name:)")));
 - (void)reset __attribute__((swift_name("reset()")));
 - (void)syncFromOther:(PPCPPVar<id> *)other __attribute__((swift_name("syncFrom(other:)")));
@@ -4139,6 +4189,16 @@ __attribute__((swift_name("PPVar")))
 @property (readonly) PPCPPDataType *type __attribute__((swift_name("type")));
 @property float x __attribute__((swift_name("x")));
 @property float y __attribute__((swift_name("y")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPVarCompanion")))
+@interface PPCPPVarCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPVarCompanion *shared __attribute__((swift_name("shared")));
+- (BOOL)isVariableLayerIdLayerId:(NSString *)layerId __attribute__((swift_name("isVariableLayerId(layerId:)")));
 @end
 
 __attribute__((swift_name("PPChangeObserver")))
@@ -4300,6 +4360,27 @@ __attribute__((swift_name("KotlinFloatArray")))
 - (PPCKotlinFloatIterator *)iterator __attribute__((swift_name("iterator()")));
 - (void)setIndex:(int32_t)index value:(float)value __attribute__((swift_name("set(index:value:)")));
 @property (readonly) int32_t size __attribute__((swift_name("size")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/datetime/serializers/InstantIso8601Serializer))
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_datetimeInstant")))
+@interface PPCKotlinx_datetimeInstant : PPCBase <PPCKotlinComparable>
+@property (class, readonly, getter=companion) PPCKotlinx_datetimeInstantCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)compareToOther:(PPCKotlinx_datetimeInstant *)other __attribute__((swift_name("compareTo(other:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (PPCKotlinx_datetimeInstant *)minusDuration:(int64_t)duration __attribute__((swift_name("minus(duration:)")));
+- (int64_t)minusOther:(PPCKotlinx_datetimeInstant *)other __attribute__((swift_name("minus(other:)")));
+- (PPCKotlinx_datetimeInstant *)plusDuration:(int64_t)duration __attribute__((swift_name("plus(duration:)")));
+- (int64_t)toEpochMilliseconds __attribute__((swift_name("toEpochMilliseconds()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int64_t epochSeconds __attribute__((swift_name("epochSeconds")));
+@property (readonly) int32_t nanosecondsOfSecond __attribute__((swift_name("nanosecondsOfSecond")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -4506,6 +4587,23 @@ __attribute__((swift_name("KotlinFloatIterator")))
 - (float)nextFloat __attribute__((swift_name("nextFloat()")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_datetimeInstant.Companion")))
+@interface PPCKotlinx_datetimeInstantCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCKotlinx_datetimeInstantCompanion *shared __attribute__((swift_name("shared")));
+- (PPCKotlinx_datetimeInstant *)fromEpochMillisecondsEpochMilliseconds:(int64_t)epochMilliseconds __attribute__((swift_name("fromEpochMilliseconds(epochMilliseconds:)")));
+- (PPCKotlinx_datetimeInstant *)fromEpochSecondsEpochSeconds:(int64_t)epochSeconds nanosecondAdjustment:(int32_t)nanosecondAdjustment __attribute__((swift_name("fromEpochSeconds(epochSeconds:nanosecondAdjustment:)")));
+- (PPCKotlinx_datetimeInstant *)fromEpochSecondsEpochSeconds:(int64_t)epochSeconds nanosecondAdjustment_:(int64_t)nanosecondAdjustment __attribute__((swift_name("fromEpochSeconds(epochSeconds:nanosecondAdjustment_:)")));
+- (PPCKotlinx_datetimeInstant *)now __attribute__((swift_name("now()"))) __attribute__((unavailable("Use Clock.System.now() instead")));
+- (PPCKotlinx_datetimeInstant *)parseInput:(id)input format:(id<PPCKotlinx_datetimeDateTimeFormat>)format __attribute__((swift_name("parse(input:format:)")));
+- (id<PPCKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@property (readonly) PPCKotlinx_datetimeInstant *DISTANT_FUTURE __attribute__((swift_name("DISTANT_FUTURE")));
+@property (readonly) PPCKotlinx_datetimeInstant *DISTANT_PAST __attribute__((swift_name("DISTANT_PAST")));
+@end
+
 __attribute__((swift_name("Kotlinx_serialization_coreSerializersModule")))
 @interface PPCKotlinx_serialization_coreSerializersModule : PPCBase
 
@@ -4679,6 +4777,15 @@ __attribute__((swift_name("KotlinNothing")))
 @interface PPCKotlinNothing : PPCBase
 @end
 
+__attribute__((swift_name("Kotlinx_datetimeDateTimeFormat")))
+@protocol PPCKotlinx_datetimeDateTimeFormat
+@required
+- (NSString *)formatValue:(id _Nullable)value __attribute__((swift_name("format(value:)")));
+- (id<PPCKotlinAppendable>)formatToAppendable:(id<PPCKotlinAppendable>)appendable value:(id _Nullable)value __attribute__((swift_name("formatTo(appendable:value:)")));
+- (id _Nullable)parseInput:(id)input __attribute__((swift_name("parse(input:)")));
+- (id _Nullable)parseOrNullInput:(id)input __attribute__((swift_name("parseOrNull(input:)")));
+@end
+
 
 /**
  * @note annotations
@@ -4750,6 +4857,14 @@ __attribute__((swift_name("Kotlinx_serialization_jsonJsonNamingStrategy")))
 @protocol PPCKotlinx_serialization_jsonJsonNamingStrategy
 @required
 - (NSString *)serialNameForJsonDescriptor:(id<PPCKotlinx_serialization_coreSerialDescriptor>)descriptor elementIndex:(int32_t)elementIndex serialName:(NSString *)serialName __attribute__((swift_name("serialNameForJson(descriptor:elementIndex:serialName:)")));
+@end
+
+__attribute__((swift_name("KotlinAppendable")))
+@protocol PPCKotlinAppendable
+@required
+- (id<PPCKotlinAppendable>)appendValue:(unichar)value __attribute__((swift_name("append(value:)")));
+- (id<PPCKotlinAppendable>)appendValue_:(id _Nullable)value __attribute__((swift_name("append(value_:)")));
+- (id<PPCKotlinAppendable>)appendValue:(id _Nullable)value startIndex:(int32_t)startIndex endIndex:(int32_t)endIndex __attribute__((swift_name("append(value:startIndex:endIndex:)")));
 @end
 
 #pragma pop_macro("_Nullable_result")
