@@ -1358,6 +1358,7 @@ __attribute__((swift_name("PPLayer")))
 - (BOOL)hasActiveResponses __attribute__((swift_name("hasActiveResponses()")));
 - (BOOL)hasMoveResponse __attribute__((swift_name("hasMoveResponse()")));
 - (BOOL)hasParentScaleResponse __attribute__((swift_name("hasParentScaleResponse()")));
+- (BOOL)hasRotateResponse __attribute__((swift_name("hasRotateResponse()")));
 - (BOOL)hasScaleResponse __attribute__((swift_name("hasScaleResponse()")));
 - (BOOL)hasTouchTriggers __attribute__((swift_name("hasTouchTriggers()")));
 - (BOOL)includesPointPointInParent:(PPCPPPoint *)pointInParent __attribute__((swift_name("includesPoint(pointInParent:)")));
