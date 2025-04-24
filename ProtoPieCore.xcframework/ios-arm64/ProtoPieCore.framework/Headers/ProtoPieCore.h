@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class PPCCommon, PPCProfileOptions, PPCDeviceInfoCompanion, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPAndroidVibrateType, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPFillType, PPCPPHorizontalAlign, PPCPPIosVibrateType, PPCPPLineCap, PPCPPLineJoin, PPCPPMsgChannel, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPSizeProp, PPCPPSpeechGender, PPCPPTextLayerSizeMode, PPCPPTriggerTypeCompanion, PPCPPTriggerType, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPPoint, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPLayer, PPCPPMouseEvent, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPTouchEventAction, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPExprEvalError, PPCPPResponseObserver, PPCPPPieObserver, PPCPPSceneObserver, PPCPPTriggerObserver, PPCPPDataType, PPCPPPlayEvent, PPCPPColor, PPCPPExpr, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPConditionObserver, PPCPPKeyboardDef, PPCPPKeyboardOptions, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCPPLayerType, PPCPPContainerLayer, PPCPPLayerCompanion, PPCPPProperty<T>, PPCPPResponse, PPCPPLayerAlias, PPCPPLayerLayoutBBox, PPCConstraints, PPCPPCorners<T>, PPCPPLayerProperty, PPCPPGradient, PPCPPHitArea, PPCLayoutPositioningType, PPCPPLayerLayoutSizeProperty, PPCPPShapeLayer, PPCAbstractMouseTrigger, PPCPPMediaCommand, PPCPPMessageBus, PPCPPTextAttributes, PPCAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCAxisAlignContent, PPCAxisAlignment, PPCAxisSizingMode, PPCLayoutMode, PPCLayoutWrap, PPCLayoutSizingType, PPCPPMediaCommandCompanion, PPCPPTextAttributesCompanion, PPCAbstractTextLayer, PPCPPVectorShape, PPCLineInfo, PPCLayerUtil, PPCOrigin, PPCTransform, PPCMathUtils, PPCAxis, PPCResizeConstraintsFactory, PPCConstraintOption, PPCDirection, PPCOneDimensionResizeConstraints, PPCConstraintType, PPCSingleAxisResizeConstraints, PPCPPPathSegmentData, PPCPPMessageCompanion, PPCPPVar<T>, PPCPPMessage, PPCKotlinx_serialization_jsonJsonElement, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDeviceFrameHelper, PPCPPScene, PPCDevicePreset, PPCPPPiePlayer, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPPieModel, PPCPPVarProxy, PPCReplayer, PPCWatermark, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCPPNodeType, PPCPPParseNode, PPCPPParseNodeCompanion, PPCPPRepeatDef, PPCPPClock, PPCPPPieRecord, PPCPPTouchEvent, PPCPPEventChannel<T>, PPCPPPlayEventCompanion, PPCPPSoftKeyboardCompanion, PPCPPSoftKeyboard, PPCPlayOptions, PPCReplayOptions, PPCPPSceneChangeEvent, PPCPPRenderEvent, PPCProfile, PPCProfileEntryType, PPCProfileEntryCompanion, PPCPPPlayControlGestureOptions, PPCMediaStateCompanion, PPCPPRenderEventCompanion, PPCPPFixedSceneChangeEventCompanion, PPCPPInputFocusEventCompanion, PPCPPIosEffectEventCompanion, PPCPPMediaCommandEventCompanion, PPCPPValueHistory<T>, PPCPPReorderEventCompanion, PPCPPSceneChangeEventCompanion, PPCPPValueHistoryCompanion, PPCMediaState, PPCReplayDataCompanion, PPCReplayDataSerializer, PPCReplayData, PPCReplayDataVersionCompanion, PPCPPSceneContext, PPCPPAnimationDef, PPCRangeMap<E>, PPCPPChainResponse<E>, PPCPPOneTimeResponse, PPCPPEvent, PPCPPTrigger, PPCPPEasingFunc, PPCPPColorCompanion, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPGradientOffset, PPCPPGradientLinear, PPCPPGradientRadial, PPCPPPointCompanion, PPCPPSize, PPCBinarySearch, PPCDateTime, PPCKotlinx_datetimeInstant, PPCDateTimeDateDiffOptionCompanion, PPCDateTimeDateDiffOption, PPCDateTimeTimeDiffOptionCompanion, PPCDateTimeTimeDiffOption, PPCFormulaUtils, PPCPPNumberConstantExpr, PPCLogger, PPCPlatform, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPIdentifiableChangeObservable, PPCPPVarCompanion, PPCPPChangeObserversHolder, PPCKotlinx_serialization_jsonJson, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_datetimeInstantCompanion, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_jsonJsonDefault, PPCKotlinx_serialization_jsonJsonConfiguration, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing, PPCKotlinx_serialization_jsonClassDiscriminatorMode;
+@class PPCCommon, PPCProfileOptions, PPCDeviceInfoCompanion, PPCKotlinEnumCompanion, PPCKotlinEnum<E>, PPCLogLevel, PPCKotlinArray<T>, PPCKotlinThrowable, PPCScreenInfo, PPCKotlinException, PPCPPAndroidVibrateType, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraPosition, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPFillScaleMode, PPCPPFillType, PPCPPHorizontalAlign, PPCPPIosVibrateType, PPCPPLineCap, PPCPPLineJoin, PPCPPMsgChannel, PPCPPOrientation, PPCPPPathSegmentType, PPCPPPlatformType, PPCPPResetTargetType, PPCPPSizeProp, PPCPPSpeechGender, PPCPPTextLayerSizeMode, PPCPPTriggerTypeCompanion, PPCPPTriggerType, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPPPoint, PPCPPKeyCodeCompanion, PPCPPKeyCode, PPCPPLayer, PPCPPMouseEvent, PPCPPMsgCompanion, PPCPPMsg, PPCPPPiePlayerEvent, PPCPPTextInputLayer, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPSensor, PPCPPTouchEventAction, PPCPPWheelEventAction, PPCPPWheelEventCompanion, PPCPPWheelEvent, PPCPPExprEvalError, PPCPPResponseObserver, PPCPPPieObserver, PPCPPSceneObserver, PPCPPTriggerObserver, PPCPPDataType, PPCPPPlayEvent, PPCPPColor, PPCPPExpr, PPCPPExprEvalErrorCompanion, PPCPPColorProperty, PPCPPFloatProperty, PPCPPStringProperty, PPCPPConditionObserver, PPCPPKeyboardDef, PPCPPKeyboardOptions, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCPPLayerType, PPCPPContainerLayer, PPCPPLayerCompanion, PPCPPProperty<T>, PPCPPResponse, PPCPPLayerAlias, PPCPPLayerLayoutBBox, PPCConstraints, PPCPPCorners<T>, PPCPPLayerProperty, PPCPPGradient, PPCPPHitArea, PPCLayoutPositioningType, PPCPPLayerLayoutSizeProperty, PPCPPShapeLayer, PPCAbstractMouseTrigger, PPCPPMediaCommand, PPCPPMessageBus, PPCPPTextAttributes, PPCAbstractMediaLayer, PPCPPCameraLayerCommand, PPCPPChangeTarget, PPCAxisAlignContent, PPCAxisAlignment, PPCAxisSizingMode, PPCLayoutMode, PPCLayoutWrap, PPCLayoutSizingType, PPCPPMediaCommandCompanion, PPCPPRiveCommandCompanion, PPCPPRiveCommand, PPCPPRiveLayerCompanion, PPCPPTextAttributesCompanion, PPCAbstractTextLayer, PPCPPVectorShape, PPCLineInfo, PPCLayerUtil, PPCOrigin, PPCTransform, PPCMathUtils, PPCAxis, PPCResizeConstraintsFactory, PPCConstraintOption, PPCDirection, PPCOneDimensionResizeConstraints, PPCConstraintType, PPCSingleAxisResizeConstraints, PPCPPPathSegmentData, PPCPPMessageCompanion, PPCPPVar<T>, PPCPPMessage, PPCKotlinx_serialization_jsonJsonElement, PPCDeviceDescCompanion, PPCDeviceDesc, PPCDeviceFrameHelper, PPCPPScene, PPCDevicePreset, PPCPPPiePlayer, PPCPPFont, PPCPPLayerProxy, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPPieModelCompanion, PPCPPPieContext, PPCPPPieModel, PPCPPVarProxy, PPCReplayer, PPCWatermark, PPCPPDegreeNormalizerCompanion, PPCPPDegreeNormalizer, PPCPPMinMaxNormalizerCompanion, PPCPPMinMaxNormalizer, PPCPPExprParseErrorCompanion, PPCPPExprParseError, PPCPPNodeType, PPCPPParseNode, PPCPPParseNodeCompanion, PPCPPRepeatDef, PPCPPClock, PPCPPPieRecord, PPCPPTouchEvent, PPCPPEventChannel<T>, PPCPPPlayEventCompanion, PPCPPSoftKeyboardCompanion, PPCPPSoftKeyboard, PPCPlayOptions, PPCReplayOptions, PPCPPSceneChangeEvent, PPCPPRenderEvent, PPCProfile, PPCProfileEntryType, PPCProfileEntryCompanion, PPCPPPlayControlGestureOptions, PPCMediaStateCompanion, PPCPPRenderEventCompanion, PPCPPFixedSceneChangeEventCompanion, PPCPPInputFocusEventCompanion, PPCPPIosEffectEventCompanion, PPCPPMediaCommandEventCompanion, PPCPPValueHistory<T>, PPCPPReorderEventCompanion, PPCPPSceneChangeEventCompanion, PPCPPValueHistoryCompanion, PPCMediaState, PPCReplayDataCompanion, PPCReplayDataSerializer, PPCReplayData, PPCReplayDataVersionCompanion, PPCPPSceneContext, PPCPPAnimationDef, PPCRangeMap<E>, PPCPPChainResponse<E>, PPCPPOneTimeResponse, PPCPPEvent, PPCPPTrigger, PPCPPEasingFunc, PPCPPColorCompanion, PPCPPDeviceInfoCompanion, PPCPPFloatCorners, PPCKotlinFloatArray, PPCPPGradientOffset, PPCPPGradientLinear, PPCPPGradientRadial, PPCPPPointCompanion, PPCPPSize, PPCBinarySearch, PPCDateTime, PPCKotlinx_datetimeInstant, PPCDateTimeDateDiffOptionCompanion, PPCDateTimeDateDiffOption, PPCDateTimeTimeDiffOptionCompanion, PPCDateTimeTimeDiffOption, PPCFormulaUtils, PPCPPNumberConstantExpr, PPCLogger, PPCPlatform, PPCPPKotlinGC, PPCReorderUtils, PPCKotlinPair<__covariant A, __covariant B>, PPCPPIdentifiableChangeObservable, PPCPPVarCompanion, PPCPPChangeObserversHolder, PPCKotlinx_serialization_jsonJson, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCKotlinFloatIterator, PPCKotlinx_datetimeInstantCompanion, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_jsonJsonDefault, PPCKotlinx_serialization_jsonJsonConfiguration, PPCKotlinx_serialization_coreSerialKind, PPCKotlinNothing, PPCKotlinx_serialization_jsonClassDiscriminatorMode;
 
 @protocol PPCKotlinx_serialization_coreKSerializer, PPCKotlinComparable, PPCPPJson, PPCPPEventChannelHandler, PPCPPSensorListener, PPCPPSpeechInterfaceListener, PPCPPVoiceInterfaceListener, PPCFormulaObserver, PPCPPResponseParentObserver, PPCPPExprLayer, PPCPPObservableValueProvider, PPCPPEngineObserver, PPCPPJsonOverrider, PPCPPKeyboardProvider, PPCPPLayerObserver, PPCPPPropertyObserver, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCLayoutProcessor, PPCResizeConstraints, PPCPPFloatNormalizer, PPCPPClockObserver, PPCPPMessageBusTaskRunner, PPCPlayerDelegate, PPCPPSensorManager, PPCPPVoiceInterface, PPCPPSpeechInterface, PPCPPSoftKeyboardDelegate, PPCPPSoftKeyboardListener, PPCReplayerDelegate, PPCPPValueProvider, PPCPPPieDecorator, PPCPPChangeObserver, PPCKotlinIterator, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_serialization_coreSerialFormat, PPCKotlinx_serialization_coreStringFormat, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinAnnotation, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_datetimeDateTimeFormat, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCKotlinKClass, PPCKotlinx_serialization_jsonJsonNamingStrategy, PPCKotlinAppendable, PPCKotlinKDeclarationContainer, PPCKotlinKAnnotatedElement, PPCKotlinKClassifier;
 
@@ -1737,6 +1737,7 @@ __attribute__((swift_name("PPLayerType")))
 @property (class, readonly) PPCPPLayerType *camera __attribute__((swift_name("camera")));
 @property (class, readonly) PPCPPLayerType *iosEffect __attribute__((swift_name("iosEffect")));
 @property (class, readonly) PPCPPLayerType *component __attribute__((swift_name("component")));
+@property (class, readonly) PPCPPLayerType *rive __attribute__((swift_name("rive")));
 + (PPCKotlinArray<PPCPPLayerType *> *)values __attribute__((swift_name("values()")));
 @property (class, readonly) NSArray<PPCPPLayerType *> *entries __attribute__((swift_name("entries")));
 @end
@@ -1841,6 +1842,73 @@ __attribute__((swift_name("PPRectLayer")))
 @interface PPCPPRectLayer : PPCPPShapeLayer
 - (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent __attribute__((swift_name("init(namespace:nsId:parent:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent radiusEnabled:(BOOL)radiusEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@end
+
+__attribute__((swift_name("PPRiveCommand")))
+@interface PPCPPRiveCommand : PPCBase
+@property (class, readonly, getter=companion) PPCPPRiveCommandCompanion *companion __attribute__((swift_name("companion")));
+- (NSString *)serialize __attribute__((swift_name("serialize()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPRiveCommand.Companion")))
+@interface PPCPPRiveCommandCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPRiveCommandCompanion *shared __attribute__((swift_name("shared")));
+- (PPCPPRiveCommand * _Nullable)deserializeStr:(NSString *)str __attribute__((swift_name("deserialize(str:)")));
+@property (readonly) NSString *INPUT_PREFIX __attribute__((swift_name("INPUT_PREFIX")));
+@property (readonly) NSString *INPUT_SEPARATOR __attribute__((swift_name("INPUT_SEPARATOR")));
+@property (readonly) NSString *STATE_MACHINE_PREFIX __attribute__((swift_name("STATE_MACHINE_PREFIX")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPRiveInputCommand")))
+@interface PPCPPRiveInputCommand : PPCPPRiveCommand
+- (instancetype)initWithStateMachineName:(NSString *)stateMachineName inputName:(NSString *)inputName __attribute__((swift_name("init(stateMachineName:inputName:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)serialize __attribute__((swift_name("serialize()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *inputName __attribute__((swift_name("inputName")));
+@property (readonly) NSString *stateMachineName __attribute__((swift_name("stateMachineName")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPRiveLayer")))
+@interface PPCPPRiveLayer : PPCAbstractMediaLayer
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoStart:(BOOL)autoStart autoStartRepeat:(BOOL)autoStartRepeat __attribute__((swift_name("init(namespace:nsId:parent:resourceId:resourceUrl:autoStart:autoStartRepeat:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoPlay:(BOOL)autoPlay autoPlayRepeat:(BOOL)autoPlayRepeat __attribute__((swift_name("init(namespace:nsId:type:parent:resourceId:resourceUrl:autoPlay:autoPlayRepeat:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) PPCPPRiveLayerCompanion *companion __attribute__((swift_name("companion")));
+- (void)changeStateMachineStateMachineName:(NSString *)stateMachineName __attribute__((swift_name("changeStateMachine(stateMachineName:)")));
+- (NSArray<NSString *> *)getAllInputs __attribute__((swift_name("getAllInputs()")));
+- (NSString * _Nullable)getCurrentStateMachine __attribute__((swift_name("getCurrentStateMachine()")));
+- (NSDictionary<NSString *, id> *)getRiveStateInfo __attribute__((swift_name("getRiveStateInfo()")));
+- (NSArray<NSString *> *)getStateMachineInputsStateMachine:(NSString *)stateMachine __attribute__((swift_name("getStateMachineInputs(stateMachine:)")));
+- (NSArray<NSString *> *)getStateMachines __attribute__((swift_name("getStateMachines()")));
+- (BOOL)hasInputs __attribute__((swift_name("hasInputs()")));
+- (BOOL)hasStateMachines __attribute__((swift_name("hasStateMachines()")));
+- (void)runRiveCommandCommand:(PPCPPRiveCommand *)command __attribute__((swift_name("runRiveCommand(command:)")));
+- (BOOL)triggerInputInputName:(NSString *)inputName __attribute__((swift_name("triggerInput(inputName:)")));
+- (BOOL)triggerInputStateMachineName:(NSString *)stateMachineName inputName:(NSString *)inputName __attribute__((swift_name("triggerInput(stateMachineName:inputName:)")));
+@property (readonly) BOOL autoStart __attribute__((swift_name("autoStart")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPRiveLayer.Companion")))
+@interface PPCPPRiveLayerCompanion : PPCBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCPPRiveLayerCompanion *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPRiveStateMachineCommand")))
+@interface PPCPPRiveStateMachineCommand : PPCPPRiveCommand
+- (instancetype)initWithStateMachineName:(NSString *)stateMachineName __attribute__((swift_name("init(stateMachineName:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)serialize __attribute__((swift_name("serialize()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *stateMachineName __attribute__((swift_name("stateMachineName")));
 @end
 
 __attribute__((objc_subclassing_restricted))
