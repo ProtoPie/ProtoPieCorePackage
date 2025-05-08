@@ -2042,7 +2042,9 @@ __attribute__((swift_name("PPRiveLayer")))
 - (BOOL)triggerInputStateMachineName:(NSString *)stateMachineName inputName:(NSString *)inputName inputValue:(double)inputValue __attribute__((swift_name("triggerInput(stateMachineName:inputName:inputValue:)")));
 - (BOOL)triggerTriggerInputInputName:(NSString *)inputName __attribute__((swift_name("triggerTriggerInput(inputName:)")));
 - (BOOL)triggerTriggerInputStateMachineName:(NSString *)stateMachineName inputName:(NSString *)inputName __attribute__((swift_name("triggerTriggerInput(stateMachineName:inputName:)")));
+- (void)updateArtboardInfoArtboards:(NSArray<NSString *> *)artboards currentArtboard:(NSString * _Nullable)currentArtboard __attribute__((swift_name("updateArtboardInfo(artboards:currentArtboard:)")));
 - (void)updateLoopModeMode:(PPCPPRiveConstantsLoop *)mode __attribute__((swift_name("updateLoopMode(mode:)")));
+- (void)updateStateMachineInfoStateMachines:(NSArray<NSString *> *)stateMachines inputs:(NSDictionary<NSString *, NSArray<NSString *> *> *)inputs currentStateMachine:(NSString * _Nullable)currentStateMachine __attribute__((swift_name("updateStateMachineInfo(stateMachines:inputs:currentStateMachine:)")));
 @property (readonly) BOOL autoStart __attribute__((swift_name("autoStart")));
 @property (readonly) BOOL autoStartRepeat __attribute__((swift_name("autoStartRepeat")));
 @property (readonly) PPCPPFloatProperty *currentTime __attribute__((swift_name("currentTime")));
