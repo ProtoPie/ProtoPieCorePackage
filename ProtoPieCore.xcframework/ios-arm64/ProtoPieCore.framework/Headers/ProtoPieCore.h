@@ -2011,7 +2011,7 @@ __attribute__((swift_name("PPRiveLayer")))
 - (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId type:(PPCPPLayerType *)type parent:(PPCPPContainerLayer * _Nullable)parent radiusEnabled:(BOOL)radiusEnabled fillEnabled:(BOOL)fillEnabled borderEnabled:(BOOL)borderEnabled shadowEnabled:(BOOL)shadowEnabled __attribute__((swift_name("init(namespace:nsId:type:parent:radiusEnabled:fillEnabled:borderEnabled:shadowEnabled:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) PPCPPRiveLayerCompanion *companion __attribute__((swift_name("companion")));
 - (void)changeArtboardArtboardName:(NSString *)artboardName __attribute__((swift_name("changeArtboard(artboardName:)")));
-- (void)changeStateMachineStateMachineName:(NSString *)stateMachineName __attribute__((swift_name("changeStateMachine(stateMachineName:)")));
+- (void)changeStateMachineStateMachineName:(NSString *)stateMachineName loopMode:(PPCPPRiveConstantsLoop * _Nullable)loopMode direction:(PPCPPRiveConstantsDirection * _Nullable)direction __attribute__((swift_name("changeStateMachine(stateMachineName:loopMode:direction:)")));
 - (void)clearCommands __attribute__((swift_name("clearCommands()")));
 - (PPCPPRiveCommand * _Nullable)dequeueCommand __attribute__((swift_name("dequeueCommand()")));
 - (void)destroy __attribute__((swift_name("destroy()")));
@@ -2022,6 +2022,7 @@ __attribute__((swift_name("PPRiveLayer")))
 - (NSArray<NSString *> *)getArtboards __attribute__((swift_name("getArtboards()")));
 - (NSString * _Nullable)getCurrentArtboard __attribute__((swift_name("getCurrentArtboard()")));
 - (NSString * _Nullable)getCurrentStateMachine __attribute__((swift_name("getCurrentStateMachine()")));
+- (PPCPPRiveConstantsDirection *)getDirection __attribute__((swift_name("getDirection()")));
 - (PPCPPRiveConstantsLoop *)getLoopMode __attribute__((swift_name("getLoopMode()")));
 - (NSString *)getMediaResourceUrl __attribute__((swift_name("getMediaResourceUrl()")));
 - (NSDictionary<NSString *, id> *)getRiveStateInfo __attribute__((swift_name("getRiveStateInfo()")));
@@ -2042,9 +2043,10 @@ __attribute__((swift_name("PPRiveLayer")))
 - (BOOL)triggerInputStateMachineName:(NSString *)stateMachineName inputName:(NSString *)inputName inputValue:(double)inputValue __attribute__((swift_name("triggerInput(stateMachineName:inputName:inputValue:)")));
 - (BOOL)triggerTriggerInputInputName:(NSString *)inputName __attribute__((swift_name("triggerTriggerInput(inputName:)")));
 - (BOOL)triggerTriggerInputStateMachineName:(NSString *)stateMachineName inputName:(NSString *)inputName __attribute__((swift_name("triggerTriggerInput(stateMachineName:inputName:)")));
-- (void)updateArtboardInfoArtboards:(NSArray<NSString *> *)artboards currentArtboard:(NSString * _Nullable)currentArtboard __attribute__((swift_name("updateArtboardInfo(artboards:currentArtboard:)")));
+- (void)updateArtboardInfoArtboards:(NSArray<NSString *> *)artboards __attribute__((swift_name("updateArtboardInfo(artboards:)")));
+- (void)updateDirectionDir:(PPCPPRiveConstantsDirection *)dir __attribute__((swift_name("updateDirection(dir:)")));
 - (void)updateLoopModeMode:(PPCPPRiveConstantsLoop *)mode __attribute__((swift_name("updateLoopMode(mode:)")));
-- (void)updateStateMachineInfoStateMachines:(NSArray<NSString *> *)stateMachines inputs:(NSDictionary<NSString *, NSArray<NSString *> *> *)inputs currentStateMachine:(NSString * _Nullable)currentStateMachine __attribute__((swift_name("updateStateMachineInfo(stateMachines:inputs:currentStateMachine:)")));
+- (void)updateStateMachineInfoStateMachines:(NSArray<NSString *> *)stateMachines inputs:(NSDictionary<NSString *, NSArray<NSString *> *> *)inputs __attribute__((swift_name("updateStateMachineInfo(stateMachines:inputs:)")));
 @property (readonly) BOOL autoStart __attribute__((swift_name("autoStart")));
 @property (readonly) BOOL autoStartRepeat __attribute__((swift_name("autoStartRepeat")));
 @property (readonly) PPCPPFloatProperty *currentTime __attribute__((swift_name("currentTime")));
@@ -2105,9 +2107,11 @@ __attribute__((swift_name("PPRivePlayCommand")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPRiveStateMachineCommand")))
 @interface PPCPPRiveStateMachineCommand : PPCPPRiveCommand
-- (instancetype)initWithStateMachineName:(NSString *)stateMachineName __attribute__((swift_name("init(stateMachineName:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithStateMachineName:(NSString *)stateMachineName loopMode:(PPCPPRiveConstantsLoop * _Nullable)loopMode direction:(PPCPPRiveConstantsDirection * _Nullable)direction __attribute__((swift_name("init(stateMachineName:loopMode:direction:)"))) __attribute__((objc_designated_initializer));
 - (NSString *)serialize __attribute__((swift_name("serialize()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) PPCPPRiveConstantsDirection * _Nullable direction __attribute__((swift_name("direction")));
+@property (readonly) PPCPPRiveConstantsLoop * _Nullable loopMode __attribute__((swift_name("loopMode")));
 @property (readonly) NSString *stateMachineName __attribute__((swift_name("stateMachineName")));
 @end
 
