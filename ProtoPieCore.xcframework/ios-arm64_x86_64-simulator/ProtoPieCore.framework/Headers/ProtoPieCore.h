@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class PPCAbstractMediaLayer, PPCAbstractTextLayer, PPCCommon, PPCDeviceDesc, PPCDeviceDescCompanion, PPCDeviceFrameHelper, PPCFormulaUtils, PPCKotlinArray<T>, PPCKotlinEnum<E>, PPCKotlinEnumCompanion, PPCKotlinException, PPCKotlinFloatArray, PPCKotlinFloatIterator, PPCKotlinNothing, PPCKotlinThrowable, PPCKotlinx_serialization_coreSerialKind, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_jsonJsonElement, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCLogLevel, PPCLogger, PPCMediaState, PPCMediaStateCompanion, PPCPPAndroidVibrateType, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPCameraLayerCommand, PPCPPCameraPosition, PPCPPChangeObserversHolder, PPCPPChangeTarget, PPCPPClock, PPCPPColor, PPCPPColorCompanion, PPCPPColorProperty, PPCPPContainerLayer, PPCPPCorners<T>, PPCPPDataType, PPCPPDeviceInfo, PPCPPDeviceInfoCompanion, PPCPPEventChannel<T>, PPCPPExpr, PPCPPExprEvalError, PPCPPExprEvalErrorCompanion, PPCPPExprParseError, PPCPPExprParseErrorCompanion, PPCPPFillScaleMode, PPCPPFixedSceneChangeEventCompanion, PPCPPFloatCorners, PPCPPFloatProperty, PPCPPFont, PPCPPHitArea, PPCPPHorizontalAlign, PPCPPIdentifiableChangeObservable, PPCPPInputFocusEventCompanion, PPCPPIosEffectEventCompanion, PPCPPIosVibrateType, PPCPPKeyCode, PPCPPKeyCodeCompanion, PPCPPKotlinGC, PPCPPLayer, PPCPPLayerAlias, PPCPPLayerCompanion, PPCPPLayerLayoutBBox, PPCPPLayerProperty, PPCPPLayerType, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPLineCap, PPCPPLineJoin, PPCPPMediaCommand, PPCPPMediaCommandCompanion, PPCPPMediaCommandEventCompanion, PPCPPMessage, PPCPPMessageBus, PPCPPMessageCompanion, PPCPPMsg, PPCPPMsgChannel, PPCPPMsgCompanion, PPCPPNumberConstantExpr, PPCPPPathSegmentData, PPCPPPathSegmentType, PPCPPPieContext, PPCPPPieModel, PPCPPPieModelCompanion, PPCPPPiePlayerEvent, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPPieRecord, PPCPPPlatformType, PPCPPPlayControlGestureOptions, PPCPPPlayEvent, PPCPPPlayEventCompanion, PPCPPPoint, PPCPPPointCompanion, PPCPPProperty<T>, PPCPPRenderEvent, PPCPPRenderEventCompanion, PPCPPReorderEventCompanion, PPCPPRepeatDef, PPCPPScene, PPCPPSceneChangeEvent, PPCPPSceneChangeEventCompanion, PPCPPSensor, PPCPPShapeLayer, PPCPPSize, PPCPPSpeechGender, PPCPPStringProperty, PPCPPTextAttributes, PPCPPTextAttributesCompanion, PPCPPTextInputLayer, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCPPTextLayerSizeMode, PPCPPTouchEvent, PPCPPTouchEventAction, PPCPPValueHistory<T>, PPCPPValueHistoryCompanion, PPCPPVar<T>, PPCPPVarCompanion, PPCPPVectorShape, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPlatform, PPCProfileOptions, PPCReplayData, PPCReplayDataCompanion, PPCReplayDataSerializer, PPCReplayDataVersionCompanion, PPCReplayOptions, PPCReplayer, PPCScreenInfo;
+@class PPCAbstractMediaLayer, PPCAbstractTextLayer, PPCCommon, PPCDeviceDesc, PPCDeviceDescCompanion, PPCDeviceFrameHelper, PPCFormulaUtils, PPCKotlinArray<T>, PPCKotlinEnum<E>, PPCKotlinEnumCompanion, PPCKotlinException, PPCKotlinFloatArray, PPCKotlinFloatIterator, PPCKotlinNothing, PPCKotlinThrowable, PPCKotlinx_serialization_coreSerialKind, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_jsonJsonElement, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCLogLevel, PPCLogger, PPCMediaState, PPCMediaStateCompanion, PPCPPAndroidVibrateType, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraLayerCommand, PPCPPCameraPosition, PPCPPChangeObserversHolder, PPCPPChangeTarget, PPCPPClock, PPCPPColor, PPCPPColorCompanion, PPCPPColorProperty, PPCPPContainerLayer, PPCPPCorners<T>, PPCPPDataType, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPDeviceInfoCompanion, PPCPPEventChannel<T>, PPCPPExpr, PPCPPExprEvalError, PPCPPExprEvalErrorCompanion, PPCPPExprParseError, PPCPPExprParseErrorCompanion, PPCPPFillScaleMode, PPCPPFixedSceneChangeEventCompanion, PPCPPFloatCorners, PPCPPFloatProperty, PPCPPFont, PPCPPHitArea, PPCPPHorizontalAlign, PPCPPIdentifiableChangeObservable, PPCPPInputFocusEventCompanion, PPCPPIosEffectEventCompanion, PPCPPIosVibrateType, PPCPPKeyCode, PPCPPKeyCodeCompanion, PPCPPKotlinGC, PPCPPLayer, PPCPPLayerAlias, PPCPPLayerCompanion, PPCPPLayerLayoutBBox, PPCPPLayerProperty, PPCPPLayerType, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPLineCap, PPCPPLineJoin, PPCPPMediaCommand, PPCPPMediaCommandCompanion, PPCPPMediaCommandEventCompanion, PPCPPMessage, PPCPPMessageBus, PPCPPMessageCompanion, PPCPPMsg, PPCPPMsgChannel, PPCPPMsgCompanion, PPCPPNumberConstantExpr, PPCPPPathSegmentData, PPCPPPathSegmentType, PPCPPPieContext, PPCPPPieModel, PPCPPPieModelCompanion, PPCPPPiePlayerEvent, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPPieRecord, PPCPPPlatformType, PPCPPPlayControlGestureOptions, PPCPPPlayEvent, PPCPPPlayEventCompanion, PPCPPPoint, PPCPPPointCompanion, PPCPPProperty<T>, PPCPPRenderEvent, PPCPPRenderEventCompanion, PPCPPReorderEventCompanion, PPCPPRepeatDef, PPCPPScene, PPCPPSceneChangeEvent, PPCPPSceneChangeEventCompanion, PPCPPSensor, PPCPPShapeLayer, PPCPPSize, PPCPPSpeechGender, PPCPPStringProperty, PPCPPTextAttributes, PPCPPTextAttributesCompanion, PPCPPTextInputLayer, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCPPTextLayerSizeMode, PPCPPTouchEvent, PPCPPTouchEventAction, PPCPPValueHistory<T>, PPCPPValueHistoryCompanion, PPCPPVar<T>, PPCPPVarCompanion, PPCPPVectorShape, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPlatform, PPCProfileOptions, PPCReplayData, PPCReplayDataCompanion, PPCReplayDataSerializer, PPCReplayDataVersionCompanion, PPCReplayOptions, PPCReplayer, PPCScreenInfo;
 
 @protocol PPCFormulaObserver, PPCKotlinAnnotation, PPCKotlinComparable, PPCKotlinIterator, PPCKotlinKAnnotatedElement, PPCKotlinKClass, PPCKotlinKClassifier, PPCKotlinKDeclarationContainer, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreKSerializer, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCPPChangeObserver, PPCPPClockObserver, PPCPPEngineObserver, PPCPPEventChannelHandler, PPCPPExprLayer, PPCPPJson, PPCPPLayerObserver, PPCPPMessageBusTaskRunner, PPCPPObservableValueProvider, PPCPPPieDecorator, PPCPPPropertyObserver, PPCPPSensorListener, PPCPPSensorManager, PPCPPSpeechInterface, PPCPPSpeechInterfaceListener, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPValueProvider, PPCPPVoiceInterface, PPCPPVoiceInterfaceListener, PPCPlayerDelegate, PPCReplayerDelegate;
 
@@ -320,6 +320,19 @@ __attribute__((swift_name("PPBlurEffectStyle")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPBorderPosition")))
+@interface PPCPPBorderPosition : PPCKotlinEnum<PPCPPBorderPosition *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPBorderPosition *inside __attribute__((swift_name("inside")));
+@property (class, readonly) PPCPPBorderPosition *center __attribute__((swift_name("center")));
+@property (class, readonly) PPCPPBorderPosition *outside __attribute__((swift_name("outside")));
++ (PPCKotlinArray<PPCPPBorderPosition *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPBorderPosition *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPCameraPosition")))
 @interface PPCPPCameraPosition : PPCKotlinEnum<PPCPPCameraPosition *>
 + (instancetype)alloc __attribute__((unavailable));
@@ -330,6 +343,50 @@ __attribute__((swift_name("PPCameraPosition")))
 + (PPCKotlinArray<PPCPPCameraPosition *> *)values __attribute__((swift_name("values()")));
 @property (class, readonly) NSArray<PPCPPCameraPosition *> *entries __attribute__((swift_name("entries")));
 - (PPCPPCameraPosition *)toggle __attribute__((swift_name("toggle()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPDeviceFrameType")))
+@interface PPCPPDeviceFrameType : PPCKotlinEnum<PPCPPDeviceFrameType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCPPDeviceFrameType *none __attribute__((swift_name("none")));
+@property (class, readonly) PPCPPDeviceFrameType *iphoneX __attribute__((swift_name("iphoneX")));
+@property (class, readonly) PPCPPDeviceFrameType *iphoneXr __attribute__((swift_name("iphoneXr")));
+@property (class, readonly) PPCPPDeviceFrameType *iphoneXsMax __attribute__((swift_name("iphoneXsMax")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone11 __attribute__((swift_name("iphone11")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone11Pro __attribute__((swift_name("iphone11Pro")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone11ProMax __attribute__((swift_name("iphone11ProMax")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone12Mini __attribute__((swift_name("iphone12Mini")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone12Pro __attribute__((swift_name("iphone12Pro")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone12ProMax __attribute__((swift_name("iphone12ProMax")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone13mini __attribute__((swift_name("iphone13mini")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone13pro __attribute__((swift_name("iphone13pro")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone13promax __attribute__((swift_name("iphone13promax")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone14 __attribute__((swift_name("iphone14")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone14plus __attribute__((swift_name("iphone14plus")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone14pro __attribute__((swift_name("iphone14pro")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone14promax __attribute__((swift_name("iphone14promax")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone15 __attribute__((swift_name("iphone15")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone15plus __attribute__((swift_name("iphone15plus")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone15pro __attribute__((swift_name("iphone15pro")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone15promax __attribute__((swift_name("iphone15promax")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone16 __attribute__((swift_name("iphone16")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone16plus __attribute__((swift_name("iphone16plus")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone16pro __attribute__((swift_name("iphone16pro")));
+@property (class, readonly) PPCPPDeviceFrameType *iphone16promax __attribute__((swift_name("iphone16promax")));
+@property (class, readonly) PPCPPDeviceFrameType *galaxyS8 __attribute__((swift_name("galaxyS8")));
+@property (class, readonly) PPCPPDeviceFrameType *galaxyS10 __attribute__((swift_name("galaxyS10")));
+@property (class, readonly) PPCPPDeviceFrameType *galaxyS10Plus __attribute__((swift_name("galaxyS10Plus")));
+@property (class, readonly) PPCPPDeviceFrameType *galaxyS20 __attribute__((swift_name("galaxyS20")));
+@property (class, readonly) PPCPPDeviceFrameType *googlePixel3 __attribute__((swift_name("googlePixel3")));
+@property (class, readonly) PPCPPDeviceFrameType *googlePixel4 __attribute__((swift_name("googlePixel4")));
+@property (class, readonly) PPCPPDeviceFrameType *googlePixel4Xl __attribute__((swift_name("googlePixel4Xl")));
+@property (class, readonly) PPCPPDeviceFrameType *googlePixel5 __attribute__((swift_name("googlePixel5")));
++ (PPCKotlinArray<PPCPPDeviceFrameType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCPPDeviceFrameType *> *entries __attribute__((swift_name("entries")));
+- (BOOL)matchesWithDevice:(PPCPPDeviceInfo *)device __attribute__((swift_name("matchesWith(device:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -991,6 +1048,7 @@ __attribute__((swift_name("PPLayer")))
 @property float anchorY __attribute__((swift_name("anchorY")));
 @property (readonly) PPCPPColorProperty *borderColor __attribute__((swift_name("borderColor")));
 @property (readonly) PPCPPFloatProperty *borderOpacity __attribute__((swift_name("borderOpacity")));
+@property PPCPPBorderPosition *borderPosition __attribute__((swift_name("borderPosition")));
 @property (readonly) PPCPPFloatProperty *borderWidth __attribute__((swift_name("borderWidth")));
 @property PPCPPLayerLayoutBBox *cachedBBox __attribute__((swift_name("cachedBBox")));
 @property (readonly) PPCPPCorners<PPCPPFloatProperty *> *cornerRadius __attribute__((swift_name("cornerRadius")));
@@ -1735,6 +1793,7 @@ __attribute__((swift_name("PPLayerViewSplitter.SplittingLayer")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPPieModel")))
 @interface PPCPPPieModel : PPCBase
+- (instancetype)initWithDeviceInfo:(PPCPPDeviceInfo *)deviceInfo observer:(id<PPCPPEngineObserver> _Nullable)observer fonts:(NSDictionary<NSString *, PPCPPFont *> *)fonts __attribute__((swift_name("init(deviceInfo:observer:fonts:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) PPCPPPieModelCompanion *companion __attribute__((swift_name("companion")));
 - (float)computeScaleFactorWidth:(float)width height:(float)height __attribute__((swift_name("computeScaleFactor(width:height:)")));
 - (void)destroy __attribute__((swift_name("destroy()")));
@@ -2629,6 +2688,7 @@ __attribute__((swift_name("PPDeviceInfo")))
 @property (class, readonly, getter=companion) PPCPPDeviceInfoCompanion *companion __attribute__((swift_name("companion")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) float density __attribute__((swift_name("density")));
+@property (readonly) PPCPPDeviceFrameType *frameType __attribute__((swift_name("frameType")));
 @property (readonly) float height __attribute__((swift_name("height")));
 @property (readonly) NSString * _Nullable id __attribute__((swift_name("id")));
 @property (readonly) BOOL isPortrait __attribute__((swift_name("isPortrait")));
