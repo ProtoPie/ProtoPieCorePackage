@@ -751,6 +751,14 @@ __attribute__((swift_name("PPTouchSessionListener")))
 - (void)onTouchSessionEndedNow:(int64_t)now eventConsumed:(BOOL)eventConsumed __attribute__((swift_name("onTouchSessionEnded(now:eventConsumed:)")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPVelocityTracker")))
+@interface PPCPPVelocityTracker : PPCBase
+- (instancetype)initWithPoint:(PPCPPPoint *)point now:(int64_t)now T:(double)T __attribute__((swift_name("init(point:now:T:)"))) __attribute__((objc_designated_initializer));
+- (PPCPPPoint *)getVelocity __attribute__((swift_name("getVelocity()")));
+- (void)updatePoint:(PPCPPPoint *)point now:(int64_t)now __attribute__((swift_name("update(point:now:)")));
+@end
+
 __attribute__((swift_name("PPVoiceInterface")))
 @protocol PPCPPVoiceInterface
 @required
