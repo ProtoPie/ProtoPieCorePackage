@@ -11,11 +11,19 @@ let package = Package(
             name: "ProtoPieCore",
             targets: ["ProtoPieCore"]
         ),
+        .library(
+            name: "ProtoPieCoreStatic",
+            targets: ["ProtoPieCoreStatic"]
+        )
     ],
     targets: [
         .binaryTarget(
             name: "ProtoPieCore",
             path: "./ProtoPieCore.xcframework"
+        ),
+        .binaryTarget(
+            name: "ProtoPieCoreStatic",
+            path: "./ProtoPieCoreStatic.xcframework"
         ),
     ]
 )
