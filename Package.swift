@@ -14,7 +14,7 @@ let package = Package(
         .library(
             name: "ProtoPieCoreStatic",
             targets: ["ProtoPieCoreStatic"]
-        )
+        ),
     ],
     targets: [
         .binaryTarget(
