@@ -8,22 +8,20 @@ let package = Package(
     ],
     products: [
         .library(
+            name: "ProtoPieCoreStatic",
+            targets: [
+        .binaryTarget(
+            name: "ProtoPieCoreStatic",
+            path: "./ProtoPieCoreStatic.xcframework"),"ProtoPieCoreStatic"]),
+        .library(
             name: "ProtoPieCore",
             targets: ["ProtoPieCore"]
-        ),
-        .library(
-            name: "ProtoPieCoreStatic",
-            targets: ["ProtoPieCoreStatic"]
         ),
     ],
     targets: [
         .binaryTarget(
             name: "ProtoPieCore",
             path: "./ProtoPieCore.xcframework"
-        ),
-        .binaryTarget(
-            name: "ProtoPieCoreStatic",
-            path: "./ProtoPieCoreStatic.xcframework"
         ),
     ]
 )
