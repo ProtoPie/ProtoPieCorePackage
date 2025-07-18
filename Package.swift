@@ -9,16 +9,18 @@ let package = Package(
     products: [
         .library(
             name: "ProtoPieCoreStatic",
-            targets: [
-        .binaryTarget(
-            name: "ProtoPieCoreStatic",
-            path: "./ProtoPieCoreStatic.xcframework"),"ProtoPieCoreStatic"]),
+            targets: ["ProtoPieCoreStatic"]
+        ),
         .library(
             name: "ProtoPieCore",
             targets: ["ProtoPieCore"]
         ),
     ],
     targets: [
+        .binaryTarget(
+            name: "ProtoPieCoreStatic",
+            path: "./ProtoPieCoreStatic.xcframework"
+        ),
         .binaryTarget(
             name: "ProtoPieCore",
             path: "./ProtoPieCore.xcframework"
