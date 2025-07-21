@@ -1,8 +1,0 @@
-framework module "ProtoPieCoreStatic" {
-    umbrella header "ProtoPieCoreStatic.h"
-
-    export *
-    module * { export * }
-
-    use Foundation
-}
