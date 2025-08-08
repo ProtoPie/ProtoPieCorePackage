@@ -3049,11 +3049,7 @@ __attribute__((swift_name("PPPiePlayer")))
 - (void)handleShake __attribute__((swift_name("handleShake()")));
 - (BOOL)handleWheelEventEvent:(PPCPPWheelEvent *)event __attribute__((swift_name("handleWheelEvent(event:)")));
 - (void)onTouchEventTouchEvent:(PPCPPTouchEvent *)touchEvent __attribute__((swift_name("onTouchEvent(touchEvent:)")));
-
-/**
- * @note This method converts all Kotlin exceptions to errors.
-*/
-- (BOOL)progressNow:(int64_t)now error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("progress(now:)")));
+- (void)progressNow:(int64_t)now __attribute__((swift_name("progress(now:)")));
 - (void)restoreFromReplayDataData:(NSString *)data __attribute__((swift_name("restoreFromReplayData(data:)")));
 - (void)restoreSceneActiveSceneId:(NSString * _Nullable)activeSceneId __attribute__((swift_name("restoreScene(activeSceneId:)")));
 - (void)setHotspotHintsEnabledValue:(BOOL)value __attribute__((swift_name("setHotspotHintsEnabled(value:)")));
