@@ -4329,6 +4329,7 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPJsonPool")))
 @interface PPCPPJsonPool : PPCBase
 - (instancetype)initWithMaxSize:(int32_t)maxSize __attribute__((swift_name("init(maxSize:)"))) __attribute__((objc_designated_initializer));
+- (int32_t)capacity __attribute__((swift_name("capacity()")));
 - (void)clear __attribute__((swift_name("clear()")));
 - (id<PPCPPJson> _Nullable)getElement:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)element __attribute__((swift_name("get(element:)")));
 - (id<PPCPPJson>)getOrCreateElement:(PPCKotlinx_serialization_jsonJsonElement *)element __attribute__((swift_name("getOrCreate(element:)")));
