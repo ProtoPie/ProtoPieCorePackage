@@ -4297,6 +4297,7 @@ __attribute__((swift_name("MemoryProfiler")))
 + (instancetype)memoryProfiler __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) PPCMemoryProfiler *shared __attribute__((swift_name("shared")));
 - (void)logMemoryLabel:(NSString *)label jsonPool:(PPCPPJsonPool * _Nullable)jsonPool __attribute__((swift_name("logMemory(label:jsonPool:)")));
+- (void)logPoolStatsLabel:(NSString *)label jsonPool:(PPCPPJsonPool *)jsonPool __attribute__((swift_name("logPoolStats(label:jsonPool:)")));
 - (void)printSummary __attribute__((swift_name("printSummary()")));
 - (void)startProfiling __attribute__((swift_name("startProfiling()")));
 @end
@@ -4331,6 +4332,7 @@ __attribute__((swift_name("PPJsonPool")))
 - (void)clear __attribute__((swift_name("clear()")));
 - (id<PPCPPJson> _Nullable)getElement:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)element __attribute__((swift_name("get(element:)")));
 - (id<PPCPPJson>)getOrCreateElement:(PPCKotlinx_serialization_jsonJsonElement *)element __attribute__((swift_name("getOrCreate(element:)")));
+- (NSString *)getStats __attribute__((swift_name("getStats()")));
 - (void)putElement:(PPCKotlinx_serialization_jsonJsonElement *)element impl:(id<PPCPPJson>)impl __attribute__((swift_name("put(element:impl:)")));
 - (int32_t)size __attribute__((swift_name("size()")));
 @end
