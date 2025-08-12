@@ -254,7 +254,6 @@ __attribute__((swift_name("Platform.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) PPCPlatformCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) int32_t STREAMING_SIZE_THRESHOLD __attribute__((swift_name("STREAMING_SIZE_THRESHOLD")));
 @property BOOL preferStreaming __attribute__((swift_name("preferStreaming")));
 @end
 
