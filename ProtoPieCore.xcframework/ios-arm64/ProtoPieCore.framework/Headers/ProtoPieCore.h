@@ -279,6 +279,12 @@ __attribute__((swift_name("EngineFeatures")))
  * @note annotations
  *   kotlin.jvm.JvmStatic
 */
+@property BOOL lazySceneInit __attribute__((swift_name("lazySceneInit")));
+
+/**
+ * @note annotations
+ *   kotlin.jvm.JvmStatic
+*/
 @property BOOL useComponentStructuralSharing __attribute__((swift_name("useComponentStructuralSharing")));
 @end
 
@@ -3545,12 +3551,13 @@ __attribute__((swift_name("PPPieReader")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ReaderOptions")))
 @interface PPCReaderOptions : PPCBase
-- (instancetype)initWithDiscardJsonAfterLoad:(BOOL)discardJsonAfterLoad preferStreaming:(BOOL)preferStreaming useComponentStructuralSharing:(BOOL)useComponentStructuralSharing __attribute__((swift_name("init(discardJsonAfterLoad:preferStreaming:useComponentStructuralSharing:)"))) __attribute__((objc_designated_initializer));
-- (PPCReaderOptions *)doCopyDiscardJsonAfterLoad:(BOOL)discardJsonAfterLoad preferStreaming:(BOOL)preferStreaming useComponentStructuralSharing:(BOOL)useComponentStructuralSharing __attribute__((swift_name("doCopy(discardJsonAfterLoad:preferStreaming:useComponentStructuralSharing:)")));
+- (instancetype)initWithDiscardJsonAfterLoad:(BOOL)discardJsonAfterLoad preferStreaming:(BOOL)preferStreaming useComponentStructuralSharing:(BOOL)useComponentStructuralSharing lazySceneInit:(BOOL)lazySceneInit __attribute__((swift_name("init(discardJsonAfterLoad:preferStreaming:useComponentStructuralSharing:lazySceneInit:)"))) __attribute__((objc_designated_initializer));
+- (PPCReaderOptions *)doCopyDiscardJsonAfterLoad:(BOOL)discardJsonAfterLoad preferStreaming:(BOOL)preferStreaming useComponentStructuralSharing:(BOOL)useComponentStructuralSharing lazySceneInit:(BOOL)lazySceneInit __attribute__((swift_name("doCopy(discardJsonAfterLoad:preferStreaming:useComponentStructuralSharing:lazySceneInit:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) BOOL discardJsonAfterLoad __attribute__((swift_name("discardJsonAfterLoad")));
+@property (readonly) BOOL lazySceneInit __attribute__((swift_name("lazySceneInit")));
 @property (readonly) BOOL preferStreaming __attribute__((swift_name("preferStreaming")));
 @property (readonly) BOOL useComponentStructuralSharing __attribute__((swift_name("useComponentStructuralSharing")));
 @end
