@@ -3127,6 +3127,7 @@ __attribute__((swift_name("PPPiePlayer")))
 - (void)start __attribute__((swift_name("start()")));
 - (void)stopAll __attribute__((swift_name("stopAll()")));
 - (void)switchSceneSceneId:(NSString *)sceneId __attribute__((swift_name("switchScene(sceneId:)")));
+- (void)switchSceneSceneId:(NSString *)sceneId resetTargetScene:(BOOL)resetTargetScene __attribute__((swift_name("switchScene(sceneId:resetTargetScene:)")));
 @property (readonly) PPCPPEventChannel<PPCPPPiePlayerEvent *> *channel __attribute__((swift_name("channel")));
 @property (readonly) PPCPPPieModel *pie __attribute__((swift_name("pie")));
 @end
