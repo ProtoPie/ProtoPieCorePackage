@@ -2800,7 +2800,6 @@ __attribute__((swift_name("PPId.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) PPCPPIdCompanion *shared __attribute__((swift_name("shared")));
 - (void)clearPool __attribute__((swift_name("clearPool()")));
-- (int32_t)getPoolSize __attribute__((swift_name("getPoolSize()")));
 - (PPCPPId *)ofRawId:(NSString *)rawId __attribute__((swift_name("of(rawId:)")));
 @end
 
