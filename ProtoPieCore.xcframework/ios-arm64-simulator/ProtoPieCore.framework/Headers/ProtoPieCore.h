@@ -2040,7 +2040,11 @@ __attribute__((swift_name("PPPiePlayer")))
 - (void)handleMouseMoveMouseX:(float)mouseX mouseY:(float)mouseY __attribute__((swift_name("handleMouseMove(mouseX:mouseY:)")));
 - (void)handleShake __attribute__((swift_name("handleShake()")));
 - (void)onTouchEventTouchEvent:(PPCPPTouchEvent *)touchEvent __attribute__((swift_name("onTouchEvent(touchEvent:)")));
-- (void)progressNow:(int64_t)now __attribute__((swift_name("progress(now:)")));
+
+/**
+ * @note This method converts all Kotlin exceptions to errors.
+*/
+- (BOOL)progressNow:(int64_t)now error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("progress(now:)")));
 - (void)restoreFromReplayDataData:(NSString *)data __attribute__((swift_name("restoreFromReplayData(data:)")));
 - (void)restoreSceneActiveSceneId:(NSString * _Nullable)activeSceneId __attribute__((swift_name("restoreScene(activeSceneId:)")));
 - (void)setHotspotHintsEnabledValue:(BOOL)value __attribute__((swift_name("setHotspotHintsEnabled(value:)")));
@@ -2900,8 +2904,6 @@ __attribute__((swift_name("Logger")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPJsonImpl")))
 @interface PPCPPJsonImpl : PPCBase <PPCPPJson>
-- (instancetype)initWithJsonString:(NSString *)jsonString __attribute__((swift_name("init(jsonString:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithJsonString:(NSString *)jsonString pool:(PPCPPJsonPool * _Nullable)pool __attribute__((swift_name("init(jsonString:pool:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithJson:(PPCKotlinx_serialization_jsonJsonElement * _Nullable)json pool:(PPCPPJsonPool * _Nullable)pool __attribute__((swift_name("init(json:pool:)"))) __attribute__((objc_designated_initializer));
 - (void)clearInstanceCache __attribute__((swift_name("clearInstanceCache()")));
 - (BOOL)hasKey:(NSString *)key __attribute__((swift_name("has(key:)")));
