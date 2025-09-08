@@ -2040,7 +2040,11 @@ __attribute__((swift_name("PPPiePlayer")))
 - (void)handleMouseMoveMouseX:(float)mouseX mouseY:(float)mouseY __attribute__((swift_name("handleMouseMove(mouseX:mouseY:)")));
 - (void)handleShake __attribute__((swift_name("handleShake()")));
 - (void)onTouchEventTouchEvent:(PPCPPTouchEvent *)touchEvent __attribute__((swift_name("onTouchEvent(touchEvent:)")));
-- (void)progressNow:(int64_t)now __attribute__((swift_name("progress(now:)")));
+
+/**
+ * @note This method converts all Kotlin exceptions to errors.
+*/
+- (BOOL)progressNow:(int64_t)now error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("progress(now:)")));
 - (void)restoreFromReplayDataData:(NSString *)data __attribute__((swift_name("restoreFromReplayData(data:)")));
 - (void)restoreSceneActiveSceneId:(NSString * _Nullable)activeSceneId __attribute__((swift_name("restoreScene(activeSceneId:)")));
 - (void)setHotspotHintsEnabledValue:(BOOL)value __attribute__((swift_name("setHotspotHintsEnabled(value:)")));
@@ -2800,6 +2804,7 @@ __attribute__((swift_name("PPId.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) PPCPPIdCompanion *shared __attribute__((swift_name("shared")));
 - (void)clearPool __attribute__((swift_name("clearPool()")));
+- (int32_t)getPoolSize __attribute__((swift_name("getPoolSize()")));
 - (PPCPPId *)ofRawId:(NSString *)rawId __attribute__((swift_name("of(rawId:)")));
 @end
 
