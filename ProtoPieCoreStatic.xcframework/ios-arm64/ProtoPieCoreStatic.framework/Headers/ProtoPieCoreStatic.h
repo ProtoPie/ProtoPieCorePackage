@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class PPCSAbstractMediaLayer, PPCSAbstractTextLayer, PPCSCommon, PPCSDeviceDesc, PPCSDeviceDescCompanion, PPCSDeviceFrameHelper, PPCSDevicePreset, PPCSFormulaUtils, PPCSKotlinArray<T>, PPCSKotlinEnum<E>, PPCSKotlinEnumCompanion, PPCSKotlinException, PPCSKotlinFloatArray, PPCSKotlinFloatIterator, PPCSKotlinNothing, PPCSKotlinThrowable, PPCSKotlinx_serialization_coreSerialKind, PPCSKotlinx_serialization_coreSerializersModule, PPCSKotlinx_serialization_jsonJsonElement, PPCSKotlinx_serialization_jsonJsonElementCompanion, PPCSLogLevel, PPCSLogger, PPCSMediaState, PPCSMediaStateCompanion, PPCSPPAndroidVibrateType, PPCSPPAxis3D, PPCSPPBlurEffectStyle, PPCSPPBorderPosition, PPCSPPCameraLayerCommand, PPCSPPCameraPosition, PPCSPPChangeObserversHolder, PPCSPPChangeTarget, PPCSPPClock, PPCSPPColor, PPCSPPColorCompanion, PPCSPPColorProperty, PPCSPPContainerLayer, PPCSPPCorners<T>, PPCSPPDataType, PPCSPPDeviceFrameType, PPCSPPDeviceInfo, PPCSPPDeviceInfoCompanion, PPCSPPEventChannel<T>, PPCSPPExpr, PPCSPPExprEvalError, PPCSPPExprEvalErrorCompanion, PPCSPPExprParseError, PPCSPPExprParseErrorCompanion, PPCSPPFillScaleMode, PPCSPPFixedSceneChangeEventCompanion, PPCSPPFloatCorners, PPCSPPFloatProperty, PPCSPPFont, PPCSPPHitArea, PPCSPPHorizontalAlign, PPCSPPIdentifiableChangeObservable, PPCSPPInputFocusEventCompanion, PPCSPPIosEffectEventCompanion, PPCSPPIosVibrateType, PPCSPPKeyCode, PPCSPPKeyCodeCompanion, PPCSPPKotlinGC, PPCSPPLayer, PPCSPPLayerAlias, PPCSPPLayerCompanion, PPCSPPLayerLayoutBBox, PPCSPPLayerProperty, PPCSPPLayerType, PPCSPPLayerViewSplitterCompanion, PPCSPPLayerViewSplitterGroup, PPCSPPLineCap, PPCSPPLineJoin, PPCSPPMediaCommand, PPCSPPMediaCommandCompanion, PPCSPPMediaCommandEventCompanion, PPCSPPMessage, PPCSPPMessageBus, PPCSPPMessageCompanion, PPCSPPMsg, PPCSPPMsgChannel, PPCSPPMsgChannelCompanion, PPCSPPMsgCompanion, PPCSPPNumberConstantExpr, PPCSPPPathSegmentData, PPCSPPPathSegmentType, PPCSPPPieContext, PPCSPPPieModel, PPCSPPPieModelCompanion, PPCSPPPiePlayerEvent, PPCSPPPiePlayerEventTextInputFocusedIn, PPCSPPPiePlayerEventTextInputFocusedOut, PPCSPPPieRecord, PPCSPPPlatformType, PPCSPPPlayControlGestureOptions, PPCSPPPlayEvent, PPCSPPPlayEventCompanion, PPCSPPPoint, PPCSPPPointCompanion, PPCSPPProperty<T>, PPCSPPRenderEvent, PPCSPPRenderEventCompanion, PPCSPPReorderEventCompanion, PPCSPPRepeatDef, PPCSPPRiveCommand, PPCSPPRiveCommandCompanion, PPCSPPRiveCommandEventCompanion, PPCSPPRiveConstants, PPCSPPRiveConstantsCommandType, PPCSPPRiveConstantsDirection, PPCSPPRiveConstantsLoop, PPCSPPRiveConstantsPrefix, PPCSPPRiveInputValue, PPCSPPRiveInputValueBooleanValue, PPCSPPRiveInputValueNumberValue, PPCSPPRiveInputValueTriggerValue, PPCSPPRiveLayerCompanion, PPCSPPRiveLayerRiveFit, PPCSPPScene, PPCSPPSceneChangeEvent, PPCSPPSceneChangeEventCompanion, PPCSPPSensor, PPCSPPShapeLayer, PPCSPPSize, PPCSPPSpeechGender, PPCSPPStringProperty, PPCSPPTextAttributes, PPCSPPTextAttributesCompanion, PPCSPPTextInputLayer, PPCSPPTextInputLayerKeyboardLook, PPCSPPTextInputLayerKeyboardType, PPCSPPTextInputLayerReturnKeyType, PPCSPPTextLayerSizeMode, PPCSPPTouchEvent, PPCSPPTouchEventAction, PPCSPPValueHistory<T>, PPCSPPValueHistoryCompanion, PPCSPPVar<T>, PPCSPPVarCompanion, PPCSPPVectorShape, PPCSPPVectorShapeType, PPCSPPVerticalAlign, PPCSPlatform, PPCSPlaybackEvent, PPCSProfileOptions, PPCSReplayData, PPCSReplayDataCompanion, PPCSReplayDataSerializer, PPCSReplayDataVersionCompanion, PPCSReplayOptions, PPCSReplayer, PPCSRiveMediaState, PPCSRiveMediaStateCompanion, PPCSScreenInfo, PPCSUserDefinedEvent;
+@class PPCSAbstractMediaLayer, PPCSAbstractTextLayer, PPCSCommon, PPCSDeviceDesc, PPCSDeviceDescCompanion, PPCSDeviceFrameHelper, PPCSDevicePreset, PPCSFormulaUtils, PPCSKotlinArray<T>, PPCSKotlinEnum<E>, PPCSKotlinEnumCompanion, PPCSKotlinException, PPCSKotlinFloatArray, PPCSKotlinFloatIterator, PPCSKotlinNothing, PPCSKotlinThrowable, PPCSKotlinx_serialization_coreSerialKind, PPCSKotlinx_serialization_coreSerializersModule, PPCSKotlinx_serialization_jsonJsonElement, PPCSKotlinx_serialization_jsonJsonElementCompanion, PPCSLogLevel, PPCSLogger, PPCSMediaState, PPCSMediaStateCompanion, PPCSPPAndroidVibrateType, PPCSPPAxis3D, PPCSPPBlurEffectStyle, PPCSPPBorderPosition, PPCSPPCameraLayerCommand, PPCSPPCameraPosition, PPCSPPChangeObserversHolder, PPCSPPChangeTarget, PPCSPPClock, PPCSPPColor, PPCSPPColorCompanion, PPCSPPColorProperty, PPCSPPContainerLayer, PPCSPPCorners<T>, PPCSPPDataType, PPCSPPDeviceFrameType, PPCSPPDeviceInfo, PPCSPPDeviceInfoCompanion, PPCSPPEventChannel<T>, PPCSPPExpr, PPCSPPExprEvalError, PPCSPPExprEvalErrorCompanion, PPCSPPExprParseError, PPCSPPExprParseErrorCompanion, PPCSPPFillScaleMode, PPCSPPFixedSceneChangeEventCompanion, PPCSPPFloatCorners, PPCSPPFloatProperty, PPCSPPFont, PPCSPPHitArea, PPCSPPHorizontalAlign, PPCSPPIdentifiableChangeObservable, PPCSPPInputFocusEventCompanion, PPCSPPIosEffectEventCompanion, PPCSPPIosVibrateType, PPCSPPKeyCode, PPCSPPKeyCodeCompanion, PPCSPPKotlinGC, PPCSPPLayer, PPCSPPLayerAlias, PPCSPPLayerCompanion, PPCSPPLayerLayoutBBox, PPCSPPLayerProperty, PPCSPPLayerType, PPCSPPLayerViewSplitterCompanion, PPCSPPLayerViewSplitterGroup, PPCSPPLineCap, PPCSPPLineJoin, PPCSPPMediaCommand, PPCSPPMediaCommandCompanion, PPCSPPMediaCommandEventCompanion, PPCSPPMessage, PPCSPPMessageBus, PPCSPPMessageCompanion, PPCSPPMsg, PPCSPPMsgChannel, PPCSPPMsgChannelCompanion, PPCSPPMsgCompanion, PPCSPPNumberConstantExpr, PPCSPPPathSegmentData, PPCSPPPathSegmentType, PPCSPPPieContext, PPCSPPPieModel, PPCSPPPieModelCompanion, PPCSPPPiePlayerEvent, PPCSPPPiePlayerEventTextInputFocusedIn, PPCSPPPiePlayerEventTextInputFocusedOut, PPCSPPPieRecord, PPCSPPPlatformType, PPCSPPPlayControlGestureOptions, PPCSPPPlayEvent, PPCSPPPlayEventCompanion, PPCSPPPoint, PPCSPPPointCompanion, PPCSPPProperty<T>, PPCSPPRenderEvent, PPCSPPRenderEventCompanion, PPCSPPReorderEventCompanion, PPCSPPRepeatDef, PPCSPPScene, PPCSPPSceneChangeEvent, PPCSPPSceneChangeEventCompanion, PPCSPPSensor, PPCSPPShapeLayer, PPCSPPSize, PPCSPPSpeechGender, PPCSPPStringProperty, PPCSPPTextAttributes, PPCSPPTextAttributesCompanion, PPCSPPTextInputLayer, PPCSPPTextInputLayerKeyboardLook, PPCSPPTextInputLayerKeyboardType, PPCSPPTextInputLayerReturnKeyType, PPCSPPTextLayerSizeMode, PPCSPPTouchEvent, PPCSPPTouchEventAction, PPCSPPValueHistory<T>, PPCSPPValueHistoryCompanion, PPCSPPVar<T>, PPCSPPVarCompanion, PPCSPPVectorShape, PPCSPPVectorShapeType, PPCSPPVerticalAlign, PPCSPlatform, PPCSProfileOptions, PPCSReplayData, PPCSReplayDataCompanion, PPCSReplayDataSerializer, PPCSReplayDataVersionCompanion, PPCSReplayOptions, PPCSReplayer, PPCSScreenInfo;
 
 @protocol PPCSFormulaObserver, PPCSKotlinAnnotation, PPCSKotlinComparable, PPCSKotlinIterator, PPCSKotlinKAnnotatedElement, PPCSKotlinKClass, PPCSKotlinKClassifier, PPCSKotlinKDeclarationContainer, PPCSKotlinx_serialization_coreCompositeDecoder, PPCSKotlinx_serialization_coreCompositeEncoder, PPCSKotlinx_serialization_coreDecoder, PPCSKotlinx_serialization_coreDeserializationStrategy, PPCSKotlinx_serialization_coreEncoder, PPCSKotlinx_serialization_coreKSerializer, PPCSKotlinx_serialization_coreSerialDescriptor, PPCSKotlinx_serialization_coreSerializationStrategy, PPCSKotlinx_serialization_coreSerializersModuleCollector, PPCSPPChangeObserver, PPCSPPClockObserver, PPCSPPEngineObserver, PPCSPPEventChannelHandler, PPCSPPExprLayer, PPCSPPJson, PPCSPPLayerObserver, PPCSPPMessageBusTaskRunner, PPCSPPObservableValueProvider, PPCSPPPieDecorator, PPCSPPPropertyObserver, PPCSPPSensorListener, PPCSPPSensorManager, PPCSPPSpeechInterface, PPCSPPSpeechInterfaceListener, PPCSPPTextInputLayerFocusRequestListener, PPCSPPTextInputLayerFocusStateListener, PPCSPPValueProvider, PPCSPPVoiceInterface, PPCSPPVoiceInterfaceListener, PPCSPlayerDelegate, PPCSReplayerDelegate;
 
@@ -264,83 +264,6 @@ __attribute__((swift_name("PPModelException")))
 - (instancetype)initWithMessage:(NSString *)message cause:(PPCSKotlinThrowable *)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRiveConstants")))
-@interface PPCSPPRiveConstants : PPCSBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)pPRiveConstants __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCSPPRiveConstants *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRiveConstants.CommandType")))
-@interface PPCSPPRiveConstantsCommandType : PPCSKotlinEnum<PPCSPPRiveConstantsCommandType *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCSPPRiveConstantsCommandType *stateMachine __attribute__((swift_name("stateMachine")));
-@property (class, readonly) PPCSPPRiveConstantsCommandType *input __attribute__((swift_name("input")));
-@property (class, readonly) PPCSPPRiveConstantsCommandType *artboard __attribute__((swift_name("artboard")));
-@property (class, readonly) PPCSPPRiveConstantsCommandType *play __attribute__((swift_name("play")));
-@property (class, readonly) PPCSPPRiveConstantsCommandType *stop __attribute__((swift_name("stop")));
-@property (class, readonly) PPCSPPRiveConstantsCommandType *pause __attribute__((swift_name("pause")));
-@property (class, readonly) PPCSPPRiveConstantsCommandType *change __attribute__((swift_name("change")));
-+ (PPCSKotlinArray<PPCSPPRiveConstantsCommandType *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<PPCSPPRiveConstantsCommandType *> *entries __attribute__((swift_name("entries")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRiveConstants.Direction")))
-@interface PPCSPPRiveConstantsDirection : PPCSKotlinEnum<PPCSPPRiveConstantsDirection *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCSPPRiveConstantsDirection *forwards __attribute__((swift_name("forwards")));
-@property (class, readonly) PPCSPPRiveConstantsDirection *backwards __attribute__((swift_name("backwards")));
-@property (class, readonly) PPCSPPRiveConstantsDirection *auto_ __attribute__((swift_name("auto_")));
-+ (PPCSKotlinArray<PPCSPPRiveConstantsDirection *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<PPCSPPRiveConstantsDirection *> *entries __attribute__((swift_name("entries")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRiveConstants.Loop")))
-@interface PPCSPPRiveConstantsLoop : PPCSKotlinEnum<PPCSPPRiveConstantsLoop *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCSPPRiveConstantsLoop *oneshot __attribute__((swift_name("oneshot")));
-@property (class, readonly) PPCSPPRiveConstantsLoop *loop __attribute__((swift_name("loop")));
-@property (class, readonly) PPCSPPRiveConstantsLoop *pingpong __attribute__((swift_name("pingpong")));
-@property (class, readonly) PPCSPPRiveConstantsLoop *auto_ __attribute__((swift_name("auto_")));
-+ (PPCSKotlinArray<PPCSPPRiveConstantsLoop *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<PPCSPPRiveConstantsLoop *> *entries __attribute__((swift_name("entries")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRiveConstants.Prefix")))
-@interface PPCSPPRiveConstantsPrefix : PPCSKotlinEnum<PPCSPPRiveConstantsPrefix *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCSPPRiveConstantsPrefix *stateMachine __attribute__((swift_name("stateMachine")));
-@property (class, readonly) PPCSPPRiveConstantsPrefix *input __attribute__((swift_name("input")));
-@property (class, readonly) PPCSPPRiveConstantsPrefix *artboard __attribute__((swift_name("artboard")));
-@property (class, readonly) PPCSPPRiveConstantsPrefix *play __attribute__((swift_name("play")));
-@property (class, readonly) PPCSPPRiveConstantsPrefix *stop __attribute__((swift_name("stop")));
-@property (class, readonly) PPCSPPRiveConstantsPrefix *pause __attribute__((swift_name("pause")));
-@property (class, readonly) PPCSPPRiveConstantsPrefix *change __attribute__((swift_name("change")));
-@property (class, readonly) PPCSPPRiveConstantsPrefix *loop __attribute__((swift_name("loop")));
-@property (class, readonly) PPCSPPRiveConstantsPrefix *direction __attribute__((swift_name("direction")));
-@property (class, readonly) PPCSPPRiveConstantsPrefix *inputSeparator __attribute__((swift_name("inputSeparator")));
-+ (PPCSKotlinArray<PPCSPPRiveConstantsPrefix *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<PPCSPPRiveConstantsPrefix *> *entries __attribute__((swift_name("entries")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1446,7 +1369,6 @@ __attribute__((swift_name("PPLayerType")))
 @property (class, readonly) PPCSPPLayerType *camera __attribute__((swift_name("camera")));
 @property (class, readonly) PPCSPPLayerType *iosEffect __attribute__((swift_name("iosEffect")));
 @property (class, readonly) PPCSPPLayerType *component __attribute__((swift_name("component")));
-@property (class, readonly) PPCSPPLayerType *rive __attribute__((swift_name("rive")));
 + (PPCSKotlinArray<PPCSPPLayerType *> *)values __attribute__((swift_name("values()")));
 @property (class, readonly) NSArray<PPCSPPLayerType *> *entries __attribute__((swift_name("entries")));
 @end
@@ -1543,210 +1465,6 @@ __attribute__((swift_name("PPPlayState")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPRectLayer")))
 @interface PPCSPPRectLayer : PPCSPPShapeLayer
-@end
-
-__attribute__((swift_name("PPRiveCommand")))
-@interface PPCSPPRiveCommand : PPCSBase
-@property (class, readonly, getter=companion) PPCSPPRiveCommandCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)serialize __attribute__((swift_name("serialize()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRiveArtboardCommand")))
-@interface PPCSPPRiveArtboardCommand : PPCSPPRiveCommand
-- (instancetype)initWithArtboardName:(NSString *)artboardName __attribute__((swift_name("init(artboardName:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)serialize __attribute__((swift_name("serialize()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *artboardName __attribute__((swift_name("artboardName")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRiveChangeCommand")))
-@interface PPCSPPRiveChangeCommand : PPCSPPRiveCommand
-- (instancetype)initWithUrl:(NSString *)url __attribute__((swift_name("init(url:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)serialize __attribute__((swift_name("serialize()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *url __attribute__((swift_name("url")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRiveCommand.Companion")))
-@interface PPCSPPRiveCommandCompanion : PPCSBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCSPPRiveCommandCompanion *shared __attribute__((swift_name("shared")));
-- (PPCSPPRiveCommand *)deserializeCommandStr:(NSString *)commandStr __attribute__((swift_name("deserialize(commandStr:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRiveInputCommand")))
-@interface PPCSPPRiveInputCommand : PPCSPPRiveCommand
-- (instancetype)initWithStateMachineName:(NSString *)stateMachineName inputName:(NSString *)inputName __attribute__((swift_name("init(stateMachineName:inputName:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithStateMachineName:(NSString *)stateMachineName inputName:(NSString *)inputName value:(PPCSPPRiveInputValue *)value __attribute__((swift_name("init(stateMachineName:inputName:value:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithStateMachineName:(NSString *)stateMachineName inputName:(NSString *)inputName value_:(BOOL)value __attribute__((swift_name("init(stateMachineName:inputName:value_:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithStateMachineName:(NSString *)stateMachineName inputName:(NSString *)inputName value__:(double)value __attribute__((swift_name("init(stateMachineName:inputName:value__:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)serialize __attribute__((swift_name("serialize()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *inputName __attribute__((swift_name("inputName")));
-@property (readonly) NSString *stateMachineName __attribute__((swift_name("stateMachineName")));
-@property (readonly) PPCSPPRiveInputValue *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((swift_name("PPRiveInputValue")))
-@interface PPCSPPRiveInputValue : PPCSBase
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRiveInputValue.BooleanValue")))
-@interface PPCSPPRiveInputValueBooleanValue : PPCSPPRiveInputValue
-- (instancetype)initWithValue:(BOOL)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-- (PPCSPPRiveInputValueBooleanValue *)doCopyValue:(BOOL)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BOOL value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRiveInputValue.NumberValue")))
-@interface PPCSPPRiveInputValueNumberValue : PPCSPPRiveInputValue
-- (instancetype)initWithValue:(double)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-- (PPCSPPRiveInputValueNumberValue *)doCopyValue:(double)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) double value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRiveInputValue.TriggerValue")))
-@interface PPCSPPRiveInputValueTriggerValue : PPCSPPRiveInputValue
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)triggerValue __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCSPPRiveInputValueTriggerValue *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRiveLayer")))
-@interface PPCSPPRiveLayer : PPCSPPLayer
-- (instancetype)initWithNamespace:(NSString *)namespace_ nsId:(NSString *)nsId parent:(PPCSPPContainerLayer *)parent resourceId:(NSString *)resourceId resourceUrl:(NSString *)resourceUrl autoStart:(BOOL)autoStart autoStartRepeat:(BOOL)autoStartRepeat __attribute__((swift_name("init(namespace:nsId:parent:resourceId:resourceUrl:autoStart:autoStartRepeat:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) PPCSPPRiveLayerCompanion *companion __attribute__((swift_name("companion")));
-- (void)changeArtboardArtboardName:(NSString *)artboardName __attribute__((swift_name("changeArtboard(artboardName:)")));
-- (void)changeStateMachineStateMachineName:(NSString *)stateMachineName loopMode:(PPCSPPRiveConstantsLoop * _Nullable)loopMode direction:(PPCSPPRiveConstantsDirection * _Nullable)direction __attribute__((swift_name("changeStateMachine(stateMachineName:loopMode:direction:)")));
-- (void)clearCommands __attribute__((swift_name("clearCommands()")));
-- (PPCSPPRiveCommand * _Nullable)dequeueCommand __attribute__((swift_name("dequeueCommand()")));
-- (void)destroy __attribute__((swift_name("destroy()")));
-- (NSArray<NSString *> *)getActiveAnimations __attribute__((swift_name("getActiveAnimations()")));
-- (NSArray<NSString *> *)getAllInputs __attribute__((swift_name("getAllInputs()")));
-- (PPCSPPRiveConstantsDirection * _Nullable)getAnimationDirectionAnimationName:(NSString *)animationName __attribute__((swift_name("getAnimationDirection(animationName:)")));
-- (PPCSPPRiveConstantsLoop * _Nullable)getAnimationLoopModeAnimationName:(NSString *)animationName __attribute__((swift_name("getAnimationLoopMode(animationName:)")));
-- (NSArray<NSString *> *)getArtboards __attribute__((swift_name("getArtboards()")));
-- (NSString * _Nullable)getCurrentArtboard __attribute__((swift_name("getCurrentArtboard()")));
-- (NSString * _Nullable)getCurrentStateMachine __attribute__((swift_name("getCurrentStateMachine()")));
-- (PPCSPPRiveConstantsDirection *)getDirection __attribute__((swift_name("getDirection()")));
-- (PPCSPPRiveConstantsLoop *)getLoopMode __attribute__((swift_name("getLoopMode()")));
-- (NSString *)getMediaResourceUrl __attribute__((swift_name("getMediaResourceUrl()")));
-- (NSDictionary<NSString *, id> *)getRiveStateInfo __attribute__((swift_name("getRiveStateInfo()")));
-- (NSArray<NSString *> *)getStateMachineInputsStateMachine:(NSString *)stateMachine __attribute__((swift_name("getStateMachineInputs(stateMachine:)")));
-- (NSArray<NSString *> *)getStateMachines __attribute__((swift_name("getStateMachines()")));
-- (BOOL)hasInputs __attribute__((swift_name("hasInputs()")));
-- (BOOL)hasStateMachines __attribute__((swift_name("hasStateMachines()")));
-- (void)notifyPlayCompleted __attribute__((swift_name("notifyPlayCompleted()")));
-- (void)onPlaybackTriggerEvent:(PPCSPlaybackEvent *)event now:(int64_t)now __attribute__((swift_name("onPlaybackTrigger(event:now:)")));
-- (void)onUserDefinedTriggerEvent:(PPCSUserDefinedEvent *)event now:(int64_t)now __attribute__((swift_name("onUserDefinedTrigger(event:now:)")));
-- (void)playAnimationAnimationName:(NSString * _Nullable)animationName loopMode:(PPCSPPRiveConstantsLoop * _Nullable)loopMode direction:(PPCSPPRiveConstantsDirection * _Nullable)direction __attribute__((swift_name("playAnimation(animationName:loopMode:direction:)")));
-- (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
-- (void)resetRiveState __attribute__((swift_name("resetRiveState()")));
-- (void)runCommandCommand:(PPCSPPRiveCommand *)command __attribute__((swift_name("runCommand(command:)")));
-- (void)setMediaResourceUrlValue:(NSString *)value __attribute__((swift_name("setMediaResourceUrl(value:)")));
-- (void)stopAnimationAnimationName:(NSString * _Nullable)animationName __attribute__((swift_name("stopAnimation(animationName:)")));
-- (BOOL)triggerBooleanInputInputName:(NSString *)inputName inputValue:(BOOL)inputValue __attribute__((swift_name("triggerBooleanInput(inputName:inputValue:)")));
-- (BOOL)triggerBooleanInputStateMachineName:(NSString *)stateMachineName inputName:(NSString *)inputName inputValue:(BOOL)inputValue __attribute__((swift_name("triggerBooleanInput(stateMachineName:inputName:inputValue:)")));
-- (BOOL)triggerInputInputName:(NSString *)inputName inputValue:(double)inputValue __attribute__((swift_name("triggerInput(inputName:inputValue:)")));
-- (BOOL)triggerInputStateMachineName:(NSString *)stateMachineName inputName:(NSString *)inputName inputValue:(double)inputValue __attribute__((swift_name("triggerInput(stateMachineName:inputName:inputValue:)")));
-- (BOOL)triggerTriggerInputInputName:(NSString *)inputName __attribute__((swift_name("triggerTriggerInput(inputName:)")));
-- (BOOL)triggerTriggerInputStateMachineName:(NSString *)stateMachineName inputName:(NSString *)inputName __attribute__((swift_name("triggerTriggerInput(stateMachineName:inputName:)")));
-- (void)updateArtboardInfoArtboards:(NSArray<NSString *> *)artboards __attribute__((swift_name("updateArtboardInfo(artboards:)")));
-- (void)updateDirectionDir:(PPCSPPRiveConstantsDirection *)dir __attribute__((swift_name("updateDirection(dir:)")));
-- (void)updateLoopModeMode:(PPCSPPRiveConstantsLoop *)mode __attribute__((swift_name("updateLoopMode(mode:)")));
-- (void)updateStateMachineInfoStateMachines:(NSArray<NSString *> *)stateMachines inputs:(NSDictionary<NSString *, NSArray<NSString *> *> *)inputs __attribute__((swift_name("updateStateMachineInfo(stateMachines:inputs:)")));
-@property (readonly) BOOL autoStart __attribute__((swift_name("autoStart")));
-@property (readonly) BOOL autoStartRepeat __attribute__((swift_name("autoStartRepeat")));
-@property (readonly) PPCSPPFloatProperty *currentTime __attribute__((swift_name("currentTime")));
-@property PPCSPPRiveLayerRiveFit *fit __attribute__((swift_name("fit")));
-@property (readonly) NSString *initialResourceUrl __attribute__((swift_name("initialResourceUrl")));
-@property BOOL isPlaying __attribute__((swift_name("isPlaying")));
-@property PPCSPPMessageBus * _Nullable scheduler __attribute__((swift_name("scheduler")));
-@property (readonly) PPCSPPFloatProperty *totalTime __attribute__((swift_name("totalTime")));
-@property (readonly) PPCSPPFloatProperty *volume __attribute__((swift_name("volume")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRiveLayer.Companion")))
-@interface PPCSPPRiveLayerCompanion : PPCSBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCSPPRiveLayerCompanion *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRiveLayer.RiveFit")))
-@interface PPCSPPRiveLayerRiveFit : PPCSKotlinEnum<PPCSPPRiveLayerRiveFit *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCSPPRiveLayerRiveFit *contain __attribute__((swift_name("contain")));
-@property (class, readonly) PPCSPPRiveLayerRiveFit *cover __attribute__((swift_name("cover")));
-@property (class, readonly) PPCSPPRiveLayerRiveFit *fill __attribute__((swift_name("fill")));
-@property (class, readonly) PPCSPPRiveLayerRiveFit *fitWidth __attribute__((swift_name("fitWidth")));
-@property (class, readonly) PPCSPPRiveLayerRiveFit *fitHeight __attribute__((swift_name("fitHeight")));
-@property (class, readonly) PPCSPPRiveLayerRiveFit *none __attribute__((swift_name("none")));
-@property (class, readonly) PPCSPPRiveLayerRiveFit *scaleDown __attribute__((swift_name("scaleDown")));
-+ (PPCSKotlinArray<PPCSPPRiveLayerRiveFit *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<PPCSPPRiveLayerRiveFit *> *entries __attribute__((swift_name("entries")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRivePauseCommand")))
-@interface PPCSPPRivePauseCommand : PPCSPPRiveCommand
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (NSString *)serialize __attribute__((swift_name("serialize()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRivePlayCommand")))
-@interface PPCSPPRivePlayCommand : PPCSPPRiveCommand
-- (instancetype)initWithAnimationName:(NSString * _Nullable)animationName loopMode:(PPCSPPRiveConstantsLoop * _Nullable)loopMode direction:(PPCSPPRiveConstantsDirection * _Nullable)direction __attribute__((swift_name("init(animationName:loopMode:direction:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)serialize __attribute__((swift_name("serialize()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString * _Nullable animationName __attribute__((swift_name("animationName")));
-@property (readonly) PPCSPPRiveConstantsDirection * _Nullable direction __attribute__((swift_name("direction")));
-@property (readonly) PPCSPPRiveConstantsLoop * _Nullable loopMode __attribute__((swift_name("loopMode")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRiveStateMachineCommand")))
-@interface PPCSPPRiveStateMachineCommand : PPCSPPRiveCommand
-- (instancetype)initWithStateMachineName:(NSString *)stateMachineName loopMode:(PPCSPPRiveConstantsLoop * _Nullable)loopMode direction:(PPCSPPRiveConstantsDirection * _Nullable)direction __attribute__((swift_name("init(stateMachineName:loopMode:direction:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)serialize __attribute__((swift_name("serialize()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) PPCSPPRiveConstantsDirection * _Nullable direction __attribute__((swift_name("direction")));
-@property (readonly) PPCSPPRiveConstantsLoop * _Nullable loopMode __attribute__((swift_name("loopMode")));
-@property (readonly) NSString *stateMachineName __attribute__((swift_name("stateMachineName")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRiveStopCommand")))
-@interface PPCSPPRiveStopCommand : PPCSPPRiveCommand
-- (instancetype)initWithAnimationName:(NSString * _Nullable)animationName __attribute__((swift_name("init(animationName:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)serialize __attribute__((swift_name("serialize()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString * _Nullable animationName __attribute__((swift_name("animationName")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2816,32 +2534,6 @@ __attribute__((swift_name("PPReorderEvent.Companion")))
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRiveCommandEvent")))
-@interface PPCSPPRiveCommandEvent : PPCSPPRenderEvent
-- (instancetype)initWithSceneId:(NSString *)sceneId layerId:(NSString *)layerId command:(NSString *)command __attribute__((swift_name("init(sceneId:layerId:command:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) PPCSPPRiveCommandEventCompanion *companion __attribute__((swift_name("companion")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *command __attribute__((swift_name("command")));
-@property (readonly) NSString *layerId __attribute__((swift_name("layerId")));
-@property (readonly) NSString *sceneId __attribute__((swift_name("sceneId")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PPRiveCommandEvent.Companion")))
-@interface PPCSPPRiveCommandEventCompanion : PPCSBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCSPPRiveCommandEventCompanion *shared __attribute__((swift_name("shared")));
-- (id<PPCSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("PPSceneChangeEvent")))
 @interface PPCSPPSceneChangeEvent : PPCSPPRenderEvent
 - (instancetype)initWithSceneId:(NSString *)sceneId add:(BOOL)add top:(BOOL)top __attribute__((swift_name("init(sceneId:add:top:)"))) __attribute__((objc_designated_initializer));
@@ -2904,37 +2596,9 @@ __attribute__((swift_name("PPValueHistoryCompanion")))
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RiveMediaState")))
-@interface PPCSRiveMediaState : PPCSBase
-- (instancetype)initWithSceneId:(NSString *)sceneId layerId:(NSString *)layerId isPlaying:(BOOL)isPlaying loopMode:(PPCSPPRiveConstantsLoop *)loopMode time:(float)time volume:(float)volume __attribute__((swift_name("init(sceneId:layerId:isPlaying:loopMode:time:volume:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) PPCSRiveMediaStateCompanion *companion __attribute__((swift_name("companion")));
-@property (readonly) BOOL isPlaying __attribute__((swift_name("isPlaying")));
-@property (readonly) NSString *layerId __attribute__((swift_name("layerId")));
-@property (readonly) PPCSPPRiveConstantsLoop *loopMode __attribute__((swift_name("loopMode")));
-@property (readonly) NSString *sceneId __attribute__((swift_name("sceneId")));
-@property (readonly) float time __attribute__((swift_name("time")));
-@property (readonly) float volume __attribute__((swift_name("volume")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("RiveMediaState.Companion")))
-@interface PPCSRiveMediaStateCompanion : PPCSBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) PPCSRiveMediaStateCompanion *shared __attribute__((swift_name("shared")));
-- (id<PPCSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable
-*/
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ReplayData")))
 @interface PPCSReplayData : PPCSBase
-- (instancetype)initWithVersion:(int32_t)version startTime:(int32_t)startTime endTime:(int32_t)endTime playEvents:(PPCSPPValueHistory<PPCSPPPlayEvent *> * _Nullable)playEvents renderEvents:(PPCSPPValueHistory<PPCSPPRenderEvent *> * _Nullable)renderEvents mousePositions:(PPCSPPValueHistory<PPCSPPPoint *> * _Nullable)mousePositions mouseActions:(PPCSPPValueHistory<NSString *> * _Nullable)mouseActions numberValues:(PPCSMutableDictionary<NSString *, PPCSPPValueHistory<PPCSFloat *> *> * _Nullable)numberValues colorValues:(PPCSMutableDictionary<NSString *, PPCSPPValueHistory<PPCSInt *> *> * _Nullable)colorValues stringValues:(PPCSMutableDictionary<NSString *, PPCSPPValueHistory<NSString *> *> * _Nullable)stringValues mediaStates:(NSMutableArray<PPCSMediaState *> * _Nullable)mediaStates riveMediaStates:(NSMutableArray<PPCSRiveMediaState *> * _Nullable)riveMediaStates sceneId:(NSString * _Nullable)sceneId __attribute__((swift_name("init(version:startTime:endTime:playEvents:renderEvents:mousePositions:mouseActions:numberValues:colorValues:stringValues:mediaStates:riveMediaStates:sceneId:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithVersion:(int32_t)version startTime:(int32_t)startTime endTime:(int32_t)endTime playEvents:(PPCSPPValueHistory<PPCSPPPlayEvent *> * _Nullable)playEvents renderEvents:(PPCSPPValueHistory<PPCSPPRenderEvent *> * _Nullable)renderEvents mousePositions:(PPCSPPValueHistory<PPCSPPPoint *> * _Nullable)mousePositions mouseActions:(PPCSPPValueHistory<NSString *> * _Nullable)mouseActions numberValues:(PPCSMutableDictionary<NSString *, PPCSPPValueHistory<PPCSFloat *> *> * _Nullable)numberValues colorValues:(PPCSMutableDictionary<NSString *, PPCSPPValueHistory<PPCSInt *> *> * _Nullable)colorValues stringValues:(PPCSMutableDictionary<NSString *, PPCSPPValueHistory<NSString *> *> * _Nullable)stringValues mediaStates:(NSMutableArray<PPCSMediaState *> * _Nullable)mediaStates sceneId:(NSString * _Nullable)sceneId __attribute__((swift_name("init(version:startTime:endTime:playEvents:renderEvents:mousePositions:mouseActions:numberValues:colorValues:stringValues:mediaStates:sceneId:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) PPCSReplayDataCompanion *companion __attribute__((swift_name("companion")));
 @property (readonly) PPCSMutableDictionary<NSString *, PPCSPPValueHistory<PPCSInt *> *> * _Nullable colorValues __attribute__((swift_name("colorValues")));
 @property (readonly) int32_t endTime __attribute__((swift_name("endTime")));
@@ -2944,7 +2608,6 @@ __attribute__((swift_name("ReplayData")))
 @property (readonly) PPCSMutableDictionary<NSString *, PPCSPPValueHistory<PPCSFloat *> *> * _Nullable numberValues __attribute__((swift_name("numberValues")));
 @property (readonly) PPCSPPValueHistory<PPCSPPPlayEvent *> * _Nullable playEvents __attribute__((swift_name("playEvents")));
 @property (readonly) PPCSPPValueHistory<PPCSPPRenderEvent *> * _Nullable renderEvents __attribute__((swift_name("renderEvents")));
-@property (readonly) NSMutableArray<PPCSRiveMediaState *> * _Nullable riveMediaStates __attribute__((swift_name("riveMediaStates")));
 @property (readonly) NSString * _Nullable sceneId __attribute__((swift_name("sceneId")));
 @property (readonly) int32_t startTime __attribute__((swift_name("startTime")));
 @property (readonly) PPCSMutableDictionary<NSString *, PPCSPPValueHistory<NSString *> *> * _Nullable stringValues __attribute__((swift_name("stringValues")));
@@ -2965,7 +2628,6 @@ __attribute__((swift_name("ReplayDataManagerDelegate")))
 @protocol PPCSReplayDataManagerDelegate
 @required
 - (void)restoreMediaStateSceneId:(NSString *)sceneId mediaState:(PPCSMediaState *)mediaState __attribute__((swift_name("restoreMediaState(sceneId:mediaState:)")));
-- (void)restoreRiveMediaStateSceneId:(NSString *)sceneId riveMediaState:(PPCSRiveMediaState *)riveMediaState __attribute__((swift_name("restoreRiveMediaState(sceneId:riveMediaState:)")));
 - (void)updateSceneSceneId:(NSString *)sceneId __attribute__((swift_name("updateScene(sceneId:)")));
 @end
 
@@ -3002,31 +2664,6 @@ __attribute__((swift_name("ReplayDataVersion.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) PPCSReplayDataVersionCompanion *shared __attribute__((swift_name("shared")));
 - (id<PPCSKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("PlaybackEvent")))
-@interface PPCSPlaybackEvent : PPCSKotlinEnum<PPCSPlaybackEvent *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) PPCSPlaybackEvent *start __attribute__((swift_name("start")));
-@property (class, readonly) PPCSPlaybackEvent *pause __attribute__((swift_name("pause")));
-@property (class, readonly) PPCSPlaybackEvent *stop __attribute__((swift_name("stop")));
-+ (PPCSKotlinArray<PPCSPlaybackEvent *> *)values __attribute__((swift_name("values()")));
-@property (class, readonly) NSArray<PPCSPlaybackEvent *> *entries __attribute__((swift_name("entries")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("UserDefinedEvent")))
-@interface PPCSUserDefinedEvent : PPCSBase
-- (instancetype)initWithName:(NSString *)name value:(NSString * _Nullable)value __attribute__((swift_name("init(name:value:)"))) __attribute__((objc_designated_initializer));
-- (PPCSUserDefinedEvent *)doCopyName:(NSString *)name value:(NSString * _Nullable)value __attribute__((swift_name("doCopy(name:value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly) NSString * _Nullable value __attribute__((swift_name("value")));
 @end
 
 __attribute__((swift_name("DragDetectorListener")))
