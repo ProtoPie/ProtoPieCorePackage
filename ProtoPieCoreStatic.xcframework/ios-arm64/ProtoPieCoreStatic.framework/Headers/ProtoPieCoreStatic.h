@@ -1164,7 +1164,6 @@ __attribute__((swift_name("AbstractMediaLayer")))
 - (void)setMediaResourceUrlValue:(NSString *)value __attribute__((swift_name("setMediaResourceUrl(value:)")));
 - (void)setPlayTickNow:(int64_t)now __attribute__((swift_name("setPlayTick(now:)")));
 - (void)setResetTickNow:(int64_t)now __attribute__((swift_name("setResetTick(now:)")));
-- (void)setSeekTickNow:(int64_t)now __attribute__((swift_name("setSeekTick(now:)")));
 @property (readonly) PPCSPPFloatProperty *currentTime __attribute__((swift_name("currentTime")));
 @property (readonly) NSString *initialResourceUrl __attribute__((swift_name("initialResourceUrl")));
 @property BOOL isPlaying __attribute__((swift_name("isPlaying")));
