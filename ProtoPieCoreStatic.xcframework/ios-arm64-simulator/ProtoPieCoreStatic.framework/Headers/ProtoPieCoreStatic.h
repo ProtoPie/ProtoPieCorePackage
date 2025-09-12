@@ -1158,6 +1158,11 @@ __attribute__((swift_name("AbstractMediaLayer")))
 - (BOOL)isSameTick __attribute__((swift_name("isSameTick()")));
 - (BOOL)needsAutoPlay __attribute__((swift_name("needsAutoPlay()")));
 - (void)notifyPlayCompleted __attribute__((swift_name("notifyPlayCompleted()")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)onPropertyModifiedProperty:(PPCSPPProperty<id> *)property __attribute__((swift_name("onPropertyModified(property:)")));
 - (void)resetMediaState __attribute__((swift_name("resetMediaState()")));
 - (void)resetNonPropertiesDuration:(int64_t)duration __attribute__((swift_name("resetNonProperties(duration:)")));
 - (void)runCommandCommand:(PPCSPPMediaCommand *)command __attribute__((swift_name("runCommand(command:)")));
