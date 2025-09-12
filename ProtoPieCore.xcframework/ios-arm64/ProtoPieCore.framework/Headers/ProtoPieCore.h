@@ -1154,6 +1154,7 @@ __attribute__((swift_name("AbstractMediaLayer")))
 - (PPCPPMediaCommand * _Nullable)dequeueCommand __attribute__((swift_name("dequeueCommand()")));
 - (void)destroy __attribute__((swift_name("destroy()")));
 - (NSString *)getMediaResourceUrl __attribute__((swift_name("getMediaResourceUrl()")));
+- (BOOL)hadSeekAtTickNow:(int64_t)now __attribute__((swift_name("hadSeekAtTick(now:)")));
 - (BOOL)isSameTick __attribute__((swift_name("isSameTick()")));
 - (BOOL)needsAutoPlay __attribute__((swift_name("needsAutoPlay()")));
 - (void)notifyPlayCompleted __attribute__((swift_name("notifyPlayCompleted()")));
