@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class PPCAbstractMediaLayer, PPCAbstractTextLayer, PPCCommon, PPCDeviceDesc, PPCDeviceDescCompanion, PPCDeviceFrameHelper, PPCDevicePreset, PPCFormulaUtils, PPCKotlinArray<T>, PPCKotlinEnum<E>, PPCKotlinEnumCompanion, PPCKotlinException, PPCKotlinFloatArray, PPCKotlinFloatIterator, PPCKotlinNothing, PPCKotlinThrowable, PPCKotlinx_serialization_coreSerialKind, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_jsonJsonElement, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCLogLevel, PPCLogger, PPCMediaState, PPCMediaStateCompanion, PPCPPAndroidVibrateType, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraLayerCommand, PPCPPCameraPosition, PPCPPChangeObserversHolder, PPCPPChangeTarget, PPCPPClock, PPCPPColor, PPCPPColorCompanion, PPCPPColorProperty, PPCPPContainerLayer, PPCPPCorners<T>, PPCPPDataType, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPDeviceInfoCompanion, PPCPPEventChannel<T>, PPCPPExpr, PPCPPExprEvalError, PPCPPExprEvalErrorCompanion, PPCPPExprParseError, PPCPPExprParseErrorCompanion, PPCPPFillScaleMode, PPCPPFixedSceneChangeEventCompanion, PPCPPFloatCorners, PPCPPFloatProperty, PPCPPFont, PPCPPHitArea, PPCPPHorizontalAlign, PPCPPIdentifiableChangeObservable, PPCPPInputFocusEventCompanion, PPCPPIosEffectEventCompanion, PPCPPIosVibrateType, PPCPPKeyCode, PPCPPKeyCodeCompanion, PPCPPKotlinGC, PPCPPLayer, PPCPPLayerAlias, PPCPPLayerCompanion, PPCPPLayerLayoutBBox, PPCPPLayerProperty, PPCPPLayerType, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPLineCap, PPCPPLineJoin, PPCPPMediaCommand, PPCPPMediaCommandCompanion, PPCPPMediaCommandEventCompanion, PPCPPMessage, PPCPPMessageBus, PPCPPMessageCompanion, PPCPPMsg, PPCPPMsgChannel, PPCPPMsgChannelCompanion, PPCPPMsgCompanion, PPCPPNumberConstantExpr, PPCPPPathSegmentData, PPCPPPathSegmentType, PPCPPPieContext, PPCPPPieModel, PPCPPPieModelCompanion, PPCPPPiePlayerEvent, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPPieRecord, PPCPPPlatformType, PPCPPPlayControlGestureOptions, PPCPPPlayEvent, PPCPPPlayEventCompanion, PPCPPPoint, PPCPPPointCompanion, PPCPPProperty<T>, PPCPPRenderEvent, PPCPPRenderEventCompanion, PPCPPReorderEventCompanion, PPCPPRepeatDef, PPCPPScene, PPCPPSceneChangeEvent, PPCPPSceneChangeEventCompanion, PPCPPSensor, PPCPPShapeLayer, PPCPPSize, PPCPPSpeechGender, PPCPPStringProperty, PPCPPTextAttributes, PPCPPTextAttributesCompanion, PPCPPTextInputLayer, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCPPTextLayerSizeMode, PPCPPTouchEvent, PPCPPTouchEventAction, PPCPPValueHistory<T>, PPCPPValueHistoryCompanion, PPCPPVar<T>, PPCPPVarCompanion, PPCPPVectorShape, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPlatform, PPCProfileOptions, PPCReplayData, PPCReplayDataCompanion, PPCReplayDataSerializer, PPCReplayDataVersionCompanion, PPCReplayOptions, PPCReplayer, PPCScreenInfo;
+@class PPCAbstractMediaLayer, PPCAbstractTextLayer, PPCCommon, PPCDeviceDesc, PPCDeviceDescCompanion, PPCDeviceFrameHelper, PPCDevicePreset, PPCFormulaUtils, PPCKotlinArray<T>, PPCKotlinEnum<E>, PPCKotlinEnumCompanion, PPCKotlinException, PPCKotlinFloatArray, PPCKotlinFloatIterator, PPCKotlinNothing, PPCKotlinThrowable, PPCKotlinx_serialization_coreSerialKind, PPCKotlinx_serialization_coreSerializersModule, PPCKotlinx_serialization_jsonJsonElement, PPCKotlinx_serialization_jsonJsonElementCompanion, PPCLogLevel, PPCLogger, PPCMediaState, PPCMediaStateCompanion, PPCPPAndroidVibrateType, PPCPPAxis3D, PPCPPBlurEffectStyle, PPCPPBorderPosition, PPCPPCameraLayerCommand, PPCPPCameraPosition, PPCPPChangeObserversHolder, PPCPPChangeTarget, PPCPPClock, PPCPPColor, PPCPPColorCompanion, PPCPPColorProperty, PPCPPContainerLayer, PPCPPCorners<T>, PPCPPDataType, PPCPPDeviceFrameType, PPCPPDeviceInfo, PPCPPDeviceInfoCompanion, PPCPPEventChannel<T>, PPCPPExpr, PPCPPExprEvalError, PPCPPExprEvalErrorCompanion, PPCPPExprParseError, PPCPPExprParseErrorCompanion, PPCPPFillScaleMode, PPCPPFixedSceneChangeEventCompanion, PPCPPFloatCorners, PPCPPFloatProperty, PPCPPFont, PPCPPHitArea, PPCPPHorizontalAlign, PPCPPIdentifiableChangeObservable, PPCPPInputFocusEventCompanion, PPCPPIosEffectEventCompanion, PPCPPIosVibrateType, PPCPPKeyCode, PPCPPKeyCodeCompanion, PPCPPKotlinGC, PPCPPLayer, PPCPPLayerAlias, PPCPPLayerCompanion, PPCPPLayerLayoutBBox, PPCPPLayerProperty, PPCPPLayerType, PPCPPLayerViewSplitterCompanion, PPCPPLayerViewSplitterGroup, PPCPPLineCap, PPCPPLineJoin, PPCPPMediaCommand, PPCPPMediaCommandCompanion, PPCPPMediaCommandEventCompanion, PPCPPMessage, PPCPPMessageBus, PPCPPMessageCompanion, PPCPPMsg, PPCPPMsgChannel, PPCPPMsgChannelCompanion, PPCPPMsgCompanion, PPCPPNumberConstantExpr, PPCPPPathSegmentData, PPCPPPathSegmentType, PPCPPPieContext, PPCPPPieModel, PPCPPPieModelCompanion, PPCPPPiePlayerEvent, PPCPPPiePlayerEventTextInputFocusedIn, PPCPPPiePlayerEventTextInputFocusedOut, PPCPPPieRecord, PPCPPPlatformType, PPCPPPlayControlGestureOptions, PPCPPPlayEvent, PPCPPPlayEventCompanion, PPCPPPoint, PPCPPPointCompanion, PPCPPProperty<T>, PPCPPRenderEvent, PPCPPRenderEventCompanion, PPCPPReorderEventCompanion, PPCPPRepeatDef, PPCPPScene, PPCPPSceneChangeArgs, PPCPPSceneChangeEvent, PPCPPSceneChangeEventCompanion, PPCPPSensor, PPCPPShapeLayer, PPCPPSize, PPCPPSpeechGender, PPCPPStringProperty, PPCPPTextAttributes, PPCPPTextAttributesCompanion, PPCPPTextInputLayer, PPCPPTextInputLayerKeyboardLook, PPCPPTextInputLayerKeyboardType, PPCPPTextInputLayerReturnKeyType, PPCPPTextLayerSizeMode, PPCPPTouchEvent, PPCPPTouchEventAction, PPCPPValueHistory<T>, PPCPPValueHistoryCompanion, PPCPPVar<T>, PPCPPVarCompanion, PPCPPVectorShape, PPCPPVectorShapeType, PPCPPVerticalAlign, PPCPlatform, PPCProfileOptions, PPCReplayData, PPCReplayDataCompanion, PPCReplayDataSerializer, PPCReplayDataVersionCompanion, PPCReplayOptions, PPCReplayer, PPCScreenInfo;
 
 @protocol PPCFormulaObserver, PPCKotlinAnnotation, PPCKotlinComparable, PPCKotlinIterator, PPCKotlinKAnnotatedElement, PPCKotlinKClass, PPCKotlinKClassifier, PPCKotlinKDeclarationContainer, PPCKotlinx_serialization_coreCompositeDecoder, PPCKotlinx_serialization_coreCompositeEncoder, PPCKotlinx_serialization_coreDecoder, PPCKotlinx_serialization_coreDeserializationStrategy, PPCKotlinx_serialization_coreEncoder, PPCKotlinx_serialization_coreKSerializer, PPCKotlinx_serialization_coreSerialDescriptor, PPCKotlinx_serialization_coreSerializationStrategy, PPCKotlinx_serialization_coreSerializersModuleCollector, PPCPPChangeObserver, PPCPPClockObserver, PPCPPEngineObserver, PPCPPEventChannelHandler, PPCPPExprLayer, PPCPPJson, PPCPPLayerObserver, PPCPPMessageBusTaskRunner, PPCPPObservableValueProvider, PPCPPPieDecorator, PPCPPPropertyObserver, PPCPPSensorListener, PPCPPSensorManager, PPCPPSpeechInterface, PPCPPSpeechInterfaceListener, PPCPPTextInputLayerFocusRequestListener, PPCPPTextInputLayerFocusStateListener, PPCPPValueProvider, PPCPPVoiceInterface, PPCPPVoiceInterfaceListener, PPCPlayerDelegate, PPCReplayerDelegate;
 
@@ -873,9 +873,9 @@ __attribute__((swift_name("PPEngineObserver")))
 @protocol PPCPPEngineObserver
 @required
 - (void)onEvalErrorError:(PPCPPExprEvalError *)error __attribute__((swift_name("onEvalError(error:)")));
-- (void)onFixedSceneChangeSceneId:(NSString *)sceneId added:(BOOL)added top:(BOOL)top __attribute__((swift_name("onFixedSceneChange(sceneId:added:top:)")));
+- (void)onFixedSceneChangeArgs:(PPCPPSceneChangeArgs *)args __attribute__((swift_name("onFixedSceneChange(args:)")));
 - (void)onPlayEventEvent:(PPCPPPlayEvent *)event __attribute__((swift_name("onPlayEvent(event:)")));
-- (void)onSceneChangeSceneId:(NSString *)sceneId added:(BOOL)added top:(BOOL)top __attribute__((swift_name("onSceneChange(sceneId:added:top:)")));
+- (void)onSceneChangeArgs:(PPCPPSceneChangeArgs *)args __attribute__((swift_name("onSceneChange(args:)")));
 @end
 
 __attribute__((swift_name("PPExpr")))
@@ -974,6 +974,22 @@ __attribute__((swift_name("PPNumberConstantExpr")))
 - (PPCDouble * _Nullable)evalAsNumber __attribute__((swift_name("evalAsNumber()")));
 - (NSString * _Nullable)evalAsString __attribute__((swift_name("evalAsString()")));
 - (void)forEachFn:(void (^)(PPCPPExpr *))fn __attribute__((swift_name("forEach(fn:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPSceneChangeArgs")))
+@interface PPCPPSceneChangeArgs : PPCBase
+- (instancetype)initWithScene:(PPCPPScene *)scene isAdded:(BOOL)isAdded isTopScene:(BOOL)isTopScene isTransition:(BOOL)isTransition __attribute__((swift_name("init(scene:isAdded:isTopScene:isTransition:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithId:(NSString *)id name:(NSString *)name isAdded:(BOOL)isAdded isTopScene:(BOOL)isTopScene isTransition:(BOOL)isTransition __attribute__((swift_name("init(id:name:isAdded:isTopScene:isTransition:)"))) __attribute__((objc_designated_initializer));
+- (PPCPPSceneChangeArgs *)doCopyId:(NSString *)id name:(NSString *)name isAdded:(BOOL)isAdded isTopScene:(BOOL)isTopScene isTransition:(BOOL)isTransition __attribute__((swift_name("doCopy(id:name:isAdded:isTopScene:isTransition:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *id __attribute__((swift_name("id")));
+@property (readonly) BOOL isAdded __attribute__((swift_name("isAdded")));
+@property (readonly) BOOL isTopScene __attribute__((swift_name("isTopScene")));
+@property (readonly) BOOL isTransition __attribute__((swift_name("isTransition")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
 @end
 
 __attribute__((swift_name("PPJson")))
@@ -1849,11 +1865,11 @@ __attribute__((swift_name("PPPieModel")))
 - (PPCPPScene * _Nullable)getSceneByIdSceneId:(NSString * _Nullable)sceneId __attribute__((swift_name("getSceneById(sceneId:)")));
 - (NSArray<PPCPPVar<id> *> *)getSceneVariables __attribute__((swift_name("getSceneVariables()")));
 - (BOOL)hasVideoLayer __attribute__((swift_name("hasVideoLayer()")));
-- (void)hideSceneScene:(PPCPPScene *)scene __attribute__((swift_name("hideScene(scene:)")));
+- (void)hideSceneScene:(PPCPPScene *)scene isTransition:(BOOL)isTransition __attribute__((swift_name("hideScene(scene:isTransition:)")));
 - (void)doInitContextContext:(PPCPPPieContext *)context __attribute__((swift_name("doInitContext(context:)")));
 - (void)reset __attribute__((swift_name("reset()")));
-- (void)showFixedSceneScene:(PPCPPScene *)scene __attribute__((swift_name("showFixedScene(scene:)")));
-- (void)showSceneScene:(PPCPPScene *)scene top:(BOOL)top __attribute__((swift_name("showScene(scene:top:)")));
+- (void)showFixedSceneScene:(PPCPPScene *)scene isTransition:(BOOL)isTransition __attribute__((swift_name("showFixedScene(scene:isTransition:)")));
+- (void)showSceneScene:(PPCPPScene *)scene top:(BOOL)top isTransition:(BOOL)isTransition __attribute__((swift_name("showScene(scene:top:isTransition:)")));
 - (void)toggleVariableVisibilityVarName:(NSString *)varName updateLayerVisibility:(void (^ _Nullable)(NSString *, PPCBoolean *))updateLayerVisibility __attribute__((swift_name("toggleVariableVisibility(varName:updateLayerVisibility:)")));
 @property (readonly) NSDictionary<NSString *, PPCPPLayerType *> *allResourceIds __attribute__((swift_name("allResourceIds")));
 @property (readonly) NSSet<NSString *> *allThumbnailIds __attribute__((swift_name("allThumbnailIds")));
