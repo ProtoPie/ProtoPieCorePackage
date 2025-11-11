@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class PPCSAbstractMediaLayer, PPCSAbstractTextLayer, PPCSCommon, PPCSDeviceDesc, PPCSDeviceDescCompanion, PPCSDeviceFrameHelper, PPCSDevicePreset, PPCSFormulaUtils, PPCSKotlinArray<T>, PPCSKotlinEnum<E>, PPCSKotlinEnumCompanion, PPCSKotlinException, PPCSKotlinFloatArray, PPCSKotlinFloatIterator, PPCSKotlinNothing, PPCSKotlinThrowable, PPCSKotlinx_serialization_coreSerialKind, PPCSKotlinx_serialization_coreSerializersModule, PPCSKotlinx_serialization_jsonJsonElement, PPCSKotlinx_serialization_jsonJsonElementCompanion, PPCSLogLevel, PPCSLogger, PPCSMediaState, PPCSMediaStateCompanion, PPCSPPAndroidVibrateType, PPCSPPAxis3D, PPCSPPBlurEffectStyle, PPCSPPBorderPosition, PPCSPPCameraLayerCommand, PPCSPPCameraPosition, PPCSPPChangeObserversHolder, PPCSPPChangeTarget, PPCSPPClock, PPCSPPColor, PPCSPPColorCompanion, PPCSPPColorProperty, PPCSPPContainerLayer, PPCSPPCorners<T>, PPCSPPDataType, PPCSPPDeviceFrameType, PPCSPPDeviceInfo, PPCSPPDeviceInfoCompanion, PPCSPPEventChannel<T>, PPCSPPExpr, PPCSPPExprEvalError, PPCSPPExprEvalErrorCompanion, PPCSPPExprParseError, PPCSPPExprParseErrorCompanion, PPCSPPFillScaleMode, PPCSPPFixedSceneChangeEventCompanion, PPCSPPFloatCorners, PPCSPPFloatProperty, PPCSPPFont, PPCSPPHitArea, PPCSPPHorizontalAlign, PPCSPPIdentifiableChangeObservable, PPCSPPInputFocusEventCompanion, PPCSPPIosEffectEventCompanion, PPCSPPIosVibrateType, PPCSPPKeyCode, PPCSPPKeyCodeCompanion, PPCSPPKotlinGC, PPCSPPLayer, PPCSPPLayerAlias, PPCSPPLayerCompanion, PPCSPPLayerLayoutBBox, PPCSPPLayerProperty, PPCSPPLayerType, PPCSPPLayerViewSplitterCompanion, PPCSPPLayerViewSplitterGroup, PPCSPPLineCap, PPCSPPLineJoin, PPCSPPMediaCommand, PPCSPPMediaCommandCompanion, PPCSPPMediaCommandEventCompanion, PPCSPPMessage, PPCSPPMessageBus, PPCSPPMessageCompanion, PPCSPPMsg, PPCSPPMsgChannel, PPCSPPMsgChannelCompanion, PPCSPPMsgCompanion, PPCSPPNumberConstantExpr, PPCSPPPathSegmentData, PPCSPPPathSegmentType, PPCSPPPieContext, PPCSPPPieModel, PPCSPPPieModelCompanion, PPCSPPPiePlayerEvent, PPCSPPPiePlayerEventTextInputFocusedIn, PPCSPPPiePlayerEventTextInputFocusedOut, PPCSPPPieRecord, PPCSPPPlatformType, PPCSPPPlayControlGestureOptions, PPCSPPPlayEvent, PPCSPPPlayEventCompanion, PPCSPPPoint, PPCSPPPointCompanion, PPCSPPProperty<T>, PPCSPPRenderEvent, PPCSPPRenderEventCompanion, PPCSPPReorderEventCompanion, PPCSPPRepeatDef, PPCSPPScene, PPCSPPSceneChangeArgs, PPCSPPSceneChangeEvent, PPCSPPSceneChangeEventCompanion, PPCSPPSensor, PPCSPPShapeLayer, PPCSPPSize, PPCSPPSpeechGender, PPCSPPStringProperty, PPCSPPTextAttributes, PPCSPPTextAttributesCompanion, PPCSPPTextInputLayer, PPCSPPTextInputLayerKeyboardLook, PPCSPPTextInputLayerKeyboardType, PPCSPPTextInputLayerReturnKeyType, PPCSPPTextLayerSizeMode, PPCSPPTouchEvent, PPCSPPTouchEventAction, PPCSPPValueHistory<T>, PPCSPPValueHistoryCompanion, PPCSPPVar<T>, PPCSPPVarCompanion, PPCSPPVectorShape, PPCSPPVectorShapeType, PPCSPPVerticalAlign, PPCSPlatform, PPCSProfileOptions, PPCSReplayData, PPCSReplayDataCompanion, PPCSReplayDataSerializer, PPCSReplayDataVersionCompanion, PPCSReplayOptions, PPCSReplayer, PPCSScreenInfo;
+@class PPCSAbstractMediaLayer, PPCSAbstractTextLayer, PPCSBridgeRequest, PPCSBridgeRequestCompanion, PPCSBridgeResponse, PPCSBridgeResponseError, PPCSBridgeResponseResponseStatus, PPCSBridgeResponseSuccess, PPCSCommon, PPCSDeviceDesc, PPCSDeviceDescCompanion, PPCSDeviceFrameHelper, PPCSDevicePreset, PPCSFormulaUtils, PPCSKotlinArray<T>, PPCSKotlinEnum<E>, PPCSKotlinEnumCompanion, PPCSKotlinException, PPCSKotlinFloatArray, PPCSKotlinFloatIterator, PPCSKotlinNothing, PPCSKotlinThrowable, PPCSKotlinx_serialization_coreSerialKind, PPCSKotlinx_serialization_coreSerializersModule, PPCSKotlinx_serialization_jsonJsonElement, PPCSKotlinx_serialization_jsonJsonElementCompanion, PPCSLogLevel, PPCSLogger, PPCSMediaState, PPCSMediaStateCompanion, PPCSPPAndroidVibrateType, PPCSPPAxis3D, PPCSPPBlurEffectStyle, PPCSPPBorderPosition, PPCSPPBridgeCompanion, PPCSPPCameraLayerCommand, PPCSPPCameraPosition, PPCSPPChangeObserversHolder, PPCSPPChangeTarget, PPCSPPClock, PPCSPPColor, PPCSPPColorCompanion, PPCSPPColorProperty, PPCSPPContainerLayer, PPCSPPCorners<T>, PPCSPPDataType, PPCSPPDeviceFrameType, PPCSPPDeviceInfo, PPCSPPDeviceInfoCompanion, PPCSPPEventChannel<T>, PPCSPPExpr, PPCSPPExprEvalError, PPCSPPExprEvalErrorCompanion, PPCSPPExprParseError, PPCSPPExprParseErrorCompanion, PPCSPPFillScaleMode, PPCSPPFixedSceneChangeEventCompanion, PPCSPPFloatCorners, PPCSPPFloatProperty, PPCSPPFont, PPCSPPHitArea, PPCSPPHorizontalAlign, PPCSPPIdentifiableChangeObservable, PPCSPPInputFocusEventCompanion, PPCSPPIosEffectEventCompanion, PPCSPPIosVibrateType, PPCSPPKeyCode, PPCSPPKeyCodeCompanion, PPCSPPKotlinGC, PPCSPPLayer, PPCSPPLayerAlias, PPCSPPLayerCompanion, PPCSPPLayerLayoutBBox, PPCSPPLayerProperty, PPCSPPLayerType, PPCSPPLayerViewSplitterCompanion, PPCSPPLayerViewSplitterGroup, PPCSPPLineCap, PPCSPPLineJoin, PPCSPPMediaCommand, PPCSPPMediaCommandCompanion, PPCSPPMediaCommandEventCompanion, PPCSPPMessage, PPCSPPMessageBus, PPCSPPMessageCompanion, PPCSPPMsg, PPCSPPMsgChannel, PPCSPPMsgChannelCompanion, PPCSPPMsgCompanion, PPCSPPNumberConstantExpr, PPCSPPPathSegmentData, PPCSPPPathSegmentType, PPCSPPPieContext, PPCSPPPieModel, PPCSPPPieModelCompanion, PPCSPPPiePlayerEvent, PPCSPPPiePlayerEventTextInputFocusedIn, PPCSPPPiePlayerEventTextInputFocusedOut, PPCSPPPieRecord, PPCSPPPlatformType, PPCSPPPlayControlGestureOptions, PPCSPPPlayEvent, PPCSPPPlayEventCompanion, PPCSPPPoint, PPCSPPPointCompanion, PPCSPPProperty<T>, PPCSPPRenderEvent, PPCSPPRenderEventCompanion, PPCSPPReorderEventCompanion, PPCSPPRepeatDef, PPCSPPScene, PPCSPPSceneChangeArgs, PPCSPPSceneChangeEvent, PPCSPPSceneChangeEventCompanion, PPCSPPSensor, PPCSPPShapeLayer, PPCSPPSize, PPCSPPSpeechGender, PPCSPPStringProperty, PPCSPPTextAttributes, PPCSPPTextAttributesCompanion, PPCSPPTextInputLayer, PPCSPPTextInputLayerKeyboardLook, PPCSPPTextInputLayerKeyboardType, PPCSPPTextInputLayerReturnKeyType, PPCSPPTextLayerSizeMode, PPCSPPTouchEvent, PPCSPPTouchEventAction, PPCSPPValueHistory<T>, PPCSPPValueHistoryCompanion, PPCSPPVar<T>, PPCSPPVarCompanion, PPCSPPVectorShape, PPCSPPVectorShapeType, PPCSPPVerticalAlign, PPCSPlatform, PPCSProfileOptions, PPCSReplayData, PPCSReplayDataCompanion, PPCSReplayDataSerializer, PPCSReplayDataVersionCompanion, PPCSReplayOptions, PPCSReplayer, PPCSScreenInfo, PPCSVibrationRequest;
 
-@protocol PPCSFormulaObserver, PPCSKotlinAnnotation, PPCSKotlinComparable, PPCSKotlinIterator, PPCSKotlinKAnnotatedElement, PPCSKotlinKClass, PPCSKotlinKClassifier, PPCSKotlinKDeclarationContainer, PPCSKotlinx_serialization_coreCompositeDecoder, PPCSKotlinx_serialization_coreCompositeEncoder, PPCSKotlinx_serialization_coreDecoder, PPCSKotlinx_serialization_coreDeserializationStrategy, PPCSKotlinx_serialization_coreEncoder, PPCSKotlinx_serialization_coreKSerializer, PPCSKotlinx_serialization_coreSerialDescriptor, PPCSKotlinx_serialization_coreSerializationStrategy, PPCSKotlinx_serialization_coreSerializersModuleCollector, PPCSPPChangeObserver, PPCSPPClockObserver, PPCSPPEngineObserver, PPCSPPEventChannelHandler, PPCSPPExprLayer, PPCSPPJson, PPCSPPLayerObserver, PPCSPPMessageBusTaskRunner, PPCSPPObservableValueProvider, PPCSPPPieDecorator, PPCSPPPropertyObserver, PPCSPPSensorListener, PPCSPPSensorManager, PPCSPPSpeechInterface, PPCSPPSpeechInterfaceListener, PPCSPPTextInputLayerFocusRequestListener, PPCSPPTextInputLayerFocusStateListener, PPCSPPValueProvider, PPCSPPVoiceInterface, PPCSPPVoiceInterfaceListener, PPCSPlayerDelegate, PPCSReplayerDelegate;
+@protocol PPCSFormulaObserver, PPCSKotlinAnnotation, PPCSKotlinComparable, PPCSKotlinIterator, PPCSKotlinKAnnotatedElement, PPCSKotlinKClass, PPCSKotlinKClassifier, PPCSKotlinKDeclarationContainer, PPCSKotlinx_serialization_coreCompositeDecoder, PPCSKotlinx_serialization_coreCompositeEncoder, PPCSKotlinx_serialization_coreDecoder, PPCSKotlinx_serialization_coreDeserializationStrategy, PPCSKotlinx_serialization_coreEncoder, PPCSKotlinx_serialization_coreKSerializer, PPCSKotlinx_serialization_coreSerialDescriptor, PPCSKotlinx_serialization_coreSerializationStrategy, PPCSKotlinx_serialization_coreSerializersModuleCollector, PPCSPPBridge, PPCSPPChangeObserver, PPCSPPClockObserver, PPCSPPEngineObserver, PPCSPPEventChannelHandler, PPCSPPExprLayer, PPCSPPJson, PPCSPPLayerObserver, PPCSPPMessageBusTaskRunner, PPCSPPObservableValueProvider, PPCSPPPieDecorator, PPCSPPPropertyObserver, PPCSPPSensorListener, PPCSPPSensorManager, PPCSPPSpeechInterface, PPCSPPSpeechInterfaceListener, PPCSPPTextInputLayerFocusRequestListener, PPCSPPTextInputLayerFocusStateListener, PPCSPPValueProvider, PPCSPPVoiceInterface, PPCSPPVoiceInterfaceListener, PPCSPlayerDelegate, PPCSReplayerDelegate;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -2973,6 +2973,107 @@ __attribute__((swift_name("PPIdentifiableChangeObservable")))
 @property (readonly) NSString *id __attribute__((swift_name("id")));
 @end
 
+__attribute__((swift_name("BridgeResponse")))
+@interface PPCSBridgeResponse : PPCSBase
+- (NSDictionary<NSString *, id> *)toMap __attribute__((swift_name("toMap()")));
+@property (readonly) NSString *requestId __attribute__((swift_name("requestId")));
+@property (readonly) PPCSBridgeResponseResponseStatus *status __attribute__((swift_name("status")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BridgeResponse.Error")))
+@interface PPCSBridgeResponseError : PPCSBridgeResponse
+- (instancetype)initWithRequestId:(NSString *)requestId action:(NSString *)action message:(NSString *)message code:(NSString * _Nullable)code __attribute__((swift_name("init(requestId:action:message:code:)"))) __attribute__((objc_designated_initializer));
+- (PPCSBridgeResponseError *)doCopyRequestId:(NSString *)requestId action:(NSString *)action message:(NSString *)message code:(NSString * _Nullable)code __attribute__((swift_name("doCopy(requestId:action:message:code:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *action __attribute__((swift_name("action")));
+@property (readonly) NSString * _Nullable code __attribute__((swift_name("code")));
+@property (readonly) NSString *message __attribute__((swift_name("message")));
+@property (readonly) NSString *requestId __attribute__((swift_name("requestId")));
+@property (readonly) PPCSBridgeResponseResponseStatus *status __attribute__((swift_name("status")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BridgeResponse.ResponseStatus")))
+@interface PPCSBridgeResponseResponseStatus : PPCSKotlinEnum<PPCSBridgeResponseResponseStatus *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) PPCSBridgeResponseResponseStatus *success __attribute__((swift_name("success")));
+@property (class, readonly) PPCSBridgeResponseResponseStatus *error __attribute__((swift_name("error")));
++ (PPCSKotlinArray<PPCSBridgeResponseResponseStatus *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<PPCSBridgeResponseResponseStatus *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BridgeResponse.Success")))
+@interface PPCSBridgeResponseSuccess : PPCSBridgeResponse
+- (instancetype)initWithRequestId:(NSString *)requestId action:(NSString *)action data:(NSDictionary<NSString *, id> * _Nullable)data __attribute__((swift_name("init(requestId:action:data:)"))) __attribute__((objc_designated_initializer));
+- (PPCSBridgeResponseSuccess *)doCopyRequestId:(NSString *)requestId action:(NSString *)action data:(NSDictionary<NSString *, id> * _Nullable)data __attribute__((swift_name("doCopy(requestId:action:data:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *action __attribute__((swift_name("action")));
+@property (readonly) NSDictionary<NSString *, id> * _Nullable data __attribute__((swift_name("data")));
+@property (readonly) NSString *requestId __attribute__((swift_name("requestId")));
+@property (readonly) PPCSBridgeResponseResponseStatus *status __attribute__((swift_name("status")));
+@end
+
+__attribute__((swift_name("PPBridge")))
+@protocol PPCSPPBridge
+@required
+- (BOOL)isAvailable __attribute__((swift_name("isAvailable()")));
+- (void)sendAction:(NSString *)action data:(id _Nullable)data callback:(void (^ _Nullable)(id _Nullable))callback __attribute__((swift_name("send(action:data:callback:)")));
+- (void)sendRequestRequest:(PPCSBridgeRequest *)request callback:(void (^ _Nullable)(PPCSBridgeResponse *))callback __attribute__((swift_name("sendRequest(request:callback:)")));
+- (void)setMessageHandlerHandler:(id _Nullable (^)(NSString *, id _Nullable))handler __attribute__((swift_name("setMessageHandler(handler:)")));
+- (void)setRequestHandlerHandler:(PPCSBridgeResponse *(^)(PPCSBridgeRequest *))handler __attribute__((swift_name("setRequestHandler(handler:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPBridgeCompanion")))
+@interface PPCSPPBridgeCompanion : PPCSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCSPPBridgeCompanion *shared __attribute__((swift_name("shared")));
+- (id<PPCSPPBridge>)getInstance __attribute__((swift_name("getInstance()")));
+@end
+
+__attribute__((swift_name("BridgeRequest")))
+@interface PPCSBridgeRequest : PPCSBase
+@property (class, readonly, getter=companion) PPCSBridgeRequestCompanion *companion __attribute__((swift_name("companion")));
+- (NSDictionary<NSString *, id> *)toMap __attribute__((swift_name("toMap()")));
+@property (readonly) NSString *action __attribute__((swift_name("action")));
+@property (readonly) NSString *requestId __attribute__((swift_name("requestId")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("BridgeRequest.Companion")))
+@interface PPCSBridgeRequestCompanion : PPCSBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) PPCSBridgeRequestCompanion *shared __attribute__((swift_name("shared")));
+- (PPCSBridgeRequest * _Nullable)fromMapData:(NSDictionary<NSString *, id> *)data __attribute__((swift_name("fromMap(data:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("VibrationRequest")))
+@interface PPCSVibrationRequest : PPCSBridgeRequest
+- (instancetype)initWithRequestId:(NSString *)requestId iOSVibrateType:(PPCSPPIosVibrateType *)iOSVibrateType androidVibrateType:(PPCSPPAndroidVibrateType *)androidVibrateType __attribute__((swift_name("init(requestId:iOSVibrateType:androidVibrateType:)"))) __attribute__((objc_designated_initializer));
+- (PPCSVibrationRequest *)doCopyRequestId:(NSString *)requestId iOSVibrateType:(PPCSPPIosVibrateType *)iOSVibrateType androidVibrateType:(PPCSPPAndroidVibrateType *)androidVibrateType __attribute__((swift_name("doCopy(requestId:iOSVibrateType:androidVibrateType:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSDictionary<NSString *, id> *)toMap __attribute__((swift_name("toMap()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *action __attribute__((swift_name("action")));
+@property (readonly) PPCSPPAndroidVibrateType *androidVibrateType __attribute__((swift_name("androidVibrateType")));
+@property (readonly) PPCSPPIosVibrateType *iOSVibrateType __attribute__((swift_name("iOSVibrateType")));
+@property (readonly) NSString *requestId __attribute__((swift_name("requestId")));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinArray")))
 @interface PPCSKotlinArray<T> : PPCSBase
@@ -2996,6 +3097,12 @@ __attribute__((swift_name("JsonUtilsKt")))
 + (NSArray<PPCSKotlinx_serialization_jsonJsonElement *> *)toJsonArray:(NSArray<id> *)receiver __attribute__((swift_name("toJsonArray(_:)")));
 + (PPCSKotlinx_serialization_jsonJsonElement *)toJsonElement:(id _Nullable)receiver __attribute__((swift_name("toJsonElement(_:)")));
 + (NSDictionary<NSString *, PPCSKotlinx_serialization_jsonJsonElement *> *)toJsonObject:(NSDictionary<id, id> *)receiver __attribute__((swift_name("toJsonObject(_:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("PPBridgeKt")))
+@interface PPCSPPBridgeKt : PPCSBase
++ (id<PPCSPPBridge>)getPlatformBridge __attribute__((swift_name("getPlatformBridge()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
